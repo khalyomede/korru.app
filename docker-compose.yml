@@ -1,0 +1,18 @@
+services:
+  npm:
+    image: node:25.3.0-alpine
+    entrypoint: npm
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app
+    ports:
+      - 3000:3000
+
+  php:
+    image: php:8.5-alpine
+    entrypoint: php
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 80:80
