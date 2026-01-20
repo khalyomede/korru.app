@@ -1,10 +1,12 @@
 // src/components/LandingSearchBar.tsx
 import { Component } from 'solid-js';
+import LandingSearchBarProperties from './properties/LandingSearchBarProperties';
 
-const LandingSearchBar: Component = () => {
+const LandingSearchBar: Component<LandingSearchBarProperties> = (properties) => {
     return (
         <div class="w-full px-4">
             <input
+                onInput={properties.onInput}
                 type="text"
                 placeholder="Search anything..."
                 class="w-full px-4 py-3 rounded-lg border border-gray-300
