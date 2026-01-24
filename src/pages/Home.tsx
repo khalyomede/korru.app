@@ -3,7 +3,7 @@ import { Component, createEffect, createSignal, onMount } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Slogan from '../components/Slogan';
 import AppIconPreviewList from '../components/AppIconPreviewList';
-import LandingSearchBar from '../components/LandingSearchBar';
+import SearchBar from '../components/SearchBar';
 import { useNavigate } from '@solidjs/router';
 import useStore from '../hooks/useStore';
 
@@ -40,7 +40,7 @@ const Home: Component = () => {
 
                 {/* Bottom half: Search bar */}
                 <div class="flex-1 flex flex-col justify-start items-center p-4">
-                    <LandingSearchBar onInput={event => setStore("search", event.target.value)} />
+                    <SearchBar placeholder="Search anything..." onInput={event => setStore("search", event.target.value)} value={store.search} focusOnMount={false} />
                 </div>
             </main>
         </div>
