@@ -29,7 +29,7 @@ const Home: Component = () => {
     });
 
     return (
-        <div class="min-h-dvh bg-white font-sans flex flex-col dark:bg-gray-900">
+        <div class="min-h-dvh bg-white font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
             <Navbar />
             <main class="flex-grow flex flex-col md:flex-row">
                 {/* Top half: Slogan + Icons */}

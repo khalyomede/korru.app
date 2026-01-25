@@ -9,7 +9,7 @@ const AppResultRating: Component<AppResultRatingProperties> = (properties) => {
             {stars.map((star) => (
                 <svg
                     key={star}
-                    class={`w-5 h-5 ${star <= properties.rating ? 'text-yellow-400' : 'text-gray-300'}`}
+                    class={`w-5 h-5 ${star <= properties.rating ? 'text-yellow-400' : 'text-stone-300'}`}
                     fill="currentColor"
                     viewBox="0 0 20 20"
                 >

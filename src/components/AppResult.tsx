@@ -10,13 +10,13 @@ const AppResult: Component<AppResultProperties> = (properties) => {
             <div>
                 <img src={properties.app.icon.url} alt={properties.app.name} classList={{ "h-16": true, "w-16": true, "rounded-xl": properties.app.icon.maskable }} loading="lazy" />
             </div>
-            <div class="flex gap-4 my-2 items-center">
-                <span class="grow text-xl tracking-wider min-w-0">
+            <div class="flex gap-6 my-2 items-center">
+                <span class="grow text-xl tracking-wider min-w-0 text-stone-600 dark:text-stone-300">
                     <div>
                         {properties.app.name}
                     </div>
                     <Show when={properties.app.description.trim().length > 0}>
-                        <div class="text-xs text-gray-700 dark:text-gray-400 mt-1 truncate">
+                        <div class="text-xs text-stone-500 dark:text-stone-400 mt-1 truncate">
                             {properties.app.description}
                         </div>
                     </Show>
@@ -26,11 +26,11 @@ const AppResult: Component<AppResultProperties> = (properties) => {
                         href={properties.app.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="px-4 py-2 border border-gray-300 text-gray-700 font-medium text-sm rounded-lg tracking-widest
-                            hover:bg-gray-100 hover:border-gray-400 hover:text-gray-900
-                            focus:outline-none focus:ring-2 focus:ring-gray-400
-                            dark:border-gray-600 dark:text-gray-300
-                            dark:hover:bg-gray-700 dark:hover:border-gray-500 dark:hover:text-white
+                        class="px-4 py-2 border border-stone-300 text-stone-700 font-medium text-sm rounded-lg tracking-widest
+                            hover:bg-stone-100 hover:border-stone-500 hover:text-stone-900
+                            focus:outline-none focus:ring-2 focus:ring-stone-500
+                            dark:border-stone-600 dark:text-stone-300
+                            dark:hover:bg-stone-700 dark:hover:border-stone-500 dark:hover:text-white
                             transition-all duration-200 ease-in-out inline-block"
                     >
                         Get

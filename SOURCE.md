@@ -1,2 +1,5 @@
 - https://www.mobiloud.com/blog/progressive-web-app-examples
 - https://github.com/pwarocks/pwa.rocks/blob/master/src/index.html
+- https://magemart.com/blog/top-8-pwa-games-in-2022/
+- https://www.reddit.com/r/webdev/comments/165s1p6/are_there_any_good_pwa_games/
+- http://www.progressivewebapproom.com/

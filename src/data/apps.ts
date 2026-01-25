@@ -580,7 +580,117 @@ const apps: Array<App> = [
         },
         url: "https://sii.im/playground/notes",
         screenshots: [],
-    }
+    },
+    {
+        id: 61,
+        name: "Pacman",
+        description: "Play classic Pacman. No fuss. 100% free.",
+        icon: {
+            url: "https://freepacman.org/images/pacman-game-icon-192.png",
+            maskable: false,
+        },
+        url: "https://freepacman.org",
+        screenshots: [],
+    },
+    {
+        id: 62,
+        name: "Frogger",
+        description: "Play the classic Frogger game. No fuss. 100% free.",
+        icon: {
+            url: "https://happyhopper.org/images/frogger-game-icon-192.png",
+            maskable: false,
+        },
+        url: "https://happyhopper.org",
+        screenshots: [],
+    },
+    {
+        id: 63,
+        name: "Flappy Bird",
+        description: "Play the classic Flappy Bird game instantly. No fuss.",
+        icon: {
+            url: "https://freeflappybird.org/images/flappy-bird-game-icon-192.png",
+            maskable: false,
+        },
+        url: "https://freeflappybird.org",
+        screenshots: [],
+    },
+    {
+        id: 64,
+        name: "Wordle",
+        description: "A daily word game",
+        icon: {
+            url: "https://freewordle.org/images/wordle-game-icon-512.png",
+            maskable: true,
+        },
+        url: "https://freewordle.org",
+        screenshots: [],
+    },
+    {
+        id: 65,
+        name: "Mahjong",
+        description: "Play the #1 Mahjong game. Beautiful gameplay. 100% free.",
+        icon: {
+            url: "https://freemahjong.org/images/mahjong-game-icon-192.png",
+            maskable: false,
+        },
+        url: "https://freemahjong.org",
+        screenshots: [],
+    },
+    {
+        id: 66,
+        name: "Solitaire",
+        description: "Play our popular Solitaire game online instantly. No fuss.",
+        icon: {
+            url: "https://freesolitaire.org/images/solitaire-game-icon-192.png",
+            maskable: false,
+        },
+        url: "https://freesolitaire.org",
+        screenshots: [],
+    },
+    {
+        id: 67,
+        name: "Simon",
+        description: "Play the classic Simon memory game. No fuss. 100% free.",
+        icon: {
+            url: "https://freesimon.org/images/simon-game-icon-192.png",
+            maskable: false,
+        },
+        url: "https://freesimon.org",
+        screenshots: [],
+    },
+    {
+        id: 68,
+        name: "Poki",
+        description: "",
+        icon: {
+            url: "https://a.poki-cdn.com/icons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://poki.com",
+        screenshots: [],
+    },
+    {
+        id: 69,
+        name: "Mahjong",
+        description: "A minimal Mahjong Solitaire Web App.",
+        icon: {
+            url: "https://mahjong.jull.dev/img/icons/android-chrome-96x96.png",
+            maskable: false,
+        },
+        url: "https://mahjong.jull.dev",
+        screenshots: [],
+    },
+    {
+        id: 70,
+        name: "Geogee!",
+        description: "",
+        icon: {
+            url: "https://geogee.me/images/icon.png",
+            maskable: false,
+        },
+        url: "https://geogee.me",
+        screenshots: [],
+    },
 ];
 
 export default apps;
