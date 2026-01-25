@@ -1,0 +1,2 @@
+- https://www.mobiloud.com/blog/progressive-web-app-examples
+- https://github.com/pwarocks/pwa.rocks/blob/master/src/index.html

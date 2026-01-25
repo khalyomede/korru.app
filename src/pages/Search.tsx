@@ -1,4 +1,4 @@
-import { Component } from 'solid-js';
+import { Component, onMount } from 'solid-js';
 import useStore from '../hooks/useStore';
 import AppResultList from '../components/AppResultList';
 import App from '../interfaces/App';
@@ -9,20 +9,36 @@ import SearchBar from '../components/SearchBar';
 const Search: Component = () => {
     const [store, setStore] = useStore();
 
-    const filteredApps = () => {
-        const { search, apps } = store;
+    let fuse: Fuse<App> | null = null;
+
+    onMount(() => {
+        const { apps } = store;
 
         const appList: Array<App> = apps.map((app) => ({ ...app }));
 
-        const fuse = new Fuse<App>(appList, {
+        fuse = new Fuse<App>(appList, {
             isCaseSensitive: false,
             ignoreDiacritics: true,
             shouldSort: true,
-            findAllMatches: true,
-            keys: ["name", "description"],
+            findAllMatches: false,
             ignoreLocation: true,
             ignoreFieldNorm: true,
+            threshold: 0.2,
+            keys: [
+                { name: "name", weight: 3 },
+                { name: "description", weight: 1 },
+            ]
         });
+    });
+
+    const filteredApps = () => {
+        const { search, apps } = store;
+
+        if (fuse === null) {
+            /** @toto report error */
+
+            return apps;
+        }
 
         const matchedAppsIds = fuse.search(search).map((app) => app.item.id);
 
