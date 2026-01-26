@@ -1,5 +1,10 @@
 import App from "../interfaces/App";
 
+/**
+ * @todo Parse all website to fetch their data and auto-generate this array.
+ * Keep data/complements.ts manual to provide hand-made adjustement,
+ * before merging both arrays for the UI.
+ */
 const apps: Array<App> = [
     {
         id: 1,
@@ -492,7 +497,7 @@ const apps: Array<App> = [
         name: "Snapdrop",
         description: "",
         icon: {
-            url: "https://snapdrop.net/images/android-chrome-192x192-maskable.png",
+            url: "https://snapdrop.net/images/favicon-96x96.png",
             maskable: true,
         },
         url: "https://snapdrop.net/",
@@ -691,6 +696,169 @@ const apps: Array<App> = [
         url: "https://geogee.me",
         screenshots: [],
     },
+    {
+        id: 71,
+        name: "Excalidraw",
+        description: "Excalidraw is a whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
+        icon: {
+            url: "https://excalidraw.com/favicon-32x32.png",
+            maskable: false,
+        },
+        url: "https://excalidraw.com",
+        screenshots: [
+            {
+                url: "https://excalidraw.com/screenshots/virtual-whiteboard.png",
+                name: ""
+            },
+            {
+                url: "https://excalidraw.com/screenshots/wireframe.png",
+                name: ""
+            },
+            {
+                url: "https://excalidraw.com/screenshots/illustration.png",
+                name: ""
+            },
+        ]
+    },
+    {
+        id: 72,
+        name: "JD Sports Indonesia",
+        description: "JD Sports Indonesia.",
+        icon: {
+            url: "https://jdsports.id/static/icon/favicon-32px.png",
+            maskable: true
+        },
+        url: "https://jdsports.id",
+        screenshots: []
+    },
+    {
+        id: 73,
+        name: "Rakuten TV",
+        description: "",
+        icon: {
+            url: "https://www.rakuten.tv/favicon.ico",
+            maskable: false,
+        },
+        url: "https://www.rakuten.tv",
+        screenshots: []
+    },
+    {
+        id: 74,
+        name: "ZDF",
+        description: "Alle Videos und Live-Streams im ZDF anschauen – ständig verfügbar und interaktiv. Entdecken Sie Filme, Serien, Sportevents, Dokumentationen und vieles mehr.",
+        icon: {
+            url: "https://www.zdf.de/_next/static/media/square-192x192.f5513832.png",
+            maskable: false,
+        },
+        url: "https://www.zdf.de",
+        screenshots: [
+            {
+                url: "https://www.zdf.de/_next/static/media/startpage-narrow.78d6735f.webp",
+                name: "Startseite",
+            },
+            {
+                url: "https://www.zdf.de/_next/static/media/search-wide.134633f9.webp",
+                name: "Suche"
+            },
+            {
+                url: "https://www.zdf.de/_next/static/media/smart-collection-wide.d7106c87.webp",
+                name: "Smart Collection"
+            }
+        ]
+    },
+    {
+        id: 75,
+        name: "PWABuilder",
+        description: "All the tools you need to build and deploy your Progressive Web Apps.",
+        icon: {
+            url: "https://www.pwabuilder.com/assets/icons/icon_57.png",
+            maskable: false,
+        },
+        url: "https://www.pwabuilder.com",
+        screenshots: [
+            {
+                url: "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+                name: "PWABuilder Home Screen"
+            },
+            {
+                url: "https://www.pwabuilder.com/assets/screenshots/screen2.png",
+                name: "PWABuilder Report Card Page"
+            },
+            {
+                url: "https://www.pwabuilder.com/assets/screenshots/screen3.png",
+                name: "Manifest Editor in the Report Card Page"
+            },
+            {
+                url: "https://www.pwabuilder.com/assets/screenshots/screen4.png",
+                name: "Pick a pre-built Service Worker"
+            },
+            {
+                url: "https://www.pwabuilder.com/assets/screenshots/screen5.png",
+                name: "Publish your PWA to the App Stores!"
+            },
+            {
+                url: "https://www.pwabuilder.com/assets/screenshots/mobile.png",
+                name: "PWABuilder also works on your phone!"
+            }
+        ]
+    },
+    {
+        id: 76,
+        name: "KitchenAid",
+        description: "",
+        icon: {
+            url: "https://www.kitchenaid.com/content/dam/business-unit/kitchenaid/global-assets/images/favicons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.kitchenaid.com",
+        screenshots: []
+    },
+    {
+        id: 77,
+        name: "BookMyShow Lite",
+        description: "Movie Tickets Online Booking. Book & Buy Events, Plays, Music Concert, Cinema, Theater, Sports, T20 & World Cup Cricket Match, English, Tamil, Telugu & Hindi Movie Tickets, Trailers & Reviews.",
+        icon: {
+            url: "https://assets-in.bmscdn.com/m6/images/icons/bms-lite-36.png",
+            maskable: false,
+        },
+        url: "https://in.bookmyshow.com",
+        screenshots: [
+            {
+                url: "https://assets-in.bmscdn.com/m6/images/pwa/screenshots/mobile/1.png",
+                name: ""
+            },
+            {
+                url: "https://assets-in.bmscdn.com/m6/images/pwa/screenshots/mobile/2.png",
+                name: ""
+            },
+            {
+                url: "https://assets-in.bmscdn.com/m6/images/pwa/screenshots/mobile/3.png",
+                name: ""
+            }
+        ]
+    },
+    {
+        id: 78,
+        name: "OnTheMarket",
+        description: "The most uncluttered, user-friendly property portal. Find hundreds of 1000s of properties for sale & to rent from leading UK estate agents",
+        icon: {
+            url: "https://www.onthemarket.com/static/images/icons-otm2/manifest48.png",
+            maskable: false,
+        },
+        url: "https://www.onthemarket.com",
+        screenshots: []
+    },
+    {
+        id: 79,
+        name: "Ride",
+        description: "Multi City Bike App",
+        icon: {
+            url: "https://www.ride-app.com/assets/images/android-chrome-192x192-48bdd7d4985d9c9d78380c9aa6231001.png",
+            maskable: false,
+        },
+        url: "https://www.ride-app.com",
+        screenshots: []
+    }
 ];
 
 export default apps;

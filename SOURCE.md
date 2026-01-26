@@ -3,3 +3,7 @@
 - https://magemart.com/blog/top-8-pwa-games-in-2022/
 - https://www.reddit.com/r/webdev/comments/165s1p6/are_there_any_good_pwa_games/
 - http://www.progressivewebapproom.com/
+- https://www.pwa.com/
+- https://www.google.com/search?q=pwa+apps
+- https://web.dev/explore/progressive-web-apps
+- https://onilab.com/blog/20-progressive-web-apps-examples
