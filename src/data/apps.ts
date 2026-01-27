@@ -858,6 +858,170 @@ const apps: Array<App> = [
         },
         url: "https://www.ride-app.com",
         screenshots: []
+    },
+    {
+        id: 80,
+        name: "Alarm Clock",
+        description: "Alarm DJ is an online alarm clock that plays your MP3 files and YouTube videos of your choice.Works offline, right from the browser - no installation needed.",
+        icon: {
+            url: "https://alarmdj.com/assets/images/favicons/android-chrome-36x36.png",
+            maskable: false
+        },
+        url: "https://alarmdj.com",
+        screenshots: []
+    },
+    {
+        id: 81,
+        name: "Anonynote",
+        description: "",
+        icon:
+        {
+            url: "https://anonynote.org/favicons/android-chrome-192x192.png",
+            maskable: false
+        },
+        url: "https://anonynote.org/",
+        screenshots: []
+    },
+    {
+        id: 82,
+        name: "Avain",
+        description: "",
+        icon: {
+            url: "https://avain.app/icon/128.png",
+            maskable: false
+        },
+        url: "https://avain.app",
+        screenshots: []
+    },
+    {
+        id: 83,
+        name: "Booksie",
+        description: "An open catalog of free picture storybooks for children instantly available for reading.",
+        icon: {
+            url: "https://www.booksie.org/assets/windows/44.png",
+            maskable: false,
+        },
+        url: "https://www.booksie.org/",
+        screenshots: [
+            {
+                url: "assets/screenshots/1.webp",
+                name: ""
+            },
+            {
+                url: "assets/screenshots/2.webp",
+                name: "",
+            },
+            {
+                url: "assets/screenshots/3.webp",
+                name: ""
+            },
+            {
+                url: "assets/screenshots/4.webp",
+                name: ""
+            },
+            {
+                url: "assets/screenshots/5.webp",
+                name: ""
+            },
+            {
+                url: "assets/screenshots/6.webp",
+                name: ""
+            }
+        ],
+    },
+    {
+        id: 84,
+        name: "BRUTALIST HN",
+        description: "",
+        url: "https://brutalisthackernews.com/",
+        icon: {
+            url: "https://brutalisthackernews.com/assets/imgs/logo.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 86,
+        name: "calc",
+        url: "https://calculator-app-tau.vercel.app",
+        icon: {
+            url: "https://calculator-app-tau.vercel.app/manifest-icon-512.png",
+            maskable: true
+        },
+        description: "A smple calculator app for your daily use.",
+        screenshots: [
+            {
+                url: "screenshot/phone-ss-1.png",
+                name: ""
+            },
+            {
+                url: "screenshot/phone-ss-2.png",
+                name: ""
+            },
+            {
+                url: "screenshot/phone-ss-3.png",
+                name: ""
+            }
+        ]
+    },
+    {
+        id: 87,
+        name: "Care Cards",
+        description: "",
+        icon: {
+            url: "https://carecards.io/favicon.ico",
+            maskable: false
+        },
+        url: "https://carecards.io",
+        screenshots: []
+    },
+    {
+        id: 88,
+        name: "Cat Safe Foods",
+        description: "Sharing food with your cat? Make sure it's safe first",
+        icon: {
+            url: "https://catsafefoods.com/img/maskable_icon.png",
+            maskable: true,
+        },
+        url: "https://catsafefoods.com",
+        screenshots: [
+            {
+                url: "img/screenshot1.png",
+                name: ""
+            },
+            {
+                url: "img/screenshot2.png",
+                name: ""
+            },
+            {
+                url: "img/screenshot3.png",
+                name: ""
+            }
+        ],
+    },
+    {
+        id: 89,
+        name: "Chitchatter",
+        description: "This is a communication tool that is free, open source, and designed for simplicity and security. All communication between you and your online peers is encrypted. There is no trace of your conversation once you leave.",
+        icon: {
+            url: "https://chitchatter.im/favicon.ico",
+            maskable: false
+        },
+        url: "https://chitchatter.im/",
+        screenshots: [
+            {
+                url: "screenshots/home-mobile-dark.png",
+                name: ""
+            },
+            {
+                url: "screenshots/home-mobile-light.png",
+                name: ""
+            },
+            {
+                url: "screenshots/public-room-mobile.png",
+                name: ""
+            }
+        ],
     }
 ];
 
