@@ -52,8 +52,8 @@ const Search: Component = () => {
     };
 
     return (
-        <div class="min-h-dvh bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 p-6">
-            <header class="max-w-2xl mx-auto fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 p-6">
+        <div class="min-h-dvh bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 px-6 py-6 md:px-12 md:py-12">
+            <header class="max-w-2xl mx-auto fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 py-6 px-6 md:px-0 md:py-12">
                 <SearchBar
                     placeholder="Search anything..."
                     value={store.search}
@@ -61,7 +61,7 @@ const Search: Component = () => {
                     focusOnMount={true}
                 />
             </header>
-            <main class="max-w-2xl mx-auto mt-20">
+            <main class="max-w-2xl mx-auto mt-20 md:mt-24">
                 <AppResultList apps={filteredApps()} />
             </main>
         </div>
