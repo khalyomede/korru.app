@@ -34,7 +34,7 @@ const Home: Component = () => {
             <main class="flex-grow flex flex-col max-w-lg lg:max-w-md mx-auto">
                 {/* Top half: Slogan + Icons */}
                 <div class="flex-1 flex flex-col justify-center items-center p-4 gap-0">
-                    <Slogan />
+                    <Slogan firstLine={import.meta.env.VITE_APP_SLOGAN_1} secondLine={import.meta.env.VITE_APP_SLOGAN_2} />
                     <AppIconPreviewList />
                 </div>
 
