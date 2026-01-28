@@ -31,7 +31,7 @@ const Home: Component = () => {
     return (
         <div class="min-h-dvh bg-white font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
             <Navbar />
-            <main class="flex-grow flex flex-col md:flex-row">
+            <main class="flex-grow flex flex-col max-w-lg lg:max-w-md mx-auto">
                 {/* Top half: Slogan + Icons */}
                 <div class="flex-1 flex flex-col justify-center items-center p-4 gap-0">
                     <Slogan />
