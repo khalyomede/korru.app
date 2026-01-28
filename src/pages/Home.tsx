@@ -1,5 +1,5 @@
 // src/App.tsx
-import { Component, createEffect, createSignal, onMount } from 'solid-js';
+import { Component, createEffect, onMount } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Slogan from '../components/Slogan';
 import AppIconPreviewList from '../components/AppIconPreviewList';
