@@ -34,3 +34,25 @@ Your app is ready to be deployed!
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
 
 ## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
+
+## Local development
+
+### 1. Copy the dot env file
+
+```bash
+cp .env.example .env
+```
+
+### 2. Install dependencies
+
+```bash
+docker compose run --rm npm install
+```
+
+### 3. Run the local server
+
+```bash
+docker compose run --rm --service-ports npm run dev
+```
+
+Navigate to [http://localhost:3000](http://localhost:3000) or [127.0.0.1:3000](127.0.0.1:3000).
