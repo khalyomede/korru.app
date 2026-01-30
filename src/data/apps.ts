@@ -8,6 +8,7 @@ import App from "../interfaces/App";
 const apps: Array<App> = [
     {
         id: 1,
+        recommanded: false,
         icon: {
             url: "https://open.spotifycdn.com/cdn/images/icons/Spotify_MWP_512.50dd387d.png",
             maskable: false,
@@ -19,6 +20,7 @@ const apps: Array<App> = [
     },
     {
         id: 2,
+        recommanded: true,
         icon: {
             url: "https://soundcloud.com/pwa-icon-192.png",
             maskable: true,
@@ -30,6 +32,7 @@ const apps: Array<App> = [
     },
     {
         id: 3,
+        recommanded: false,
         icon: {
             url: "https://www.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
             maskable: false,
@@ -41,6 +44,7 @@ const apps: Array<App> = [
     },
     {
         id: 4,
+        recommanded: true,
         icon: {
             url: "https://play2048.co/favicon192.png",
             maskable: false,
@@ -51,7 +55,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 6,
+        id: 5,
+        recommanded: false,
         icon: {
             url: "https://www.gstatic.com/youtube/img/web/maskable/logo_192x192.png",
             maskable: true
@@ -62,7 +67,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 7,
+        id: 6,
+        recommanded: true,
         icon: {
             url: "https://abs.twimg.com/responsive-web/client-web/icon-default-maskable.bacea37a.png",
             maskable: true,
@@ -73,7 +79,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 8,
+        id: 7,
+        recommanded: false,
         icon: {
             url: "https://www.thefork.com/statics/icons/icon-48x48.png",
             maskable: false,
@@ -84,7 +91,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 9,
+        id: 8,
+        recommanded: false,
         icon: {
             url: "https://www.gstatic.com/translate/favicon.ico",
             maskable: false,
@@ -95,7 +103,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 10,
+        id: 9,
+        recommanded: false,
         name: "Pinterest",
         description: "",
         icon: {
@@ -106,7 +115,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 11,
+        id: 10,
+        recommanded: false,
         name: "Starbucks",
         description: "",
         icon: {
@@ -117,7 +127,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 12,
+        id: 11,
+        recommanded: false,
         name: "Jumia",
         description: "",
         icon: {
@@ -128,7 +139,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 13,
+        id: 12,
+        recommanded: true,
         name: "OLX Lite",
         description: "",
         icon: {
@@ -139,7 +151,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 14,
+        id: 13,
+        recommanded: false,
         name: "FT",
         description: "",
         icon: {
@@ -150,7 +163,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 15,
+        id: 14,
+        recommanded: false,
         name: "Infobae",
         description: "Noticias de Argentina y del mundo en tiempo real.",
         icon: {
@@ -161,7 +175,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 16,
+        id: 15,
+        recommanded: true,
         name: "nau.ch",
         description: "Nachrichten aus der Schweiz und der Welt",
         icon: {
@@ -172,7 +187,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 17,
+        id: 16,
+        recommanded: false,
         name: "Medium",
         description: "",
         icon: {
@@ -183,7 +199,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 20,
+        id: 17,
+        recommanded: true,
         name: "Weather.com",
         description: "The Weather Channel and weather.com provide a national and local weather forecast for cities, as well as weather radar, report and hurricane coverage.",
         icon: {
@@ -194,7 +211,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 22,
+        id: 18,
+        recommanded: false,
         name: "OpenRent",
         description: "",
         icon: {
@@ -205,7 +223,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 23,
+        id: 19,
+        recommanded: false,
         name: "Airbnb",
         description: "Vacation Rentals, Homes, Experiences & Places - Airbnb",
         icon: {
@@ -216,7 +235,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 24,
+        id: 20,
+        recommanded: false,
         name: "CARIGAMI",
         description: "",
         icon: {
@@ -227,7 +247,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 26,
+        id: 21,
+        recommanded: false,
         name: "Shine",
         description: "",
         icon: {
@@ -238,7 +259,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 27,
+        id: 22,
+        recommanded: true,
         name: "Instagram",
         description: "Instagram is a simple way to capture and share the world's moments.",
         icon: {
@@ -249,7 +271,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 28,
+        id: 23,
+        recommanded: false,
         name: "Treebo",
         description: "India's Top Rated Budget Hotel Chain",
         icon: {
@@ -260,7 +283,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 30,
+        id: 24,
+        recommanded: false,
         name: "MakeMyTrip",
         description: "MakeMyTrip Commons PWA",
         icon: {
@@ -271,7 +295,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 35,
+        id: 25,
+        recommanded: false,
         name: "Soundslice",
         description: "Turn sheet music into an interactive learning environment. Perfect for practicing, teaching, sharing, transcribing and more.",
         icon: {
@@ -282,7 +307,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 36,
+        id: 26,
+        recommanded: true,
         name: "1Tuner",
         description: "1 web app to listen to online radio",
         icon: {
@@ -293,7 +319,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 37,
+        id: 27,
+        recommanded: false,
         name: "9GAG",
         description: "",
         icon: {
@@ -304,7 +331,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 38,
+        id: 28,
+        recommanded: false,
         name: "LOTTO.de",
         description: "",
         icon: {
@@ -315,7 +343,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 39,
+        id: 29,
+        recommanded: false,
         name: "Tinder",
         description: "With 55 billion matches to date, Tinder® is the world's most popular dating app—the best way to meet new people.",
         icon: {
@@ -326,7 +355,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 40,
+        id: 30,
+        recommanded: false,
         name: "datememe",
         description: "",
         icon: {
@@ -337,7 +367,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 41,
+        id: 31,
+        recommanded: true,
         name: "Squoosh",
         description: "Compress and compare images with different codecs, right in your browser.",
         icon: {
@@ -348,7 +379,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 42,
+        id: 32,
+        recommanded: true,
         name: "Flipboard",
         description: "Discover top news & lifestyle",
         icon: {
@@ -359,7 +391,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 43,
+        id: 33,
+        recommanded: false,
         name: "Flipkart Lite",
         description: "India's most popular shopping destination. Trusted by over 7 Crore Indians. Shop the Online Megastore with the Flipkart web app. Choose from the massive selection of original products in Fashion, Electronics, Books, Mobiles and other categories.",
         icon: {
@@ -370,7 +403,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 44,
+        id: 34,
+        recommanded: false,
         name: "Guitar Tuner",
         description: "",
         icon: {
@@ -381,7 +415,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 45,
+        id: 35,
+        recommanded: false,
         name: "Housing Go",
         description: "",
         icon: {
@@ -392,7 +427,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 46,
+        id: 36,
+        recommanded: true,
         name: "Inbox Attack",
         description: "",
         icon: {
@@ -403,7 +439,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 47,
+        id: 37,
+        recommanded: true,
         name: "Konga",
         description: "Konga.com; Nigeria's Largest Online Mall | the shopping site for electronics, phones, computers, fashion, groceries, sport fitness, books & more at the best price in Nigeria | Shop Online",
         icon: {
@@ -414,7 +451,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 48,
+        id: 38,
+        recommanded: true,
         name: "Paper Planes",
         description: "",
         icon: {
@@ -425,7 +463,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 49,
+        id: 39,
+        recommanded: true,
         name: "Pokedex.org",
         description: "",
         icon: {
@@ -436,7 +475,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 50,
+        id: 40,
+        recommanded: true,
         name: "2048",
         description: "",
         icon: {
@@ -447,18 +487,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 51,
-        name: "RioRun",
-        description: "",
-        icon: {
-            url: "https://riorun.theguardian.com/launcher-icons/1x.png",
-            maskable: false,
-        },
-        url: "https://riorun.theguardian.com",
-        screenshots: [],
-    },
-    {
-        id: 52,
+        id: 41,
+        recommanded: true,
         name: "QR Scanner",
         description: "Easily scan a QR code. This is a simple, tiny, and super fast web application that works offline.",
         icon: {
@@ -482,7 +512,8 @@ const apps: Array<App> = [
         ],
     },
     {
-        id: 53,
+        id: 42,
+        recommanded: true,
         name: "Smaller Pics",
         description: "",
         icon: {
@@ -493,7 +524,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 54,
+        id: 43,
+        recommanded: false,
         name: "Snapdrop",
         description: "",
         icon: {
@@ -504,7 +536,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 55,
+        id: 44,
+        recommanded: true,
         name: "SVGOMG",
         description: "",
         icon: {
@@ -515,7 +548,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 56,
+        id: 45,
+        recommanded: false,
         name: "Selio",
         description: "",
         icon: {
@@ -526,7 +560,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 57,
+        id: 46,
+        recommanded: false,
         name: "The Session",
         description: "Irish traditional music",
         icon: {
@@ -554,7 +589,8 @@ const apps: Array<App> = [
         ],
     },
     {
-        id: 58,
+        id: 47,
+        recommanded: false,
         name: "Resilience",
         description: "A web book in seven chapters on the past, present, and future of web design. By Jeremy Keith.",
         icon: {
@@ -565,7 +601,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 59,
+        id: 48,
+        recommanded: false,
         name: "Accents",
         description: "Watch videos of the English accents spoken around the world",
         icon: {
@@ -576,7 +613,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 60,
+        id: 49,
+        recommanded: false,
         name: "notes",
         description: "An offline-capable notes app, using localStorage and ServiceWorker",
         icon: {
@@ -587,7 +625,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 61,
+        id: 50,
+        recommanded: true,
         name: "Pacman",
         description: "Play classic Pacman. No fuss. 100% free.",
         icon: {
@@ -598,7 +637,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 62,
+        id: 51,
+        recommanded: false,
         name: "Frogger",
         description: "Play the classic Frogger game. No fuss. 100% free.",
         icon: {
@@ -609,7 +649,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 63,
+        id: 52,
+        recommanded: true,
         name: "Flappy Bird",
         description: "Play the classic Flappy Bird game instantly. No fuss.",
         icon: {
@@ -620,7 +661,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 64,
+        id: 53,
+        recommanded: true,
         name: "Wordle",
         description: "A daily word game",
         icon: {
@@ -631,7 +673,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 65,
+        id: 54,
+        recommanded: true,
         name: "Mahjong",
         description: "Play the #1 Mahjong game. Beautiful gameplay. 100% free.",
         icon: {
@@ -642,7 +685,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 66,
+        id: 55,
+        recommanded: true,
         name: "Solitaire",
         description: "Play our popular Solitaire game online instantly. No fuss.",
         icon: {
@@ -653,7 +697,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 67,
+        id: 56,
+        recommanded: true,
         name: "Simon",
         description: "Play the classic Simon memory game. No fuss. 100% free.",
         icon: {
@@ -664,7 +709,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 68,
+        id: 57,
+        recommanded: true,
         name: "Poki",
         description: "",
         icon: {
@@ -675,7 +721,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 69,
+        id: 58,
+        recommanded: true,
         name: "Mahjong",
         description: "A minimal Mahjong Solitaire Web App.",
         icon: {
@@ -686,7 +733,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 70,
+        id: 59,
+        recommanded: true,
         name: "Geogee!",
         description: "",
         icon: {
@@ -697,7 +745,8 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 71,
+        id: 60,
+        recommanded: false,
         name: "Excalidraw",
         description: "Excalidraw is a whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
         icon: {
@@ -721,7 +770,8 @@ const apps: Array<App> = [
         ]
     },
     {
-        id: 72,
+        id: 61,
+        recommanded: false,
         name: "JD Sports Indonesia",
         description: "JD Sports Indonesia.",
         icon: {
@@ -732,7 +782,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 73,
+        id: 62,
+        recommanded: false,
         name: "Rakuten TV",
         description: "",
         icon: {
@@ -743,7 +794,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 74,
+        id: 63,
+        recommanded: false,
         name: "ZDF",
         description: "Alle Videos und Live-Streams im ZDF anschauen – ständig verfügbar und interaktiv. Entdecken Sie Filme, Serien, Sportevents, Dokumentationen und vieles mehr.",
         icon: {
@@ -767,7 +819,8 @@ const apps: Array<App> = [
         ]
     },
     {
-        id: 75,
+        id: 64,
+        recommanded: false,
         name: "PWABuilder",
         description: "All the tools you need to build and deploy your Progressive Web Apps.",
         icon: {
@@ -803,7 +856,8 @@ const apps: Array<App> = [
         ]
     },
     {
-        id: 76,
+        id: 65,
+        recommanded: false,
         name: "KitchenAid",
         description: "",
         icon: {
@@ -814,7 +868,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 77,
+        id: 66,
+        recommanded: false,
         name: "BookMyShow Lite",
         description: "Movie Tickets Online Booking. Book & Buy Events, Plays, Music Concert, Cinema, Theater, Sports, T20 & World Cup Cricket Match, English, Tamil, Telugu & Hindi Movie Tickets, Trailers & Reviews.",
         icon: {
@@ -838,7 +893,8 @@ const apps: Array<App> = [
         ]
     },
     {
-        id: 78,
+        id: 67,
+        recommanded: false,
         name: "OnTheMarket",
         description: "The most uncluttered, user-friendly property portal. Find hundreds of 1000s of properties for sale & to rent from leading UK estate agents",
         icon: {
@@ -849,7 +905,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 79,
+        id: 68,
+        recommanded: false,
         name: "Ride",
         description: "Multi City Bike App",
         icon: {
@@ -860,7 +917,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 80,
+        id: 69,
+        recommanded: false,
         name: "Alarm Clock",
         description: "Alarm DJ is an online alarm clock that plays your MP3 files and YouTube videos of your choice.Works offline, right from the browser - no installation needed.",
         icon: {
@@ -871,7 +929,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 81,
+        id: 70,
+        recommanded: false,
         name: "Anonynote",
         description: "",
         icon:
@@ -883,7 +942,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 82,
+        id: 71,
+        recommanded: false,
         name: "Avain",
         description: "",
         icon: {
@@ -894,7 +954,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 83,
+        id: 72,
+        recommanded: true,
         name: "Booksie",
         description: "An open catalog of free picture storybooks for children instantly available for reading.",
         icon: {
@@ -904,33 +965,34 @@ const apps: Array<App> = [
         url: "https://www.booksie.org/",
         screenshots: [
             {
-                url: "assets/screenshots/1.webp",
+                url: "https://www.booksie.org/assets/screenshots/1.webp",
                 name: ""
             },
             {
-                url: "assets/screenshots/2.webp",
+                url: "https://www.booksie.org/assets/screenshots/2.webp",
                 name: "",
             },
             {
-                url: "assets/screenshots/3.webp",
+                url: "https://www.booksie.org/assets/screenshots/3.webp",
                 name: ""
             },
             {
-                url: "assets/screenshots/4.webp",
+                url: "https://www.booksie.org/assets/screenshots/4.webp",
                 name: ""
             },
             {
-                url: "assets/screenshots/5.webp",
+                url: "https://www.booksie.org/assets/screenshots/5.webp",
                 name: ""
             },
             {
-                url: "assets/screenshots/6.webp",
+                url: "https://www.booksie.org/assets/screenshots/6.webp",
                 name: ""
             }
         ],
     },
     {
-        id: 84,
+        id: 73,
+        recommanded: false,
         name: "BRUTALIST HN",
         description: "",
         url: "https://brutalisthackernews.com/",
@@ -941,7 +1003,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 86,
+        id: 74,
+        recommanded: true,
         name: "calc",
         url: "https://calculator-app-tau.vercel.app",
         icon: {
@@ -951,21 +1014,22 @@ const apps: Array<App> = [
         description: "A smple calculator app for your daily use.",
         screenshots: [
             {
-                url: "screenshot/phone-ss-1.png",
+                url: "https://calculator-app-tau.vercel.app/screenshot/phone-ss-1.png",
                 name: ""
             },
             {
-                url: "screenshot/phone-ss-2.png",
+                url: "https://calculator-app-tau.vercel.app/screenshot/phone-ss-2.png",
                 name: ""
             },
             {
-                url: "screenshot/phone-ss-3.png",
+                url: "https://calculator-app-tau.vercel.app/screenshot/phone-ss-3.png",
                 name: ""
             }
         ]
     },
     {
-        id: 87,
+        id: 75,
+        recommanded: true,
         name: "Care Cards",
         description: "",
         icon: {
@@ -976,7 +1040,8 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 88,
+        id: 76,
+        recommanded: false,
         name: "Cat Safe Foods",
         description: "Sharing food with your cat? Make sure it's safe first",
         icon: {
@@ -986,21 +1051,22 @@ const apps: Array<App> = [
         url: "https://catsafefoods.com",
         screenshots: [
             {
-                url: "img/screenshot1.png",
+                url: "https://catsafefoods.com/img/screenshot1.png",
                 name: ""
             },
             {
-                url: "img/screenshot2.png",
+                url: "https://catsafefoods.com/img/screenshot2.png",
                 name: ""
             },
             {
-                url: "img/screenshot3.png",
+                url: "https://catsafefoods.com/img/screenshot3.png",
                 name: ""
             }
         ],
     },
     {
-        id: 89,
+        id: 77,
+        recommanded: false,
         name: "Chitchatter",
         description: "This is a communication tool that is free, open source, and designed for simplicity and security. All communication between you and your online peers is encrypted. There is no trace of your conversation once you leave.",
         icon: {
@@ -1022,6 +1088,18 @@ const apps: Array<App> = [
                 name: ""
             }
         ],
+    },
+    {
+        id: 78,
+        recommanded: true,
+        name: "regex101",
+        url: "https://regex101.com/",
+        description: "regex101: build, test, and debug regex",
+        icon: {
+            url: "https://regex101.com/static/assets/maskable-icon-512.png",
+            maskable: true
+        },
+        screenshots: []
     }
 ];
 
