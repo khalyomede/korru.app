@@ -1100,6 +1100,115 @@ const apps: Array<App> = [
             maskable: true
         },
         screenshots: []
+    },
+    {
+        id: 79,
+        recommanded: true,
+        name: "ColorBeta",
+        icon: {
+            url: "https://colorbeta.com/static/img/icons/512-maskable.png",
+            maskable: true,
+        },
+        url: "https://colorbeta.com",
+        description: "Free online tool for creating and editing CSS gradients.",
+        screenshots: []
+    },
+    {
+        id: 80,
+        recommanded: false,
+        name: "#closerintime",
+        description: "",
+        url: "https://closerinti.me",
+        icon:
+        {
+            url: "https://closerinti.me/icons/icon-48x48.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+            maskable: false
+        },
+        screenshots: [],
+    },
+    {
+        id: 81,
+        recommanded: false,
+        name: "Colosseum",
+        description: "Displays Pokemons in a beautiful way",
+        icon:
+        {
+            url: "https://naramsim.github.io/Colosseum/images/icons/maskable-48.png",
+            maskable: true,
+        },
+        url: "https://naramsim.github.io/Colosseum",
+        screenshots: []
+    },
+    {
+        id: 82,
+        recommanded: false,
+        name: "ComputerBase",
+        icon:
+        {
+            url: "https://www.computerbase.de/img/icon-maskable.png",
+            maskable: true,
+        },
+        url: "https://www.computerbase.de/",
+        description: "Unabhängiges Tech-Magazin. News und Tests zu Smartphones, Tablets, PC-Hardware, Software und IT. Große technikaffine Community hilft im Forum.",
+        screenshots: [
+            {
+                url: "https://www.computerbase.de/img/app/screenshot-1.png",
+                name: "",
+            },
+            {
+                url: "https://www.computerbase.de/img/app/screenshot-2.png",
+                name: ""
+            },
+            {
+                url: "https://www.computerbase.de/img/app/screenshot-3.png",
+                name: ""
+            },
+            {
+                url: "https://www.computerbase.de/img/app/screenshot-4.png",
+                name: ""
+            },
+            {
+                url: "https://www.computerbase.de/img/app/screenshot-5.png",
+                name: ""
+            }
+        ],
+    },
+    {
+        id: 83,
+        recommanded: true,
+        name: "Crazy Dices",
+        description: "Simple Dices to play simple games",
+        icon: {
+            url: "https://crazydice.netlify.app/images/logo128.png",
+            maskable: false,
+        },
+        url: "https://crazydice.netlify.app/",
+        screenshots: []
+    },
+    {
+        id: 84,
+        recommanded: false,
+        name: "Dog Safe Foods",
+        description: "Sharing food with your dog? Make sure it's safe first",
+        url: "https://dogsafefoods.com/",
+        icon: {
+            url: "https://dogsafefoods.com/img/maskable_icon.png",
+            maskable: true,
+        },
+        screenshots: [
+            {
+                url: "img/screenshot1.png",
+                name: ""
+            },
+            {
+                url: "img/screenshot2.png",
+                name: ""
+            },
+            {
+                url: "img/screenshot3.png",
+                name: ""
+            }
+        ],
     }
 ];
 
