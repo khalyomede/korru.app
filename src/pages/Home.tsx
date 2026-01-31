@@ -40,7 +40,7 @@ const Home: Component = () => {
 
                 {/* Bottom half: Search bar */}
                 <div class="flex-1 flex flex-col justify-start items-center p-4">
-                    <SearchBar placeholder="Search anything..." onInput={event => setStore("search", event.target.value)} value={store.search} focusOnMount={false} />
+                    <SearchBar placeholder="Search anything..." onFocus={() => navigate("/search")} value={store.search} focusOnMount={false} />
                 </div>
             </main>
         </div>
