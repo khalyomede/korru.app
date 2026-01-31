@@ -18,9 +18,23 @@ export default defineConfig(({ mode }) => {
                 minify: true, // enables minification in production
             }),
             VitePWA({
-                registerType: "autoUpdate",
+                registerType: 'autoUpdate',
                 workbox: {
-                    globPatterns: ['**/*.{js,css,html,ico,png}'],
+                    globPatterns: ['**/*.{js,css,html,png}'],
+                    runtimeCaching: [
+                        // Images (Apps icons)
+                        {
+                            handler: "CacheFirst",
+                            urlPattern: /.*\.(webp|avif|png|ico|jpg|jpeg)$/,
+                            method: "GET",
+                        },
+                        // Fonts (Google fonts, Fontawesome, ...)
+                        {
+                            handler: "CacheFirst",
+                            urlPattern: /.*\.(ttf|woff|woff2|otf)$/,
+                            method: "GET",
+                        }
+                    ]
                 },
                 devOptions: {
                     enabled: true,
@@ -34,6 +48,18 @@ export default defineConfig(({ mode }) => {
                         {
                             src: `${env.VITE_BASE_URL}logo/korru-logo-2000.png`,
                             sizes: "2000x2000",
+                            type: "image/png",
+                            purpose: "any",
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}logo/korru-logo-512.png`,
+                            sizes: "512x512",
+                            type: "image/png",
+                            purpose: "any",
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}logo/korru-logo-192.png`,
+                            sizes: "192x192",
                             type: "image/png",
                             purpose: "any",
                         },
