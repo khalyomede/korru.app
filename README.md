@@ -56,3 +56,7 @@ docker compose run --rm --service-ports npm run dev
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000) or [127.0.0.1:3000](127.0.0.1:3000).
+
+## Resources
+
+- Logo made with [logo.com](https://logo.com/).

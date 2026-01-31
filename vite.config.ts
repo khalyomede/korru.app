@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd());
 
     return {
+        base: env.VITE_BASE_URL || '/',
         plugins: [
             devtools(),
             solidPlugin(),
@@ -19,7 +20,7 @@ export default defineConfig(({ mode }) => {
             VitePWA({
                 registerType: "autoUpdate",
                 workbox: {
-                    globPatterns: ['**/*.{js,css,html,ico,png}']
+                    globPatterns: ['**/*.{js,css,html,ico,png}'],
                 },
                 devOptions: {
                     enabled: true,
@@ -29,6 +30,32 @@ export default defineConfig(({ mode }) => {
                     short_name: env.VITE_APP_NAME,
                     description: `${env.VITE_APP_SLOGAN_1} ${env.VITE_APP_SLOGAN_2}`,
                     theme_color: "#1c1917",
+                    icons: [
+                        {
+                            src: `${env.VITE_BASE_URL}logo/korru-logo-2000.png`,
+                            sizes: "2000x2000",
+                            type: "image/png",
+                            purpose: "any",
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}logo/korru-logo-maskable-2000.png`,
+                            sizes: "2000x2000",
+                            type: "image/png",
+                            purpose: "maskable",
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}logo/korru-logo-monochrome-2000.png`,
+                            sizes: "2000x2000",
+                            type: "image/png",
+                            purpose: "monochrome",
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}logo/korru-logo-maskable-monochrome-2000.png`,
+                            sizes: "2000x2000",
+                            type: "image/png",
+                            purpose: "maskable monochrome",
+                        },
+                    ]
                 }
             }),
         ],
