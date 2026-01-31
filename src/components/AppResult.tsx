@@ -23,9 +23,7 @@ const AppResult: Component<AppResultProperties> = (properties) => {
                     </Show>
                 </span>
                 <span class="shrink">
-                    <a href={properties.app.url} target="_blank" rel="noopener noreferrer">
-                        <AppResultOpenButton text="Open" />
-                    </a>
+                    <AppResultOpenButton text="Open" url={properties.app.url} />
                 </span>
             </div>
         </div>
