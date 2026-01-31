@@ -43,7 +43,15 @@ export default defineConfig(({ mode }) => {
                     name: env.VITE_APP_NAME,
                     short_name: env.VITE_APP_NAME,
                     description: `${env.VITE_APP_SLOGAN_1} ${env.VITE_APP_SLOGAN_2}`,
-                    theme_color: "#1c1917",
+                    theme_color: env.VITE_LIGHT_THEME,
+                    dir: "ltr",
+                    lang: "en-US",
+                    scope: "/",
+                    display: "standalone",
+                    orientation: "portrait-primary",
+                    start_url: "/",
+                    id: env.VITE_PRODUCTION_DOMAIN,
+                    background_color: env.VITE_DARK_THEME,
                     icons: [
                         {
                             src: `${env.VITE_BASE_URL}logo/korru-logo-2000.png`,
