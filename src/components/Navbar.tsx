@@ -8,9 +8,9 @@ const Navbar: Component = () => {
 
             <h1 class="text-xl font-bold text-stone-600 dark:text-stone-300 uppercase tracking-wider">{import.meta.env.VITE_APP_NAME}</h1>
 
-            <button class="p-2 focus:outline-none text-stone-600 dark:text-stone-300">
+            <span class="p-2 focus:outline-none text-stone-600 dark:text-stone-300">
                 {/* <i class="fa-solid fa-bars"></i> */}
-            </button>
+            </span>
         </header>
     );
 };
