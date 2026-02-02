@@ -1156,7 +1156,42 @@ const apps: Array<App> = [
             url: "https://nenadalm.github.io/life-counter/img/icon_192.png?v=674cd2d1dc276ad519989ce15065a91a373dff99",
             maskable: true,
         },
+    },
+    {
+        id: 87,
+        url: "https://claude.ai/",
+        name: "Claude",
+        description: "",
+        icon: {
+            url: "https://claude.ai/images/icon-512x512.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 88,
+        name: "Grok",
+        description: "Understand the Universe",
+        url: "https://grok.com",
+        icon: {
+            url: "https://grok.com/images/android-chrome-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 89,
+        name: "LeChat",
+        description: "Le Chat from Mistral AI",
+        url: "https://chat.mistral.ai",
+        icon:
+        {
+            url: "https://chat.mistral.ai/favicons/pwa-icon-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
     }
+
 ];
 
 export default apps;
