@@ -11,9 +11,6 @@ const AppResult: Component<AppResultProperties> = (properties) => {
             <div class="flex gap-6 my-2 items-center">
                 <span class="grow text-xl tracking-wider min-w-0 text-stone-600 dark:text-stone-300 font-bold">
                     <div class="flex items-center gap-2">
-                        <Show when={properties.app.recommanded}>
-                            <i class="fa-solid fa-star text-amber-400 text-sm"></i>
-                        </Show>
                         <span>{properties.app.name}</span>
                     </div>
                     <Show when={properties.app.description.trim().length > 0}>

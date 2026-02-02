@@ -6,7 +6,6 @@ import AppScreenshot from "./AppScreenshot";
  */
 interface App {
     id: number;
-    recommanded: boolean;
     name: string;
     description: string;
     icon: AppIcon;
