@@ -17,7 +17,9 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
                 ref={element}
                 onFocus={properties.onFocus}
                 onInput={properties.onInput}
-                type="text"
+                type="search"
+                autocorrect="off"
+                autocomplete="off"
                 value={properties.value}
                 placeholder={properties.placeholder}
                 class="w-full px-4 py-3 rounded-lg border border-stone-300 tracking-wider
