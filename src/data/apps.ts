@@ -1125,6 +1125,37 @@ const apps: Array<App> = [
                 name: ""
             }
         ],
+    },
+    {
+        id: 85,
+        name: "JSON Formatter",
+        description: "Format, validate and beautify JSON online",
+        icon: {
+            url: "https://jsonformatter.com/pwa/images/icon-192.png",
+            maskable: true,
+        },
+        url: "https://jsonformatter.com",
+        screenshots: []
+    },
+    {
+        id: 86,
+        description: "Life counter app for 2 - 4 players. Supports game profiles, count up/down.",
+        url: "https://nenadalm.github.io/life-counter/index.html",
+        name: "Life counter",
+        screenshots: [
+            {
+                url: "https://nenadalm.github.io/life-counter/img/screenshot_1.png?v=c29499b4b358ccc5d044f9071d9aa1f44bff4709",
+                name: ""
+            },
+            {
+                url: "https://nenadalm.github.io/life-counter/img/screenshot_2.png?v=d516a26c1351d523c4dfe832404147a7e7736288",
+                name: ""
+            }
+        ],
+        icon: {
+            url: "https://nenadalm.github.io/life-counter/img/icon_192.png?v=674cd2d1dc276ad519989ce15065a91a373dff99",
+            maskable: true,
+        },
     }
 ];
 
