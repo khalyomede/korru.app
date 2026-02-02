@@ -20,7 +20,7 @@ const Home: Component = () => {
     const navigate = useNavigate();
 
     return (
-        <div class="min-h-dvh bg-white font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
+        <div class="min-h-dvh bg-stone-100 font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
             <Navbar />
             <main class="flex-grow flex flex-col max-w-lg lg:max-w-md mx-auto">
                 {/* Top half: Slogan + Icons */}
