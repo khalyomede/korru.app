@@ -16,17 +16,8 @@ const Home: Component = () => {
         // If light mode is preferred, we do nothing — Tailwind defaults to light
     });
 
-    const [store, setStore] = useStore();
+    const [store, _] = useStore();
     const navigate = useNavigate();
-
-    createEffect(() => {
-        const { search } = store;
-        const searchIsFilled = search.trim().length > 0;
-
-        if (searchIsFilled) {
-            navigate("/search");
-        }
-    });
 
     return (
         <div class="min-h-dvh bg-white font-sans flex flex-col bg-stone-100 dark:bg-stone-900">

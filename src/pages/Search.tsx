@@ -1,4 +1,4 @@
-import { Component, onMount } from 'solid-js';
+import { Component } from 'solid-js';
 import useStore from '../hooks/useStore';
 import AppResultList from '../components/AppResultList';
 import App from '../interfaces/App';
@@ -11,33 +11,25 @@ const Search: Component = () => {
 
     let fuse: Fuse<App> | null = null;
 
-    onMount(() => {
-        const { apps } = store;
-
-        const appList: Array<App> = apps.map((app) => ({ ...app }));
-
-        fuse = new Fuse<App>(appList, {
-            isCaseSensitive: false,
-            ignoreDiacritics: true,
-            shouldSort: true,
-            findAllMatches: false,
-            ignoreLocation: true,
-            ignoreFieldNorm: true,
-            threshold: 0.2,
-            keys: [
-                { name: "name", weight: 3 },
-                { name: "description", weight: 1 },
-            ]
-        });
-    });
-
     const filteredApps = () => {
         const { search, apps } = store;
 
         if (fuse === null) {
-            /** @toto report error */
+            const appList: Array<App> = apps.map((app) => ({ ...app }));
 
-            return apps;
+            fuse = new Fuse<App>(appList, {
+                isCaseSensitive: false,
+                ignoreDiacritics: true,
+                shouldSort: true,
+                findAllMatches: false,
+                ignoreLocation: true,
+                ignoreFieldNorm: true,
+                threshold: 0.2,
+                keys: [
+                    { name: "name", weight: 3 },
+                    { name: "description", weight: 1 },
+                ]
+            });
         }
 
         const matchedAppsIds = fuse.search(search).map((app) => app.item.id);
@@ -53,7 +45,7 @@ const Search: Component = () => {
 
     return (
         <div class="min-h-dvh bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 px-6 py-6 md:px-12 md:py-12">
-            <header class="max-w-2xl mx-auto fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 py-6 px-6 md:px-0 md:py-12">
+            <header class="max-w-2xl mx-auto sticky top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 py-4 px-0 mb-8 z-1">
                 <SearchBar
                     placeholder="Search anything..."
                     value={store.search}
@@ -61,7 +53,7 @@ const Search: Component = () => {
                     focusOnMount={true}
                 />
             </header>
-            <main class="max-w-2xl mx-auto mt-20 md:mt-24">
+            <main class="max-w-2xl mx-auto">
                 <AppResultList apps={filteredApps()} />
             </main>
         </div>
