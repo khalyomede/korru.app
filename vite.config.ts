@@ -52,6 +52,9 @@ export default defineConfig(({ mode }) => {
                     start_url: "/",
                     id: env.VITE_PRODUCTION_DOMAIN,
                     background_color: env.VITE_DARK_THEME,
+                    categories: [
+                        "reference"
+                    ],
                     icons: [
                         {
                             src: `${env.VITE_BASE_URL}logo/korru-logo-2000.png`,
