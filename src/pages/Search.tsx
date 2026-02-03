@@ -72,6 +72,9 @@ const Search: Component = () => {
         if (fuse === null) {
             const appList: Array<App> = apps.map((app) => ({ ...app }));
 
+            /**
+             * @todo Include URL as searchable terms with 2nd degree importance (above description).
+             */
             fuse = new Fuse<App>(appList, {
                 isCaseSensitive: false,
                 ignoreDiacritics: true,
