@@ -7,3 +7,5 @@
 - https://www.google.com/search?q=pwa+apps
 - https://web.dev/explore/progressive-web-apps
 - https://onilab.com/blog/20-progressive-web-apps-examples
+- https://en.wikipedia.org/wiki/List_of_social_networking_services
+- https://en.wikipedia.org/wiki/List_of_social_bookmarking_websites

@@ -1190,8 +1190,272 @@ const apps: Array<App> = [
             maskable: false,
         },
         screenshots: []
-    }
+    },
+    {
+        id: 90,
+        name: "Facebook",
+        url: "https://m.facebook.com",
+        icon: {
+            url: "https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/y0\/r\/eFZD1KABzRA.png",
+            maskable: false,
+        },
+        description: "",
+        screenshots: []
+    },
+    {
+        id: 91,
+        name: "Wikipedia",
+        description: "",
+        url: "https://en.wikipedia.org",
+        icon: {
+            url: "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 92,
+        name: "Chess",
+        description: "",
+        url: "https://www.chess.com/",
+        icon: {
+            url: "https:\/\/www.chess.com\/bundles\/web\/favicons\/android-chrome-192x192.25da7247.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 93,
+        description: "DeviantArt is where art and community thrive. Explore over 350 million pieces of art while connecting to fellow artists and art enthusiasts.",
 
+        icon:
+        {
+            url: "https://st.deviantart.net/eclipse/icons/pwa/launchericon-72-72.png?2",
+            maskable: false,
+        },
+        name: "DeviantArt",
+        url: "https://www.deviantart.com",
+        screenshots: []
+    },
+    {
+        id: 94,
+        name: "GitHub",
+        description: "",
+        url: "https://github.com",
+        icon: {
+            url: "https://github.githubassets.com/assets/apple-touch-icon-72x72-e090c8a282d0.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 95,
+        name: "Mastodon",
+        description: "",
+        icon: {
+            url: "https://mastodon.social/packs/assets/android-chrome-72x72-9LRpA3QN.png",
+            maskable: true,
+        },
+        url: "https://mastodon.social",
+        screenshots: []
+    },
+    {
+        id: 98,
+        name: "Threads",
+        description: "Say more with Threads \u2014 Instagram\u2019s text-based conversation app.",
+        url: "https://www.threads.com",
+        icon: {
+            url: "https:\/\/static.cdninstagram.com\/rsrc.php\/yM\/r\/h1DANLym4e8.webp",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 99,
+        name: "TikTok",
+        description: "TikTok PWA",
+        url: "https://www.tiktok.com/",
+        icon: {
+            url: "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/128x128-1.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 100,
+        name: "Truth Social",
+        description: "Truth Social is America's \"Big Tent\" social media platform that encourages an open, free, and honest global conversation without discriminating on the basis of political ideology.",
+        icon: {
+            url: "https://truthsocial.com/icons/icon-maskable-72x72.png",
+            maskable: true,
+        },
+        url: "https://truthsocial.com/",
+        screenshots: []
+    },
+    {
+        id: 101,
+        name: "Tumblr",
+        description: "Tumblr. Pure effervescent enrichment. Old internet energy. Home of the Reblogs. All the art you never knew you needed. All the fandoms you could wish for. Enough memes to knock out a moderately-sized mammal. Add to it or simply scroll through and soak it up.",
+        url: "https://www.tumblr.com/",
+        icon: {
+            url: "https://assets.tumblr.com/pop/manifest/icon_72-5073ca87.png",
+            maskable: true
+        },
+        screenshots: [
+            {
+                url: "https://assets.tumblr.com/pop/src/assets/images/screenshots/01_INTL_Phone-294fe24c.webp",
+                name: ""
+            },
+            {
+                url: "https://assets.tumblr.com/pop/src/assets/images/screenshots/02_INTL_Phone-81265861.webp",
+                name: ""
+            },
+            {
+                url: "https://assets.tumblr.com/pop/src/assets/images/screenshots/03_INTL_Phone-d4c2a14a.webp",
+                name: ""
+            },
+            {
+                url: "https://assets.tumblr.com/pop/src/assets/images/screenshots/04_INTL_Phone-5913198b.webp",
+                name: ""
+            },
+            {
+                url: "https://assets.tumblr.com/pop/src/assets/images/screenshots/05_INTL_Phone-7ac8347c.webp",
+                name: ""
+            },
+        ]
+    },
+    {
+        id: 102,
+        name: "Glassdoor",
+        description: "",
+        url: "https://www.glassdoor.com",
+        icon: {
+            url: "https://www.glassdoor.com/launcher-icon-2x.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 103,
+        name: "Gmail",
+        url: "https://mail.google.com",
+        description: "",
+        icon: {
+            url: "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_96dp.png",
+            maskable: false,
+        },
+        screenshots: [],
+    },
+    {
+        id: 104,
+        name: "Google Maps",
+        description: "Arrivez plus vite à destination",
+        url: "https://maps.google.com",
+        icon: {
+            url: "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 105,
+        name: "Docs",
+        url: "https://docs.google.com",
+        description: "",
+        icon: {
+            url: "https://fonts.gstatic.com/s/i/productlogos/docs_2020q4/v7/web-64dp/logo_docs_2020q4_color_1x_web_64dp.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 106,
+        name: "Spreadshets",
+        url: "https://sheets.google.com",
+        description: "",
+        icon: {
+            url: "https://fonts.gstatic.com/s/i/productlogos/sheets_2020q4/v6/web-64dp/logo_sheets_2020q4_color_1x_web_64dp.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 107,
+        url: "https://slides.google.com",
+        name: "Slides",
+        description: "",
+        icon: {
+            url: "https://fonts.gstatic.com/s/i/productlogos/slides_2020q4/v7/web-64dp/logo_slides_2020q4_color_1x_web_64dp.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 108,
+        name: "Calendar",
+        description: "",
+        icon: {
+            url: "https://www.gstatic.com/calendar/images/manifest/logo_2020q4_192.png",
+            maskable: false,
+        },
+        url: "https://calendar.google.com",
+        screenshots: []
+    },
+    {
+        id: 111,
+        name: "Duolingo",
+        description: "",
+        icon: {
+            url: "https://d35aaqx5ub95lt.cloudfront.net/images/pwa-icon-circle-192.png",
+            maskable: true,
+        },
+        url: "https://www.duolingo.com/",
+        screenshots: []
+    },
+    {
+        id: 112,
+        name: "Laracasts",
+        description: "",
+        url: "https://laracasts.com",
+        icon: {
+            url: "https://laracasts.com/favicons/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 114,
+        name: "Todoist",
+        description: "",
+        url: "https://www.todoist.com",
+        icon: {
+            url: "https://www.todoist.com/static/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: [],
+    },
+    {
+        id: 115,
+        name: "News",
+        description: "",
+        url: "https://news.google.com",
+        icon: {
+            url: "//www.gstatic.com/gnews/logo/google_news_60.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 118,
+        name: "Substack",
+        url: "https://substack.com/",
+        description: "The best reader ever",
+        icon: {
+            url: "https://substack.com/img/manifest-icons/app-maskable-192.png",
+            maskable: true
+        },
+        screenshots: []
+    }
 ];
 
 export default apps;
