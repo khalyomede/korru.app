@@ -1455,6 +1455,84 @@ const apps: Array<App> = [
             maskable: true
         },
         screenshots: []
+    },
+    {
+        id: 119,
+        name: "Vercel",
+        description: "Build and deploy the best web experiences with the AI Cloud",
+        url: "https://vercel.com",
+        icon: {
+            url: "https://assets.vercel.com/image/upload/v1573246280/front/favicon/vercel/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 121,
+        name: "Proto.io",
+        description: "",
+        url: "https://proto.io",
+        icon: {
+            url: "https://proto.io/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: [],
+    },
+    {
+        id: 123,
+        name: "Monzo",
+        description: "",
+        url: "https://monzo.com/",
+        icon: {
+            url: "https://monzo.com/images/icons/maskable-icon-x72.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 124,
+        name: "Ally",
+        description: "",
+        icon: {
+            url: "https://www.ally.com/images/icons/web-app-manifest-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.ally.com",
+        screenshots: []
+    },
+    {
+        id: 125,
+        name: "Credit Karma",
+        description: "",
+        icon: {
+            url: "https://ck-assets.imgix.net/assets/1.43.1/favicons/android-chrome.png?w=192&h=192",
+            maskable: false,
+        },
+        url: "https://www.creditkarma.com/",
+        screenshots: []
+    },
+    {
+        id: 126,
+        name: "Ramsey",
+        description: "",
+        url: "https://www.ramseysolutions.com/money/everydollar",
+        icon: {
+            url: "https://cdn.ramseysolutions.net/cms/sites/ramseysolutions-com/favicons/android-chrome-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 127,
+        name: "MyFitnessPal",
+        description: "",
+        url: "https://www.myfitnesspal.com",
+        icon:
+        {
+            url: "https://www.myfitnesspal.com/favicons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
     }
 ];
 
