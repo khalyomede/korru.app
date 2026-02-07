@@ -18,9 +18,10 @@ const Home: Component = () => {
 
     const [store, _] = useStore();
     const navigate = useNavigate();
+    const prefersReducedMotions = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const onSearchBarFocus = () => {
-        if (document.startViewTransition) {
+        if (document.startViewTransition && !prefersReducedMotions()) {
             document.startViewTransition(() => {
                 navigate("/search");
             });
