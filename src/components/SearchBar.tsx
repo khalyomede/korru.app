@@ -15,6 +15,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
         <div class="w-full">
             <input
                 ref={element}
+                id={properties.id}
                 onFocus={properties.onFocus}
                 onInput={properties.onInput}
                 type="search"

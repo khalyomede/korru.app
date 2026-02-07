@@ -1,11 +1,11 @@
 // src/App.tsx
-import { Component, createEffect, onMount } from 'solid-js';
+import { Component, onMount } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Slogan from '../components/Slogan';
 import AppIconPreviewList from '../components/AppIconPreviewList';
 import SearchBar from '../components/SearchBar';
-import { useNavigate } from '@solidjs/router';
 import useStore from '../hooks/useStore';
+import { useNavigate } from '@solidjs/router';
 
 const Home: Component = () => {
     onMount(() => {
@@ -19,6 +19,16 @@ const Home: Component = () => {
     const [store, _] = useStore();
     const navigate = useNavigate();
 
+    const onSearchBarFocus = () => {
+        if (document.startViewTransition) {
+            document.startViewTransition(() => {
+                navigate("/search");
+            });
+        } else {
+            navigate("/search");
+        }
+    };
+
     return (
         <div class="min-h-dvh bg-stone-100 font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
             <Navbar />
@@ -31,7 +41,7 @@ const Home: Component = () => {
 
                 {/* Bottom half: Search bar */}
                 <div class="flex-1 flex flex-col justify-start items-center p-4">
-                    <SearchBar placeholder="Search anything..." onFocus={() => navigate("/search")} value={store.search} focusOnMount={false} />
+                    <SearchBar id="search" placeholder="Search anything..." onFocus={onSearchBarFocus} value={store.search} focusOnMount={false} />
                 </div>
             </main>
         </div>

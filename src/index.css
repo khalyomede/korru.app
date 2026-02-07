@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@view-transition {
+    navigation: auto;
+}
+
+#search {
+    view-transition-name: search-bar;
+}
