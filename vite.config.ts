@@ -46,10 +46,10 @@ export default defineConfig(({ mode }) => {
                     theme_color: env.VITE_LIGHT_THEME,
                     dir: "ltr",
                     lang: "en-US",
-                    scope: "/",
+                    scope: env.VITE_BASE_URL,
                     display: "standalone",
                     orientation: "portrait-primary",
-                    start_url: "/",
+                    start_url: env.VITE_BASE_URL,
                     id: env.VITE_PRODUCTION_DOMAIN,
                     background_color: env.VITE_DARK_THEME,
                     categories: [
