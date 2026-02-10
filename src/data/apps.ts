@@ -1533,7 +1533,128 @@ const apps: Array<App> = [
             maskable: false,
         },
         screenshots: []
-    }
+    },
+    {
+        id: 128,
+        name: "BentoPDF",
+        description: "Free online PDF tools - Privacy-first PDF toolkit that works 100% in your browser",
+        url: "https://bentopdf.com",
+        icon: {
+            url: "https://bentopdf.com/images/favicon-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 129,
+        name: "it-tools",
+        url: "https://it-tools.tech",
+        description: "Aggregated set of useful tools for developers.",
+        icon: {
+            url: "https://it-tools.tech/android-chrome-512x512.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 130,
+        name: "MAZANOKE",
+        description: "Privacy-respecting Image Optimizer",
+        url: "https://mazanoke.com",
+        icon: {
+            url: "https://mazanoke.com//assets/images/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 131,
+        name: "Google Photos",
+        description: "",
+        url: "https://photos.google.com/",
+        icon: {
+            url: "https://www.gstatic.com/social/photosui/images/logo/2025/1x/photos_96dp.png",
+            maskable: false
+        },
+        screenshots: []
+    },
+    {
+        id: 132,
+        name: "MDN",
+        description: "",
+        icon: {
+            url: "https://developer.mozilla.org/favicon-192x192.png",
+            maskable: false,
+        },
+        "url": "https://developer.mozilla.org",
+        screenshots: []
+    },
+    {
+        id: 133,
+        name: "reve.com",
+        description: "",
+        url: "https://app.reve.com/",
+        icon: {
+            url: "https://app.reve.com/icon-mask.png",
+            maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 134,
+        name: "AI Studio",
+        url: "https://aistudio.google.com",
+        icon: {
+            url: "https://www.gstatic.com/aistudio/ai_studio_favicon_2_96x96.png",
+            maskable: true,
+        },
+        description: "",
+        screenshots: []
+    },
+    {
+        id: 135,
+        name: "Sora",
+        description: "",
+        url: "https://sora.chatgpt.com",
+        icon: {
+            url: "https://sora.chatgpt.com/sora-icon.webp",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 136,
+        name: "Ideogram",
+        url: "https://ideogram.a/",
+        description: "",
+        icon: {
+            url: "https://ideogram.ai/favicon.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 137,
+        name: "Suno",
+        description: "",
+        url: "https://suno.com",
+        icon: {
+            url: "https://cdn-o.suno.com/favicon-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 138,
+        name: "Hume",
+        description: "Building AI with emotional intelligence to create technology that truly understands humanity.",
+        url: "https://www.hume.ai",
+        icon: {
+            url: "https://www.hume.ai/icons/icon-72x72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
 ];
 
 export default apps;
