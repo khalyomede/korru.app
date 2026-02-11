@@ -1655,6 +1655,92 @@ const apps: Array<App> = [
         },
         screenshots: []
     },
+    {
+        id: 139,
+        name: "Web Manifest",
+        description: "Web application that helps you create Web App Manifests",
+        url: "https://manifest.web.nairi.cloud",
+        screenshots: [
+            {
+                url: "https://manifest.web.nairi.cloud/screenshots/narrow-light.png",
+                name: "Mobile Light",
+            },
+            {
+                url: "https://manifest.web.nairi.cloud/screenshots/narrow-dark.png",
+                name: "Mobile Dark",
+            }
+        ],
+        icon: {
+            url: "https://manifest.web.nairi.cloud/icon.png",
+            maskable: false,
+        }
+    },
+    {
+        id: 140,
+        name: "CBS News",
+        description: "CBS News - Breaking News, Live News stream 24x7",
+        url: "https://www.cbsnews.com",
+        icon: {
+            url: "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-240x240-maskable.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 141,
+        name: "Global News",
+        description: "",
+        url: "https://globalnews.ca",
+        icon: {
+            url: "https:\/\/globalnews.ca\/wp-content\/themes\/shaw-globalnews\/_img\/pwa\/news_square_maskable-512.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 142,
+        name: "CBC.ca",
+        url: "https://www.cbc.ca",
+        description: "Read CBC news, sports, and more!",
+        icon: {
+            url: "https://www.cbc.ca/a/assets/logo_gem.svg",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 143,
+        name: "France 24",
+        url: "https://www.france24.com",
+        description: "France 24",
+        icon: {
+            url: "https://www.france24.com/maskable_icon.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 144,
+        name: "DW (Deutsche Welle)",
+        url: "https://www.dw.com",
+        description: "",
+        icon: {
+            url: "https://www.dw.com/images/icons/favicon-72x72.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 145,
+        name: "TIME",
+        description: "",
+        url: "https://time.com",
+        icon: {
+            url: "https://time.com/favicon/apple-touch-icon.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
 ];
 
 export default apps;
