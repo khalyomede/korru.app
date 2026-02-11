@@ -18,17 +18,6 @@ const apps: Array<App> = [
         screenshots: [],
     },
     {
-        id: 2,
-        icon: {
-            url: "https://soundcloud.com/pwa-icon-192.png",
-            maskable: true,
-        },
-        url: "https://soundcloud.com/discover",
-        name: "Soundcloud",
-        description: "SoundCloud - Play Music, Audio & New Songs",
-        screenshots: [],
-    },
-    {
         id: 3,
         icon: {
             url: "https://www.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
