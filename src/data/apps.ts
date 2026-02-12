@@ -1730,6 +1730,131 @@ const apps: Array<App> = [
         },
         screenshots: []
     },
+    {
+        id: 146,
+        name: "DeviantArt",
+        description: "DeviantArt is where art and community thrive. Explore over 350 million pieces of art while connecting to fellow artists and art enthusiasts.",
+        icon: {
+            url: "https://st.deviantart.net/eclipse/icons/pwa/launchericon-72-72.png?2",
+            maskable: false,
+        },
+        screenshots: [],
+        url: "https://www.deviantart.com",
+    },
+    {
+        id: 147,
+        name: "Twitch",
+        description: "",
+        url: "https://m.twitch.tv",
+        icon: {
+            url: "https://m.twitch.tv/maskable_icon_x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 148,
+        name: "Seamless Web",
+        description: "Online food ordering from your local favorites for takeout or delivery. Support your local restaurants with Seamless and find coupons, reviews, and more!",
+        icon: {
+            url: "https://assets.seamless.com/assets/img/brand/seamless/android/raster/smart_banner/android-chrome-72x72.png",
+            maskable: false,
+        },
+        url: "https://www.seamless.com/",
+        screenshots: []
+    },
+    {
+        id: 149,
+        name: "Postmates",
+        description: "",
+        url: "https://postmates.com",
+        icon: {
+            url: "https://postmates.com/_static/0d9ecf4f16865976.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 150,
+        name: "Uber EATS",
+        description: "",
+        url: "https://www.ubereats.com",
+        icon: {
+            url: "https://www.ubereats.com/_static/35b3b9a3182fec82.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 151,
+        name: "SHEIN",
+        description: "",
+        icon: {
+            url: "https://m.shein.com/fr/logo/72.png",
+            maskable: false,
+        },
+        url: "https://m.shein.com",
+        screenshots: []
+    },
+    {
+        id: 152,
+        name: "eBay",
+        description: "",
+        url: "https://www.ebay.com",
+        icon: {
+            url: "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192-maskable.png",
+            maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 153,
+        name: "Swiggy",
+        url: "https://www.swiggy.com",
+        icon: {
+            url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/logo_192x192.png",
+            maskable: true
+        },
+
+        description: "Here’s everything you can do and find on the Swiggy app:\n- Restaurant and Delivery Partners trained in hygiene protocols\n- Find top restaurants in your city\n- Late-night delivery\n-  30+ cuisines, Biryani, Pizza, Dosa, Burgers, Coffee, and more\n- Collections like Veg Only, Healthy Food, and more",
+        screenshots: [
+            {
+                url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_486,h_960/play_store_assets/Screen_1.png",
+                name: ""
+            },
+            {
+                url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_486,h_960/play_store_assets/Screen_2.png",
+                name: ""
+            },
+            {
+                url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_486,h_960/play_store_assets/Screen_3.png",
+                name: ""
+            },
+            {
+                url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_486,h_960/play_store_assets/Screen_4.png",
+                name: ""
+            },
+            {
+                url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_486,h_960/play_store_assets/Screen_7.png",
+                name: ""
+            },
+            {
+                url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_486,h_960/play_store_assets/Screen_8.png",
+                name: ""
+            }
+        ],
+    },
+    {
+        id: 154,
+        name: "Economist",
+        description: "",
+        url: "https://www.economist.com",
+        icon: {
+            url: "https://www.economist.com/engassets/ico/icon-mask.png",
+            maskable: true
+        },
+        screenshots: []
+    }
 ];
 
 export default apps;
