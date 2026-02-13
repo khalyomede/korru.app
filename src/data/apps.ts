@@ -1958,6 +1958,17 @@ const apps: Array<App> = [
             maskable: false,
         },
         screenshots: []
+    },
+    {
+        id: 161,
+        name: "Fluxer",
+        description: "Fluxer is an open-source, independent instant messaging and VoIP platform. Built for friends, groups, and communities.",
+        url: "https://web.fluxer.app",
+        icon: {
+            url: "https://fluxerstatic.com/web/android-chrome-192x192.png",
+            maskable: true
+        },
+        screenshots: []
     }
 ];
 
