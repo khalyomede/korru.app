@@ -1997,6 +1997,17 @@ const apps: Array<App> = [
                 name: "RoqueOS Mobile - Configurações"
             }
         ]
+    },
+    {
+        id: 163,
+        name: "MyMiniFactory",
+        description: "MyMiniFactory is the curated 3D printing platform. Download and 3D print free - 100% tested - 3D objects created by a global community of talented designers.",
+        url: "https://www.myminifactory.com",
+        icon: {
+            url: "images/launcher/launcher-icon-96x96.png",
+            maskable: false,
+        },
+        screenshots: []
     }
 ];
 
