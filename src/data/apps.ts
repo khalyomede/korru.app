@@ -1936,6 +1936,17 @@ const apps: Array<App> = [
             maskable: true
         },
         screenshots: []
+    },
+    {
+        id: 159,
+        name: "Vehique",
+        description: "Your AI operating system for car shopping and research",
+        url: "https://www.vehique.ai",
+        icon: {
+            url: "https://www.vehique.ai/android-chrome-192x192.png",
+            maskable: true
+        },
+        screenshots: []
     }
 ];
 
