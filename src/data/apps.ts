@@ -1947,6 +1947,17 @@ const apps: Array<App> = [
             maskable: true
         },
         screenshots: []
+    },
+    {
+        id: 160,
+        name: "Fair Weather",
+        description: "Find your perfect window for outdoor running and walking.",
+        url: "https://fair-weather.query-farm.services",
+        icon: {
+            url: "https://fair-weather.query-farm.services/icon-192.png",
+            maskable: false,
+        },
+        screenshots: []
     }
 ];
 
