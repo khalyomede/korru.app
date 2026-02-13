@@ -1969,6 +1969,34 @@ const apps: Array<App> = [
             maskable: true
         },
         screenshots: []
+    },
+    {
+        id: 162,
+        name: "RoqueOS",
+        description: "Sistema operacional web inspirado no macOS, com janelas, dock, área de trabalho personalizável e aplicativos integrados.",
+        url: "https://roqueos.com.br/app",
+        icon: {
+            url: "https://roqueos.com.br/icons/icon-128x128.png",
+            maskable: true
+        },
+        screenshots: [
+            {
+                url: "https://roqueos.com.br/screenshots/mobile-desktop.png",
+                name: "RoqueOS Mobile - Desktop"
+            },
+            {
+                url: "https://roqueos.com.br/screenshots/mobile-finder.png",
+                name: "RoqueOS Mobile - Gerenciador de Arquivos"
+            },
+            {
+                url: "https://roqueos.com.br/screenshots/mobile-chat.png",
+                name: "RoqueOS Mobile - Chat"
+            },
+            {
+                url: "https://roqueos.com.br/screenshots/mobile-settings.png",
+                name: "RoqueOS Mobile - Configurações"
+            }
+        ]
     }
 ];
 
