@@ -1854,6 +1854,88 @@ const apps: Array<App> = [
             maskable: true
         },
         screenshots: []
+    },
+    {
+        id: 155,
+        name: "Progressier",
+        description: "",
+        url: "https://progressier.com",
+        icon: {
+            url: "https://pwa.xyz/eWYX0PrgnbmJTIRgmYiH%2FgsUEZlyEGHgGqUA.png?alt=media&token=09f76955-c91d-40c1-ad12-79c8f2aaeed1",
+            maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 156,
+        name: "PWA Today",
+        description: "What PWA Can Do Today is a showcase of what is possible with Progressive Web Apps today.\n\nThe app is itself a Progressive Web App which means it can be installed to the home screen of your mobile device or to your desktop.",
+        url: "https://whatpwacando.today",
+        icon: {
+            url: "https://whatpwacando.today/src/img/icons/manifest-icon-192.maskable.png",
+            maskable: true
+        },
+        screenshots: [
+            {
+                url: "https://whatpwacando.today/src/img/screenshots/shot1.png",
+                name: ""
+            },
+            {
+                url: "https://whatpwacando.today/src/img/screenshots/shot2.png",
+                name: ""
+            },
+            {
+                url: "https://whatpwacando.today/src/img/screenshots/shot3.png",
+                name: ""
+            },
+            {
+                url: "https://whatpwacando.today/src/img/screenshots/shot4.png",
+                name: ""
+            },
+            {
+                url: "https://whatpwacando.today/src/img/screenshots/shot6.png",
+                name: ""
+            },
+        ],
+    },
+    {
+        id: 157,
+        name: "Store.app",
+        description: "The Open Web App Store. Discover the best apps on the web, and enjoy fast, secure and universal software.",
+        url: "https://store.app",
+        icon: {
+            url: "https://static.store.app/manifest/maskable192.png",
+            maskable: true
+        },
+        screenshots: [
+            {
+                url: "https://static.store.app/manifest/preview_mobile_1.png",
+                name: ""
+            },
+            {
+                url: "https://static.store.app/manifest/preview_mobile_2.png",
+                name: ""
+            },
+            {
+                url: "https://static.store.app/manifest/preview_mobile_3.png",
+                name: ""
+            },
+            {
+                url: "https://static.store.app/manifest/preview_mobile_4.png",
+                name: ""
+            }
+        ],
+    },
+    {
+        id: 158,
+        name: "WorkLedger",
+        description: "Local-first engineering notebook",
+        url: "https://workledger.org",
+        icon: {
+            url: "https://workledger.org/icon-512.svg",
+            maskable: true
+        },
+        screenshots: []
     }
 ];
 
