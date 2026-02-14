@@ -2008,6 +2008,94 @@ const apps: Array<App> = [
             maskable: false,
         },
         screenshots: []
+    },
+    {
+        id: 164,
+        name: "Chrome",
+        description: "",
+        url: "https://developer.chrome.com",
+        icon: {
+            url: "https://developer.chrome.com/icons/icon-72x72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 165,
+        name: "Microsoft Bing Webmaster Tools",
+        description: "",
+        url: "https://www.bing.com/webmasters",
+        icon: {
+            url: "https://www.bing.com/webmasters/Content\\PWA\\logo\\bing-logo-192.png",
+            maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 166,
+        name: "OpenClaw",
+        description: "Your AI agent. Live in seconds.",
+        url: "https://openclaw.rocks",
+        icon: {
+            url: "/icon-192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 167,
+        name: "黒塗り",
+        description: "ブラウザ完結のAIプライバシー保護ツール",
+        url: "https://kuro-nuri.com",
+        icon: {
+            url: "https://kuro-nuri.com/cat-agents.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 168,
+        name: "m-session",
+        description: "Guided meditation, breathwork, and journaling for intentional experiences",
+        url: "https://www.m-session.com",
+        icon: {
+            url: "https://www.m-session.com/pwa-512x512.png",
+            maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 169,
+        name: "elebean",
+        description: "elebean - your music companion",
+        url: "https://elebean.com",
+        icon: {
+            url: "https://elebean.com/icons/icon-256.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 170,
+        name: "Resumble",
+        description: "Create professional, ATS-optimized resumes in minutes with Resumble.",
+        url: "https://www.resumble.com",
+        icon: {
+            url: "https://www.resumble.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 171,
+        name: "Chart Vacancy",
+        description: "Check live railway reservation chart status online and view real-time seat availability.",
+        url: "https://chartvacancy.website",
+        icon: {
+            url: "https://chartvacancy.website/android-chrome-192x192.png",
+            maskable: true
+        },
+        screenshots: []
     }
 ];
 

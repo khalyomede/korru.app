@@ -6,8 +6,12 @@ import App from "../interfaces/App";
  */
 const complements: Array<Partial<App>> = [
     {
-        name: "River North Hotel",
-        url: "https://www.rivernorthhotel.com/"
+        id: 165,
+        name: "Microsoft Bing Webmaster Tools",
+        icon: {
+            url: "https://www.bing.com/webmasters/Content/PWA/logo/bing-logo-192.png",
+            maskable: true
+        },
     }
 ];
 
