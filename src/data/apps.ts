@@ -2004,7 +2004,7 @@ const apps: Array<App> = [
         description: "MyMiniFactory is the curated 3D printing platform. Download and 3D print free - 100% tested - 3D objects created by a global community of talented designers.",
         url: "https://www.myminifactory.com",
         icon: {
-            url: "images/launcher/launcher-icon-96x96.png",
+            url: "https://www.myminifactory.com/images/launcher/launcher-icon-96x96.png",
             maskable: false,
         },
         screenshots: []
