@@ -92,6 +92,32 @@ export default defineConfig(({ mode }) => {
                             type: "image/png",
                             purpose: "maskable monochrome",
                         },
+                    ],
+                    screenshots: [
+                        {
+                            src: `${env.VITE_BASE_URL}screenshots/korru-home-light-mobile.png`,
+                            sizes: "1290x2796",
+                            type: "image/png",
+                            form_factor: "narrow"
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}screenshots/korru-apps-light-mobile.png`,
+                            sizes: "1290x2796",
+                            type: "image/png",
+                            form_factor: "narrow"
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}screenshots/korru-search-light-mobile.png`,
+                            sizes: "1290x2796",
+                            type: "image/png",
+                            form_factor: "narrow"
+                        },
+                        {
+                            src: `${env.VITE_BASE_URL}screenshots/korru-search-dark-mobile.png`,
+                            sizes: "1290x2796",
+                            type: "image/png",
+                            form_factor: "narrow"
+                        },
                     ]
                 }
             }),
