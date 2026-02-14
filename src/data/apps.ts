@@ -2010,17 +2010,6 @@ const apps: Array<App> = [
         screenshots: []
     },
     {
-        id: 164,
-        name: "Chrome",
-        description: "",
-        url: "https://developer.chrome.com",
-        icon: {
-            url: "https://developer.chrome.com/icons/icon-72x72.png",
-            maskable: false,
-        },
-        screenshots: []
-    },
-    {
         id: 165,
         name: "Microsoft Bing Webmaster Tools",
         description: "",
@@ -2037,7 +2026,7 @@ const apps: Array<App> = [
         description: "Your AI agent. Live in seconds.",
         url: "https://openclaw.rocks",
         icon: {
-            url: "/icon-192.png",
+            url: "https://openclaw.rocks/icon-192.png",
             maskable: false,
         },
         screenshots: []
