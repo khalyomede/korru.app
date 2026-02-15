@@ -2589,8 +2589,139 @@ const apps: Array<App> = [
                 name: "Reddit Comments"
             },
         ],
+    },
+    {
+        id: 206,
+        name: "StellarSpeak",
+        description: "انطلق في رحلة كونية لتعلم الإنجليزية، من كوكب المبتدئين إلى سديم الحكمة.",
+        url: "https://www.stellarspeak.online",
+        icon: {
+            url: "https://www.stellarspeak.online/app-icon-192.png",
+            maskable: true,
+        },
+        "screenshots": [
+            {
+                url: "https://www.stellarspeak.online/screenshot1.png",
+                name: "اللوحة الرئيسية التفاعلية"
+            },
+            {
+                url: "https://www.stellarspeak.online/screenshot2.png",
+                name: "مركز القراءة والتأمل"
+            },
+            {
+                url: "https://www.stellarspeak.online/screenshot3.png",
+                name: "دليل القواعد النحوية"
+            },
+            {
+                url: "https://www.stellarspeak.online/screenshot4.png",
+                name: "محادثات لعب الأدوار"
+            }
+        ]
+    },
+    {
+        id: 207,
+        name: "PWA Inbox",
+        description: "PWA Inbox — a Progressive Web Application powered by MagicBell",
+        url: "https://pwainbox.com",
+        icon: {
+            url: "https://pwainbox.com/icons/ios/72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 208,
+        name: "Lichess",
+        url: "https://lichess.org",
+        description: "The (really) free, no-ads, open source chess server.",
+        icon: {
+            url: "https://lichess1.org/assets/logo/lichess-favicon-128.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 209,
+        name: "CardVault",
+        description: "Secure loyalty card manager with barcode scanning",
+        url: "https://maxgfr.github.io/loyalty-card-vault",
+        icon: {
+            url: "https://maxgfr.github.io/loyalty-card-vault/icons/manifest-icon-192.maskable.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 210,
+        name: "BLOCK MATCH",
+        description: "",
+        url: "https://block-match-game.vercel.app",
+        icon: {
+            url: "https://block-match-game.vercel.app/favicon.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 211,
+        name: "Tetrix",
+        description: "A free, ad-free relaxing puzzle game. Drag and drop shapes, clear lines, and enjoy infinite gameplay with no interruptions. Perfect for casual gaming and brain training.",
+        url: "https://tetrix.io",
+        icon: {
+            url: "https://tetrix.io/icons/icon-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 212,
+        name: "Web Store",
+        description: "Откройте мир web-приложений",
+        url: "https://wapps.store",
+        icon: {
+            url: "https://wapps.store/192x192_maskable.png",
+            maskable: true
+        },
+        screenshots: [
+            { url: "https://wapps.store/Screenshot_mobile_1.webp", name: "" },
+            { url: "https://wapps.store/Screenshot_mobile_2.webp", name: "" },
+            { url: "https://wapps.store/Screenshot_mobile_3.webp", name: "" },
+            { url: "https://wapps.store/Screenshot_mobile_4.webp", name: "" }
+        ]
+    },
+    {
+        id: 213,
+        name: "qr",
+        description: "no nonsense QR code generator as a Progressive Web App",
+        url: "https://hunterirving.github.io/qr",
+        icon: {
+            url: "https://hunterirving.github.io/qr/icon.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 214,
+        name: "icemap",
+        description: "Anonymous, real-time incident reporting on a map. No accounts. No tracking. Posts auto-delete after 7 days.",
+        url: "https://icemap.app",
+        icon: {
+            url: "https://icemap.app/icons/icon-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 215,
+        name: "TaskDumpr",
+        description: "",
+        url: "https://taskdumpr.com",
+        icon: {
+            url: "https://taskdumpr.com/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
     }
-
 ];
 
 export default apps;
