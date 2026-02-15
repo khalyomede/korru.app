@@ -2565,7 +2565,32 @@ const apps: Array<App> = [
             maskable: false,
         },
         screenshots: []
+    },
+    {
+        id: 205,
+        name: "Reddit",
+        description: "",
+        url: "https://www.reddit.com",
+        icon: {
+            url: "https://www.reddit.com/192x192.png",
+            maskable: false,
+        },
+        screenshots: [
+            {
+                url: "https://i.redd.it/lk9a4n01nl8d1.jpeg",
+                name: "Reddit Frontpage"
+            },
+            {
+                url: "https://i.redd.it/ybxp5fzd2m8d1.jpg",
+                name: "Reddit Subreddit"
+            },
+            {
+                url: "https://i.redd.it/m82m4gzd2m8d1.jpg",
+                name: "Reddit Comments"
+            },
+        ],
     }
+
 ];
 
 export default apps;

@@ -42,6 +42,15 @@ const complements: Array<Partial<App>> = [
     {
         id: 204,
         name: "Slingshot",
+    },
+    {
+        id: 205,
+        name: "Reddit",
+        description: "",
+        icon: {
+            url: "https://www.redditstatic.com/shreddit/assets/favicon/192x192.png",
+            maskable: false,
+        },
     }
 ];
 
