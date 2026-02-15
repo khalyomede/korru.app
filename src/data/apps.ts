@@ -64,7 +64,7 @@ const apps: Array<App> = [
     {
         id: 7,
         icon: {
-            url: "https://www.thefork.com/statics/icons/icon-48x48.png",
+            url: "https://www.thefork.com/statics/icons/icon-72x72.png",
             maskable: false,
         },
         url: "https://www.thefork.com/",
@@ -2083,6 +2083,486 @@ const apps: Array<App> = [
         icon: {
             url: "https://chartvacancy.website/android-chrome-192x192.png",
             maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 172,
+        name: "Math",
+        url: "https://mathriddles.netlify.app",
+        description: "Simple Quiz App with Interesting Maths Riddles & Levels up your IQ with Math Oparations.",
+        icon: {
+            url: "https://mathriddles.netlify.app/images/logo128.png",
+            maskable: true,
+        },
+        screenshots: [
+            {
+                url: "https://mathriddles.netlify.app/images/screenshot/ss(1).jpg",
+                name: ""
+            },
+            {
+                url: "https://mathriddles.netlify.app/images/screenshot/ss(2).jpg",
+                name: ""
+            },
+            {
+                url: "https://mathriddles.netlify.app/images/screenshot/ss(3).jpg",
+                name: ""
+            },
+            {
+                url: "https://mathriddles.netlify.app/images/screenshot/ss(4).jpg",
+                name: ""
+            },
+            {
+                url: "https://mathriddles.netlify.app/images/screenshot/ss(5).jpg",
+                name: ""
+            }
+        ]
+    },
+    {
+        id: 173,
+        name: "MConverter",
+        description: "Quick, easy and simple online file converter. Convert large files in bulk. Lots of video, audio, image, e-book, office and archive formats are supported, including AVIF and JPEG XL.\n📁 Convert by right-clicking on files: Open with... > MConverter, or via the Share menu.",
+        url: "https://mconverter.eu",
+        icon: {
+            url: "https://mconverter.eu/img/icon-pwa.png",
+            maskable: true,
+        },
+
+        screenshots: [
+            {
+                url: "https://mconverter.eu/img/screenshots/mobile-home.png",
+                name: ""
+            },
+            {
+                url: "https://mconverter.eu/img/screenshots/mobile-pick-format.png",
+                name: ""
+            },
+            {
+                url: "https://mconverter.eu/img/screenshots/mobile-share-file.png",
+                name: ""
+            },
+            {
+                url: "https://mconverter.eu/img/screenshots/mobile-convert-dark.png",
+                name: ""
+            },
+            {
+                url: "https://mconverter.eu/img/screenshots/mobile-download-multi.png",
+                name: ""
+            },
+        ],
+    },
+    {
+        id: 174,
+        name: "Memory Game",
+        description: "Play this game and strengthen your memory!",
+        url: "https://pwa-memory-game.surge.sh",
+        icon: {
+            url: "https://pwa-memory-game.surge.sh/images/72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 175,
+        name: "Messages",
+        description: "",
+        url: "https://messages.google.com",
+        icon: {
+            url: "https://ssl.gstatic.com/android-messages-web/images/2022.3/2x/messages_2022_round_96dp.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 176,
+        name: "MoneyTracker",
+        description: "",
+        icon: {
+            url: "https://app.moneytracker.cc/favicon-192.png",
+            maskable: false,
+        },
+        url: "https://app.moneytracker.cc",
+        screenshots: []
+    },
+    {
+        id: 177,
+        name: "Morse Code Translator",
+        url: "https://morsecodetranslator.com",
+        description: "Translate text to Morse code and vice versa.",
+        icon: {
+            url: "https://morsecodetranslator.com/assets/icons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 177,
+        name: "MTGStocks",
+        description: "",
+        icon: {
+            url: "https://www.mtgstocks.com/assets/images/favicons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.mtgstocks.com",
+        screenshots: []
+    },
+    {
+        id: 178,
+        name: "Murlok",
+        description: "Explore in-depth PvP and PvE character build guides for WoW The War Within 12.0, tailored for Solo Shuffle, 2v2, 3v3, RBG, and Mythic+. Gain insights from analyses of the top 50 players for each class and game mode. Continually updated every 8 hours to ensure you have the latest WoW meta strategies.",
+        url: "https://murlok.io",
+        icon: {
+            url: "https://static.murlok.io/web/murlok-maskable-512.png",
+            maskable: true
+        },
+        screenshots: []
+    },
+    {
+        id: 179,
+        name: "Nanocell-csv",
+        url: "https://www.nanocell-csv.com/app/home.html",
+        description: "Nanocell - CSV file viewer & editor : free, fast, simple, lightweight, offline, cross platform, data accurate, PWA (Progressive Web App)",
+        icon: {
+            url: "https://www.nanocell-csv.com/app/favicon-96x96.png",
+            maskable: false,
+        },
+        screenshots: [
+            {
+                url: "https://www.nanocell-csv.com/app/web/img/screenshot_light.png",
+                name: "App spreadsheet in light mode"
+            },
+            {
+                url: "https://www.nanocell-csv.com/app/web/img/screenshot_dark.png",
+                name: "App spreadsheet in dark mode"
+            }
+        ]
+    },
+    {
+        id: 180,
+        name: "Othello",
+        description: "Play Othello against an AI with this beautiful modern web app.",
+        url: "https://othello-rust.web.app",
+        icon: {
+            url: "https://othello-rust.web.app/icons/maskable-192.png",
+            maskable: true,
+        },
+        screenshots: [
+            {
+                url: "https://othello-rust.web.app/screenshots/android/0.webp",
+                name: ""
+            },
+            {
+                url: "https://othello-rust.web.app/screenshots/android/1.webp",
+                name: ""
+            },
+            {
+                url: "https://othello-rust.web.app/screenshots/android/2.webp",
+                name: ""
+            },
+            {
+                url: "https://othello-rust.web.app/screenshots/android/3.webp",
+                name: ""
+            },
+            {
+                url: "https://othello-rust.web.app/screenshots/android/4.webp",
+                name: ""
+            },
+            {
+                url: "https://othello-rust.web.app/screenshots/android/5.webp",
+                name: ""
+            },
+        ]
+    },
+    {
+        id: 181,
+        url: "https://pasteepad.com/",
+        name: "PasteePad",
+        description: "Online Text Editor to paste and keep text, great for notes, todos and links.",
+        icon: {
+            url: "https://pasteepad.com/icon-192x192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 182,
+        name: "PixelCraft",
+        description: "",
+        icon: {
+            url: "https://pixelcraft.web.app/icons/logo.png",
+            maskable: false,
+        },
+        screenshots: [],
+        url: "https://pixelcraft.web.app",
+    },
+    {
+        id: 183,
+        url: "https://nenadalm.github.io/player-order-selector",
+        name: "Player order selector",
+        description: "Random player order selector.",
+        icon: {
+            url: "https://nenadalm.github.io/player-order-selector/img/icon_512.png?v=074eee41d756a3e583a039e8d349bb8048c28c48",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 184,
+        name: "PWA NES",
+        description: "8-bit NES Emulator",
+        icon: {
+            url: "https://pwa-nes.vercel.app/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://pwa-nes.vercel.app",
+        screenshots: []
+    },
+    {
+        id: 185,
+        name: "Qi Reader",
+        description: "A Modern Web RSS Reader",
+        url: "https://www.qireader.com",
+        icon: {
+            url: "https://www.qireader.com/static/icon192.maskable.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 186,
+        name: "QR Code Generator",
+        description: "Create custom QR Codes. You can save them as PNG image. You can change the size of the image.",
+        url: "https://qr-code-generator.vercel.app",
+        icon: {
+            url: "https://qr-code-generator.vercel.app/assets/icons/icon-72x72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 187,
+        name: "SimilarWorlds",
+        url: "https://similarworlds.com/",
+        description: "Discuss Experiences, Share Stories, Ask Questions, Find Answers, Explore Interests, Make Friends, Express your true Self - The New Experience Project is Here!",
+
+        icon: {
+            url: "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-1024-Mask.png",
+            maskable: true,
+        },
+        screenshots: [
+            {
+                url: "https://images.similarworlds.com/SW-PWA-01.jpg",
+                name: ""
+            },
+            {
+                url: "https://images.similarworlds.com/SW-PWA-02.jpg",
+                name: ""
+            },
+        ],
+    },
+    {
+        id: 188,
+        name: "Converter",
+        description: "",
+        icon: {
+            url: "https://currency-converter.vercel.app/favicon-small.png",
+            maskable: false,
+        },
+        url: "https://currency-converter.vercel.app",
+        screenshots: []
+    },
+    {
+        id: 189,
+        url: "https://soodoku.com",
+        name: "Soodoku",
+        description: "Free online & offline sudoku game with unlimited puzzles available 24/7 without ads or registration",
+        icon: {
+            url: "https://soodoku.com/android-chrome-512x512.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 190,
+        name: "Splittypie",
+        description: "",
+        url: "https://splittypie.com",
+        icon: {
+            url: "https://splittypie.com/assets/icons/android/icon-72x72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 191,
+        name: "MobiTUKI",
+        description: "The best available English-Swahili-English dictionary with 30000+ entries, including idioms, derivatives, etymology and examples.",
+        url: "https://swahili-dictionary.com",
+        icon: {
+            url: "https://swahili-dictionary.com/static/img/favicon/apple-touch-icon.png",
+            maskable: true,
+        },
+        screenshots: [
+            {
+                url: "https://swahili-dictionary.com/static/img/screenshot1.png",
+                name: ""
+            },
+            {
+                url: "https://swahili-dictionary.com/static/img/screenshot2.png",
+                name: ""
+            }
+        ]
+    },
+    {
+        id: 192,
+        name: "Todoly",
+        url: "https://t4p4n.github.io/todoly",
+        description: "A Simple Todo List App!",
+        icon: {
+            url: "https://t4p4n.github.io/todoly/images/msteams-192-192.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 193,
+        url: "https://m.uber.com",
+        name: "Uber",
+        description: "",
+        icon:
+        {
+            url: "https://d3i4yxtzktqr9n.cloudfront.net/web-plan/b8c00410291161d0.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 194,
+        name: "Zadig&Voltaire",
+        description: "",
+        url: "https://zadig-et-voltaire.com",
+        icon: {
+            url: "https://zadig-et-voltaire.com/assets/android-icon-72x72.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 195,
+        name: "Tower Game",
+        description: "Stack blocks and build the tallest tower!",
+        icon: {
+            url: "https://towergame.app/assets/icon-192.png",
+            maskable: false,
+        },
+        url: "https://towergame.app",
+        screenshots: []
+    },
+    {
+        id: 196,
+        name: "Hextris",
+        url: "https://hextris.io",
+        description: "An addictive puzzle game inspired by Tetris.",
+        icon: {
+            url: "https://hextris.io/images/icons/maskable-192.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 197,
+        name: "Alchemy 2",
+        description: "Combine items and create the world from scratch! Fun as always, more exciting than ever! Little Alchemy returns in style!",
+        icon: {
+            url: "https://littlealchemy2.com/public/icons/icon-72x72.png",
+            maskable: false,
+        },
+        url: "https://littlealchemy2.com",
+        screenshots: []
+    },
+    {
+        id: 198,
+        name: "The Cube",
+        description: "",
+        icon: {
+            url: "https://bsehovac.github.io/the-cube/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://bsehovac.github.io/the-cube",
+        screenshots: []
+    },
+    {
+        id: 199,
+        name: "Bubble Pairs",
+        description: "A good old memory game with new and unique elements that make play experience remarkable.",
+        url: "https://bubblepairs.apps.in.rs/",
+        icon: {
+            url: "https://bubblepairs.apps.in.rs/game-icon-big.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 200,
+        name: "SNAKISMS",
+        description: "Life is meaningless! Maybe you need some kind of ism to attempt to ward off the inevitable and unavoidable despair! Here, have some isms made of snakes! Life is still meaningless but now you have a bunch of snakes as well! Thank me later!",
+        url: "https://pippinbarr.com/SNAKISMS",
+        icon: {
+            url: "https://pippinbarr.com/SNAKISMS/press/images/SNAKISMS.png",
+            maskable: false,
+        },
+        screenshots: []
+    },
+    {
+        id: 201,
+        name: "Code Insiders",
+        description: "",
+        url: "https://insiders.vscode.dev/",
+        icon: {
+            url: "https://insiders.vscode.dev/static/insider/code-192-maskable.png",
+            maskable: true,
+        },
+        screenshots: []
+    },
+    {
+        id: 202,
+        name: "Nova",
+        description: "Track your net worth across all assets with AI-powered insights. Secure, comprehensive, and affordable.",
+        url: "https://www.novanetworth.com",
+        icon: {
+            url: "https://www.novanetworth.com/favicons/light/android-chrome-192x192.png",
+            maskable: true,
+        },
+        screenshots: [
+            {
+                url: "https://www.novanetworth.com/images/screenshots/dashboard-light.webp",
+                name: "Nova Dashboard - Track your complete net worth"
+            },
+            {
+                url: "https://www.novanetworth.com/images/screenshots/accounts-light.webp",
+                name: "All Accounts - Banking, investments, crypto, real estate"
+            }
+        ]
+    },
+    {
+        id: 203,
+        name: "Loxalize",
+        description: "",
+        icon: {
+            url: "https://loxalize.ai/web-app-manifest-192x192.png",
+            maskable: false,
+        },
+        url: "https://loxalize.ai",
+        screenshots: []
+    },
+    {
+        id: 204,
+        name: "slingshot.money",
+        description: "",
+        url: "https://www.slingshot.money",
+        icon: {
+            url: "https://www.slingshot.money/logo-192.png",
+            maskable: false,
         },
         screenshots: []
     }
