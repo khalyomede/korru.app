@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd());
 
     return {
-        base: env.VITE_BASE_URL || '/',
+        base: env.VITE_APP_BASE_URL || '/',
         plugins: [
             devtools(),
             solidPlugin(),
@@ -43,51 +43,51 @@ export default defineConfig(({ mode }) => {
                     name: env.VITE_APP_NAME,
                     short_name: env.VITE_APP_NAME,
                     description: `${env.VITE_APP_SLOGAN_1} ${env.VITE_APP_SLOGAN_2}`,
-                    theme_color: env.VITE_LIGHT_THEME,
+                    theme_color: env.VITE_THEME_LIGHT,
                     dir: "ltr",
                     lang: "en-US",
-                    scope: env.VITE_BASE_URL,
+                    scope: env.VITE_APP_BASE_URL,
                     display: "standalone",
                     orientation: "portrait-primary",
-                    start_url: env.VITE_BASE_URL,
-                    id: env.VITE_PRODUCTION_DOMAIN,
-                    background_color: env.VITE_DARK_THEME,
+                    start_url: env.VITE_APP_BASE_URL,
+                    id: env.VITE_APP_PRODUCTION_DOMAIN,
+                    background_color: env.VITE_THEME_DARK,
                     categories: [
                         "reference"
                     ],
                     icons: [
                         {
-                            src: `${env.VITE_BASE_URL}logo/korru-logo-2000.png`,
+                            src: `${env.VITE_APP_BASE_URL}logo/korru-logo-2000.png`,
                             sizes: "2000x2000",
                             type: "image/png",
                             purpose: "any",
                         },
                         {
-                            src: `${env.VITE_BASE_URL}logo/korru-logo-512.png`,
+                            src: `${env.VITE_APP_BASE_URL}logo/korru-logo-512.png`,
                             sizes: "512x512",
                             type: "image/png",
                             purpose: "any",
                         },
                         {
-                            src: `${env.VITE_BASE_URL}logo/korru-logo-192.png`,
+                            src: `${env.VITE_APP_BASE_URL}logo/korru-logo-192.png`,
                             sizes: "192x192",
                             type: "image/png",
                             purpose: "any",
                         },
                         {
-                            src: `${env.VITE_BASE_URL}logo/korru-logo-maskable-2000.png`,
+                            src: `${env.VITE_APP_BASE_URL}logo/korru-logo-maskable-2000.png`,
                             sizes: "2000x2000",
                             type: "image/png",
                             purpose: "maskable",
                         },
                         {
-                            src: `${env.VITE_BASE_URL}logo/korru-logo-monochrome-2000.png`,
+                            src: `${env.VITE_APP_BASE_URL}logo/korru-logo-monochrome-2000.png`,
                             sizes: "2000x2000",
                             type: "image/png",
                             purpose: "monochrome",
                         },
                         {
-                            src: `${env.VITE_BASE_URL}logo/korru-logo-maskable-monochrome-2000.png`,
+                            src: `${env.VITE_APP_BASE_URL}logo/korru-logo-maskable-monochrome-2000.png`,
                             sizes: "2000x2000",
                             type: "image/png",
                             purpose: "maskable monochrome",
@@ -95,25 +95,25 @@ export default defineConfig(({ mode }) => {
                     ],
                     screenshots: [
                         {
-                            src: `${env.VITE_BASE_URL}screenshots/korru-home-light-mobile.png`,
+                            src: `${env.VITE_APP_BASE_URL}screenshots/korru-home-light-mobile.png`,
                             sizes: "1290x2796",
                             type: "image/png",
                             form_factor: "narrow"
                         },
                         {
-                            src: `${env.VITE_BASE_URL}screenshots/korru-apps-light-mobile.png`,
+                            src: `${env.VITE_APP_BASE_URL}screenshots/korru-apps-light-mobile.png`,
                             sizes: "1290x2796",
                             type: "image/png",
                             form_factor: "narrow"
                         },
                         {
-                            src: `${env.VITE_BASE_URL}screenshots/korru-search-light-mobile.png`,
+                            src: `${env.VITE_APP_BASE_URL}screenshots/korru-search-light-mobile.png`,
                             sizes: "1290x2796",
                             type: "image/png",
                             form_factor: "narrow"
                         },
                         {
-                            src: `${env.VITE_BASE_URL}screenshots/korru-search-dark-mobile.png`,
+                            src: `${env.VITE_APP_BASE_URL}screenshots/korru-search-dark-mobile.png`,
                             sizes: "1290x2796",
                             type: "image/png",
                             form_factor: "narrow"
