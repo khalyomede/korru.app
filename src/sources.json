@@ -1,5 +1,822 @@
 [
     {
-        "url": "https://open.spotify.com"
+        "id": 1,
+        "url": "https://open.spotify.com",
+        "manifestUrl": "https://open.spotifycdn.com/cdn/generated/manifest-mobile-web-player.a1ddf51c.json"
+    },
+    {
+        "id": 4,
+        "url": "https://play2048.co",
+        "manifestUrl": "https://play2048.co/manifest.json"
+    },
+    {
+        "id": 5,
+        "url": "https://www.youtube.com",
+        "manifestUrl": "https://www.youtube.com/manifest.webmanifest"
+    },
+    {
+        "id": 6,
+        "url": "https://x.com",
+        "manifestUrl": "https://x.com/manifest.json"
+    },
+    {
+        "id": 7,
+        "url": "https://www.thefork.com"
+    },
+    {
+        "id": 8,
+        "url": "https://translate.google.com"
+    },
+    {
+        "id": 9,
+        "url": "https://pinterest.com"
+    },
+    {
+        "id": 10,
+        "url": "https://www.starbucks.com"
+    },
+    {
+        "id": 11,
+        "url": "https://www.jumia.ma"
+    },
+    {
+        "id": 12,
+        "url": "https://www.olx.in"
+    },
+    {
+        "id": 13,
+        "url": "https://www.ft.com"
+    },
+    {
+        "id": 14,
+        "url": "https://www.infobae.com"
+    },
+    {
+        "id": 15,
+        "url": "https://www.nau.ch"
+    },
+    {
+        "id": 16,
+        "url": "https://medium.com"
+    },
+    {
+        "id": 17,
+        "url": "https://weather.com"
+    },
+    {
+        "id": 18,
+        "url": "https://www.openrent.co.uk"
+    },
+    {
+        "id": 19,
+        "url": "https://www.airbnb.fr"
+    },
+    {
+        "id": 20,
+        "url": "https://www.carigami.fr"
+    },
+    {
+        "id": 21,
+        "url": "https://www.shine.com"
+    },
+    {
+        "id": 22,
+        "url": "https://www.instagram.com"
+    },
+    {
+        "id": 23,
+        "url": "https://www.treebo.com"
+    },
+    {
+        "id": 24,
+        "url": "https://www.makemytrip.com"
+    },
+    {
+        "id": 25,
+        "url": "https://www.soundslice.com"
+    },
+    {
+        "id": 26,
+        "url": "https://1tuner.com"
+    },
+    {
+        "id": 27,
+        "url": "https://9gag.com"
+    },
+    {
+        "id": 28,
+        "url": "https://www.lotto.de"
+    },
+    {
+        "id": 29,
+        "url": "https://tinder.com"
+    },
+    {
+        "id": 30,
+        "url": "https://www.datememe.com"
+    },
+    {
+        "id": 31,
+        "url": "https://squoosh.app"
+    },
+    {
+        "id": 32,
+        "url": "https://flipboard.com"
+    },
+    {
+        "id": 33,
+        "url": "https://www.flipkart.com"
+    },
+    {
+        "id": 34,
+        "url": "https://guitar-tuner.appspot.com"
+    },
+    {
+        "id": 35,
+        "url": "https://housing.com"
+    },
+    {
+        "id": 36,
+        "url": "https://andreasbovens.github.io/inbox-attack"
+    },
+    {
+        "id": 37,
+        "url": "https://www.konga.com"
+    },
+    {
+        "id": 38,
+        "url": "https://paperplanes.world"
+    },
+    {
+        "id": 39,
+        "url": "https://pokedex.org"
+    },
+    {
+        "id": 40,
+        "url": "https://2048-opera-pwa.surge.sh"
+    },
+    {
+        "id": 41,
+        "url": "https://qrcodescan.in"
+    },
+    {
+        "id": 42,
+        "url": "https://smaller-pictures.appspot.com"
+    },
+    {
+        "id": 43,
+        "url": "https://snapdrop.net"
+    },
+    {
+        "id": 44,
+        "url": "https://jakearchibald.github.io/svgomg"
+    },
+    {
+        "id": 45,
+        "url": "https://www.selio.com"
+    },
+    {
+        "id": 46,
+        "url": "https://thesession.org"
+    },
+    {
+        "id": 47,
+        "url": "https://resilientwebdesign.com"
+    },
+    {
+        "id": 48,
+        "url": "https://www.englishaccentsmap.com"
+    },
+    {
+        "id": 49,
+        "url": "https://sii.im/playground/notes"
+    },
+    {
+        "id": 50,
+        "url": "https://freepacman.org"
+    },
+    {
+        "id": 51,
+        "url": "https://happyhopper.org"
+    },
+    {
+        "id": 52,
+        "url": "https://freeflappybird.org"
+    },
+    {
+        "id": 53,
+        "url": "https://freewordle.org"
+    },
+    {
+        "id": 54,
+        "url": "https://freemahjong.org"
+    },
+    {
+        "id": 55,
+        "url": "https://freesolitaire.org"
+    },
+    {
+        "id": 56,
+        "url": "https://freesimon.org"
+    },
+    {
+        "id": 57,
+        "url": "https://poki.com"
+    },
+    {
+        "id": 58,
+        "url": "https://mahjong.jull.dev"
+    },
+    {
+        "id": 59,
+        "url": "https://geogee.me"
+    },
+    {
+        "id": 60,
+        "url": "https://excalidraw.com"
+    },
+    {
+        "id": 61,
+        "url": "https://jdsports.id"
+    },
+    {
+        "id": 62,
+        "url": "https://www.rakuten.tv"
+    },
+    {
+        "id": 63,
+        "url": "https://www.zdf.de"
+    },
+    {
+        "id": 64,
+        "url": "https://www.pwabuilder.com"
+    },
+    {
+        "id": 65,
+        "url": "https://www.kitchenaid.com"
+    },
+    {
+        "id": 66,
+        "url": "https://in.bookmyshow.com"
+    },
+    {
+        "id": 67,
+        "url": "https://www.onthemarket.com"
+    },
+    {
+        "id": 68,
+        "url": "https://www.ride-app.com"
+    },
+    {
+        "id": 69,
+        "url": "https://alarmdj.com"
+    },
+    {
+        "id": 70,
+        "url": "https://anonynote.org"
+    },
+    {
+        "id": 71,
+        "url": "https://avain.app"
+    },
+    {
+        "id": 72,
+        "url": "https://www.booksie.org"
+    },
+    {
+        "id": 73,
+        "url": "https://brutalisthackernews.com"
+    },
+    {
+        "id": 74,
+        "url": "https://calculator-app-tau.vercel.app"
+    },
+    {
+        "id": 75,
+        "url": "https://carecards.io"
+    },
+    {
+        "id": 76,
+        "url": "https://catsafefoods.com"
+    },
+    {
+        "id": 77,
+        "url": "https://chitchatter.im"
+    },
+    {
+        "id": 78,
+        "url": "https://regex101.com"
+    },
+    {
+        "id": 79,
+        "url": "https://colorbeta.com"
+    },
+    {
+        "id": 80,
+        "url": "https://closerinti.me"
+    },
+    {
+        "id": 81,
+        "url": "https://naramsim.github.io/Colosseum"
+    },
+    {
+        "id": 82,
+        "url": "https://www.computerbase.de"
+    },
+    {
+        "id": 83,
+        "url": "https://crazydice.netlify.app"
+    },
+    {
+        "id": 84,
+        "url": "https://dogsafefoods.com"
+    },
+    {
+        "id": 85,
+        "url": "https://jsonformatter.com"
+    },
+    {
+        "id": 86,
+        "url": "https://nenadalm.github.io/life-counter"
+    },
+    {
+        "id": 87,
+        "url": "https://claude.ai"
+    },
+    {
+        "id": 88,
+        "url": "https://grok.com"
+    },
+    {
+        "id": 89,
+        "url": "https://chat.mistral.ai"
+    },
+    {
+        "id": 90,
+        "url": "https://m.facebook.com"
+    },
+    {
+        "id": 91,
+        "url": "https://en.wikipedia.org"
+    },
+    {
+        "id": 92,
+        "url": "https://www.chess.com"
+    },
+    {
+        "id": 93,
+        "url": "https://www.deviantart.com"
+    },
+    {
+        "id": 94,
+        "url": "https://github.com"
+    },
+    {
+        "id": 95,
+        "url": "https://mastodon.social"
+    },
+    {
+        "id": 98,
+        "url": "https://www.threads.com"
+    },
+    {
+        "id": 99,
+        "url": "https://www.tiktok.com"
+    },
+    {
+        "id": 100,
+        "url": "https://truthsocial.com"
+    },
+    {
+        "id": 101,
+        "url": "https://www.tumblr.com"
+    },
+    {
+        "id": 102,
+        "url": "https://www.glassdoor.com"
+    },
+    {
+        "id": 103,
+        "url": "https://mail.google.com"
+    },
+    {
+        "id": 104,
+        "url": "https://maps.google.com"
+    },
+    {
+        "id": 105,
+        "url": "https://docs.google.com"
+    },
+    {
+        "id": 106,
+        "url": "https://sheets.google.com"
+    },
+    {
+        "id": 107,
+        "url": "https://slides.google.com"
+    },
+    {
+        "id": 108,
+        "url": "https://calendar.google.com"
+    },
+    {
+        "id": 111,
+        "url": "https://www.duolingo.com"
+    },
+    {
+        "id": 112,
+        "url": "https://laracasts.com"
+    },
+    {
+        "id": 114,
+        "url": "https://www.todoist.com"
+    },
+    {
+        "id": 115,
+        "url": "https://news.google.com"
+    },
+    {
+        "id": 118,
+        "url": "https://substack.com"
+    },
+    {
+        "id": 119,
+        "url": "https://vercel.com"
+    },
+    {
+        "id": 121,
+        "url": "https://proto.io"
+    },
+    {
+        "id": 123,
+        "url": "https://monzo.com"
+    },
+    {
+        "id": 124,
+        "url": "https://www.ally.com"
+    },
+    {
+        "id": 125,
+        "url": "https://www.creditkarma.com"
+    },
+    {
+        "id": 126,
+        "url": "https://www.ramseysolutions.com/money/everydollar"
+    },
+    {
+        "id": 127,
+        "url": "https://www.myfitnesspal.com"
+    },
+    {
+        "id": 128,
+        "url": "https://bentopdf.com"
+    },
+    {
+        "id": 129,
+        "url": "https://it-tools.tech"
+    },
+    {
+        "id": 130,
+        "url": "https://mazanoke.com"
+    },
+    {
+        "id": 131,
+        "url": "https://photos.google.com"
+    },
+    {
+        "id": 132,
+        "url": "https://developer.mozilla.org"
+    },
+    {
+        "id": 133,
+        "url": "https://app.reve.com"
+    },
+    {
+        "id": 134,
+        "url": "https://aistudio.google.com"
+    },
+    {
+        "id": 135,
+        "url": "https://sora.chatgpt.com"
+    },
+    {
+        "id": 136,
+        "url": "https://ideogram.a"
+    },
+    {
+        "id": 137,
+        "url": "https://suno.com"
+    },
+    {
+        "id": 138,
+        "url": "https://www.hume.ai"
+    },
+    {
+        "id": 139,
+        "url": "https://manifest.web.nairi.cloud"
+    },
+    {
+        "id": 140,
+        "url": "https://www.cbsnews.com"
+    },
+    {
+        "id": 141,
+        "url": "https://globalnews.ca"
+    },
+    {
+        "id": 142,
+        "url": "https://www.cbc.ca"
+    },
+    {
+        "id": 143,
+        "url": "https://www.france24.com"
+    },
+    {
+        "id": 144,
+        "url": "https://www.dw.com"
+    },
+    {
+        "id": 145,
+        "url": "https://time.com"
+    },
+    {
+        "id": 146,
+        "url": "https://www.deviantart.com"
+    },
+    {
+        "id": 147,
+        "url": "https://m.twitch.tv"
+    },
+    {
+        "id": 148,
+        "url": "https://www.seamless.com"
+    },
+    {
+        "id": 149,
+        "url": "https://postmates.com"
+    },
+    {
+        "id": 150,
+        "url": "https://www.ubereats.com"
+    },
+    {
+        "id": 151,
+        "url": "https://m.shein.com"
+    },
+    {
+        "id": 152,
+        "url": "https://www.ebay.com"
+    },
+    {
+        "id": 153,
+        "url": "https://www.swiggy.com"
+    },
+    {
+        "id": 154,
+        "url": "https://www.economist.com"
+    },
+    {
+        "id": 155,
+        "url": "https://progressier.com"
+    },
+    {
+        "id": 156,
+        "url": "https://whatpwacando.today"
+    },
+    {
+        "id": 157,
+        "url": "https://store.app"
+    },
+    {
+        "id": 158,
+        "url": "https://workledger.org"
+    },
+    {
+        "id": 159,
+        "url": "https://www.vehique.ai"
+    },
+    {
+        "id": 160,
+        "url": "https://fair-weather.query-farm.services"
+    },
+    {
+        "id": 161,
+        "url": "https://web.fluxer.app"
+    },
+    {
+        "id": 162,
+        "url": "https://roqueos.com.br/app"
+    },
+    {
+        "id": 163,
+        "url": "https://www.myminifactory.com"
+    },
+    {
+        "id": 165,
+        "url": "https://www.bing.com/webmasters"
+    },
+    {
+        "id": 166,
+        "url": "https://openclaw.rocks"
+    },
+    {
+        "id": 167,
+        "url": "https://kuro-nuri.com"
+    },
+    {
+        "id": 168,
+        "url": "https://www.m-session.com"
+    },
+    {
+        "id": 169,
+        "url": "https://elebean.com"
+    },
+    {
+        "id": 170,
+        "url": "https://www.resumble.com"
+    },
+    {
+        "id": 171,
+        "url": "https://chartvacancy.website"
+    },
+    {
+        "id": 172,
+        "url": "https://mathriddles.netlify.app"
+    },
+    {
+        "id": 173,
+        "url": "https://mconverter.eu"
+    },
+    {
+        "id": 174,
+        "url": "https://pwa-memory-game.surge.sh"
+    },
+    {
+        "id": 175,
+        "url": "https://messages.google.com"
+    },
+    {
+        "id": 176,
+        "url": "https://app.moneytracker.cc"
+    },
+    {
+        "id": 177,
+        "url": "https://morsecodetranslator.com"
+    },
+    {
+        "id": 177,
+        "url": "https://www.mtgstocks.com"
+    },
+    {
+        "id": 178,
+        "url": "https://murlok.io"
+    },
+    {
+        "id": 179,
+        "url": "https://www.nanocell-csv.com/app"
+    },
+    {
+        "id": 180,
+        "url": "https://othello-rust.web.app"
+    },
+    {
+        "id": 181,
+        "url": "https://pasteepad.com"
+    },
+    {
+        "id": 182,
+        "url": "https://pixelcraft.web.app"
+    },
+    {
+        "id": 183,
+        "url": "https://nenadalm.github.io/player-order-selector"
+    },
+    {
+        "id": 184,
+        "url": "https://pwa-nes.vercel.app"
+    },
+    {
+        "id": 185,
+        "url": "https://www.qireader.com"
+    },
+    {
+        "id": 186,
+        "url": "https://qr-code-generator.vercel.app"
+    },
+    {
+        "id": 187,
+        "url": "https://similarworlds.com"
+    },
+    {
+        "id": 188,
+        "url": "https://currency-converter.vercel.app"
+    },
+    {
+        "id": 189,
+        "url": "https://soodoku.com"
+    },
+    {
+        "id": 190,
+        "url": "https://splittypie.com"
+    },
+    {
+        "id": 191,
+        "url": "https://swahili-dictionary.com"
+    },
+    {
+        "id": 192,
+        "url": "https://t4p4n.github.io/todoly"
+    },
+    {
+        "id": 193,
+        "url": "https://m.uber.com"
+    },
+    {
+        "id": 194,
+        "url": "https://zadig-et-voltaire.com"
+    },
+    {
+        "id": 195,
+        "url": "https://towergame.app"
+    },
+    {
+        "id": 196,
+        "url": "https://hextris.io"
+    },
+    {
+        "id": 197,
+        "url": "https://littlealchemy2.com"
+    },
+    {
+        "id": 198,
+        "url": "https://bsehovac.github.io/the-cube"
+    },
+    {
+        "id": 199,
+        "url": "https://bubblepairs.apps.in.rs"
+    },
+    {
+        "id": 200,
+        "url": "https://pippinbarr.com/SNAKISMS"
+    },
+    {
+        "id": 201,
+        "url": "https://insiders.vscode.dev"
+    },
+    {
+        "id": 202,
+        "url": "https://www.novanetworth.com"
+    },
+    {
+        "id": 203,
+        "url": "https://loxalize.ai"
+    },
+    {
+        "id": 204,
+        "url": "https://www.slingshot.money"
+    },
+    {
+        "id": 205,
+        "url": "https://www.reddit.com"
+    },
+    {
+        "id": 206,
+        "url": "https://www.stellarspeak.online"
+    },
+    {
+        "id": 207,
+        "url": "https://pwainbox.com"
+    },
+    {
+        "id": 208,
+        "url": "https://lichess.org"
+    },
+    {
+        "id": 209,
+        "url": "https://maxgfr.github.io/loyalty-card-vault"
+    },
+    {
+        "id": 210,
+        "url": "https://block-match-game.vercel.app"
+    },
+    {
+        "id": 211,
+        "url": "https://tetrix.io"
+    },
+    {
+        "id": 212,
+        "url": "https://wapps.store"
+    },
+    {
+        "id": 213,
+        "url": "https://hunterirving.github.io/qr"
+    },
+    {
+        "id": 214,
+        "url": "https://icemap.app"
+    },
+    {
+        "id": 215,
+        "url": "https://taskdumpr.com"
     }
 ]

@@ -8,7 +8,7 @@
         "dev": "vite --host",
         "build": "vite build",
         "serve": "vite preview",
-        "parse": "node scripts/parser.ts"
+        "parse": "node src/scripts/parser.ts"
     },
     "license": "MIT",
     "devDependencies": {

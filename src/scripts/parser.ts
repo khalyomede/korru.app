@@ -1,6 +1,40 @@
 import { parse } from "node-html-parser";
 import { object, string, array } from "zod";
 import sources from "../sources.json" with { type: "json" };
+import { writeFile } from "fs/promises";
+import { join } from "path";
+import type App from "../interfaces/App";
+
+const fetchAsChrome = (url: string | URL): Promise<Response> =>
+    fetch(url, {
+        headers: {
+            // 1. The most important header
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+
+            // 2. Standard acceptance headers
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+
+            // 3. Connection settings
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+
+            // 4. Modern Chrome Client Hints (Sec-Ch-Ua)
+            // These tell the server specifically which browser version is being used
+            'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"Windows"',
+
+            // 5. Security headers
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+        },
+        // Optional: Follow redirects automatically
+        redirect: 'follow',
+    });
 
 const Manifest = object({
     name: string(),
@@ -26,64 +60,38 @@ for (const source of sources) {
     let response: Response | null = null;
     let body = "";
 
-    try {
-        response = await fetch(source.url);
-    } catch (error) {
-        console.error(`${logPrefix} could not fetch URL`);
-        console.error(error);
+    // Checks if url is unique
+    if (sources.filter(record => record.url === source.url).length !== 1) {
+        console.error(`${logPrefix} duplicate URL`);
 
         index++;
 
         continue;
     }
 
-    if (!response.ok) {
-        console.error(`${logPrefix} ${response.status} HTTP status received`);
-        console.error(`${logPrefix} ${response.statusText}`);
+    // Checks if id is unique
+    if (sources.filter(record => record.id === source.id).length !== 1) {
+        console.error(`${logPrefix} duplicate id ${source.id}`);
 
         index++;
 
         continue;
     }
 
-    try {
-        body = await response.text();
-    } catch (error) {
-        console.error(`${logPrefix} could not parse body`);
-        console.error(error);
+    if (!source.manifestUrl) {
+        console.error(`${logPrefix} No manifest URL specified`);
 
         index++;
 
         continue;
     }
 
-    const manifest = parse(body).querySelector('link[rel=manifest]');
-
-    if (manifest === null) {
-        console.error(`${logPrefix} no manifest file found`);
-
-        index++;
-
-        continue;
-    }
-
-    const href = manifest.getAttribute("href");
-
-    if (href === undefined) {
-        console.error(`${logPrefix} href not defined on meta manifest`);
-
-        index++;
-
-        continue;
-    }
-
-    const manifestUrl = new URL(href, source.url);
     let manifestResponse: Response | null = null;
 
     try {
-        manifestResponse = await fetch(manifestUrl);
+        manifestResponse = await fetchAsChrome(source.manifestUrl);
     } catch (error) {
-        console.error(`${logPrefix} could not fetch manifest at ${manifestUrl}`);
+        console.error(`${logPrefix} could not fetch manifest at ${source.manifestUrl}`);
         console.error(error);
 
         index++;
@@ -96,7 +104,7 @@ for (const source of sources) {
     try {
         manifestData = await manifestResponse.json();
     } catch (error) {
-        console.error(`${logPrefix} error while parsing ${manifestUrl} JSON content`);
+        console.error(`${logPrefix} error while parsing ${source.manifestUrl} JSON content`);
         console.error(error);
 
         index++;
@@ -109,7 +117,7 @@ for (const source of sources) {
     try {
         parsedManifest = Manifest.parse(manifestData);
     } catch (error) {
-        console.error(`${logPrefix} error while validating ${manifestUrl} JSON content`);
+        console.error(`${logPrefix} error while validating ${source.manifestUrl} JSON content`);
         console.error(error);
 
         index++;
@@ -173,24 +181,20 @@ for (const source of sources) {
         })
         .at(0);
 
-    const maskableIcon = icon?.purpose?.split(" ").includes("maskable") ? "true" : "false";
-    const name = (parsedManifest.short_name || parsedManifest.name).replace('"', '\\"');
-    const description = (parsedManifest.description || "").replace('"', '\\"');
-    const url = source.url.replace('"', '\\"');
-
-    code.push(`
-    {
-        id: ${index},
-        name: "${name}",
-        description: "${description}",
-        url: "${url}",
+    const app: App = {
+        id: source.id,
+        name: parsedManifest.short_name || parsedManifest.name,
+        description: parsedManifest.description || "",
+        url: source.url,
         icon: {
-            url: "${source.url}",
-            maskable: ${maskableIcon},
+            url: new URL(icon?.src || "", source.url).toString(),
+            maskable: icon?.purpose?.split(" ").includes("maskable") || false,
         },
-        screenshots: []
-    },
-    `);
+    };
+
+    code.push(`${JSON.stringify(app, null, 4)},`);
+
+    index++;
 }
 
 code.push(...[
@@ -200,4 +204,4 @@ code.push(...[
     '',
 ]);
 
-console.log(code.join("\n"));
+await writeFile(join(import.meta.dirname, "../data/apps.ts"), code.join("\n"));

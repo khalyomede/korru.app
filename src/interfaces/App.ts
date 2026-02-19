@@ -10,7 +10,6 @@ interface App {
     description: string;
     icon: AppIcon;
     url: string;
-    screenshots: Array<AppScreenshot>;
 };
 
 export default App;
