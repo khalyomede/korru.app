@@ -1232,7 +1232,7 @@ const apps: Array<App> = [
             url: "https://developer.mozilla.org/favicon-192x192.png",
             maskable: false,
         },
-        "url": "https://developer.mozilla.org",
+        url: "https://developer.mozilla.org",
     },
     {
         id: 133,
@@ -2128,7 +2128,107 @@ const apps: Array<App> = [
             url: "https://www.fetchasset.com/apple-touch-icon.png",
             maskable: true
         }
-    }
+    },
+    {
+        id: 222,
+        name: "Tailwatch",
+        description: "Hierarchical event, task, and message dashboard with log and status views.",
+        url: "https://tailwatch.dev",
+        icon: {
+            url: "/pwa-maskable-512x512.png",
+            maskable: true
+        }
+    },
+    {
+        id: 223,
+        url: "https://thelittlegamefactory.com/",
+        name: "The Little Game Factory",
+        description: "High quality webGL games for desktop pc and mobile phones",
+        icon: {
+            url: "https://thelittlegamefactory.com/wp-content/themes/supergoodgames/images/icon-mask.svg",
+            maskable: true
+        }
+    },
+    {
+        id: 224,
+        name: "softbear.com",
+        description: "A collection of high-quality, free-to-play, multiplayer, IO games for unblocked HTML5 web browsers. Join any time to play, team, and chat. No software download or installation required.",
+        url: "https://softbear.com",
+        icon: {
+            url: "https://softbear.com/softbear_logo.png",
+            maskable: false,
+        }
+    },
+    {
+        id: 225,
+        name: "Voxmaxa",
+        description: "Voxmaxa is a free for all combat game in a block world. It is free to play online in a web browser with nothing to install.",
+        url: "https://mazean.com/",
+        icon: {
+            url: "https://mazean.com/data/512x512.png",
+            maskable: false
+        },
+    },
+    {
+        id: 226,
+        name: "Kiomet",
+        description: "Kiomet is a multiplayer real-time strategy game. It is free to play online in a web browser with no install required. Start with a small country and expand into unclaimed areas. Make strategic alliances and join forces to defeat rivals. Protect the king at all times.",
+        url: "https://kiomet.com",
+        icon: {
+            url: "https://kiomet.com/data/512x512.png",
+            maskable: true
+        },
+    },
+    {
+        id: 227,
+        name: "Krakax",
+        description: "Krakax is a multiplayer archery game. It is free to play online in a web browser with no install required.",
+        url: "https://krakax.com",
+        icon: {
+            url: "https://krakax.com/data/512x512.png",
+            maskable: false,
+        },
+    },
+    {
+        id: 228,
+        name: "mk48.io",
+        description: "Mk48.io is a multiplayer ship combat game. It is free to play online in a web browser with no install required. Start with a small warship and defeat rival players or collect floating barrels to earn upgrades to increasingly larger battleships, submarines, and aircraft carriers. Avoid torpedos and incoming shells. Team and chat with other players.",
+        url: "https://mk48.io",
+        icon: {
+            url: "https://mk48.io/data/mask256x256.png",
+            maskable: true
+        },
+    },
+    {
+        id: 229,
+        name: "Netquel",
+        description: "Netquel is a multiplayer space war game. It is free to play online in a web browser with nothing to install. Start with a small ship and defeat rival players or mine asteriods to earn upgrades. Team and chat with other players.",
+        url: "https://netquel.com",
+        icon: {
+            url: "https://netquel.com/data/512x512.png",
+            maskable: true
+        },
+    },
+    {
+        id: 230,
+        name: "Tankgank",
+        description: "Tankgank is a multiplayer tank battle game. It is free to play online in a web browser with nothing to install. Earn points by conquering territory. Encircle or outgun rivals to defeat them. Team and chat with other players.",
+        url: "https://tankgank.com",
+        icon: {
+            url: "https://tankgank.com/data/512x512.png",
+            maskable: true,
+        },
+    },
+    {
+        id: 231,
+        name: "Turnfight",
+        description: "Turnfight is a multiplayer air combat game. It is free to play online in a web browser with no installation required. Choose your favorite plane and defeat rivals to earn points.",
+        url: "https://turnfight.com",
+        icon: {
+            url: "https://turnfight.com/data/512x512.png",
+            maskable: false,
+        },
+    },
 ];
 
 export default apps;
