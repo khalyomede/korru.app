@@ -2,7 +2,7 @@ import { Component } from "solid-js";
 import AppResultOpenButtonProperties from "./properties/AppResultOpenButtonProperties";
 
 const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (properties) => {
-    const vibrate = () => navigator.vibrate(240);
+    const vibrate = () => navigator?.vibrate(60);
 
     return (
         <a href={properties.url} onclick={() => vibrate()} target="_blank" rel="noopener noreferrer" class="px-4 py-2 border border-stone-300 text-stone-700 font-medium text-sm rounded-lg tracking-widest
