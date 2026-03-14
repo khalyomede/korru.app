@@ -14,17 +14,8 @@ const apps: Array<App> = [
         },
         name: "Spotify",
         description: "Spotify Web",
-        url: "https://open.spotify.com/?utm_source=pwa_install",
-    },
-    {
-        id: 3,
-        icon: {
-            url: "https://www.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
-            maskable: false,
-        },
-        url: "https://drive.google.com/?lfhs\u003d2",
-        name: "Google Drive",
-        description: "",
+        url: "https://open.spotify.com",
+        categories: [],
     },
     {
         id: 4,
@@ -32,9 +23,10 @@ const apps: Array<App> = [
             url: "https://play2048.co/favicon192.png",
             maskable: false,
         },
-        url: "https://play2048.co/",
+        url: "https://play2048.co",
         name: "2048",
         description: "Merge the tiles to get 2048!",
+        categories: ["games"],
     },
     {
         id: 5,
@@ -45,6 +37,7 @@ const apps: Array<App> = [
         url: "https://www.youtube.com/?feature\u003dytca",
         name: "Youtube",
         description: "",
+        categories: [],
     },
     {
         id: 6,
@@ -55,6 +48,11 @@ const apps: Array<App> = [
         name: "X",
         description: "News, politics, trending music, international events, sports scores, and the latest global updates in real time—all using less data.",
         url: "https://x.com/?utm_source=homescreen&utm_medium=shortcut",
+        categories: [
+            "news",
+            "magazines",
+            "social",
+        ],
     },
     {
         id: 7,
@@ -62,9 +60,10 @@ const apps: Array<App> = [
             url: "https://www.thefork.com/statics/icons/icon-72x72.png",
             maskable: false,
         },
-        url: "https://www.thefork.com/",
+        url: "https://www.thefork.com",
         name: "TheFork",
         description: "Discover and book the best restaurant",
+        categories: [],
     },
     {
         id: 8,
@@ -75,6 +74,7 @@ const apps: Array<App> = [
         url: "https://translate.google.com/?lfhs\u003d2",
         name: "Google Translate",
         description: "",
+        categories: [],
     },
     {
         id: 9,
@@ -84,7 +84,8 @@ const apps: Array<App> = [
             url: "https://s.pinimg.com/images/favicon_red_192.png",
             maskable: false,
         },
-        url: "https://pinterest.com/?utm_source=homescreen_icon",
+        url: "https://pinterest.com",
+        categories: [],
     },
     {
         id: 10,
@@ -95,6 +96,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.starbucks.com",
+        categories: [],
     },
     {
         id: 11,
@@ -105,6 +107,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://www.jumia.ma/",
+        categories: [],
     },
     {
         id: 12,
@@ -114,7 +117,8 @@ const apps: Array<App> = [
             url: "https://www.olx.in/logo/olx-medium.png",
             maskable: false,
         },
-        url: "https://www.olx.in/?install=true",
+        url: "https://www.olx.in",
+        categories: [],
     },
     {
         id: 13,
@@ -125,6 +129,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.ft.com",
+        categories: [],
     },
     {
         id: 14,
@@ -134,7 +139,8 @@ const apps: Array<App> = [
             url: "https://www.infobae.com/assets/images/logos/icon-192x192.png",
             maskable: false,
         },
-        url: "https://www.infobae.com/",
+        url: "https://www.infobae.com",
+        categories: [],
     },
     {
         id: 15,
@@ -145,6 +151,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://www.nau.ch",
+        categories: [],
     },
     {
         id: 16,
@@ -155,6 +162,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://medium.com",
+        categories: [],
     },
     {
         id: 17,
@@ -164,7 +172,8 @@ const apps: Array<App> = [
             url: "https://s.w-x.co/twc_36x36.png",
             maskable: false
         },
-        url: "https://weather.com/",
+        url: "https://weather.com",
+        categories: [],
     },
     {
         id: 18,
@@ -174,7 +183,8 @@ const apps: Array<App> = [
             url: "https://staticcdn.openrent.co.uk/images/logos/meta/android-chrome-192x192.png",
             maskable: false
         },
-        url: "https://www.openrent.co.uk/?utm_source=web_app_manifest",
+        url: "https://www.openrent.co.uk",
+        categories: [],
     },
     {
         id: 19,
@@ -184,7 +194,8 @@ const apps: Array<App> = [
             url: "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png",
             maskable: true
         },
-        url: "https://www.airbnb.fr/?utm_source=homescreen",
+        url: "https://www.airbnb.fr",
+        categories: []
     },
     {
         id: 20,
@@ -194,17 +205,8 @@ const apps: Array<App> = [
             url: "https://www.carigami.fr/android-chrome-512x512-maskable.png",
             maskable: true,
         },
-        url: "https://www.carigami.fr/?utm_source=homescreen",
-    },
-    {
-        id: 21,
-        name: "Shine",
-        description: "",
-        icon: {
-            url: "https://staticcand.shine.com/c/s1/images/ic_launcher_144.png",
-            maskable: false
-        },
-        url: "https://www.shine.com/?utm_source=m_web_app",
+        url: "https://www.carigami.fr",
+        categories: [],
     },
     {
         id: 22,
@@ -214,7 +216,8 @@ const apps: Array<App> = [
             url: "https:\/\/static.cdninstagram.com\/rsrc.php\/v4\/yM\/r\/7xwrlYffOBb.png",
             maskable: false
         },
-        url: "https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1",
+        url: "https://www.instagram.com",
+        categories: [],
     },
     {
         id: 23,
@@ -224,17 +227,8 @@ const apps: Array<App> = [
             url: "https://images.treebohotels.com/images/Icons/pwa-icon.png?h=192&w=192",
             maskable: false
         },
-        url: "https://www.treebo.com/",
-    },
-    {
-        id: 24,
-        name: "MakeMyTrip",
-        description: "MakeMyTrip Commons PWA",
-        icon: {
-            url: "https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/mmt_launcher_512x512.png",
-            maskable: true
-        },
-        url: "https://www.makemytrip.com/?homescreen=PWA_Bookmark",
+        url: "https://www.treebo.com",
+        categories: [],
     },
     {
         id: 25,
@@ -244,7 +238,8 @@ const apps: Array<App> = [
             url: "https://mediacdn.soundslice.com/images/pwa/logox192-5bbd413a74df3ea319f0742c3bcfdbe4.png",
             maskable: true
         },
-        url: "https://www.soundslice.com/login/",
+        url: "https://www.soundslice.com",
+        categories: []
     },
     {
         id: 26,
@@ -254,7 +249,12 @@ const apps: Array<App> = [
             url: "https://1tuner.com/icon-192x192-maskable.png",
             maskable: true
         },
-        url: "https://1tuner.com/",
+        url: "https://1tuner.com",
+        categories: [
+            "entertainment",
+            "music",
+            "news",
+        ],
     },
     {
         id: 27,
@@ -264,7 +264,8 @@ const apps: Array<App> = [
             url: "https://9gag.com/s/fab0aa49/7145df03fa8167d146c4ac609ac0cff0c3e8380c/static/dist/es8/mobile/img/launcher-icon-96.png",
             maskable: false
         },
-        url: "https://9gag.com/",
+        url: "https://9gag.com",
+        categories: []
     },
     {
         id: 28,
@@ -274,7 +275,8 @@ const apps: Array<App> = [
             url: "https://www.lotto.de/assets/favicon/android-chrome-192x192.png",
             maskable: false
         },
-        url: "https://www.lotto.de/",
+        url: "https://www.lotto.de",
+        categories: []
     },
     {
         id: 29,
@@ -285,6 +287,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://tinder.com",
+        categories: []
     },
     {
         id: 30,
@@ -295,6 +298,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.datememe.com",
+        categories: []
     },
     {
         id: 31,
@@ -305,6 +309,11 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://squoosh.app",
+        categories: [
+            "photo",
+            "productivity",
+            "utilities",
+        ],
     },
     {
         id: 32,
@@ -312,9 +321,12 @@ const apps: Array<App> = [
         description: "Discover top news & lifestyle",
         icon: {
             url: "https://s.flipboard.com/assets/webu/images/meta/flipboard-192.png",
-            maskable: true
+            maskable: true,
         },
-        url: "https://flipboard.com/",
+        url: "https://flipboard.com",
+        categories: [
+            "news",
+        ],
     },
     {
         id: 33,
@@ -325,6 +337,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://www.flipkart.com",
+        categories: []
     },
     {
         id: 34,
@@ -335,6 +348,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://guitar-tuner.appspot.com",
+        categories: []
     },
     {
         id: 35,
@@ -345,6 +359,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://housing.com",
+        categories: []
     },
     {
         id: 36,
@@ -355,6 +370,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://andreasbovens.github.io/inbox-attack",
+        categories: []
     },
     {
         id: 37,
@@ -365,6 +381,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.konga.com",
+        categories: []
     },
     {
         id: 38,
@@ -374,7 +391,8 @@ const apps: Array<App> = [
             url: "https://paperplanes.world/assets/meta/icon-32.png",
             maskable: false,
         },
-        url: "https://paperplanes.world/",
+        url: "https://paperplanes.world",
+        categories: []
     },
     {
         id: 39,
@@ -385,6 +403,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://pokedex.org",
+        categories: []
     },
     {
         id: 40,
@@ -394,7 +413,8 @@ const apps: Array<App> = [
             url: "https://2048-opera-pwa.surge.sh/meta/2048-rounded-96.png",
             maskable: false,
         },
-        url: "https://2048-opera-pwa.surge.sh/",
+        url: "https://2048-opera-pwa.surge.sh",
+        categories: []
     },
     {
         id: 41,
@@ -405,6 +425,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://qrcodescan.in",
+        categories: []
     },
     {
         id: 42,
@@ -415,6 +436,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://smaller-pictures.appspot.com",
+        categories: []
     },
     {
         id: 43,
@@ -424,7 +446,8 @@ const apps: Array<App> = [
             url: "https://snapdrop.net/images/favicon-96x96.png",
             maskable: true,
         },
-        url: "https://snapdrop.net/",
+        url: "https://snapdrop.net",
+        categories: []
     },
     {
         id: 44,
@@ -435,6 +458,7 @@ const apps: Array<App> = [
             maskable: true
         },
         url: "https://jakearchibald.github.io/svgomg",
+        categories: []
     },
     {
         id: 45,
@@ -445,6 +469,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.selio.com",
+        categories: []
     },
     {
         id: 46,
@@ -455,6 +480,10 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://thesession.org",
+        categories: [
+            "music",
+            "social",
+        ],
     },
     {
         id: 47,
@@ -465,6 +494,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://resilientwebdesign.com",
+        categories: []
     },
     {
         id: 48,
@@ -475,6 +505,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.englishaccentsmap.com",
+        categories: []
     },
     {
         id: 49,
@@ -485,6 +516,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://sii.im/playground/notes",
+        categories: []
     },
     {
         id: 50,
@@ -495,6 +527,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://freepacman.org",
+        categories: []
     },
     {
         id: 51,
@@ -505,6 +538,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://happyhopper.org",
+        categories: []
     },
     {
         id: 52,
@@ -515,6 +549,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://freeflappybird.org",
+        categories: []
     },
     {
         id: 53,
@@ -525,6 +560,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://freewordle.org",
+        categories: []
     },
     {
         id: 54,
@@ -535,6 +571,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://freemahjong.org",
+        categories: []
     },
     {
         id: 55,
@@ -545,6 +582,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://freesolitaire.org",
+        categories: []
     },
     {
         id: 56,
@@ -555,6 +593,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://freesimon.org",
+        categories: []
     },
     {
         id: 57,
@@ -565,6 +604,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://poki.com",
+        categories: []
     },
     {
         id: 58,
@@ -575,6 +615,9 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://mahjong.jull.dev",
+        categories: [
+            "games",
+        ],
     },
     {
         id: 59,
@@ -585,6 +628,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://geogee.me",
+        categories: []
     },
     {
         id: 60,
@@ -595,6 +639,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://excalidraw.com",
+        categories: []
     },
     {
         id: 61,
@@ -605,6 +650,7 @@ const apps: Array<App> = [
             maskable: true
         },
         url: "https://jdsports.id",
+        categories: []
     },
     {
         id: 62,
@@ -615,6 +661,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.rakuten.tv",
+        categories: []
     },
     {
         id: 63,
@@ -625,6 +672,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.zdf.de",
+        categories: []
     },
     {
         id: 64,
@@ -635,6 +683,9 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.pwabuilder.com",
+        categories: [
+            "utilities",
+        ],
     },
     {
         id: 65,
@@ -645,6 +696,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.kitchenaid.com",
+        categories: []
     },
     {
         id: 66,
@@ -655,6 +707,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://in.bookmyshow.com",
+        categories: []
     },
     {
         id: 67,
@@ -665,6 +718,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.onthemarket.com",
+        categories: [],
     },
     {
         id: 68,
@@ -675,6 +729,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.ride-app.com",
+        categories: []
     },
     {
         id: 69,
@@ -685,6 +740,7 @@ const apps: Array<App> = [
             maskable: false
         },
         url: "https://alarmdj.com",
+        categories: []
     },
     {
         id: 70,
@@ -695,7 +751,8 @@ const apps: Array<App> = [
             url: "https://anonynote.org/favicons/android-chrome-192x192.png",
             maskable: false
         },
-        url: "https://anonynote.org/",
+        url: "https://anonynote.org",
+        categories: []
     },
     {
         id: 71,
@@ -706,6 +763,7 @@ const apps: Array<App> = [
             maskable: false
         },
         url: "https://avain.app",
+        categories: []
     },
     {
         id: 72,
@@ -715,17 +773,23 @@ const apps: Array<App> = [
             url: "https://www.booksie.org/assets/windows/44.png",
             maskable: false,
         },
-        url: "https://www.booksie.org/",
+        url: "https://www.booksie.org",
+        categories: [
+            "books",
+            "education",
+            "kids",
+        ],
     },
     {
         id: 73,
         name: "BRUTALIST HN",
         description: "",
-        url: "https://brutalisthackernews.com/",
+        url: "https://brutalisthackernews.com",
         icon: {
             url: "https://brutalisthackernews.com/assets/imgs/logo.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 74,
@@ -736,6 +800,7 @@ const apps: Array<App> = [
             maskable: true
         },
         description: "A smple calculator app for your daily use.",
+        categories: []
     },
     {
         id: 75,
@@ -746,6 +811,7 @@ const apps: Array<App> = [
             maskable: false
         },
         url: "https://carecards.io",
+        categories: []
     },
     {
         id: 76,
@@ -756,6 +822,10 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://catsafefoods.com",
+        "categories": [
+            "pets",
+            "food",
+        ],
     },
     {
         id: 77,
@@ -765,17 +835,19 @@ const apps: Array<App> = [
             url: "https://chitchatter.im/favicon.ico",
             maskable: false
         },
-        url: "https://chitchatter.im/",
+        url: "https://chitchatter.im",
+        categories: [],
     },
     {
         id: 78,
         name: "regex101",
-        url: "https://regex101.com/",
+        url: "https://regex101.com",
         description: "regex101: build, test, and debug regex",
         icon: {
             url: "https://regex101.com/static/assets/maskable-icon-512.png",
             maskable: true
         },
+        categories: [],
     },
     {
         id: 79,
@@ -786,17 +858,18 @@ const apps: Array<App> = [
         },
         url: "https://colorbeta.com",
         description: "Free online tool for creating and editing CSS gradients.",
+        categories: [],
     },
     {
         id: 80,
         name: "#closerintime",
         description: "",
         url: "https://closerinti.me",
-        icon:
-        {
+        icon: {
             url: "https://closerinti.me/icons/icon-48x48.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
             maskable: false
         },
+        categories: [],
     },
     {
         id: 81,
@@ -808,6 +881,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://naramsim.github.io/Colosseum",
+        categories: []
     },
     {
         id: 82,
@@ -817,8 +891,9 @@ const apps: Array<App> = [
             url: "https://www.computerbase.de/img/icon-maskable.png",
             maskable: true,
         },
-        url: "https://www.computerbase.de/",
+        url: "https://www.computerbase.de",
         description: "Unabhängiges Tech-Magazin. News und Tests zu Smartphones, Tablets, PC-Hardware, Software und IT. Große technikaffine Community hilft im Forum.",
+        categories: []
     },
     {
         id: 83,
@@ -828,7 +903,8 @@ const apps: Array<App> = [
             url: "https://crazydice.netlify.app/images/logo128.png",
             maskable: false,
         },
-        url: "https://crazydice.netlify.app/",
+        url: "https://crazydice.netlify.app",
+        categories: [],
     },
     {
         id: 84,
@@ -839,6 +915,10 @@ const apps: Array<App> = [
             url: "https://dogsafefoods.com/img/maskable_icon.png",
             maskable: true,
         },
+        categories: [
+            "pets",
+            "food",
+        ],
     },
     {
         id: 85,
@@ -849,26 +929,31 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://jsonformatter.com",
+        categories: [],
     },
     {
         id: 86,
         description: "Life counter app for 2 - 4 players. Supports game profiles, count up/down.",
-        url: "https://nenadalm.github.io/life-counter/index.html",
+        url: "https://nenadalm.github.io/life-counter",
         name: "Life counter",
         icon: {
             url: "https://nenadalm.github.io/life-counter/img/icon_192.png?v=674cd2d1dc276ad519989ce15065a91a373dff99",
             maskable: true,
         },
+        categories: [
+            "utilities",
+        ],
     },
     {
         id: 87,
-        url: "https://claude.ai/",
+        url: "https://claude.ai",
         name: "Claude",
         description: "",
         icon: {
             url: "https://claude.ai/images/icon-512x512.png",
             maskable: false,
         },
+        categories: [],
     },
     {
         id: 88,
@@ -879,17 +964,18 @@ const apps: Array<App> = [
             url: "https://grok.com/images/android-chrome-192x192.png",
             maskable: true,
         },
+        categories: [],
     },
     {
         id: 89,
         name: "LeChat",
         description: "Le Chat from Mistral AI",
         url: "https://chat.mistral.ai",
-        icon:
-        {
+        icon: {
             url: "https://chat.mistral.ai/favicons/pwa-icon-192x192.png",
             maskable: false,
         },
+        categories: [],
     },
     {
         id: 90,
@@ -900,6 +986,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         description: "",
+        categories: [],
     },
     {
         id: 91,
@@ -910,6 +997,7 @@ const apps: Array<App> = [
             url: "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
             maskable: false,
         },
+        categories: [],
     },
     {
         id: 92,
@@ -920,18 +1008,18 @@ const apps: Array<App> = [
             url: "https:\/\/www.chess.com\/bundles\/web\/favicons\/android-chrome-192x192.25da7247.png",
             maskable: false,
         },
+        categories: [],
     },
     {
         id: 93,
         description: "DeviantArt is where art and community thrive. Explore over 350 million pieces of art while connecting to fellow artists and art enthusiasts.",
-
-        icon:
-        {
+        icon: {
             url: "https://st.deviantart.net/eclipse/icons/pwa/launchericon-72-72.png?2",
             maskable: false,
         },
         name: "DeviantArt",
         url: "https://www.deviantart.com",
+        categories: [],
     },
     {
         id: 94,
@@ -942,6 +1030,7 @@ const apps: Array<App> = [
             url: "https://github.githubassets.com/assets/apple-touch-icon-72x72-e090c8a282d0.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 95,
@@ -952,6 +1041,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         url: "https://mastodon.social",
+        categories: []
     },
     {
         id: 98,
@@ -962,16 +1052,18 @@ const apps: Array<App> = [
             url: "https:\/\/static.cdninstagram.com\/rsrc.php\/yM\/r\/h1DANLym4e8.webp",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 99,
         name: "TikTok",
         description: "TikTok PWA",
-        url: "https://www.tiktok.com/",
+        url: "https://www.tiktok.com",
         icon: {
             url: "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/128x128-1.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 100,
@@ -981,7 +1073,8 @@ const apps: Array<App> = [
             url: "https://truthsocial.com/icons/icon-maskable-72x72.png",
             maskable: true,
         },
-        url: "https://truthsocial.com/",
+        url: "https://truthsocial.com",
+        categories: []
     },
     {
         id: 101,
@@ -992,6 +1085,7 @@ const apps: Array<App> = [
             url: "https://assets.tumblr.com/pop/manifest/icon_72-5073ca87.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 102,
@@ -1002,6 +1096,7 @@ const apps: Array<App> = [
             url: "https://www.glassdoor.com/launcher-icon-2x.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 103,
@@ -1012,6 +1107,7 @@ const apps: Array<App> = [
             url: "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_96dp.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 104,
@@ -1022,6 +1118,7 @@ const apps: Array<App> = [
             url: "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 105,
@@ -1032,6 +1129,7 @@ const apps: Array<App> = [
             url: "https://fonts.gstatic.com/s/i/productlogos/docs_2020q4/v7/web-64dp/logo_docs_2020q4_color_1x_web_64dp.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 106,
@@ -1042,6 +1140,7 @@ const apps: Array<App> = [
             url: "https://fonts.gstatic.com/s/i/productlogos/sheets_2020q4/v6/web-64dp/logo_sheets_2020q4_color_1x_web_64dp.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 107,
@@ -1052,6 +1151,7 @@ const apps: Array<App> = [
             url: "https://fonts.gstatic.com/s/i/productlogos/slides_2020q4/v7/web-64dp/logo_slides_2020q4_color_1x_web_64dp.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 108,
@@ -1062,6 +1162,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://calendar.google.com",
+        categories: []
     },
     {
         id: 111,
@@ -1071,7 +1172,8 @@ const apps: Array<App> = [
             url: "https://d35aaqx5ub95lt.cloudfront.net/images/pwa-icon-circle-192.png",
             maskable: true,
         },
-        url: "https://www.duolingo.com/",
+        url: "https://www.duolingo.com",
+        categories: []
     },
     {
         id: 112,
@@ -1082,6 +1184,7 @@ const apps: Array<App> = [
             url: "https://laracasts.com/favicons/web-app-manifest-192x192.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 114,
@@ -1092,6 +1195,7 @@ const apps: Array<App> = [
             url: "https://www.todoist.com/static/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 115,
@@ -1102,6 +1206,7 @@ const apps: Array<App> = [
             url: "//www.gstatic.com/gnews/logo/google_news_60.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 118,
@@ -1112,6 +1217,7 @@ const apps: Array<App> = [
             url: "https://substack.com/img/manifest-icons/app-maskable-192.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 119,
@@ -1122,6 +1228,7 @@ const apps: Array<App> = [
             url: "https://assets.vercel.com/image/upload/v1573246280/front/favicon/vercel/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 121,
@@ -1132,16 +1239,18 @@ const apps: Array<App> = [
             url: "https://proto.io/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 123,
         name: "Monzo",
         description: "",
-        url: "https://monzo.com/",
+        url: "https://monzo.com",
         icon: {
             url: "https://monzo.com/images/icons/maskable-icon-x72.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 124,
@@ -1152,6 +1261,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.ally.com",
+        categories: []
     },
     {
         id: 125,
@@ -1162,6 +1272,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.creditkarma.com/",
+        categories: []
     },
     {
         id: 126,
@@ -1172,17 +1283,18 @@ const apps: Array<App> = [
             url: "https://cdn.ramseysolutions.net/cms/sites/ramseysolutions-com/favicons/android-chrome-192x192.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 127,
         name: "MyFitnessPal",
         description: "",
         url: "https://www.myfitnesspal.com",
-        icon:
-        {
+        icon: {
             url: "https://www.myfitnesspal.com/favicons/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 128,
@@ -1193,6 +1305,11 @@ const apps: Array<App> = [
             url: "https://bentopdf.com/images/favicon-192x192.png",
             maskable: true,
         },
+        "categories": [
+            "productivity",
+            "utilities",
+            "security",
+        ],
     },
     {
         id: 129,
@@ -1203,6 +1320,7 @@ const apps: Array<App> = [
             url: "https://it-tools.tech/android-chrome-512x512.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 130,
@@ -1213,16 +1331,18 @@ const apps: Array<App> = [
             url: "https://mazanoke.com//assets/images/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 131,
         name: "Google Photos",
         description: "",
-        url: "https://photos.google.com/",
+        url: "https://photos.google.com",
         icon: {
             url: "https://www.gstatic.com/social/photosui/images/logo/2025/1x/photos_96dp.png",
             maskable: false
         },
+        categories: []
     },
     {
         id: 132,
@@ -1233,16 +1353,18 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://developer.mozilla.org",
+        categories: []
     },
     {
         id: 133,
         name: "reve.com",
         description: "",
-        url: "https://app.reve.com/",
+        url: "https://app.reve.com",
         icon: {
             url: "https://app.reve.com/icon-mask.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 134,
@@ -1253,6 +1375,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         description: "",
+        categories: []
     },
     {
         id: 135,
@@ -1263,16 +1386,18 @@ const apps: Array<App> = [
             url: "https://sora.chatgpt.com/sora-icon.webp",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 136,
         name: "Ideogram",
-        url: "https://ideogram.a/",
+        url: "https://ideogram.ai/",
         description: "",
         icon: {
             url: "https://ideogram.ai/favicon.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 137,
@@ -1283,6 +1408,7 @@ const apps: Array<App> = [
             url: "https://cdn-o.suno.com/favicon-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 138,
@@ -1293,6 +1419,7 @@ const apps: Array<App> = [
             url: "https://www.hume.ai/icons/icon-72x72.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 139,
@@ -1302,7 +1429,8 @@ const apps: Array<App> = [
         icon: {
             url: "https://manifest.web.nairi.cloud/icon.png",
             maskable: false,
-        }
+        },
+        categories: []
     },
     {
         id: 140,
@@ -1313,6 +1441,11 @@ const apps: Array<App> = [
             url: "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-240x240-maskable.png",
             maskable: true,
         },
+        categories: [
+            "news",
+            "politics",
+            "entertainment",
+        ],
     },
     {
         id: 141,
@@ -1323,6 +1456,7 @@ const apps: Array<App> = [
             url: "https:\/\/globalnews.ca\/wp-content\/themes\/shaw-globalnews\/_img\/pwa\/news_square_maskable-512.png",
             maskable: true,
         },
+        categories: [],
     },
     {
         id: 142,
@@ -1333,6 +1467,7 @@ const apps: Array<App> = [
             url: "https://www.cbc.ca/a/assets/logo_gem.svg",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 143,
@@ -1343,6 +1478,7 @@ const apps: Array<App> = [
             url: "https://www.france24.com/maskable_icon.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 144,
@@ -1353,6 +1489,7 @@ const apps: Array<App> = [
             url: "https://www.dw.com/images/icons/favicon-72x72.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 145,
@@ -1363,16 +1500,7 @@ const apps: Array<App> = [
             url: "https://time.com/favicon/apple-touch-icon.png",
             maskable: false,
         },
-    },
-    {
-        id: 146,
-        name: "DeviantArt",
-        description: "DeviantArt is where art and community thrive. Explore over 350 million pieces of art while connecting to fellow artists and art enthusiasts.",
-        icon: {
-            url: "https://st.deviantart.net/eclipse/icons/pwa/launchericon-72-72.png?2",
-            maskable: false,
-        },
-        url: "https://www.deviantart.com",
+        categories: []
     },
     {
         id: 147,
@@ -1383,6 +1511,7 @@ const apps: Array<App> = [
             url: "https://m.twitch.tv/maskable_icon_x192.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 148,
@@ -1392,7 +1521,8 @@ const apps: Array<App> = [
             url: "https://assets.seamless.com/assets/img/brand/seamless/android/raster/smart_banner/android-chrome-72x72.png",
             maskable: false,
         },
-        url: "https://www.seamless.com/",
+        url: "https://www.seamless.com",
+        categories: []
     },
     {
         id: 149,
@@ -1403,6 +1533,7 @@ const apps: Array<App> = [
             url: "https://postmates.com/_static/0d9ecf4f16865976.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 150,
@@ -1413,6 +1544,7 @@ const apps: Array<App> = [
             url: "https://www.ubereats.com/_static/35b3b9a3182fec82.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 151,
@@ -1423,6 +1555,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://m.shein.com",
+        categories: []
     },
     {
         id: 152,
@@ -1433,6 +1566,7 @@ const apps: Array<App> = [
             url: "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192-maskable.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 153,
@@ -1442,8 +1576,8 @@ const apps: Array<App> = [
             url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/logo_192x192.png",
             maskable: true
         },
-
         description: "Here’s everything you can do and find on the Swiggy app:\n- Restaurant and Delivery Partners trained in hygiene protocols\n- Find top restaurants in your city\n- Late-night delivery\n-  30+ cuisines, Biryani, Pizza, Dosa, Burgers, Coffee, and more\n- Collections like Veg Only, Healthy Food, and more",
+        categories: []
     },
     {
         id: 154,
@@ -1454,6 +1588,7 @@ const apps: Array<App> = [
             url: "https://www.economist.com/engassets/ico/icon-mask.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 155,
@@ -1464,6 +1599,7 @@ const apps: Array<App> = [
             url: "https://pwa.xyz/eWYX0PrgnbmJTIRgmYiH%2FgsUEZlyEGHgGqUA.png?alt=media&token=09f76955-c91d-40c1-ad12-79c8f2aaeed1",
             maskable: true
         },
+        categories: []
     },
     {
         id: 156,
@@ -1474,6 +1610,10 @@ const apps: Array<App> = [
             url: "https://whatpwacando.today/src/img/icons/manifest-icon-192.maskable.png",
             maskable: true
         },
+        categories: [
+            "education",
+            "utilities",
+        ],
     },
     {
         id: 157,
@@ -1484,6 +1624,7 @@ const apps: Array<App> = [
             url: "https://static.store.app/manifest/maskable192.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 158,
@@ -1494,6 +1635,7 @@ const apps: Array<App> = [
             url: "https://workledger.org/icon-512.svg",
             maskable: true
         },
+        categories: []
     },
     {
         id: 159,
@@ -1504,6 +1646,10 @@ const apps: Array<App> = [
             url: "https://www.vehique.ai/android-chrome-192x192.png",
             maskable: true
         },
+        categories: [
+            "shopping",
+            "lifestyle",
+        ],
     },
     {
         id: 160,
@@ -1514,6 +1660,7 @@ const apps: Array<App> = [
             url: "https://fair-weather.query-farm.services/icon-192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 161,
@@ -1524,6 +1671,9 @@ const apps: Array<App> = [
             url: "https://fluxerstatic.com/web/android-chrome-192x192.png",
             maskable: true
         },
+        categories: [
+            "social",
+        ],
     },
     {
         id: 162,
@@ -1534,6 +1684,7 @@ const apps: Array<App> = [
             url: "https://roqueos.com.br/icons/icon-128x128.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 163,
@@ -1544,6 +1695,7 @@ const apps: Array<App> = [
             url: "https://www.myminifactory.com/images/launcher/launcher-icon-96x96.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 165,
@@ -1554,16 +1706,7 @@ const apps: Array<App> = [
             url: "https://www.bing.com/webmasters/Content\\PWA\\logo\\bing-logo-192.png",
             maskable: true
         },
-    },
-    {
-        id: 166,
-        name: "OpenClaw",
-        description: "Your AI agent. Live in seconds.",
-        url: "https://openclaw.rocks",
-        icon: {
-            url: "https://openclaw.rocks/icon-192.png",
-            maskable: false,
-        },
+        categories: []
     },
     {
         id: 167,
@@ -1574,6 +1717,7 @@ const apps: Array<App> = [
             url: "https://kuro-nuri.com/cat-agents.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 168,
@@ -1584,6 +1728,7 @@ const apps: Array<App> = [
             url: "https://www.m-session.com/pwa-512x512.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 169,
@@ -1594,6 +1739,10 @@ const apps: Array<App> = [
             url: "https://elebean.com/icons/icon-256.png",
             maskable: false,
         },
+        categories: [
+            "music",
+            "utilities",
+        ],
     },
     {
         id: 170,
@@ -1604,6 +1753,7 @@ const apps: Array<App> = [
             url: "https://www.resumble.com/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 171,
@@ -1614,6 +1764,7 @@ const apps: Array<App> = [
             url: "https://chartvacancy.website/android-chrome-192x192.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 172,
@@ -1624,6 +1775,7 @@ const apps: Array<App> = [
             url: "https://mathriddles.netlify.app/images/logo128.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 173,
@@ -1634,6 +1786,12 @@ const apps: Array<App> = [
             url: "https://mconverter.eu/img/icon-pwa.png",
             maskable: true,
         },
+        categories: [
+            "utilities",
+            "photo",
+            "music",
+            "books",
+        ],
     },
     {
         id: 174,
@@ -1644,16 +1802,18 @@ const apps: Array<App> = [
             url: "https://pwa-memory-game.surge.sh/images/72.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 175,
         name: "Messages",
         description: "",
-        url: "https://messages.google.com",
+        url: "https://messages.google.com/web",
         icon: {
             url: "https://ssl.gstatic.com/android-messages-web/images/2022.3/2x/messages_2022_round_96dp.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 176,
@@ -1664,6 +1824,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://app.moneytracker.cc",
+        categories: []
     },
     {
         id: 177,
@@ -1674,6 +1835,7 @@ const apps: Array<App> = [
             url: "https://morsecodetranslator.com/assets/icons/android-chrome-192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 177,
@@ -1684,6 +1846,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://www.mtgstocks.com",
+        categories: []
     },
     {
         id: 178,
@@ -1694,6 +1857,7 @@ const apps: Array<App> = [
             url: "https://static.murlok.io/web/murlok-maskable-512.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 179,
@@ -1704,6 +1868,11 @@ const apps: Array<App> = [
             url: "https://www.nanocell-csv.com/app/favicon-96x96.png",
             maskable: false,
         },
+        categories: [
+            "productivity",
+            "utilities",
+            "business",
+        ],
     },
     {
         id: 180,
@@ -1714,16 +1883,20 @@ const apps: Array<App> = [
             url: "https://othello-rust.web.app/icons/maskable-192.png",
             maskable: true,
         },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 181,
-        url: "https://pasteepad.com/",
+        url: "https://pasteepad.com",
         name: "PasteePad",
         description: "Online Text Editor to paste and keep text, great for notes, todos and links.",
         icon: {
             url: "https://pasteepad.com/icon-192x192.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 182,
@@ -1734,6 +1907,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://pixelcraft.web.app",
+        categories: []
     },
     {
         id: 183,
@@ -1744,6 +1918,9 @@ const apps: Array<App> = [
             url: "https://nenadalm.github.io/player-order-selector/img/icon_512.png?v=074eee41d756a3e583a039e8d349bb8048c28c48",
             maskable: true,
         },
+        "categories": [
+            "utilities",
+        ],
     },
     {
         id: 184,
@@ -1754,6 +1931,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://pwa-nes.vercel.app",
+        categories: []
     },
     {
         id: 185,
@@ -1764,6 +1942,10 @@ const apps: Array<App> = [
             url: "https://www.qireader.com/static/icon192.maskable.png",
             maskable: true,
         },
+        categories: [
+            "news",
+            "magazines",
+        ],
     },
     {
         id: 186,
@@ -1774,17 +1956,23 @@ const apps: Array<App> = [
             url: "https://qr-code-generator.vercel.app/assets/icons/icon-72x72.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 187,
         name: "SimilarWorlds",
-        url: "https://similarworlds.com/",
+        url: "https://similarworlds.com",
         description: "Discuss Experiences, Share Stories, Ask Questions, Find Answers, Explore Interests, Make Friends, Express your true Self - The New Experience Project is Here!",
-
         icon: {
             url: "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-1024-Mask.png",
             maskable: true,
         },
+        categories: [
+            "social",
+            "entertainment",
+            "photo",
+            "news",
+        ],
     },
     {
         id: 188,
@@ -1795,6 +1983,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://currency-converter.vercel.app",
+        categories: []
     },
     {
         id: 189,
@@ -1805,6 +1994,7 @@ const apps: Array<App> = [
             url: "https://soodoku.com/android-chrome-512x512.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 190,
@@ -1815,6 +2005,7 @@ const apps: Array<App> = [
             url: "https://splittypie.com/assets/icons/android/icon-72x72.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 191,
@@ -1825,6 +2016,10 @@ const apps: Array<App> = [
             url: "https://swahili-dictionary.com/static/img/favicon/apple-touch-icon.png",
             maskable: true,
         },
+        categories: [
+            "education",
+            "utilities",
+        ],
     },
     {
         id: 192,
@@ -1835,6 +2030,7 @@ const apps: Array<App> = [
             url: "https://t4p4n.github.io/todoly/images/msteams-192-192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 193,
@@ -1846,16 +2042,7 @@ const apps: Array<App> = [
             url: "https://d3i4yxtzktqr9n.cloudfront.net/web-plan/b8c00410291161d0.png",
             maskable: false,
         },
-    },
-    {
-        id: 194,
-        name: "Zadig&Voltaire",
-        description: "",
-        url: "https://zadig-et-voltaire.com",
-        icon: {
-            url: "https://zadig-et-voltaire.com/assets/android-icon-72x72.png",
-            maskable: false,
-        },
+        categories: []
     },
     {
         id: 195,
@@ -1866,6 +2053,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://towergame.app",
+        categories: []
     },
     {
         id: 196,
@@ -1876,6 +2064,7 @@ const apps: Array<App> = [
             url: "https://hextris.io/images/icons/maskable-192.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 197,
@@ -1886,6 +2075,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://littlealchemy2.com",
+        categories: []
     },
     {
         id: 198,
@@ -1896,16 +2086,18 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://bsehovac.github.io/the-cube",
+        categories: []
     },
     {
         id: 199,
         name: "Bubble Pairs",
         description: "A good old memory game with new and unique elements that make play experience remarkable.",
-        url: "https://bubblepairs.apps.in.rs/",
+        url: "https://bubblepairs.apps.in.rs",
         icon: {
             url: "https://bubblepairs.apps.in.rs/game-icon-big.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 200,
@@ -1916,16 +2108,18 @@ const apps: Array<App> = [
             url: "https://pippinbarr.com/SNAKISMS/press/images/SNAKISMS.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 201,
         name: "Code Insiders",
         description: "",
-        url: "https://insiders.vscode.dev/",
+        url: "https://insiders.vscode.dev",
         icon: {
             url: "https://insiders.vscode.dev/static/insider/code-192-maskable.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 202,
@@ -1936,6 +2130,11 @@ const apps: Array<App> = [
             url: "https://www.novanetworth.com/favicons/light/android-chrome-192x192.png",
             maskable: true,
         },
+        categories: [
+            "finance",
+            "productivity",
+            "business",
+        ],
     },
     {
         id: 203,
@@ -1946,6 +2145,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         url: "https://loxalize.ai",
+        categories: []
     },
     {
         id: 204,
@@ -1956,6 +2156,7 @@ const apps: Array<App> = [
             url: "https://www.slingshot.money/logo-192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 205,
@@ -1966,6 +2167,7 @@ const apps: Array<App> = [
             url: "https://www.reddit.com/192x192.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 206,
@@ -1976,6 +2178,11 @@ const apps: Array<App> = [
             url: "https://www.stellarspeak.online/app-icon-192.png",
             maskable: true,
         },
+        categories: [
+            "education",
+            "productivity",
+            "lifestyle",
+        ],
     },
     {
         id: 207,
@@ -1986,6 +2193,7 @@ const apps: Array<App> = [
             url: "https://pwainbox.com/icons/ios/72.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 208,
@@ -1996,6 +2204,7 @@ const apps: Array<App> = [
             url: "https://lichess1.org/assets/logo/lichess-favicon-128.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 209,
@@ -2006,6 +2215,7 @@ const apps: Array<App> = [
             url: "https://maxgfr.github.io/loyalty-card-vault/icons/manifest-icon-192.maskable.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 210,
@@ -2016,6 +2226,7 @@ const apps: Array<App> = [
             url: "https://block-match-game.vercel.app/favicon.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 211,
@@ -2026,6 +2237,10 @@ const apps: Array<App> = [
             url: "https://tetrix.io/icons/icon-192x192.png",
             maskable: true,
         },
+        categories: [
+            "games",
+            "entertainment",
+        ]
     },
     {
         id: 212,
@@ -2036,6 +2251,7 @@ const apps: Array<App> = [
             url: "https://wapps.store/192x192_maskable.png",
             maskable: true
         },
+        categories: []
     },
     {
         id: 213,
@@ -2046,6 +2262,7 @@ const apps: Array<App> = [
             url: "https://hunterirving.github.io/qr/icon.png",
             maskable: false,
         },
+        categories: []
     },
     {
         id: 214,
@@ -2056,6 +2273,11 @@ const apps: Array<App> = [
             url: "https://icemap.app/icons/icon-192x192.png",
             maskable: true,
         },
+        categories: [
+            "news",
+            "social",
+            "utilities",
+        ]
     },
     {
         id: 215,
@@ -2066,28 +2288,32 @@ const apps: Array<App> = [
             url: "https://taskdumpr.com/web-app-manifest-192x192.png",
             maskable: true,
         },
+        categories: []
     },
     {
         id: 216,
         name: "LekeeLekee",
         description: "Connect, share, and discover content with a vibrant community.",
-        url: "https://www.lekeelekee.com/",
-        icon:
-        {
+        url: "https://www.lekeelekee.com",
+        icon: {
             url: "https://www.lekeelekee.com/android-chrome-192x192-maskable.png",
             maskable: true
         },
+        "categories": [
+            "social",
+            "entertainment",
+        ],
     },
     {
         id: 217,
         name: "The Conversation",
         description: "",
         url: "https://theconversation.com",
-        icon:
-        {
+        icon: {
             url: "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
             maskable: false,
-        }
+        },
+        categories: []
     },
     {
         id: 218,
@@ -2097,7 +2323,8 @@ const apps: Array<App> = [
         icon: {
             url: "https://assets.apnews.com/77/8e/bddbc9f3405984501b8a10dfc921/android-app-icon-144.png",
             maskable: false,
-        }
+        },
+        categories: []
     },
     {
         id: 219,
@@ -2108,6 +2335,10 @@ const apps: Array<App> = [
             url: "https://recapflow.com/logo-maskable.png",
             maskable: true
         },
+        categories: [
+            "productivity",
+            "utilities",
+        ],
     },
     {
         id: 220,
@@ -2118,6 +2349,10 @@ const apps: Array<App> = [
             url: "https://givetwice.app/android-chrome-maskable-192x192.png",
             maskable: true
         },
+        categories: [
+            "shopping",
+            "lifestyle",
+        ],
     },
     {
         id: 221,
@@ -2127,7 +2362,11 @@ const apps: Array<App> = [
         icon: {
             url: "https://www.fetchasset.com/apple-touch-icon.png",
             maskable: true
-        }
+        },
+        categories: [
+            "business",
+            "productivity",
+        ],
     },
     {
         id: 222,
@@ -2135,19 +2374,21 @@ const apps: Array<App> = [
         description: "Hierarchical event, task, and message dashboard with log and status views.",
         url: "https://tailwatch.dev",
         icon: {
-            url: "/pwa-maskable-512x512.png",
+            url: "https://tailwatch.dev/pwa-maskable-512x512.png",
             maskable: true
-        }
+        },
+        categories: []
     },
     {
         id: 223,
-        url: "https://thelittlegamefactory.com/",
+        url: "https://thelittlegamefactory.com",
         name: "The Little Game Factory",
         description: "High quality webGL games for desktop pc and mobile phones",
         icon: {
             url: "https://thelittlegamefactory.com/wp-content/themes/supergoodgames/images/icon-mask.svg",
             maskable: true
-        }
+        },
+        categories: []
     },
     {
         id: 224,
@@ -2157,17 +2398,23 @@ const apps: Array<App> = [
         icon: {
             url: "https://softbear.com/softbear_logo.png",
             maskable: false,
-        }
+        },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 225,
         name: "Voxmaxa",
         description: "Voxmaxa is a free for all combat game in a block world. It is free to play online in a web browser with nothing to install.",
-        url: "https://mazean.com/",
+        url: "https://mazean.com",
         icon: {
             url: "https://mazean.com/data/512x512.png",
             maskable: false
         },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 226,
@@ -2178,6 +2425,9 @@ const apps: Array<App> = [
             url: "https://kiomet.com/data/512x512.png",
             maskable: true
         },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 227,
@@ -2188,6 +2438,9 @@ const apps: Array<App> = [
             url: "https://krakax.com/data/512x512.png",
             maskable: false,
         },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 228,
@@ -2198,6 +2451,9 @@ const apps: Array<App> = [
             url: "https://mk48.io/data/mask256x256.png",
             maskable: true
         },
+        "categories": [
+            "games",
+        ],
     },
     {
         id: 229,
@@ -2208,6 +2464,9 @@ const apps: Array<App> = [
             url: "https://netquel.com/data/512x512.png",
             maskable: true
         },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 230,
@@ -2218,6 +2477,9 @@ const apps: Array<App> = [
             url: "https://tankgank.com/data/512x512.png",
             maskable: true,
         },
+        categories: [
+            "games",
+        ],
     },
     {
         id: 231,
@@ -2228,6 +2490,9 @@ const apps: Array<App> = [
             url: "https://turnfight.com/data/512x512.png",
             maskable: false,
         },
+        categories: [
+            "games",
+        ],
     },
 ];
 

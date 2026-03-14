@@ -1,10 +1,11 @@
-import { Component, onMount } from 'solid-js';
+import { Component, For, onMount } from 'solid-js';
 import useStore from '../hooks/useStore';
 import AppResultList from '../components/AppResultList';
 import App from '../interfaces/App';
 import Fuse from "fuse.js";
 import SearchBar from '../components/SearchBar';
 import { useSearchParams } from '@solidjs/router';
+import Filter from '../interfaces/Filter';
 
 // Main component
 const Search: Component = () => {
@@ -67,7 +68,8 @@ const Search: Component = () => {
     });
 
     const filteredApps = () => {
-        const { search, apps } = store;
+        const { search, apps, filters } = store;
+        const currentFilter = filters.find(filter => filter.selected) ?? filters[0];
 
         if (fuse === null) {
             const appList: Array<App> = apps.map((app) => ({ ...app }));
@@ -90,15 +92,14 @@ const Search: Component = () => {
             });
         }
 
+        const filteredApps = currentFilter.categories.length === 0 ? apps : apps.filter(app => {
+            return app.categories.filter(category => currentFilter.categories.includes(category)).length > 0;
+        });
+
         const matchedAppsIds = fuse.search(search).map((app) => app.item.id);
+        const searchedApps = matchedAppsIds.length === 0 ? filteredApps : filteredApps.filter((app) => matchedAppsIds.includes(app.id));
 
-        if (matchedAppsIds.length === 0) {
-            return apps;
-        }
-
-        const filteredApps = apps.filter((app) => matchedAppsIds.includes(app.id));
-
-        return filteredApps;
+        return searchedApps;
     };
 
     const onSearchBarInput = (event: InputEvent) => {
@@ -112,6 +113,17 @@ const Search: Component = () => {
         });
     };
 
+    const onFilterClick = (filter: Filter): void => {
+        navigator?.vibrate(60);
+
+        const updatedFilters = store.filters.map(storedFilter => ({
+            ...storedFilter,
+            selected: filter.id === storedFilter.id
+        }));
+
+        setStore("filters", updatedFilters);
+    };
+
     return (
         <div class="flex flex-col h-dvh bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 max-w-2xl mx-auto">
             <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto">
@@ -122,8 +134,26 @@ const Search: Component = () => {
                     onInput={event => onSearchBarInput(event)}
                     focusOnMount={true}
                 />
+                <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto">
+                    <For each={store.filters}>
+                        {filter => <button classList={{
+                            "flex-shrink-0": true,
+                            "text-stone-200": filter.selected,
+                            "text-stone-400": !filter.selected,
+                            "border": true,
+                            "border-stone-400": filter.selected,
+                            "border-stone-700": !filter.selected,
+                            "rounded-lg": true,
+                            "px-4": true,
+                            "py-1": true,
+                            "tracking-wider": true
+                        }} onClick={() => onFilterClick(filter)}>
+                            {filter.name}
+                        </button>}
+                    </For>
+                </div>
             </header>
-            <main class="grow p-4 mt-8 pt-20 overflow-y-auto">
+            <main class="grow p-4 mt-22 pt-20 overflow-y-auto">
                 <AppResultList apps={filteredApps()} />
             </main>
         </div>

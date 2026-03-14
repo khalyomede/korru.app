@@ -1,5 +1,5 @@
+import Category from "../types/Category";
 import AppIcon from "./AppIcon";
-import AppScreenshot from "./AppScreenshot";
 
 /**
  * @see https://www.w3.org/TR/appmanifest/#web-application-manifest
@@ -10,6 +10,7 @@ interface App {
     description: string;
     icon: AppIcon;
     url: string;
+    categories: Array<Category>;
 };
 
 export default App;
