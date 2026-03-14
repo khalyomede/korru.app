@@ -844,7 +844,7 @@ const apps: Array<App> = [
         url: "https://regex101.com",
         description: "regex101: build, test, and debug regex",
         icon: {
-            url: "https://regex101.com/static/assets/maskable-icon-512.png",
+            url: "https://regex101.com/static/assets/icons/manifest-icon-192.maskable.png",
             maskable: true
         },
         categories: [],
@@ -863,11 +863,11 @@ const apps: Array<App> = [
     {
         id: 80,
         name: "#closerintime",
-        description: "",
+        description: "Visualize the time between historical events.",
         url: "https://closerinti.me",
         icon: {
-            url: "https://closerinti.me/icons/icon-48x48.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
-            maskable: false
+            url: "https://closerinti.me/icons/icon-maskable-512.png",
+            maskable: true
         },
         categories: [],
     },
