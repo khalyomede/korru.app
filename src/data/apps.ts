@@ -2494,6 +2494,200 @@ const apps: Array<App> = [
             "games",
         ],
     },
+    {
+        id: 232,
+        name: "PayFit",
+        url: "https://payfit.com",
+        description: "",
+        icon: {
+            url: "https://payfit.com/imgs/web-app-manifest-192x192.png",
+            maskable: true
+        },
+        categories: [],
+    },
+    {
+        id: 233,
+        url: "https://aminnairi.github.io/chmod",
+        description: "Calculate chmod permissions using a grahpical Web interface",
+        name: "Chmod",
+        icon: {
+            url: "https://aminnairi.github.io/chmod/icon.png",
+            maskable: true,
+        },
+        categories: []
+    },
+    {
+        id: 234,
+        name: "Channel Surfer",
+        description: "",
+        url: "https://channelsurfer.tv",
+        icon: {
+            url: "https://channelsurfer.tv/web-app-manifest-192x192.png",
+            maskable: true
+        },
+        categories: []
+    },
+    {
+        id: 235,
+        name: "YouBrokeProd",
+        description: "Master production incidents through realistic simulations",
+        url: "https://www.youbrokeprod.com",
+        icon: {
+            url: "https://www.youbrokeprod.com/icon-192.png",
+            maskable: false,
+        },
+        categories: []
+    },
+    {
+        id: 236,
+        name: "diVine",
+        description: "Watch and share 6-second looping videos on the decentralized Nostr network.",
+        url: "https://divine.video",
+        categories: [
+            "entertainment",
+            "video",
+            "social",
+        ],
+        icon: {
+            url: "https://divine.video/app_icon.png",
+            maskable: true
+        },
+    },
+    {
+        id: 237,
+        name: "LifeDots",
+        description: "Visualize your life timeline with interactive dots",
+        url: "https://lifedots.app",
+        icon: {
+            url: "https://lifedots.app/assets/android-chrome-512x512.png",
+            maskable: true
+        },
+        categories: []
+    },
+    {
+        id: 238,
+        name: "Tuner",
+        url: "https://realtuner.online",
+        description: "",
+        icon: {
+            url: "https://realtuner.online/favicon/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        categories: []
+    },
+    {
+        id: 239,
+        name: "GitPulse",
+        description: "Transform raw GitHub data into a clean, living developer profile. Showcase your shipping velocity, maintenance focus, and real engineering impact.",
+        url: "https://www.gitpulse.dev",
+        icon: {
+            url: "https://www.gitpulse.dev/assets/gitpulse_icon_bg_black_round.png",
+            maskable: true
+        },
+        categories: []
+    },
+    {
+        id: 240,
+        name: "DigiBouquet.net",
+        url: "https://digibouquet.net",
+        description: "",
+        icon: {
+            url: "https://digibouquet.net/images/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: []
+    },
+    {
+        id: 241,
+        name: "Ichinichi",
+        description: "A minimalist daily note app. One note per day.",
+        url: "https://ichinichi.app",
+        icon: {
+            url: "https://ichinichi.app/favicons/android-chrome-512x512.png",
+            maskable: true,
+        },
+        categories: []
+    },
+    {
+        id: 242,
+        name: "Pixelate Image",
+        description: "Free online image pixelator. Pixelate faces, license plates, or create retro 8-bit art instantly. Private, fast, and works entirely in your browser with no upload required.",
+        url: "https://www.pixelateimage.co",
+        icon: {
+            url: "https://www.pixelateimage.co/logo.png",
+            maskable: false,
+        },
+        categories: [
+            "utilities",
+            "photo"
+        ]
+    },
+    {
+        id: 243,
+        url: "https://tvexplorer.live",
+        description: "Stream 10,000+ free-to-air TV channels from 177 countries in your browser. HLS live streaming, M3U import, search, favorites, multiview, and more.",
+        name: "IPTV Pro",
+        icon: {
+            url: "https://iptvpro.live/projects/iptv-pro/images/hero.jpg",
+            maskable: false,
+        },
+        categories: ["entertainment", "video"]
+    },
+    {
+        id: 244,
+        name: "Nitter",
+        description: "",
+        url: "https://xcancel.com",
+        icon: {
+            url: "https://xcancel.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: []
+    },
+    {
+        id: 245,
+        name: "Porcfolio",
+        url: "https://app.porcfolio.com",
+        description: "Zero-cost personal finance tracker.",
+        icon: {
+            url: "https://app.porcfolio.com/icons/Icon-maskable-192.png",
+            maskable: true
+        },
+        categories: []
+    },
+    {
+        id: 247,
+        name: "AbjadPro",
+        description: "",
+        url: "https://abjadpro.com",
+        icon: {
+            url: "https://abjadpro.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: []
+    },
+    {
+        id: 248,
+        name: "TheDayAfter",
+        description: "Your addiction recovery companion",
+        url: "https://thedayafter.app",
+        icon: {
+            url: "https://thedayafter.app/icon-192.png",
+            maskable: true,
+        },
+        categories: []
+    },
+    {
+        id: 249,
+        name: "Polymarket",
+        description: "",
+        icon: {
+            url: "https://polymarket.com/icons/android-chrome-192x192.png",
+            maskable: true
+        },
+        categories: [],
+        url: "https://polymarket.com",
+    }
 ];
 
 export default apps;
