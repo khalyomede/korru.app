@@ -22,7 +22,8 @@ const defaultFilters: Array<Filter> = [
         id: 1,
         name: "all",
         selected: true,
-        categories: []
+        categories: [],
+        default: true,
     },
     {
         id: 2,
@@ -31,6 +32,7 @@ const defaultFilters: Array<Filter> = [
         categories: [
             "games",
         ],
+        default: false,
     },
     {
         id: 3,
@@ -40,6 +42,7 @@ const defaultFilters: Array<Filter> = [
             "magazines",
             "news",
         ],
+        default: false,
     },
     {
         id: 4,
@@ -50,6 +53,7 @@ const defaultFilters: Array<Filter> = [
             "dating",
             "social networking",
         ],
+        default: false,
     },
     {
         id: 5,
@@ -58,6 +62,7 @@ const defaultFilters: Array<Filter> = [
         categories: [
             "shopping",
         ],
+        default: false,
     },
     {
         id: 6,
@@ -66,6 +71,7 @@ const defaultFilters: Array<Filter> = [
         categories: [
             "utilities",
         ],
+        default: false,
     }
 ];
 

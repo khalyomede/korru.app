@@ -11,6 +11,7 @@ import Filter from '../interfaces/Filter';
 const Search: Component = () => {
     const [store, setStore] = useStore();
     const [searchParams, setSearchParams] = useSearchParams();
+    let filtersContainer;
 
     /**
      * Overriding setSearchParams globally to prevent each key strokes to save a URL navigation.
@@ -116,12 +117,34 @@ const Search: Component = () => {
     const onFilterClick = (filter: Filter): void => {
         navigator?.vibrate(60);
 
-        const updatedFilters = store.filters.map(storedFilter => ({
-            ...storedFilter,
-            selected: filter.id === storedFilter.id
-        }));
+        const updatedFilters = store.filters
+            .map(storedFilter => ({
+                ...storedFilter,
+                selected: filter.id === storedFilter.id
+            }))
+            .sort((firstFilter, secondFilter) => {
+                if (firstFilter.default) {
+                    return -1;
+                }
+
+                if (secondFilter.default) {
+                    return 1;
+                }
+
+                if (firstFilter.selected) {
+                    return -1;
+                }
+
+                if (secondFilter.selected) {
+                    return 1;
+                }
+
+                return 0;
+            });
 
         setStore("filters", updatedFilters);
+
+        filtersContainer?.scrollTo(0, 0);
     };
 
     return (
@@ -134,7 +157,7 @@ const Search: Component = () => {
                     onInput={event => onSearchBarInput(event)}
                     focusOnMount={true}
                 />
-                <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto">
+                <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto" ref={filtersContainer}>
                     <For each={store.filters}>
                         {filter => <button classList={{
                             "flex-shrink-0": true,

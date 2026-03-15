@@ -5,6 +5,7 @@ interface Filter {
     name: string;
     categories: Array<Category>;
     selected: boolean;
+    default: boolean;
 };
 
 export default Filter;
