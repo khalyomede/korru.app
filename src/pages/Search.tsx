@@ -17,7 +17,7 @@ const Search: Component = () => {
      * Overriding setSearchParams globally to prevent each key strokes to save a URL navigation.
      * Without it, the UX is bad because the user would have to hit "back" button for each search terms characters.
      */
-    const setSearchQueries = (params: Record<string, string>) => setSearchParams(params, { replace: true });
+    const setSearchQueries = (params: Record<string, string | null>) => setSearchParams(params, { replace: true });
 
     let fuse: Fuse<App> | null = null;
 
@@ -27,19 +27,25 @@ const Search: Component = () => {
      * and if it is not empty, we persiste the value in store
      * which will filter the app list in the same time.
      */
-    const persistSearchQueryTermIfStoreTermIsEmpty = () => {
+    const persistSearchQueryInStore = () => {
         const { search } = store;
         const searchIsEmpty = search.trim().length === 0;
-        const { term } = searchParams;
+        const { term, filter } = searchParams;
 
-        if (typeof term !== "string") {
-            return;
+        if (typeof term === "string") {
+            const searchTermIsFilled = term.trim().length > 0;
+
+            if (searchIsEmpty && searchTermIsFilled) {
+                setStore("search", term);
+            }
         }
 
-        const searchTermIsFilled = term.trim().length > 0;
+        if (typeof filter === "string") {
+            const { filters } = store;
 
-        if (searchIsEmpty && searchTermIsFilled) {
-            setStore("search", term);
+            if (filter.trim().length > 0) {
+                setStore("filters", filters.map(baseFilter => ({ ...baseFilter, selected: baseFilter.name === filter })));
+            }
         }
     };
 
@@ -50,27 +56,35 @@ const Search: Component = () => {
      * if we have a search term in the store (local storage),
      * then we persist it in the query strings as well.
      */
-    const persistSearchTermIfSearchQueryTermIsEmpty = () => {
+    const persistsStoreInSearchQueries = () => {
         const { search } = store;
         const { term } = searchParams;
         const searchIsFilled = search.trim().length > 0;
         const searchQueryIsEmpty = typeof term !== "string" || term.trim().length === 0;
 
+        let queries: Record<string, string> = {};
+
         if (searchIsFilled && searchQueryIsEmpty) {
-            setSearchQueries({
-                term: search,
-            });
+            queries.term = search;
         }
+
+        const currentFilter = getCurrentFilter();
+
+        if (!currentFilter.default) {
+            queries.filter = currentFilter.name;
+        }
+
+        setSearchQueries(queries);
     };
 
     onMount(() => {
-        persistSearchQueryTermIfStoreTermIsEmpty();
-        persistSearchTermIfSearchQueryTermIsEmpty();
+        persistSearchQueryInStore();
+        persistsStoreInSearchQueries();
     });
 
     const filteredApps = () => {
-        const { search, apps, filters } = store;
-        const currentFilter = filters.find(filter => filter.selected) ?? filters[0];
+        const { search, apps } = store;
+        const currentFilter = getCurrentFilter();
 
         if (fuse === null) {
             const appList: Array<App> = apps.map((app) => ({ ...app }));
@@ -103,15 +117,24 @@ const Search: Component = () => {
         return searchedApps;
     };
 
+    const getCurrentFilter = (): Filter => {
+        const { filters } = store;
+
+        return filters.find(filter => filter.selected) ?? filters[0];
+    };
+
     const onSearchBarInput = (event: InputEvent) => {
         if (!(event.target instanceof HTMLInputElement)) {
             return;
         }
 
-        setStore("search", event.target.value);
+        const term = event.target.value.trim();
+
         setSearchQueries({
-            term: event.target.value,
+            term: term.length > 0 ? event.target.value : null,
         });
+
+        setStore("search", term);
     };
 
     const onFilterClick = (filter: Filter): void => {
@@ -122,6 +145,7 @@ const Search: Component = () => {
                 ...storedFilter,
                 selected: filter.id === storedFilter.id
             }))
+            // Pushes the selected item at the begining of the filter bar.
             .sort((firstFilter, secondFilter) => {
                 if (firstFilter.default) {
                     return -1;
@@ -144,7 +168,15 @@ const Search: Component = () => {
 
         setStore("filters", updatedFilters);
 
+        // Scrolls filters bar to the begining after the selected item has been pushed at the begining.
         filtersContainer?.scrollTo(0, 0);
+
+        // Update the search queries
+        const currentFilter = getCurrentFilter();
+
+        setSearchQueries({
+            filter: !currentFilter.default ? currentFilter.name : null,
+        });
     };
 
     return (
