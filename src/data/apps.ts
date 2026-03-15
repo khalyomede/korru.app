@@ -2709,6 +2709,17 @@ const apps: Array<App> = [
             maskable: true
         },
         categories: []
+    },
+    {
+        id: 252,
+        name: "Showcode",
+        description: "Generate beautiful images of code.",
+        icon: {
+            url: "https://showcode.app/_nuxt/icons/icon_120x120.3d4a63.png",
+            maskable: true
+        },
+        url: "https://showcode.app",
+        categories: []
     }
 ];
 
