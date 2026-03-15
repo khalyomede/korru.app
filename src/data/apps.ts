@@ -2687,6 +2687,17 @@ const apps: Array<App> = [
         },
         categories: [],
         url: "https://polymarket.com",
+    },
+    {
+        id: 250,
+        name: "DiscoVox",
+        url: "https://discovox.org",
+        description: "Listen to audiobooks and read along to boost your language comprehension with DiscoVox!\nInstall this app to enjoy a seamless experience with offline access.",
+        icon: {
+            url: "https://discovox.org/static/icons/manifest-icon-192.maskable.png",
+            maskable: true,
+        },
+        categories: []
     }
 ];
 
