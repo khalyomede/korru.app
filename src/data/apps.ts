@@ -2698,6 +2698,17 @@ const apps: Array<App> = [
             maskable: true,
         },
         categories: []
+    },
+    {
+        id: 251,
+        name: "VidSnoop",
+        description: "Video Analysis Tool",
+        url: "https://www.vidsnoop.com",
+        icon: {
+            url: "https://www.vidsnoop.com/maskable-icon-512x512.png",
+            maskable: true
+        },
+        categories: []
     }
 ];
 
