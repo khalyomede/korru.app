@@ -2742,6 +2742,101 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
+    },
+    {
+        id: 255,
+        name: "Basalt",
+        description: "",
+        url: "https://basalt-docs.com",
+        icon: {
+            url: "https://basalt-docs.com/assets/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
+        id: 256,
+        name: "OPO",
+        description: "",
+        url: "https://opo.fausto.me",
+        icon: {
+            url: "https://opo.fausto.me/favicon.ico",
+            maskable: false,
+        },
+        categories: [
+            "social",
+        ],
+    },
+    {
+        id: 257,
+        name: "deariary",
+        description: "Fully automated diary generation from your connected services",
+        url: "https://app.deariary.com",
+        icon: {
+            url: "https://app.deariary.com/icon-192.png",
+            maskable: true
+        },
+        categories: [
+            "lifestyle",
+            "productivity",
+            "utilities",
+        ],
+    },
+    {
+        id: 258,
+        name: "ConvertUniverse",
+        description: "Automate document processes with AI workflows and intelligent tools. 100% free, secure, and built for scale.",
+        url: "https://www.convertuniverse.com",
+        icon: {
+            url: "https://www.convertuniverse.com/apple-icon.png",
+            maskable: true
+        },
+        categories: [
+            "productivity",
+            "utilities",
+            "business"
+        ],
+    },
+    {
+        id: 259,
+        name: "Twill",
+        description: "Automate bug fixes, features, and maintenance with coding agents. Twill ships PRs autonomously in sandboxed environments, and pings you when it needs your input.",
+        url: "https://twill.ai",
+        icon: {
+            url: "https://twill.ai/favicon.svg",
+            maskable: false,
+        },
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
+        id: 260,
+        name: "Ensemble",
+        description: "A free screenplay editor that automatically formats as you type.",
+        url: "https://ensemblewriter.com",
+        icon: {
+            url: "https://ensemblewriter.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [
+            "productivity",
+        ],
+    },
+    {
+        id: 261,
+        name: "Say That Sh",
+        description: "The digital billboard where the only algorithm is capitalism. Post your message, or pay to replace the current one.",
+        url: "https://saythat.sh",
+        icon: {
+            url: "https://saythat.sh/icon-192x192.png",
+            maskable: true
+        },
+        categories: [
+            "social",
+        ],
     }
 ];
 
