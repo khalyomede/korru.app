@@ -145,8 +145,8 @@ const Search: Component = () => {
                 ...storedFilter,
                 selected: filter.id === storedFilter.id
             }))
-            // Pushes the selected item at the begining of the filter bar.
             .sort((firstFilter, secondFilter) => {
+                // Always keep the default filter "all" at the begining.
                 if (firstFilter.default) {
                     return -1;
                 }
@@ -155,11 +155,19 @@ const Search: Component = () => {
                     return 1;
                 }
 
+                // Pushes the selected item at the begining of the filter bar.
                 if (firstFilter.selected) {
                     return -1;
                 }
 
                 if (secondFilter.selected) {
+                    return 1;
+                }
+
+                // Keep the other filters in the same default order (using their id).
+                if (firstFilter.id < secondFilter.id) {
+                    return -1;
+                } else if (firstFilter.id > secondFilter.id) {
                     return 1;
                 }
 
@@ -193,10 +201,13 @@ const Search: Component = () => {
                     <For each={store.filters}>
                         {filter => <button classList={{
                             "flex-shrink-0": true,
-                            "text-stone-200": filter.selected,
-                            "text-stone-400": !filter.selected,
+                            "dark:text-stone-900": filter.selected,
+                            "dark:text-stone-400": !filter.selected,
+                            "dark:bg-stone-400": filter.selected,
+                            "text-stone-50": filter.selected,
+                            "text-stone-700": !filter.selected,
+                            "bg-stone-700": filter.selected,
                             "border": true,
-                            "border-stone-400": filter.selected,
                             "border-stone-700": !filter.selected,
                             "rounded-lg": true,
                             "px-4": true,
