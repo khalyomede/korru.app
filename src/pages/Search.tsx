@@ -220,7 +220,7 @@ const Search: Component = () => {
                     </For>
                 </div>
             </header>
-            <main class="grow p-4 mt-22 pt-20 overflow-y-auto">
+            <main class="grow p-4 mt-22 pt-20 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                 <AppResultList apps={filteredApps()} />
             </main>
         </div>
