@@ -6,6 +6,7 @@ import Fuse from "fuse.js";
 import SearchBar from '../components/SearchBar';
 import { useSearchParams } from '@solidjs/router';
 import Filter from '../interfaces/Filter';
+import { vibrate } from "../utilities";
 
 // Main component
 const Search: Component = () => {
@@ -138,7 +139,7 @@ const Search: Component = () => {
     };
 
     const onFilterClick = (filter: Filter): void => {
-        navigator?.vibrate(60);
+        vibrate(60);
 
         const updatedFilters = store.filters
             .map(storedFilter => ({
