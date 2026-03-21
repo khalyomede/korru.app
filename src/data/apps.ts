@@ -2720,6 +2720,28 @@ const apps: Array<App> = [
         },
         url: "https://showcode.app",
         categories: []
+    },
+    {
+        id: 253,
+        name: "Star Walk",
+        description: "",
+        url: "https://starwalk.space",
+        icon: {
+            url: "https://starwalk.space/icon-192.png",
+            maskable: false,
+        },
+        categories: [],
+    },
+    {
+        id: 254,
+        name: "Padel Tactics",
+        description: "",
+        url: "https://www.padelchess.me",
+        icon: {
+            url: "https://www.padelchess.me/icons/192.png",
+            maskable: false,
+        },
+        categories: [],
     }
 ];
 
