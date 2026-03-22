@@ -2837,7 +2837,40 @@ const apps: Array<App> = [
         categories: [
             "social",
         ],
-    }
+    },
+    {
+        id: 262,
+        name: "Suno",
+        description: "",
+        url: "https://suno.com",
+        icon: {
+            url: "https://cdn-o.suno.com/favicon-192x192.png",
+            maskable: false,
+        },
+        categories: []
+    },
+    {
+        id: 263,
+        name: "Timerjoy",
+        description: "Free online timers, countdowns, stopwatch, and date calculators. No downloads, no sign-up.",
+        url: "https://timerjoy.com/",
+        icon: {
+            url: "https://timerjoy.com/icon.svg",
+            maskable: false,
+        },
+        categories: [],
+    },
+    {
+        id: 264,
+        name: "Chartle",
+        description: "AI-Powered Data Visualization",
+        url: "https://www.chartle.app",
+        icon: {
+            url: "https://www.chartle.app/web-app-manifest-192x192.png",
+            maskable: true
+        },
+        categories: [],
+    },
 ];
 
 export default apps;
