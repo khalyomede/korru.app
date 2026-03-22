@@ -1,9 +1,65 @@
-import { parse } from "node-html-parser";
 import { object, string, array } from "zod";
 import sources from "../sources.json" with { type: "json" };
 import { writeFile } from "fs/promises";
 import { join } from "path";
 import type App from "../interfaces/App";
+import type Category from "../types/Category";
+
+const categories = [
+    "beauty",
+    "books",
+    "books & reference",
+    "business",
+    "cars",
+    "dating",
+    "design",
+    "developer",
+    "developer tools",
+    "development",
+    "education",
+    "entertainment",
+    "events",
+    "fashion",
+    "finance",
+    "fitness",
+    "food",
+    "fundraising",
+    "games",
+    "government",
+    "graphics",
+    "graphics & design",
+    "health",
+    "health & fitness",
+    "kids",
+    "lifestyle",
+    "magazines",
+    "medical",
+    "multimedia",
+    "multimedia design",
+    "music",
+    "navigation",
+    "network",
+    "networking",
+    "news",
+    "parenting",
+    "personalization",
+    "pets",
+    "photo",
+    "photo & video",
+    "politics",
+    "productivity",
+    "reference",
+    "security",
+    "shopping",
+    "social",
+    "social networking",
+    "sports",
+    "transportation",
+    "travel",
+    "utilities",
+    "video",
+    "weather",
+];
 
 const fetchAsChrome = (url: string | URL): Promise<Response> =>
     fetch(url, {
@@ -45,7 +101,10 @@ const Manifest = object({
         sizes: string().optional(),
         type: string().optional(),
         purpose: string().optional(),
-    }))
+    })),
+    categories: array(string())
+        .optional()
+        .transform((values) => values?.filter(value => categories.includes(value))),
 });
 
 let index = 1;
@@ -190,6 +249,7 @@ for (const source of sources) {
             url: new URL(icon?.src || "", source.url).toString(),
             maskable: icon?.purpose?.split(" ").includes("maskable") || false,
         },
+        categories: (parsedManifest.categories ?? []) as Array<Category>,
     };
 
     code.push(`${JSON.stringify(app, null, 4)},`);
