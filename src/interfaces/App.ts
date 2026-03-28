@@ -10,6 +10,9 @@ interface App {
     description: string;
     icon: AppIcon;
     url: string;
+    /**
+     * @see https://www.w3.org/TR/manifest-app-info/
+     */
     categories: Array<Category>;
 };
 
