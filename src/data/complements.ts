@@ -94,7 +94,19 @@ const complements: Array<Partial<App>> = [
             "news",
             "entertainment",
         ],
-    }
+    },
+    {
+        id: 281,
+        name: "MediaFast"
+    },
+    {
+        id: 284,
+        name: "OpenHour",
+        icon: {
+            url: "https://www.openhour.ai/favicon.ico?favicon.0b3bf435.ico",
+            maskable: false,
+        }
+    },
 ];
 
 export default complements;

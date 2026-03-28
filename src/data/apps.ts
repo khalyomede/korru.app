@@ -1838,17 +1838,6 @@ const apps: Array<App> = [
         categories: []
     },
     {
-        id: 177,
-        name: "MTGStocks",
-        description: "",
-        icon: {
-            url: "https://www.mtgstocks.com/assets/images/favicons/android-chrome-192x192.png",
-            maskable: false,
-        },
-        url: "https://www.mtgstocks.com",
-        categories: []
-    },
-    {
         id: 178,
         name: "Murlok",
         description: "Explore in-depth PvP and PvE character build guides for WoW The War Within 12.0, tailored for Solo Shuffle, 2v2, 3v3, RBG, and Mythic+. Gain insights from analyses of the top 50 players for each class and game mode. Continually updated every 8 hours to ensure you have the latest WoW meta strategies.",
@@ -2042,6 +2031,17 @@ const apps: Array<App> = [
             url: "https://d3i4yxtzktqr9n.cloudfront.net/web-plan/b8c00410291161d0.png",
             maskable: false,
         },
+        categories: []
+    },
+    {
+        id: 194,
+        name: "MTGStocks",
+        description: "",
+        icon: {
+            url: "https://www.mtgstocks.com/assets/images/favicons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.mtgstocks.com",
         categories: []
     },
     {
@@ -2870,6 +2870,314 @@ const apps: Array<App> = [
             maskable: true
         },
         categories: [],
+    },
+    {
+        id: 265,
+        name: "SitRoom",
+        description: "Bitcoin & Global Macro Intelligence Dashboard",
+        url: "https://situationroom.space",
+        icon: {
+            url: "https://situationroom.space/icons/icon-192.png",
+            maskable: true,
+        },
+        categories: [],
+    },
+    {
+        id: 266,
+        name: "MatchGuide",
+        description: "The essential travel guide for fans attending the 2026 World Cup in Canada. Matches, restaurants, transit & local secrets for Vancouver & Toronto.",
+        icon: {
+            url: "https://matchguide.ca/icons/icon-192.png",
+            maskable: true,
+        },
+        url: "https://matchguide.ca",
+        categories: ["sports", "travel", "food"],
+    },
+    {
+        id: 267,
+        name: "Zura",
+        description: "Domain portfolio management — DNS, SEO, security, and registrar ops.",
+        icon: {
+            url: "https://zura.chat/icon.svg",
+            maskable: true,
+        },
+        url: "https://zura.chat/app",
+        categories: [],
+    },
+    {
+        id: 268,
+        name: "UnWX",
+        description: "This app alerts you when severe weather is expected. The alerts are a reliable and quick forecast based on official sources. Depending on the country, it warns of weather dangers like cyclones, tornadoes, thunderstorms, hail, heavy rain, snow, freeze, slipperiness, heat, heavy wind, fog, flood or marine warnings.",
+        icon: {
+            url: "https://www.unwx.app/pwa/launcher/launcher_192-maskable.png",
+            maskable: true,
+        },
+        url: "https://www.unwx.app/pwa",
+        categories: ["weather", "utilities"],
+    },
+    {
+        id: 269,
+        name: "Rain Alarm",
+        description: "This weather app alerts you when rain is approaching. The alerts are a reliable short-term forecast based on near real-time data. This app is more precise and reliable than a traditional forecast. It is very useful for all outdoor activities – including cycling, motorcycling, hiking, gardening, BBQs, picnics, dog walking and DIY.",
+        icon: {
+            url: "https://www.rain-alarm.com/launcher/launcher_192-maskable.png",
+            maskable: true,
+        },
+        url: "https://www.rain-alarm.com",
+        categories: ["weather", "utilities"],
+    },
+    {
+        id: 270,
+        name: "Getly",
+        description: "Buy and sell digital products: templates, fonts, code, graphics, and more.",
+        icon: {
+            url: "https://www.getly.store/icon-192.png",
+            maskable: false,
+        },
+        url: "https://www.getly.store",
+        categories: [],
+    },
+    {
+        id: 271,
+        name: "TradeMatrix",
+        description: "Score every stock across 25 indicators, 5 factors, and 3 time horizons.",
+        icon: {
+            url: "https://trade-matrix.com/icons/brand/score-ring-512.png",
+            maskable: true,
+        },
+        url: "https://trade-matrix.com/dashboard",
+        categories: [],
+    },
+    {
+        id: 272,
+        name: "AttaQuiz",
+        description: "Have Fun. Get Smarter. Learn any topic while having fun with quizzes.",
+        icon: {
+            url: "https://attaquiz.com/icons/icon-512.png",
+            maskable: true,
+        },
+        url: "https://attaquiz.com",
+        categories: ["education", "games"],
+    },
+    {
+        id: 273,
+        name: "Taskadactyl",
+        description: "Gamified task manager for ADHD brains. Turn boring tasks into exciting adventures with your Taskadactyl companion.",
+        icon: {
+            url: "https://taskadactyl.com/icons/icon-512.png",
+            maskable: true,
+        },
+        url: "https://taskadactyl.com/app",
+        categories: ["productivity", "lifestyle", "utilities"],
+    },
+    {
+        id: 274,
+        name: "Mu",
+        description: "Building blocks for apps",
+        icon: {
+            url: "https://mu.xyz/icon-512.png",
+            maskable: true,
+        },
+        url: "https://mu.xyz",
+        categories: [],
+    },
+    {
+        id: 275,
+        name: "neobotnet",
+        description: "Web Reconnaissance. Delivered.",
+        icon: {
+            url: "https://www.neobotnet.com/favicons/favicon-512x512.png",
+            maskable: true,
+        },
+        url: "https://www.neobotnet.com",
+        categories: [],
+    },
+    {
+        id: 276,
+        name: "podhoc",
+        description: "Learn in motion. Distill any content into pedagogical audio capsules.",
+        icon: {
+            url: "https://podhoc.com/images/apple-touch-icon.png",
+            maskable: false,
+        },
+        url: "https://podhoc.com",
+        categories: [],
+    },
+    {
+        id: 277,
+        name: "MangoWave",
+        description: "Browser-based audio-reactive visualizer inspired by Winamp and MilkDrop",
+        icon: {
+            url: "https://play.mangowave.app/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://play.mangowave.app",
+        categories: [],
+    },
+    {
+        id: 278,
+        name: "RailRaptor",
+        description: "Offline-capable UK Train Route Planner",
+        icon: {
+            url: "https://railraptor.com/icon-192-maskable.png",
+            maskable: true,
+        },
+        url: "https://railraptor.com",
+        categories: [],
+    },
+    {
+        id: 279,
+        name: "Playra",
+        description: "The next generation video platform. Watch, share, and subscribe to your favorite creators.",
+        icon: {
+            url: "https://playra-app.vercel.app/icon-maskable-512x512.png",
+            maskable: true,
+        },
+        url: "https://playra-app.vercel.app",
+        categories: ["entertainment", "social"],
+    },
+    {
+        id: 280,
+        name: "Keydar",
+        description: "",
+        icon: {
+            url: "https://keydar.app/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        url: "https://keydar.app",
+        categories: [],
+    },
+    {
+        id: 281,
+        name: "MySite",
+        description: "",
+        icon: {
+            url: "https://www.mediafa.st/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        url: "https://www.mediafa.st",
+        categories: [],
+    },
+    {
+        id: 282,
+        name: "VizTools",
+        description: "",
+        icon: {
+            url: "https://viztools.app/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://viztools.app",
+        categories: [],
+    },
+    {
+        id: 283,
+        name: "BetterPrompt",
+        description: "Discover, build, and monetize ready-to-run AI prompts for ChatGPT, Gemini, Grok, and more.",
+        icon: {
+            url: "https://betterprompt.me/web-app-manifest-512x512.png",
+            maskable: true,
+        },
+        url: "https://betterprompt.me",
+        categories: [],
+    },
+    {
+        id: 284,
+        name: "OpenHour",
+        description: "Turn natural language into your daily plan",
+        icon: {
+            url: "https://www.openhour.ai/icon-192.png",
+            maskable: true,
+        },
+        url: "https://www.openhour.ai",
+        categories: [],
+    },
+    {
+        id: 285,
+        name: "Mooduna",
+        description: "Track your mood, practice mindfulness, and invest in your mental wellness.",
+        icon: {
+            url: "https://www.mooduna.app/logo192.png",
+            maskable: true,
+        },
+        url: "https://www.mooduna.app",
+        categories: [],
+    },
+    {
+        id: 286,
+        name: "isitdown",
+        description: "Check if any website is down for everyone or just you.",
+        icon: {
+            url: "https://isitdown.page/favicon-192x192.png",
+            maskable: false,
+        },
+        url: "https://isitdown.page",
+        categories: [],
+    },
+    {
+        id: 287,
+        name: "Plany",
+        description: "Simple, Calendar-First Trip Planning",
+        icon: {
+            url: "https://app.plany.ae/icons/icon-192.png",
+            maskable: true,
+        },
+        url: "https://app.plany.ae",
+        categories: [],
+    },
+    {
+        id: 288,
+        name: "MoatRadar",
+        description: "",
+        icon: {
+            url: "https://www.moatradar.com/favicon.png",
+            maskable: false,
+        },
+        url: "https://www.moatradar.com",
+        categories: [],
+    },
+    {
+        id: 289,
+        name: "Frenzy",
+        description: "Earn on second-by-second price moves across all markets. Where milliseconds make money.",
+        icon: {
+            url: "https://frenzy.finance/icons/app/icon-512-maskable.png",
+            maskable: true,
+        },
+        url: "https://frenzy.finance",
+        categories: [],
+    },
+    {
+        id: 290,
+        name: "Dusk AI",
+        description: "The AI Companion That Never Forgets",
+        icon: {
+            url: "https://duskai.io/favicon-192.png",
+            maskable: false,
+        },
+        url: "https://duskai.io",
+        categories: [],
+    },
+    {
+        id: 291,
+        name: "Replika App",
+        description: "",
+        icon: {
+            url: "https://my.replika.com/android-icon-72x72.png",
+            maskable: false,
+        },
+        url: "https://my.replika.com",
+        categories: [],
+    },
+    {
+        id: 292,
+        name: "Breo",
+        description: "Your AI companion for restaurant and bar owners",
+        icon: {
+            url: "https://booteek.ai/android-chrome-192x192.png",
+            maskable: true,
+        },
+        url: "https://booteek.ai",
+        categories: ["business", "productivity", "food"],
     },
 ];
 
