@@ -45,7 +45,12 @@ const Search: Component = () => {
             const { filters } = store;
 
             if (filter.trim().length > 0) {
-                setStore("filters", filters.map(baseFilter => ({ ...baseFilter, selected: baseFilter.name === filter })));
+                setStore("filters", sortFilters(
+                    filters.map(baseFilter => ({
+                        ...baseFilter,
+                        selected: baseFilter.name === filter
+                    })))
+                );
             }
         }
     };
@@ -138,42 +143,45 @@ const Search: Component = () => {
         setStore("search", term);
     };
 
+    const sortFilters = (filters: Array<Filter>): Array<Filter> => filters.sort((firstFilter, secondFilter) => {
+        // Always keep the default filter "all" at the begining.
+        if (firstFilter.default) {
+            return -1;
+        }
+
+        if (secondFilter.default) {
+            return 1;
+        }
+
+        // Pushes the selected item at the begining of the filter bar.
+        if (firstFilter.selected) {
+            return -1;
+        }
+
+        if (secondFilter.selected) {
+            return 1;
+        }
+
+        // Keep the other filters in the same default order (using their id).
+        if (firstFilter.id < secondFilter.id) {
+            return -1;
+        } else if (firstFilter.id > secondFilter.id) {
+            return 1;
+        }
+
+        return 0;
+    });
+
     const onFilterClick = (filter: Filter): void => {
         vibrate(60);
 
-        const updatedFilters = store.filters
-            .map(storedFilter => ({
-                ...storedFilter,
-                selected: filter.id === storedFilter.id
-            }))
-            .sort((firstFilter, secondFilter) => {
-                // Always keep the default filter "all" at the begining.
-                if (firstFilter.default) {
-                    return -1;
-                }
-
-                if (secondFilter.default) {
-                    return 1;
-                }
-
-                // Pushes the selected item at the begining of the filter bar.
-                if (firstFilter.selected) {
-                    return -1;
-                }
-
-                if (secondFilter.selected) {
-                    return 1;
-                }
-
-                // Keep the other filters in the same default order (using their id).
-                if (firstFilter.id < secondFilter.id) {
-                    return -1;
-                } else if (firstFilter.id > secondFilter.id) {
-                    return 1;
-                }
-
-                return 0;
-            });
+        const updatedFilters = sortFilters(
+            store.filters
+                .map(storedFilter => ({
+                    ...storedFilter,
+                    selected: filter.id === storedFilter.id
+                }))
+        );
 
         setStore("filters", updatedFilters);
 
