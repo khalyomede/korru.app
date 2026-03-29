@@ -3179,6 +3179,28 @@ const apps: Array<App> = [
         url: "https://booteek.ai",
         categories: ["business", "productivity", "food"],
     },
+    {
+        id: 293,
+        name: "Spokk",
+        description: "Leading customer feedback software and Google review management platform for service businesses",
+        icon: {
+            url: "https://www.spokk.io/icon.ico",
+            maskable: false,
+        },
+        url: "https://www.spokk.io",
+        categories: ["business", "productivity", "utilities"],
+    },
+    {
+        id: 294,
+        name: "DwellRecord",
+        description: "The Digital Custodian for Your Home — track improvements and document assets.",
+        icon: {
+            url: "https://dwellrecord.com/icons/icon-512.png",
+            maskable: true,
+        },
+        url: "https://dwellrecord.com",
+        categories: [],
+    },
 ];
 
 export default apps;
