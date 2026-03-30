@@ -2839,17 +2839,6 @@ const apps: Array<App> = [
         ],
     },
     {
-        id: 262,
-        name: "Suno",
-        description: "",
-        url: "https://suno.com",
-        icon: {
-            url: "https://cdn-o.suno.com/favicon-192x192.png",
-            maskable: false,
-        },
-        categories: []
-    },
-    {
         id: 263,
         name: "Timerjoy",
         description: "Free online timers, countdowns, stopwatch, and date calculators. No downloads, no sign-up.",
