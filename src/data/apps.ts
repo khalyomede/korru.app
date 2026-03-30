@@ -3201,6 +3201,116 @@ const apps: Array<App> = [
         url: "https://dwellrecord.com",
         categories: [],
     },
+    {
+        id: 295,
+        name: "Seating Hero",
+        description: "",
+        icon: {
+            url: "https://seatinghero.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://seatinghero.com",
+        categories: [],
+    },
+    {
+        id: 296,
+        name: "IndexerHub",
+        description: "",
+        icon: {
+            url: "https://app.indexerhub.com/logo/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        url: "https://app.indexerhub.com",
+        categories: [],
+    },
+    {
+        id: 297,
+        name: "mjapi",
+        description: "",
+        icon: {
+            url: "https://app.maginary.ai/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://app.maginary.ai",
+        categories: [],
+    },
+    {
+        id: 298,
+        name: "Atypica",
+        description: "",
+        icon: {
+            url: "https://atypica.ai/_public/hippyghost-square-dark.jpg",
+            maskable: false,
+        },
+        url: "https://atypica.ai",
+        categories: [],
+    },
+    {
+        id: 299,
+        name: "GetYouTubeText",
+        description: "Convert any YouTube video to text instantly. Free, no sign up.",
+        icon: {
+            url: "https://getyoutubetext.com/icon.png",
+            maskable: false,
+        },
+        url: "https://getyoutubetext.com",
+        categories: ["productivity", "utilities"],
+    },
+    {
+        id: 300,
+        name: "Phone Tag",
+        description: "",
+        icon: {
+            url: "https://payphonetag.com/static/favicon.svg",
+            maskable: false,
+        },
+        url: "https://payphonetag.com",
+        categories: [],
+    },
+    {
+        id: 301,
+        name: "PapersFlow",
+        description: "Research workspace to search papers, manage a library, design workflows, and write collaboratively.",
+        icon: {
+            url: "https://papersflow.ai/icon-192x192.png",
+            maskable: true,
+        },
+        url: "https://papersflow.ai",
+        categories: ["productivity", "education", "utilities"],
+    },
+    {
+        id: 302,
+        name: "TasklyLife",
+        description: "Manage your tasks and stay focused with built-in Pomodoro timers.",
+        icon: {
+            url: "https://tasklylife.com/pwa-512x512.png",
+            maskable: true,
+        },
+        url: "https://tasklylife.com",
+        categories: [],
+    },
+    {
+        id: 303,
+        name: "TrafficPopcorn",
+        description: "More FTD's from every traffic source. Powered by DOT.",
+        icon: {
+            url: "https://media.base44.com/images/public/696a5a290704c2405236db52/0c4552fe0_TrafficPopcornIconbyDOT.png",
+            maskable: false,
+        },
+        url: "https://trafficpopcorn.com",
+        categories: [],
+    },
+    {
+        id: 304,
+        name: "Rap Steak",
+        description: "Will you become a legend or get cooked in the streets? A hip-hop card battle game.",
+        icon: {
+            url: "https://rapsteak.com/pwa-512x512.png",
+            maskable: true,
+        },
+        url: "https://rapsteak.com",
+        categories: ["games", "entertainment"],
+    },
 ];
 
 export default apps;
