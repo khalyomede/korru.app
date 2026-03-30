@@ -107,6 +107,10 @@ const complements: Array<Partial<App>> = [
             maskable: false,
         }
     },
+    {
+        id: 305,
+        name: "FlightRadar24",
+    }
 ];
 
 export default complements;

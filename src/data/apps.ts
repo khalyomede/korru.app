@@ -3300,6 +3300,17 @@ const apps: Array<App> = [
         url: "https://rapsteak.com",
         categories: ["games", "entertainment"],
     },
+    {
+        id: 305,
+        name: "App",
+        description: "",
+        icon: {
+            url: "https://www.flightradar24.com/static/favicons/android-icon-72x72.png",
+            maskable: false,
+        },
+        url: "https://www.flightradar24.com",
+        categories: [],
+    },
 ];
 
 export default apps;
