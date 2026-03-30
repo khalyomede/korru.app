@@ -4,6 +4,7 @@ import { writeFile } from "fs/promises";
 import { join } from "path";
 import type App from "../interfaces/App";
 import type Category from "../types/Category";
+import serialize from 'serialize-javascript';
 
 const categories = [
     "beauty",
@@ -252,7 +253,19 @@ for (const source of sources) {
         categories: (parsedManifest.categories ?? []) as Array<Category>,
     };
 
-    code.push(`${JSON.stringify(app, null, 4)},`);
+    const appCode = serialize(app, {
+        space: 4,
+        unsafe: true
+    })
+        .split('\n')
+        .map(line => ("\t" + line.replace(/^(\s*)"(\w+)":/, '$1$2:').replace('":', ':') + ",")
+            .replace(",,", ',')
+            .replace("{,", "{")
+            .replace("[,", "[")
+        )
+        .join('\n');
+
+    code.push(`${appCode}`);
 
     index++;
 }
