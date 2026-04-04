@@ -217,13 +217,20 @@ const Search: Component = () => {
                             "dark:bg-stone-400": filter.selected,
                             "text-stone-50": filter.selected,
                             "text-stone-700": !filter.selected,
-                            "bg-stone-700": filter.selected,
+                            "bg-stone-600": filter.selected,
                             "border": true,
-                            "border-stone-700": !filter.selected,
+                            "border-stone-500": !filter.selected,
                             "rounded-lg": true,
                             "px-4": true,
                             "py-1": true,
-                            "tracking-wider": true
+                            "tracking-wider": true,
+                            "focus:outline-none": true,
+                            "focus:border-stone-950": true,
+                            "focus:bg-stone-200": !filter.selected,
+                            "focus:bg-stone-800": filter.selected,
+                            "focus:dark:bg-stone-300": filter.selected,
+                            "focus:dark:bg-stone-950": !filter.selected,
+                            "focus:dark:border-stone-100": true,
                         }} onClick={() => onFilterClick(filter)}>
                             {filter.name}
                         </button>}
