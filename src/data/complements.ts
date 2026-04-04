@@ -110,7 +110,18 @@ const complements: Array<Partial<App>> = [
     {
         id: 305,
         name: "FlightRadar24",
-    }
+    },
+    {
+        id: 312,
+        name: "VALYRIS"
+    },
+    {
+        id: 329,
+        name: "Chromemory",
+        categories: [
+            "games",
+        ],
+    },
 ];
 
 export default complements;
