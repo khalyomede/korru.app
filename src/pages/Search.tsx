@@ -231,6 +231,7 @@ const Search: Component = () => {
                             "focus:dark:bg-stone-300": filter.selected,
                             "focus:dark:bg-stone-950": !filter.selected,
                             "focus:dark:border-stone-100": true,
+                            "select-none": true,
                         }} onClick={() => onFilterClick(filter)}>
                             {filter.name}
                         </button>}

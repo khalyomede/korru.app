@@ -10,7 +10,8 @@ const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (propertie
                 dark:border-stone-600 dark:text-stone-300
                 dark:hover:bg-stone-700 dark:hover:border-stone-500 dark:hover:text-white
                 transition-all duration-200 ease-in-out
-                whitespace-nowrap"
+                whitespace-nowrap
+                select-none"
         >
             {properties.text}
         </a>

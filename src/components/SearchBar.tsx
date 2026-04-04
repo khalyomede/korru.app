@@ -27,7 +27,8 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
                     focus:outline-none focus:ring-2 focus:ring-stone-500 focus:border-stone-500
                     text-stone-900 placeholder-stone-400 place
                     dark:bg-stone-800 dark:border-stone-600 dark:text-stone-300 dark:placeholder-stone-500
-                    transition-colors duration-200"
+                    transition-colors duration-200
+                    placeholder:select-none"
             />
         </div>
     );

@@ -8,7 +8,7 @@ const Navbar: Component = () => {
 
             <h1 class="text-xl font-bold text-stone-600 dark:text-stone-300 uppercase tracking-wider">
                 <div class="flex items-center gap-2">
-                    <img src="/logo/korru-logo-192.png" class="h-6 w-6" alt="Logo" loading="lazy" />
+                    <img src="/logo/korru-logo-192.png" class="h-6 w-6 select-none" alt="Logo" loading="lazy" />
                     <span>{import.meta.env.VITE_APP_NAME}</span>
                 </div>
             </h1>

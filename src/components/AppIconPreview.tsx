@@ -8,7 +8,7 @@ interface AppIconPreviewProps {
 
 const AppIconPreview: Component<AppIconPreviewProps> = (props) => {
     return (
-        <div class="flex-shrink-0 mx-2 my-2 rounded-lg overflow-hidden transition-transform hover:scale-105 dark:shadow-md">
+        <div class="flex-shrink-0 mx-2 my-2 rounded-lg overflow-hidden transition-transform hover:scale-105 dark:shadow-md select-none">
             <img
                 src={props.src.trim()} // Added .trim() to fix whitespace in URLs
                 alt={props.alt}
