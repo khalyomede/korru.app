@@ -118,7 +118,9 @@ const Search: Component = () => {
         });
 
         const matchedAppsIds = fuse.search(search).map((app) => app.item.id);
-        const searchedApps = matchedAppsIds.length === 0 ? filteredApps : filteredApps.filter((app) => matchedAppsIds.includes(app.id));
+        const searchedApps = matchedAppsIds.length === 0
+            ? (search.trim().length === 0 ? filteredApps : [])
+            : filteredApps.filter((app) => matchedAppsIds.includes(app.id));
 
         return searchedApps;
     };
@@ -228,7 +230,16 @@ const Search: Component = () => {
                     </For>
                 </div>
             </header>
-            <main class="grow p-4 mt-22 pt-20 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            <main classList={{
+                "grow": true,
+                "p-4": filteredApps().length > 0,
+                "mt-22": filteredApps().length > 0,
+                "pt-20": filteredApps().length > 0,
+                "overflow-y-auto": true,
+                "[&::-webkit-scrollbar]:hidden": true,
+                "[-ms-overflow-style:none]": true,
+                "[scrollbar-width:none]": true,
+            }}>
                 <AppResultList apps={filteredApps()} />
             </main>
         </div>
