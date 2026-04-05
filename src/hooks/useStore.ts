@@ -57,6 +57,15 @@ const defaultFilters: Array<Filter> = [
     },
     {
         id: 5,
+        name: "finance",
+        selected: false,
+        categories: [
+            "finance",
+        ],
+        default: false,
+    },
+    {
+        id: 6,
         name: "music",
         selected: false,
         categories: [
@@ -65,7 +74,7 @@ const defaultFilters: Array<Filter> = [
         default: false,
     },
     {
-        id: 6,
+        id: 7,
         name: "shopping",
         selected: false,
         categories: [
@@ -74,14 +83,14 @@ const defaultFilters: Array<Filter> = [
         default: false,
     },
     {
-        id: 7,
+        id: 8,
         name: "tools",
         selected: false,
         categories: [
             "utilities",
         ],
         default: false,
-    }
+    },
 ];
 
 const filters: Array<Filter> = defaultFilters
