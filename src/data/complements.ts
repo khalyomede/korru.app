@@ -122,6 +122,10 @@ const complements: Array<Partial<App>> = [
             "games",
         ],
     },
+    {
+        id: 343,
+        name: "StackBlock",
+    },
 ];
 
 export default complements;

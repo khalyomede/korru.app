@@ -3630,6 +3630,105 @@ const apps: Array<App> = [
         url: "https://stitch.withgoogle.com",
         categories: [],
     },
+    {
+        id: 336,
+        name: "Editor",
+        description: "",
+        icon: {
+            url: "https://editor.uppslag.se/logo512.png",
+            maskable: true,
+        },
+        url: "https://editor.uppslag.se",
+        categories: [],
+    },
+    {
+        id: 337,
+        name: "Fogos PT",
+        description: "Real-time wildfire monitoring for Portugal. Live fire tracking, satellite detections, and fire weather data.",
+        icon: {
+            url: "https://fogosagora.pt/icon-512.png",
+            maskable: true,
+        },
+        url: "https://fogosagora.pt",
+        categories: [],
+    },
+    {
+        id: 338,
+        name: "P-Cast",
+        description: "A simple, ad-free podcast player",
+        icon: {
+            url: "https://p-cast.org/icon-192.png",
+            maskable: false,
+        },
+        url: "https://p-cast.org",
+        categories: [],
+    },
+    {
+        id: 339,
+        name: "مَدار",
+        description: "تطبيق إدارة المهام والمشاريع",
+        icon: {
+            url: "https://madaaar.netlify.app/pwa-512x512.png",
+            maskable: true,
+        },
+        url: "https://madaaar.netlify.app",
+        categories: [],
+    },
+    {
+        id: 340,
+        name: "Finance",
+        description: "AI-powered personal finance tracker",
+        icon: {
+            url: "https://talkntrack.divyanshsharma.com/icons/icon.svg",
+            maskable: true,
+        },
+        url: "https://talkntrack.divyanshsharma.com",
+        categories: [],
+    },
+    {
+        id: 341,
+        name: "MausamNow",
+        description: "Hyperlocal weather intelligence for India. Live radar, IMD forecasts, air quality, and multi-model rain predictions.",
+        icon: {
+            url: "https://mausamnow.com/icon-192.png",
+            maskable: true,
+        },
+        url: "https://mausamnow.com",
+        categories: ["weather", "utilities"],
+    },
+    {
+        id: 342,
+        name: "Streaks",
+        description: "Track your daily habits and build lasting streaks",
+        icon: {
+            url: "https://www.trackyourstreak.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.trackyourstreak.com",
+        categories: [],
+    },
+    {
+        id: 343,
+        name: "スタブロ",
+        description: "",
+        icon: {
+            url: "https://yamamoto5989.github.io/stackblock/Stack_Block_Icon.png",
+            maskable: false,
+        },
+        url: "https://yamamoto5989.github.io/stackblock/",
+        categories: [],
+    },
+    {
+        id: 344,
+        name: "Fernand",
+        description: "",
+        icon: {
+            url: "https://app.getfernand.com/images/favicon/icon_maskable_192.png",
+            maskable: true,
+        },
+        url: "https://app.getfernand.com",
+        categories: [],
+    },
 ];
 
 export default apps;
