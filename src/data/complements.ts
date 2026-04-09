@@ -126,6 +126,13 @@ const complements: Array<Partial<App>> = [
         id: 343,
         name: "StackBlock",
     },
+    {
+        id: 345,
+        icon: {
+            url: "https://easyfollowup.pro/favicon.ico?favicon.4962300e.ico",
+            maskable: false,
+        }
+    },
 ];
 
 export default complements;
