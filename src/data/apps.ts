@@ -104,7 +104,7 @@ const apps: Array<App> = [
         },
         url: "https://www.starbucks.com",
         categories: [],
-        disabled: false,
+        disabled: true, // Not meeting installable criterias
     },
     {
         id: 11,
@@ -140,7 +140,7 @@ const apps: Array<App> = [
         },
         url: "https://www.ft.com",
         categories: [],
-        disabled: false,
+        disabled: true, // Manifest file does not meet installable criterias.
     },
     {
         id: 14,
@@ -152,7 +152,7 @@ const apps: Array<App> = [
         },
         url: "https://www.infobae.com",
         categories: [],
-        disabled: false,
+        disabled: true, // Manifest file does not meet installable criterias.
     },
     {
         id: 15,
@@ -176,7 +176,7 @@ const apps: Array<App> = [
         },
         url: "https://medium.com",
         categories: [],
-        disabled: false,
+        disabled: true, // Manifest file does not meet installable criterias.
     },
     {
         id: 17,
@@ -212,7 +212,7 @@ const apps: Array<App> = [
         },
         url: "https://www.airbnb.fr",
         categories: [],
-        disabled: false,
+        disabled: true, // Manifest file does not meet installable criterias.
     },
     {
         id: 20,
@@ -248,7 +248,7 @@ const apps: Array<App> = [
         },
         url: "https://www.treebo.com",
         categories: [],
-        disabled: false,
+        disabled: true, // Manifest file does not meet installable criterias.
     },
     {
         id: 25,
