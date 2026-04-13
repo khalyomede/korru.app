@@ -318,6 +318,13 @@ const complements: Array<Partial<App>> = [
             "utilities",
         ],
     },
+    {
+        id: 403,
+        name: "whirligig",
+        categories: [
+            "music",
+        ],
+    },
 ];
 
 export default complements;

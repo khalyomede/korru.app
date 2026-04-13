@@ -93,7 +93,9 @@ const Search: Component = () => {
         const currentFilter = getCurrentFilter();
 
         if (fuse === null) {
-            const appList: Array<App> = apps.map((app) => ({ ...app }));
+            const appList: Array<App> = apps
+                .filter(app => !app.disabled)
+                .map((app) => ({ ...app }));
 
             /**
              * @todo Include URL as searchable terms with 2nd degree importance (above description).

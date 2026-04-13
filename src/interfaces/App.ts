@@ -14,6 +14,7 @@ interface App {
      * @see https://www.w3.org/TR/manifest-app-info/
      */
     categories: Array<Category>;
+    disabled: boolean;
 };
 
 export default App;
