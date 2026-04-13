@@ -246,6 +246,78 @@ const complements: Array<Partial<App>> = [
             "utilities",
         ],
     },
+    {
+        id: 391,
+        name: "Chipmunkify",
+        categories: [
+            "music",
+            "utilities",
+        ],
+    },
+    {
+        id: 392,
+        name: "CoffeeGameOnline",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 393,
+        name: "is.team",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 394,
+        name: "Specsight",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 395,
+        name: "HN",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 396,
+        name: "Minnow",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 397,
+        name: "fastsleep.app",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 398,
+        name: "AMBR",
+        categories: [
+            "social",
+            "music",
+        ],
+    },
+    {
+        id: 401,
+        name: "Bal",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 402,
+        name: "Tallyman",
+        categories: [
+            "utilities",
+        ],
+    },
 ];
 
 export default complements;

@@ -4249,6 +4249,140 @@ const apps: Array<App> = [
             "utilities",
         ],
     },
+    {
+        id: 391,
+        name: "Chipmunkify",
+        description: "",
+        icon: {
+            url: "https://www.chipmunkify.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.chipmunkify.com",
+        categories: [],
+    },
+    {
+        id: 392,
+        name: "CoffeeGameOnline",
+        description: "",
+        icon: {
+            url: "https://coffeegameonline.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://coffeegameonline.com",
+        categories: [],
+    },
+    {
+        id: 393,
+        name: "is.team",
+        description: "AI-native project management for teams, startups, and individuals.",
+        icon: {
+            url: "https://is.team/favicon-192x192.png",
+            maskable: true,
+        },
+        url: "https://is.team",
+        categories: [],
+    },
+    {
+        id: 394,
+        name: "Specsight",
+        description: "Product specs that write themselves",
+        icon: {
+            url: "https://specsight.app/logo.png",
+            maskable: false,
+        },
+        url: "https://specsight.app",
+        categories: [],
+    },
+    {
+        id: 395,
+        name: "HN",
+        description: "A fast, minimal mobile Hacker News reader.",
+        icon: {
+            url: "https://hn.brae.workers.dev/icon-192.png",
+            maskable: false,
+        },
+        url: "https://hn.brae.workers.dev",
+        categories: [],
+    },
+    {
+        id: 396,
+        name: "Minnow",
+        description: "Make a minimal personal website about what you're up to now",
+        icon: {
+            url: "https://minnow.social/icon.png",
+            maskable: true,
+        },
+        url: "https://minnow.social",
+        categories: [],
+    },
+    {
+        id: 397,
+        name: "fastsleep.app",
+        description: "Want to fall asleep in 20 minutes? You may check this now.",
+        icon: {
+            url: "https://fastsleep.app/icon512.png",
+            maskable: true,
+        },
+        url: "https://fastsleep.app",
+        categories: [],
+    },
+    {
+        id: 398,
+        name: "AMBR",
+        description: "Discover new music in 60 seconds or less",
+        icon: {
+            url: "https://app.ambr.music/apple-touch-icon.png",
+            maskable: true,
+        },
+        url: "https://app.ambr.music",
+        categories: [],
+    },
+    {
+        id: 399,
+        name: "2048",
+        description: "Play 2048 — the classic sliding tile puzzle. Compete on leaderboards and challenge friends in real-time multiplayer.",
+        icon: {
+            url: "https://www.the2048league.com/icon-512x512.png",
+            maskable: true,
+        },
+        url: "https://www.the2048league.com",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 400,
+        name: "Lovinghate",
+        description: "A social discovery tool for comparing opinions on controversial topics.",
+        icon: {
+            url: "https://lovinghate.com/hotlink-ok/icons/icon-mask.png",
+            maskable: true,
+        },
+        url: "https://lovinghate.com",
+        categories: ["social", "lifestyle"],
+    },
+    {
+        id: 401,
+        name: "Bal",
+        description: "Solve logic puzzles. Determine who is a knight, who is a knave, and who is guilty.",
+        icon: {
+            url: "https://bal.sciforge.ai/icon-512x512.png",
+            maskable: true,
+        },
+        url: "https://bal.sciforge.ai",
+        categories: [],
+    },
+    {
+        id: 402,
+        name: "Tallyman",
+        description: "A keyboard-first email workspace on top of Gmail and Outlook.",
+        icon: {
+            url: "https://tallyman.io/icon.svg",
+            maskable: false,
+        },
+        url: "https://tallyman.io",
+        categories: [],
+    },
 ];
 
 export default apps;
