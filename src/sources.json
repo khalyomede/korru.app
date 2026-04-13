@@ -1,822 +1,5518 @@
 [
     {
         "id": 1,
-        "url": "https://open.spotify.com",
-        "manifestUrl": "https://open.spotifycdn.com/cdn/generated/manifest-mobile-web-player.a1ddf51c.json"
+        "urls": {
+            "app": "https://open.spotify.com",
+            "manifest": "https://open.spotifycdn.com/cdn/generated/manifest-mobile-web-player.a1ddf51c.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 4,
-        "url": "https://play2048.co",
-        "manifestUrl": "https://play2048.co/manifest.json"
+        "urls": {
+            "app": "https://play2048.co",
+            "manifest": "https://play2048.co/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 5,
-        "url": "https://www.youtube.com",
-        "manifestUrl": "https://www.youtube.com/manifest.webmanifest"
+        "urls": {
+            "app": "https://www.youtube.com",
+            "manifest": "https://www.youtube.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 6,
-        "url": "https://x.com",
-        "manifestUrl": "https://x.com/manifest.json"
+        "urls": {
+            "app": "https://x.com",
+            "manifest": "https://x.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 7,
-        "url": "https://www.thefork.com"
+        "urls": {
+            "app": "https://www.thefork.com",
+            "manifest": "https://www.thefork.com/statics/site.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 8,
-        "url": "https://translate.google.com"
+        "urls": {
+            "app": "https://translate.google.com",
+            "manifest": "https://translate.google.com/_/TranslateWebserverUi/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 9,
-        "url": "https://pinterest.com"
+        "urls": {
+            "app": "https://pinterest.com",
+            "manifest": "https://fr.pinterest.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 10,
-        "url": "https://www.starbucks.com"
+        "urls": {
+            "app": "https://www.starbucks.com",
+            "manifest": "https://www.starbucks.com/manifest.json"
+        },
+        "disabled": true,
+        "comment": "Manifest file does not meet installable criterias."
     },
     {
         "id": 11,
-        "url": "https://www.jumia.ma"
+        "urls": {
+            "app": "https://www.jumia.ma/",
+            "manifest": "https://www.jumia.ma/assets_he/manifest/jumia/ma.0bca0f9e.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 12,
-        "url": "https://www.olx.in"
+        "urls": {
+            "app": "https://www.olx.in",
+            "manifest": "https://www.olx.in/manifest.json?v=1.0"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 13,
-        "url": "https://www.ft.com"
+        "urls": {
+            "app": "https://www.ft.com",
+            "manifest": "https://www.ft.com/__assets/creatives/manifest/manifest-v6.json"
+        },
+        "disabled": true,
+        "comment": "Manifest file does not meet installable criterias."
     },
     {
         "id": 14,
-        "url": "https://www.infobae.com"
+        "urls": {
+            "app": "https://www.infobae.com",
+            "manifest": "https://www.infobae.com/pf/resources/manifest.json?d=3951"
+        },
+        "disabled": true,
+        "comment": "Manifest file does not meet installable criterias."
     },
     {
         "id": 15,
-        "url": "https://www.nau.ch"
+        "urls": {
+            "app": "https://www.nau.ch",
+            "manifest": "https://www.nau.ch/static/frontpage/manifest.json?v=0.0.0"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 16,
-        "url": "https://medium.com"
+        "urls": {
+            "app": "https://medium.com",
+            "manifest": "https://medium.com/manifest.json"
+        },
+        "disabled": true,
+        "comment": "Manifest file does not meet installable criterias."
     },
     {
         "id": 17,
-        "url": "https://weather.com"
+        "urls": {
+            "app": "https://weather.com",
+            "manifest": "https://weather.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 18,
-        "url": "https://www.openrent.co.uk"
+        "urls": {
+            "app": "https://www.openrent.co.uk",
+            "manifest": "https://staticcdn.openrent.co.uk/LayoutData/Manifest/manifest.json?v=lt87owh78c1"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 19,
-        "url": "https://www.airbnb.fr"
+        "urls": {
+            "app": "https://www.airbnb.fr",
+            "manifest": "https://www.airbnb.fr/manifest.json"
+        },
+        "disabled": true,
+        "comment": "Manifest file does not meet installable criterias."
     },
     {
         "id": 20,
-        "url": "https://www.carigami.fr"
-    },
-    {
-        "id": 21,
-        "url": "https://www.shine.com"
+        "urls": {
+            "app": "https://www.carigami.fr",
+            "manifest": "https://www.carigami.fr/carigami.fr.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 22,
-        "url": "https://www.instagram.com"
+        "urls": {
+            "app": "https://www.instagram.com",
+            "manifest": "https://www.instagram.com/data/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 23,
-        "url": "https://www.treebo.com"
-    },
-    {
-        "id": 24,
-        "url": "https://www.makemytrip.com"
+        "urls": {
+            "app": "https://www.treebo.com",
+            "manifest": "https://www.treebo.com/manifest.json"
+        },
+        "disabled": true,
+        "comment": "Manifest file does not meet installable criterias."
     },
     {
         "id": 25,
-        "url": "https://www.soundslice.com"
+        "urls": {
+            "app": "https://www.soundslice.com",
+            "manifest": "https://www.soundslice.com/webmanifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 26,
-        "url": "https://1tuner.com"
+        "urls": {
+            "app": "https://1tuner.com",
+            "manifest": "https://1tuner.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 27,
-        "url": "https://9gag.com"
+        "urls": {
+            "app": "https://9gag.com",
+            "manifest": "https://9gag.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 28,
-        "url": "https://www.lotto.de"
+        "urls": {
+            "app": "https://www.lotto.de",
+            "manifest": "https://www.lotto.de/assets/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 29,
-        "url": "https://tinder.com"
+        "urls": {
+            "app": "https://tinder.com",
+            "manifest": "https://tinder.com/manifest-fr.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 30,
-        "url": "https://www.datememe.com"
+        "urls": {
+            "app": "https://www.datememe.com",
+            "manifest": "https://www.datememe.com/static/js/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 31,
-        "url": "https://squoosh.app"
+        "urls": {
+            "app": "https://squoosh.app",
+            "manifest": "https://squoosh.app/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 32,
-        "url": "https://flipboard.com"
+        "urls": {
+            "app": "https://flipboard.com",
+            "manifest": "https://flipboard.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 33,
-        "url": "https://www.flipkart.com"
+        "urls": {
+            "app": "https://www.flipkart.com",
+            "manifest": "https://www.flipkart.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 34,
-        "url": "https://guitar-tuner.appspot.com"
+        "urls": {
+            "app": "https://guitar-tuner.appspot.com",
+            "manifest": "https://guitar-tuner.appspot.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 35,
-        "url": "https://housing.com"
+        "urls": {
+            "app": "https://housing.com",
+            "manifest": "https://housing.com/manifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 36,
-        "url": "https://andreasbovens.github.io/inbox-attack"
+        "urls": {
+            "app": "https://andreasbovens.github.io/inbox-attack",
+            "manifest": "https://andreasbovens.github.io/inbox-attack/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 37,
-        "url": "https://www.konga.com"
+        "urls": {
+            "app": "https://www.konga.com",
+            "manifest": "https://www.konga.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 38,
-        "url": "https://paperplanes.world"
+        "urls": {
+            "app": "https://paperplanes.world",
+            "manifest": "https://paperplanes.world/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 39,
-        "url": "https://pokedex.org"
+        "urls": {
+            "app": "https://pokedex.org",
+            "manifest": "https://pokedex.org/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 40,
-        "url": "https://2048-opera-pwa.surge.sh"
+        "urls": {
+            "app": "https://2048-opera-pwa.surge.sh",
+            "manifest": "https://2048-opera-pwa.surge.sh/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 41,
-        "url": "https://qrcodescan.in"
+        "urls": {
+            "app": "https://qrcodescan.in",
+            "manifest": "https://qrcodescan.in/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 42,
-        "url": "https://smaller-pictures.appspot.com"
+        "urls": {
+            "app": "https://smaller-pictures.appspot.com",
+            "manifest": "https://smaller-pictures.appspot.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 43,
-        "url": "https://snapdrop.net"
+        "urls": {
+            "app": "https://snapdrop.net",
+            "manifest": "https://snapdrop.net/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 44,
-        "url": "https://jakearchibald.github.io/svgomg"
+        "urls": {
+            "app": "https://jakearchibald.github.io/svgomg",
+            "manifest": "https://jakearchibald.github.io/svgomg/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 45,
-        "url": "https://www.selio.com"
+        "urls": {
+            "app": "https://www.selio.com",
+            "manifest": "https://www.selio.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 46,
-        "url": "https://thesession.org"
+        "urls": {
+            "app": "https://thesession.org",
+            "manifest": "https://thesession.org/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 47,
-        "url": "https://resilientwebdesign.com"
+        "urls": {
+            "app": "https://resilientwebdesign.com",
+            "manifest": "https://resilientwebdesign.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 48,
-        "url": "https://www.englishaccentsmap.com"
+        "urls": {
+            "app": "https://www.englishaccentsmap.com",
+            "manifest": "https://www.englishaccentsmap.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 49,
-        "url": "https://sii.im/playground/notes"
+        "urls": {
+            "app": "https://sii.im/playground/notes",
+            "manifest": "https://sii.im/playground/notes/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 50,
-        "url": "https://freepacman.org"
+        "urls": {
+            "app": "https://freepacman.org",
+            "manifest": "https://freepacman.org/pacman.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 51,
-        "url": "https://happyhopper.org"
+        "urls": {
+            "app": "https://happyhopper.org",
+            "manifest": "https://happyhopper.org/frogger.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 52,
-        "url": "https://freeflappybird.org"
+        "urls": {
+            "app": "https://freeflappybird.org",
+            "manifest": "https://freeflappybird.org/flappy-bird.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 53,
-        "url": "https://freewordle.org"
+        "urls": {
+            "app": "https://freewordle.org",
+            "manifest": "https://freewordle.org/wordle.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 54,
-        "url": "https://freemahjong.org"
+        "urls": {
+            "app": "https://freemahjong.org",
+            "manifest": "https://freemahjong.org/mahjong.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 55,
-        "url": "https://freesolitaire.org"
+        "urls": {
+            "app": "https://freesolitaire.org",
+            "manifest": "https://freesolitaire.org/solitaire.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 56,
-        "url": "https://freesimon.org"
+        "urls": {
+            "app": "https://freesimon.org",
+            "manifest": "https://freesimon.org/simon.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 57,
-        "url": "https://poki.com"
+        "urls": {
+            "app": "https://poki.com",
+            "manifest": "https://poki.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 58,
-        "url": "https://mahjong.jull.dev"
+        "urls": {
+            "app": "https://mahjong.jull.dev",
+            "manifest": "https://mahjong.jull.dev/manifest.json?v=1"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 59,
-        "url": "https://geogee.me"
+        "urls": {
+            "app": "https://geogee.me",
+            "manifest": "https://geogee.me/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 60,
-        "url": "https://excalidraw.com"
+        "urls": {
+            "app": "https://excalidraw.com",
+            "manifest": "https://excalidraw.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 61,
-        "url": "https://jdsports.id"
+        "urls": {
+            "app": "https://jdsports.id",
+            "manifest": "https://jdsports.id/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 62,
-        "url": "https://www.rakuten.tv"
+        "urls": {
+            "app": "https://www.rakuten.tv",
+            "manifest": "https://prod-kuato.rakuten.tv/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 63,
-        "url": "https://www.zdf.de"
+        "urls": {
+            "app": "https://www.zdf.de",
+            "manifest": "https://www.zdf.de/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 64,
-        "url": "https://www.pwabuilder.com"
+        "urls": {
+            "app": "https://www.pwabuilder.com",
+            "manifest": "https://www.pwabuilder.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 65,
-        "url": "https://www.kitchenaid.com"
+        "urls": {
+            "app": "https://www.kitchenaid.com",
+            "manifest": "https://www.kitchenaid.com/countertop-appliances/shared-homepage/site.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 66,
-        "url": "https://in.bookmyshow.com"
+        "urls": {
+            "app": "https://in.bookmyshow.com",
+            "manifest": "https://in.bookmyshow.com/chunks/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 67,
-        "url": "https://www.onthemarket.com"
+        "urls": {
+            "app": "https://www.onthemarket.com",
+            "manifest": "https://www.onthemarket.com/assets/0e55a3d9/gzip/js/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 68,
-        "url": "https://www.ride-app.com"
+        "urls": {
+            "app": "https://www.ride-app.com",
+            "manifest": "https://www.ride-app.com/manifest-202500284ce133acac79c721d6b1cd28.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 69,
-        "url": "https://alarmdj.com"
+        "urls": {
+            "app": "https://alarmdj.com",
+            "manifest": "https://alarmdj.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 70,
-        "url": "https://anonynote.org"
+        "urls": {
+            "app": "https://anonynote.org",
+            "manifest": "https://anonynote.org/site.webmanifest"
+        },
+        "disabled": true,
+        "comment": "HTTP status 404 when fetching icon.",
     },
     {
         "id": 71,
-        "url": "https://avain.app"
+        "urls": {
+            "app": "https://avain.app",
+            "manifest": "https://avain.app/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 72,
-        "url": "https://www.booksie.org"
+        "urls": {
+            "app": "https://www.booksie.org",
+            "manifest": "https://www.booksie.org/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 73,
-        "url": "https://brutalisthackernews.com"
+        "urls": {
+            "app": "https://brutalisthackernews.com",
+            "manifest": "https://brutalisthackernews.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 74,
-        "url": "https://calculator-app-tau.vercel.app"
+        "urls": {
+            "app": "https://calculator-app-tau.vercel.app",
+            "manifest": "https://calculator-app-tau.vercel.app/app.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 75,
-        "url": "https://carecards.io"
+        "urls": {
+            "app": "https://carecards.io",
+            "manifest": "https://carecards.io/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 76,
-        "url": "https://catsafefoods.com"
+        "urls": {
+            "app": "https://catsafefoods.com",
+            "manifest": "https://catsafefoods.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 77,
-        "url": "https://chitchatter.im"
+        "urls": {
+            "app": "https://chitchatter.im",
+            "manifest": "https://chitchatter.im/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 78,
-        "url": "https://regex101.com"
+        "urls": {
+            "app": "https://regex101.com",
+            "manifest": "https://regex101.com/static/assets/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
     },
     {
         "id": 79,
-        "url": "https://colorbeta.com"
+        name: "ColorBeta",
+        icon: {
+            url: "https://colorbeta.com/static/img/icons/512-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://colorbeta.com",
+            "manifest": ""
+        }
+        description: "Free online tool for creating and editing CSS gradients.",
+        categories: [],
+        disabled: false,
     },
     {
         "id": 80,
-        "url": "https://closerinti.me"
+        name: "#closerintime",
+        description: "Visualize the time between historical events.",
+        "urls": {
+            "app": "https://closerinti.me",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://closerinti.me/icons/icon-maskable-512.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 81,
-        "url": "https://naramsim.github.io/Colosseum"
+        name: "Colosseum",
+        description: "Displays Pokemons in a beautiful way",
+        icon: {
+            url: "https://naramsim.github.io/Colosseum/images/icons/maskable-48.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://naramsim.github.io/Colosseum",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 82,
-        "url": "https://www.computerbase.de"
+        name: "ComputerBase",
+        icon: {
+            url: "https://www.computerbase.de/img/icon-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.computerbase.de",
+            "manifest": ""
+        }
+        description: "Unabhängiges Tech-Magazin. News und Tests zu Smartphones, Tablets, PC-Hardware, Software und IT. Große technikaffine Community hilft im Forum.",
+        categories: [],
+        disabled: false,
     },
     {
         "id": 83,
-        "url": "https://crazydice.netlify.app"
+        name: "Crazy Dices",
+        description: "Simple Dices to play simple games",
+        icon: {
+            url: "https://crazydice.netlify.app/images/logo128.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://crazydice.netlify.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 84,
-        "url": "https://dogsafefoods.com"
+        name: "Dog Safe Foods",
+        description: "Sharing food with your dog? Make sure it's safe first",
+        "urls": {
+            "app": "https://dogsafefoods.com/",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://dogsafefoods.com/img/maskable_icon.png",
+            maskable: true,
+        },
+        categories: [
+            "pets",
+            "food",
+        ],
+        disabled: false,
     },
     {
         "id": 85,
-        "url": "https://jsonformatter.com"
+        name: "JSON Formatter",
+        description: "Format, validate and beautify JSON online",
+        icon: {
+            url: "https://jsonformatter.com/pwa/images/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://jsonformatter.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 86,
-        "url": "https://nenadalm.github.io/life-counter"
+        description: "Life counter app for 2 - 4 players. Supports game profiles, count up/down.",
+        "urls": {
+            "app": "https://nenadalm.github.io/life-counter",
+            "manifest": ""
+        }
+        name: "Life counter",
+        icon: {
+            url: "https://nenadalm.github.io/life-counter/img/icon_192.png?v=674cd2d1dc276ad519989ce15065a91a373dff99",
+            maskable: true,
+        },
+        categories: [
+            "utilities",
+        ],
+        disabled: false,
     },
     {
         "id": 87,
-        "url": "https://claude.ai"
+        "urls": {
+            "app": "https://claude.ai",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "Logo failed"
     },
     {
         "id": 88,
-        "url": "https://grok.com"
+        name: "Grok",
+        description: "Understand the Universe",
+        "urls": {
+            "app": "https://grok.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://grok.com/images/android-chrome-192x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 89,
-        "url": "https://chat.mistral.ai"
+        name: "LeChat",
+        description: "Le Chat from Mistral AI",
+        "urls": {
+            "app": "https://chat.mistral.ai",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://chat.mistral.ai/favicons/pwa-icon-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 90,
-        "url": "https://m.facebook.com"
+        name: "Facebook",
+        "urls": {
+            "app": "https://m.facebook.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/y0\/r\/eFZD1KABzRA.png",
+            maskable: false,
+        },
+        description: "",
+        categories: [],
+        disabled: false,
     },
     {
         "id": 91,
-        "url": "https://en.wikipedia.org"
+        name: "Wikipedia",
+        description: "",
+        "urls": {
+            "app": "https://en.wikipedia.org",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 92,
-        "url": "https://www.chess.com"
+        name: "Chess",
+        description: "",
+        "urls": {
+            "app": "https://www.chess.com/",
+            "manifest": ""
+        }
+        icon: {
+            url: "https:\/\/www.chess.com\/bundles\/web\/favicons\/android-chrome-192x192.25da7247.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 93,
-        "url": "https://www.deviantart.com"
+        description: "DeviantArt is where art and community thrive. Explore over 350 million pieces of art while connecting to fellow artists and art enthusiasts.",
+        icon: {
+            url: "https://st.deviantart.net/eclipse/icons/pwa/launchericon-72-72.png?2",
+            maskable: false,
+        },
+        name: "DeviantArt",
+        "urls": {
+            "app": "https://www.deviantart.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 94,
-        "url": "https://github.com"
+        name: "GitHub",
+        description: "",
+        "urls": {
+            "app": "https://github.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://github.githubassets.com/assets/apple-touch-icon-72x72-e090c8a282d0.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 95,
-        "url": "https://mastodon.social"
+        name: "Mastodon",
+        description: "",
+        icon: {
+            url: "https://mastodon.social/packs/assets/android-chrome-72x72-9LRpA3QN.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://mastodon.social",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 98,
-        "url": "https://www.threads.com"
+        name: "Threads",
+        description: "Say more with Threads \u2014 Instagram\u2019s text-based conversation app.",
+        "urls": {
+            "app": "https://www.threads.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https:\/\/static.cdninstagram.com\/rsrc.php\/yM\/r\/h1DANLym4e8.webp",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 99,
-        "url": "https://www.tiktok.com"
+        name: "TikTok",
+        description: "TikTok PWA",
+        "urls": {
+            "app": "https://www.tiktok.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/128x128-1.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 100,
-        "url": "https://truthsocial.com"
+        name: "Truth Social",
+        description: "Truth Social is America's \"Big Tent\" social media platform that encourages an open, free, and honest global conversation without discriminating on the basis of political ideology.",
+        icon: {
+            url: "https://truthsocial.com/icons/icon-maskable-72x72.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://truthsocial.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 101,
-        "url": "https://www.tumblr.com"
+        name: "Tumblr",
+        description: "Tumblr. Pure effervescent enrichment. Old internet energy. Home of the Reblogs. All the art you never knew you needed. All the fandoms you could wish for. Enough memes to knock out a moderately-sized mammal. Add to it or simply scroll through and soak it up.",
+        "urls": {
+            "app": "https://www.tumblr.com/",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://assets.tumblr.com/pop/manifest/icon_72-5073ca87.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 102,
-        "url": "https://www.glassdoor.com"
+        name: "Glassdoor",
+        description: "",
+        "urls": {
+            "app": "https://www.glassdoor.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.glassdoor.com/launcher-icon-2x.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 103,
-        "url": "https://mail.google.com"
+        name: "Gmail",
+        "urls": {
+            "app": "https://mail.google.com",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_96dp.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 104,
-        "url": "https://maps.google.com"
+        name: "Google Maps",
+        description: "Arrivez plus vite à destination",
+        "urls": {
+            "app": "https://maps.google.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 105,
-        "url": "https://docs.google.com"
+        name: "Docs",
+        "urls": {
+            "app": "https://docs.google.com",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://fonts.gstatic.com/s/i/productlogos/docs_2020q4/v7/web-64dp/logo_docs_2020q4_color_1x_web_64dp.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 106,
-        "url": "https://sheets.google.com"
+        name: "Spreadshets",
+        "urls": {
+            "app": "https://sheets.google.com",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://fonts.gstatic.com/s/i/productlogos/sheets_2020q4/v6/web-64dp/logo_sheets_2020q4_color_1x_web_64dp.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 107,
-        "url": "https://slides.google.com"
+        "urls": {
+            "app": "https://slides.google.com",
+            "manifest": ""
+        }
+        name: "Slides",
+        description: "",
+        icon: {
+            url: "https://fonts.gstatic.com/s/i/productlogos/slides_2020q4/v7/web-64dp/logo_slides_2020q4_color_1x_web_64dp.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 108,
-        "url": "https://calendar.google.com"
+        name: "Calendar",
+        description: "",
+        icon: {
+            url: "https://www.gstatic.com/calendar/images/manifest/logo_2020q4_192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://calendar.google.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 111,
-        "url": "https://www.duolingo.com"
+        name: "Duolingo",
+        description: "",
+        icon: {
+            url: "https://d35aaqx5ub95lt.cloudfront.net/images/pwa-icon-circle-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.duolingo.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 112,
-        "url": "https://laracasts.com"
+        name: "Laracasts",
+        description: "",
+        "urls": {
+            "app": "https://laracasts.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://laracasts.com/favicons/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 114,
-        "url": "https://www.todoist.com"
+        name: "Todoist",
+        description: "",
+        "urls": {
+            "app": "https://www.todoist.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.todoist.com/static/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 115,
-        "url": "https://news.google.com"
+        name: "News",
+        description: "",
+        "urls": {
+            "app": "https://news.google.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "//www.gstatic.com/gnews/logo/google_news_60.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 118,
-        "url": "https://substack.com"
+        name: "Substack",
+        "urls": {
+            "app": "https://substack.com/",
+            "manifest": ""
+        }
+        description: "The best reader ever",
+        icon: {
+            url: "https://substack.com/img/manifest-icons/app-maskable-192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 119,
-        "url": "https://vercel.com"
+        name: "Vercel",
+        description: "Build and deploy the best web experiences with the AI Cloud",
+        "urls": {
+            "app": "https://vercel.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://assets.vercel.com/image/upload/v1573246280/front/favicon/vercel/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 121,
-        "url": "https://proto.io"
+        name: "Proto.io",
+        description: "",
+        "urls": {
+            "app": "https://proto.io",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://proto.io/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 123,
-        "url": "https://monzo.com"
+        name: "Monzo",
+        description: "",
+        "urls": {
+            "app": "https://monzo.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://monzo.com/images/icons/maskable-icon-x72.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 124,
-        "url": "https://www.ally.com"
+        name: "Ally",
+        description: "",
+        icon: {
+            url: "https://www.ally.com/images/icons/web-app-manifest-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.ally.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 125,
-        "url": "https://www.creditkarma.com"
+        name: "Credit Karma",
+        description: "",
+        icon: {
+            url: "https://ck-assets.imgix.net/assets/1.43.1/favicons/android-chrome.png?w=192&h=192",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.creditkarma.com/",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 126,
-        "url": "https://www.ramseysolutions.com/money/everydollar"
+        name: "Ramsey",
+        description: "",
+        "urls": {
+            "app": "https://www.ramseysolutions.com/money/everydollar",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://cdn.ramseysolutions.net/cms/sites/ramseysolutions-com/favicons/android-chrome-192x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 127,
-        "url": "https://www.myfitnesspal.com"
+        name: "MyFitnessPal",
+        description: "",
+        "urls": {
+            "app": "https://www.myfitnesspal.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.myfitnesspal.com/favicons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 128,
-        "url": "https://bentopdf.com"
+        name: "BentoPDF",
+        description: "Free online PDF tools - Privacy-first PDF toolkit that works 100% in your browser",
+        "urls": {
+            "app": "https://bentopdf.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://bentopdf.com/images/favicon-192x192.png",
+            maskable: true,
+        },
+        "categories": [
+            "productivity",
+            "utilities",
+            "security",
+        ],
+        disabled: false,
     },
     {
         "id": 129,
-        "url": "https://it-tools.tech"
+        name: "it-tools",
+        "urls": {
+            "app": "https://it-tools.tech",
+            "manifest": ""
+        }
+        description: "Aggregated set of useful tools for developers.",
+        icon: {
+            url: "https://it-tools.tech/android-chrome-512x512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 130,
-        "url": "https://mazanoke.com"
+        name: "MAZANOKE",
+        description: "Privacy-respecting Image Optimizer",
+        "urls": {
+            "app": "https://mazanoke.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://mazanoke.com//assets/images/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 131,
-        "url": "https://photos.google.com"
+        name: "Google Photos",
+        description: "",
+        "urls": {
+            "app": "https://photos.google.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.gstatic.com/social/photosui/images/logo/2025/1x/photos_96dp.png",
+            maskable: false
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 132,
-        "url": "https://developer.mozilla.org"
+        name: "MDN",
+        description: "",
+        icon: {
+            url: "https://developer.mozilla.org/favicon-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://developer.mozilla.org",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 133,
-        "url": "https://app.reve.com"
+        name: "reve.com",
+        description: "",
+        "urls": {
+            "app": "https://app.reve.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://app.reve.com/icon-mask.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 134,
-        "url": "https://aistudio.google.com"
+        name: "AI Studio",
+        "urls": {
+            "app": "https://aistudio.google.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.gstatic.com/aistudio/ai_studio_favicon_2_96x96.png",
+            maskable: true,
+        },
+        description: "",
+        categories: [],
+        disabled: false,
     },
     {
         "id": 135,
-        "url": "https://sora.chatgpt.com"
+        name: "Sora",
+        description: "",
+        "urls": {
+            "app": "https://sora.chatgpt.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://sora.chatgpt.com/sora-icon.webp",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 136,
-        "url": "https://ideogram.a"
+        name: "Ideogram",
+        "urls": {
+            "app": "https://ideogram.ai/",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://ideogram.ai/favicon.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 137,
-        "url": "https://suno.com"
+        name: "Suno",
+        description: "",
+        "urls": {
+            "app": "https://suno.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://cdn-o.suno.com/favicon-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 138,
-        "url": "https://www.hume.ai"
+        name: "Hume",
+        description: "Building AI with emotional intelligence to create technology that truly understands humanity.",
+        "urls": {
+            "app": "https://www.hume.ai",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.hume.ai/icons/icon-72x72.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 139,
-        "url": "https://manifest.web.nairi.cloud"
+        name: "Web Manifest",
+        description: "Web application that helps you create Web App Manifests",
+        "urls": {
+            "app": "https://manifest.web.nairi.cloud",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://manifest.web.nairi.cloud/icon.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 140,
-        "url": "https://www.cbsnews.com"
+        name: "CBS News",
+        description: "CBS News - Breaking News, Live News stream 24x7",
+        "urls": {
+            "app": "https://www.cbsnews.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-240x240-maskable.png",
+            maskable: true,
+        },
+        categories: [
+            "news",
+            "politics",
+            "entertainment",
+        ],
+        disabled: false,
     },
     {
         "id": 141,
-        "url": "https://globalnews.ca"
+        name: "Global News",
+        description: "",
+        "urls": {
+            "app": "https://globalnews.ca",
+            "manifest": ""
+        }
+        icon: {
+            url: "https:\/\/globalnews.ca\/wp-content\/themes\/shaw-globalnews\/_img\/pwa\/news_square_maskable-512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 142,
-        "url": "https://www.cbc.ca"
+        name: "CBC.ca",
+        "urls": {
+            "app": "https://www.cbc.ca",
+            "manifest": ""
+        }
+        description: "Read CBC news, sports, and more!",
+        icon: {
+            url: "https://www.cbc.ca/a/assets/logo_gem.svg",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 143,
-        "url": "https://www.france24.com"
+        name: "France 24",
+        "urls": {
+            "app": "https://www.france24.com",
+            "manifest": ""
+        }
+        description: "France 24",
+        icon: {
+            url: "https://www.france24.com/maskable_icon.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 144,
-        "url": "https://www.dw.com"
+        name: "DW (Deutsche Welle)",
+        "urls": {
+            "app": "https://www.dw.com",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://www.dw.com/images/icons/favicon-72x72.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 145,
-        "url": "https://time.com"
-    },
-    {
-        "id": 146,
-        "url": "https://www.deviantart.com"
+        name: "TIME",
+        description: "",
+        "urls": {
+            "app": "https://time.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://time.com/favicon/apple-touch-icon.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 147,
-        "url": "https://m.twitch.tv"
+        name: "Twitch",
+        description: "",
+        "urls": {
+            "app": "https://m.twitch.tv",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://m.twitch.tv/maskable_icon_x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 148,
-        "url": "https://www.seamless.com"
+        name: "Seamless Web",
+        description: "Online food ordering from your local favorites for takeout or delivery. Support your local restaurants with Seamless and find coupons, reviews, and more!",
+        icon: {
+            url: "https://assets.seamless.com/assets/img/brand/seamless/android/raster/smart_banner/android-chrome-72x72.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.seamless.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 149,
-        "url": "https://postmates.com"
+        name: "Postmates",
+        description: "",
+        "urls": {
+            "app": "https://postmates.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://postmates.com/_static/0d9ecf4f16865976.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 150,
-        "url": "https://www.ubereats.com"
+        name: "Uber EATS",
+        description: "",
+        "urls": {
+            "app": "https://www.ubereats.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.ubereats.com/_static/35b3b9a3182fec82.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 151,
-        "url": "https://m.shein.com"
+        name: "SHEIN",
+        description: "",
+        icon: {
+            url: "https://m.shein.com/fr/logo/72.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://m.shein.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 152,
-        "url": "https://www.ebay.com"
+        name: "eBay",
+        description: "",
+        "urls": {
+            "app": "https://www.ebay.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192-maskable.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 153,
-        "url": "https://www.swiggy.com"
+        name: "Swiggy",
+        "urls": {
+            "app": "https://www.swiggy.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/logo_192x192.png",
+            maskable: true
+        },
+        description: "Here’s everything you can do and find on the Swiggy app:\n- Restaurant and Delivery Partners trained in hygiene protocols\n- Find top restaurants in your city\n- Late-night delivery\n-  30+ cuisines, Biryani, Pizza, Dosa, Burgers, Coffee, and more\n- Collections like Veg Only, Healthy Food, and more",
+        categories: [],
+        disabled: false,
     },
     {
         "id": 154,
-        "url": "https://www.economist.com"
+        name: "Economist",
+        description: "",
+        "urls": {
+            "app": "https://www.economist.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.economist.com/engassets/ico/icon-mask.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 155,
-        "url": "https://progressier.com"
+        name: "Progressier",
+        description: "",
+        "urls": {
+            "app": "https://progressier.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://pwa.xyz/eWYX0PrgnbmJTIRgmYiH%2FgsUEZlyEGHgGqUA.png?alt=media&token=09f76955-c91d-40c1-ad12-79c8f2aaeed1",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 156,
-        "url": "https://whatpwacando.today"
+        name: "PWA Today",
+        description: "What PWA Can Do Today is a showcase of what is possible with Progressive Web Apps today.\n\nThe app is itself a Progressive Web App which means it can be installed to the home screen of your mobile device or to your desktop.",
+        "urls": {
+            "app": "https://whatpwacando.today",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://whatpwacando.today/src/img/icons/manifest-icon-192.maskable.png",
+            maskable: true
+        },
+        categories: [
+            "education",
+            "utilities",
+        ],
+        disabled: false,
     },
     {
         "id": 157,
-        "url": "https://store.app"
+        name: "Store.app",
+        description: "The Open Web App Store. Discover the best apps on the web, and enjoy fast, secure and universal software.",
+        "urls": {
+            "app": "https://store.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://static.store.app/manifest/maskable192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 158,
-        "url": "https://workledger.org"
+        name: "WorkLedger",
+        description: "Local-first engineering notebook",
+        "urls": {
+            "app": "https://workledger.org",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://workledger.org/icon-512.svg",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 159,
-        "url": "https://www.vehique.ai"
+        name: "Vehique",
+        description: "Your AI operating system for car shopping and research",
+        "urls": {
+            "app": "https://www.vehique.ai",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.vehique.ai/android-chrome-192x192.png",
+            maskable: true
+        },
+        categories: [
+            "shopping",
+            "lifestyle",
+        ],
+        disabled: false,
     },
     {
         "id": 160,
-        "url": "https://fair-weather.query-farm.services"
+        name: "Fair Weather",
+        description: "Find your perfect window for outdoor running and walking.",
+        "urls": {
+            "app": "https://fair-weather.query-farm.services",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://fair-weather.query-farm.services/icon-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 161,
-        "url": "https://web.fluxer.app"
+        name: "Fluxer",
+        description: "Fluxer is an open-source, independent instant messaging and VoIP platform. Built for friends, groups, and communities.",
+        "urls": {
+            "app": "https://web.fluxer.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://fluxerstatic.com/web/android-chrome-192x192.png",
+            maskable: true
+        },
+        categories: [
+            "social",
+        ],
+        disabled: false,
     },
     {
         "id": 162,
-        "url": "https://roqueos.com.br/app"
+        name: "RoqueOS",
+        description: "Sistema operacional web inspirado no macOS, com janelas, dock, área de trabalho personalizável e aplicativos integrados.",
+        "urls": {
+            "app": "https://roqueos.com.br/app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://roqueos.com.br/icons/icon-128x128.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 163,
-        "url": "https://www.myminifactory.com"
+        name: "MyMiniFactory",
+        description: "MyMiniFactory is the curated 3D printing platform. Download and 3D print free - 100% tested - 3D objects created by a global community of talented designers.",
+        "urls": {
+            "app": "https://www.myminifactory.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.myminifactory.com/images/launcher/launcher-icon-96x96.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 165,
-        "url": "https://www.bing.com/webmasters"
-    },
-    {
-        "id": 166,
-        "url": "https://openclaw.rocks"
+        name: "Microsoft Bing Webmaster Tools",
+        description: "",
+        "urls": {
+            "app": "https://www.bing.com/webmasters",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.bing.com/webmasters/Content\\PWA\\logo\\bing-logo-192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 167,
-        "url": "https://kuro-nuri.com"
+        name: "黒塗り",
+        description: "ブラウザ完結のAIプライバシー保護ツール",
+        "urls": {
+            "app": "https://kuro-nuri.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://kuro-nuri.com/cat-agents.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 168,
-        "url": "https://www.m-session.com"
+        "urls": {
+            "app": "https://www.m-session.com",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "404 logo"
     },
     {
         "id": 169,
-        "url": "https://elebean.com"
+        name: "elebean",
+        description: "elebean - your music companion",
+        "urls": {
+            "app": "https://elebean.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://elebean.com/icons/icon-256.png",
+            maskable: false,
+        },
+        categories: [
+            "music",
+            "utilities",
+        ],
+        disabled: false,
     },
     {
         "id": 170,
-        "url": "https://www.resumble.com"
+        name: "Resumble",
+        description: "Create professional, ATS-optimized resumes in minutes with Resumble.",
+        "urls": {
+            "app": "https://www.resumble.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.resumble.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 171,
-        "url": "https://chartvacancy.website"
+        name: "Chart Vacancy",
+        description: "Check live railway reservation chart status online and view real-time seat availability.",
+        "urls": {
+            "app": "https://chartvacancy.website",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://chartvacancy.website/android-chrome-192x192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 172,
-        "url": "https://mathriddles.netlify.app"
+        name: "Math",
+        "urls": {
+            "app": "https://mathriddles.netlify.app",
+            "manifest": ""
+        }
+        description: "Simple Quiz App with Interesting Maths Riddles & Levels up your IQ with Math Oparations.",
+        icon: {
+            url: "https://mathriddles.netlify.app/images/logo128.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 173,
-        "url": "https://mconverter.eu"
+        name: "MConverter",
+        description: "Quick, easy and simple online file converter. Convert large files in bulk. Lots of video, audio, image, e-book, office and archive formats are supported, including AVIF and JPEG XL.\n📁 Convert by right-clicking on files: Open with... > MConverter, or via the Share menu.",
+        "urls": {
+            "app": "https://mconverter.eu",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://mconverter.eu/img/icon-pwa.png",
+            maskable: true,
+        },
+        categories: [
+            "utilities",
+            "photo",
+            "music",
+            "books",
+        ],
+        disabled: false,
     },
     {
         "id": 174,
-        "url": "https://pwa-memory-game.surge.sh"
+        name: "Memory Game",
+        description: "Play this game and strengthen your memory!",
+        "urls": {
+            "app": "https://pwa-memory-game.surge.sh",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://pwa-memory-game.surge.sh/images/72.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 175,
-        "url": "https://messages.google.com"
+        name: "Messages",
+        description: "",
+        "urls": {
+            "app": "https://messages.google.com/web",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://ssl.gstatic.com/android-messages-web/images/2022.3/2x/messages_2022_round_96dp.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 176,
-        "url": "https://app.moneytracker.cc"
+        name: "MoneyTracker",
+        description: "",
+        icon: {
+            url: "https://app.moneytracker.cc/favicon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://app.moneytracker.cc",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 177,
-        "url": "https://morsecodetranslator.com"
-    },
-    {
-        "id": 177,
-        "url": "https://www.mtgstocks.com"
+        name: "Morse Code Translator",
+        "urls": {
+            "app": "https://morsecodetranslator.com",
+            "manifest": ""
+        }
+        description: "Translate text to Morse code and vice versa.",
+        icon: {
+            url: "https://morsecodetranslator.com/assets/icons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 178,
-        "url": "https://murlok.io"
+        name: "Murlok",
+        description: "Explore in-depth PvP and PvE character build guides for WoW The War Within 12.0, tailored for Solo Shuffle, 2v2, 3v3, RBG, and Mythic+. Gain insights from analyses of the top 50 players for each class and game mode. Continually updated every 8 hours to ensure you have the latest WoW meta strategies.",
+        "urls": {
+            "app": "https://murlok.io",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://static.murlok.io/web/murlok-maskable-512.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 179,
-        "url": "https://www.nanocell-csv.com/app"
+        name: "Nanocell-csv",
+        "urls": {
+            "app": "https://www.nanocell-csv.com/app/home.html",
+            "manifest": ""
+        }
+        description: "Nanocell - CSV file viewer & editor : free, fast, simple, lightweight, offline, cross platform, data accurate, PWA (Progressive Web App)",
+        icon: {
+            url: "https://www.nanocell-csv.com/app/favicon-96x96.png",
+            maskable: false,
+        },
+        categories: [
+            "productivity",
+            "utilities",
+            "business",
+        ],
+        disabled: false,
     },
     {
         "id": 180,
-        "url": "https://othello-rust.web.app"
+        name: "Othello",
+        description: "Play Othello against an AI with this beautiful modern web app.",
+        "urls": {
+            "app": "https://othello-rust.web.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://othello-rust.web.app/icons/maskable-192.png",
+            maskable: true,
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
     },
     {
         "id": 181,
-        "url": "https://pasteepad.com"
+        "urls": {
+            "app": "https://pasteepad.com",
+            "manifest": ""
+        }
+        name: "PasteePad",
+        description: "Online Text Editor to paste and keep text, great for notes, todos and links.",
+        icon: {
+            url: "https://pasteepad.com/icon-192x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 182,
-        "url": "https://pixelcraft.web.app"
+        name: "PixelCraft",
+        description: "",
+        icon: {
+            url: "https://pixelcraft.web.app/icons/logo.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://pixelcraft.web.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 183,
-        "url": "https://nenadalm.github.io/player-order-selector"
+        "urls": {
+            "app": "https://nenadalm.github.io/player-order-selector",
+            "manifest": ""
+        }
+        name: "Player order selector",
+        description: "Random player order selector.",
+        icon: {
+            url: "https://nenadalm.github.io/player-order-selector/img/icon_512.png?v=074eee41d756a3e583a039e8d349bb8048c28c48",
+            maskable: true,
+        },
+        "categories": [
+            "utilities",
+        ],
+        disabled: false,
     },
     {
         "id": 184,
-        "url": "https://pwa-nes.vercel.app"
+        name: "PWA NES",
+        description: "8-bit NES Emulator",
+        icon: {
+            url: "https://pwa-nes.vercel.app/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://pwa-nes.vercel.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 185,
-        "url": "https://www.qireader.com"
+        name: "Qi Reader",
+        description: "A Modern Web RSS Reader",
+        "urls": {
+            "app": "https://www.qireader.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.qireader.com/static/icon192.maskable.png",
+            maskable: true,
+        },
+        categories: [
+            "news",
+            "magazines",
+        ],
+        disabled: false,
     },
     {
         "id": 186,
-        "url": "https://qr-code-generator.vercel.app"
+        name: "QR Code Generator",
+        description: "Create custom QR Codes. You can save them as PNG image. You can change the size of the image.",
+        "urls": {
+            "app": "https://qr-code-generator.vercel.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://qr-code-generator.vercel.app/assets/icons/icon-72x72.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 187,
-        "url": "https://similarworlds.com"
+        name: "SimilarWorlds",
+        "urls": {
+            "app": "https://similarworlds.com",
+            "manifest": ""
+        }
+        description: "Discuss Experiences, Share Stories, Ask Questions, Find Answers, Explore Interests, Make Friends, Express your true Self - The New Experience Project is Here!",
+        icon: {
+            url: "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-1024-Mask.png",
+            maskable: true,
+        },
+        categories: [
+            "social",
+            "entertainment",
+            "photo",
+            "news",
+        ],
+        disabled: false,
     },
     {
         "id": 188,
-        "url": "https://currency-converter.vercel.app"
+        name: "Converter",
+        description: "",
+        icon: {
+            url: "https://currency-converter.vercel.app/favicon-small.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://currency-converter.vercel.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 189,
-        "url": "https://soodoku.com"
+        "urls": {
+            "app": "https://soodoku.com",
+            "manifest": ""
+        }
+        name: "Soodoku",
+        description: "Free online & offline sudoku game with unlimited puzzles available 24/7 without ads or registration",
+        icon: {
+            url: "https://soodoku.com/android-chrome-512x512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 190,
-        "url": "https://splittypie.com"
+        name: "Splittypie",
+        description: "",
+        "urls": {
+            "app": "https://splittypie.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://splittypie.com/assets/icons/android/icon-72x72.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 191,
-        "url": "https://swahili-dictionary.com"
+        name: "MobiTUKI",
+        description: "The best available English-Swahili-English dictionary with 30000+ entries, including idioms, derivatives, etymology and examples.",
+        "urls": {
+            "app": "https://swahili-dictionary.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://swahili-dictionary.com/static/img/favicon/apple-touch-icon.png",
+            maskable: true,
+        },
+        categories: [
+            "education",
+            "utilities",
+        ],
+        disabled: false,
     },
     {
         "id": 192,
-        "url": "https://t4p4n.github.io/todoly"
+        name: "Todoly",
+        "urls": {
+            "app": "https://t4p4n.github.io/todoly",
+            "manifest": ""
+        }
+        description: "A Simple Todo List App!",
+        icon: {
+            url: "https://t4p4n.github.io/todoly/images/msteams-192-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 193,
-        "url": "https://m.uber.com"
+        "urls": {
+            "app": "https://m.uber.com",
+            "manifest": ""
+        }
+        name: "Uber",
+        description: "",
+        icon: {
+            url: "https://d3i4yxtzktqr9n.cloudfront.net/web-plan/b8c00410291161d0.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 194,
-        "url": "https://zadig-et-voltaire.com"
+        name: "MTGStocks",
+        description: "",
+        icon: {
+            url: "https://www.mtgstocks.com/assets/images/favicons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.mtgstocks.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 195,
-        "url": "https://towergame.app"
+        name: "Tower Game",
+        description: "Stack blocks and build the tallest tower!",
+        icon: {
+            url: "https://towergame.app/assets/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://towergame.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 196,
-        "url": "https://hextris.io"
+        name: "Hextris",
+        "urls": {
+            "app": "https://hextris.io",
+            "manifest": ""
+        }
+        description: "An addictive puzzle game inspired by Tetris.",
+        icon: {
+            url: "https://hextris.io/images/icons/maskable-192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 197,
-        "url": "https://littlealchemy2.com"
+        name: "Alchemy 2",
+        description: "Combine items and create the world from scratch! Fun as always, more exciting than ever! Little Alchemy returns in style!",
+        icon: {
+            url: "https://littlealchemy2.com/public/icons/icon-72x72.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://littlealchemy2.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 198,
-        "url": "https://bsehovac.github.io/the-cube"
+        name: "The Cube",
+        description: "",
+        icon: {
+            url: "https://bsehovac.github.io/the-cube/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://bsehovac.github.io/the-cube",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 199,
-        "url": "https://bubblepairs.apps.in.rs"
+        name: "Bubble Pairs",
+        description: "A good old memory game with new and unique elements that make play experience remarkable.",
+        "urls": {
+            "app": "https://bubblepairs.apps.in.rs",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://bubblepairs.apps.in.rs/game-icon-big.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 200,
-        "url": "https://pippinbarr.com/SNAKISMS"
+        name: "SNAKISMS",
+        description: "Life is meaningless! Maybe you need some kind of ism to attempt to ward off the inevitable and unavoidable despair! Here, have some isms made of snakes! Life is still meaningless but now you have a bunch of snakes as well! Thank me later!",
+        "urls": {
+            "app": "https://pippinbarr.com/SNAKISMS",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://pippinbarr.com/SNAKISMS/press/images/SNAKISMS.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 201,
-        "url": "https://insiders.vscode.dev"
+        name: "Code Insiders",
+        description: "",
+        "urls": {
+            "app": "https://insiders.vscode.dev",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://insiders.vscode.dev/static/insider/code-192-maskable.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 202,
-        "url": "https://www.novanetworth.com"
+        name: "Nova",
+        description: "Track your net worth across all assets with AI-powered insights. Secure, comprehensive, and affordable.",
+        "urls": {
+            "app": "https://www.novanetworth.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.novanetworth.com/favicons/light/android-chrome-192x192.png",
+            maskable: true,
+        },
+        categories: [
+            "finance",
+            "productivity",
+            "business",
+        ],
+        disabled: false,
     },
     {
         "id": 203,
-        "url": "https://loxalize.ai"
+        name: "Loxalize",
+        description: "",
+        icon: {
+            url: "https://loxalize.ai/web-app-manifest-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://loxalize.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
     },
     {
         "id": 204,
-        "url": "https://www.slingshot.money"
+        name: "slingshot.money",
+        description: "",
+        "urls": {
+            "app": "https://www.slingshot.money",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.slingshot.money/logo-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 205,
-        "url": "https://www.reddit.com"
+        name: "Reddit",
+        description: "",
+        "urls": {
+            "app": "https://www.reddit.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.reddit.com/192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 206,
-        "url": "https://www.stellarspeak.online"
+        name: "StellarSpeak",
+        description: "انطلق في رحلة كونية لتعلم الإنجليزية، من كوكب المبتدئين إلى سديم الحكمة.",
+        "urls": {
+            "app": "https://www.stellarspeak.online",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.stellarspeak.online/app-icon-192.png",
+            maskable: true,
+        },
+        categories: [
+            "education",
+            "productivity",
+            "lifestyle",
+        ],
+        disabled: false,
     },
     {
         "id": 207,
-        "url": "https://pwainbox.com"
+        name: "PWA Inbox",
+        description: "PWA Inbox — a Progressive Web Application powered by MagicBell",
+        "urls": {
+            "app": "https://pwainbox.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://pwainbox.com/icons/ios/72.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 208,
-        "url": "https://lichess.org"
+        name: "Lichess",
+        "urls": {
+            "app": "https://lichess.org",
+            "manifest": ""
+        }
+        description: "The (really) free, no-ads, open source chess server.",
+        icon: {
+            url: "https://lichess1.org/assets/logo/lichess-favicon-128.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 209,
-        "url": "https://maxgfr.github.io/loyalty-card-vault"
+        name: "CardVault",
+        description: "Secure loyalty card manager with barcode scanning",
+        "urls": {
+            "app": "https://maxgfr.github.io/loyalty-card-vault",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://maxgfr.github.io/loyalty-card-vault/icons/manifest-icon-192.maskable.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 210,
-        "url": "https://block-match-game.vercel.app"
+        name: "BLOCK MATCH",
+        description: "",
+        "urls": {
+            "app": "https://block-match-game.vercel.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://block-match-game.vercel.app/favicon.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 211,
-        "url": "https://tetrix.io"
+        name: "Tetrix",
+        description: "A free, ad-free relaxing puzzle game. Drag and drop shapes, clear lines, and enjoy infinite gameplay with no interruptions. Perfect for casual gaming and brain training.",
+        "urls": {
+            "app": "https://tetrix.io",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://tetrix.io/icons/icon-192x192.png",
+            maskable: true,
+        },
+        categories: [
+            "games",
+            "entertainment",
+        ],
+        disabled: false,
     },
     {
         "id": 212,
-        "url": "https://wapps.store"
+        name: "Web Store",
+        description: "Откройте мир web-приложений",
+        "urls": {
+            "app": "https://wapps.store",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://wapps.store/192x192_maskable.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 213,
-        "url": "https://hunterirving.github.io/qr"
+        name: "qr",
+        description: "no nonsense QR code generator as a Progressive Web App",
+        "urls": {
+            "app": "https://hunterirving.github.io/qr",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://hunterirving.github.io/qr/icon.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
     },
     {
         "id": 214,
-        "url": "https://icemap.app"
+        name: "icemap",
+        description: "Anonymous, real-time incident reporting on a map. No accounts. No tracking. Posts auto-delete after 7 days.",
+        "urls": {
+            "app": "https://icemap.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://icemap.app/icons/icon-192x192.png",
+            maskable: true,
+        },
+        categories: [
+            "news",
+            "social",
+            "utilities",
+        ],
+        disabled: false,
     },
     {
         "id": 215,
-        "url": "https://taskdumpr.com"
-    }
+        name: "TaskDumpr",
+        description: "",
+        "urls": {
+            "app": "https://taskdumpr.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://taskdumpr.com/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 216,
+        name: "LekeeLekee",
+        description: "Connect, share, and discover content with a vibrant community.",
+        "urls": {
+            "app": "https://www.lekeelekee.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.lekeelekee.com/android-chrome-192x192-maskable.png",
+            maskable: true
+        },
+        "categories": [
+            "social",
+            "entertainment",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 217,
+        name: "The Conversation",
+        description: "",
+        "urls": {
+            "app": "https://theconversation.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 218,
+        name: "AP News",
+        description: "",
+        "urls": {
+            "app": "https://apnews.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://assets.apnews.com/77/8e/bddbc9f3405984501b8a10dfc921/android-app-icon-144.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 219,
+        name: "Recap Flow",
+        description: "AI Workspace for productivity, featuring AI Negotiator and Pro Calculators.",
+        "urls": {
+            "app": "https://recapflow.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://recapflow.com/logo-maskable.png",
+            maskable: true
+        },
+        categories: [
+            "productivity",
+            "utilities",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 220,
+        name: "GiveTwice",
+        description: "Create and share wishlists. All affiliate revenue goes to charity.",
+        "urls": {
+            "app": "https://givetwice.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://givetwice.app/android-chrome-maskable-192x192.png",
+            maskable: true
+        },
+        categories: [
+            "shopping",
+            "lifestyle",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 221,
+        name: "FetchAsset",
+        description: "AI-powered client asset onboarding portals",
+        "urls": {
+            "app": "https://www.fetchasset.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.fetchasset.com/apple-touch-icon.png",
+            maskable: true
+        },
+        categories: [
+            "business",
+            "productivity",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 222,
+        name: "Tailwatch",
+        description: "Hierarchical event, task, and message dashboard with log and status views.",
+        "urls": {
+            "app": "https://tailwatch.dev",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://tailwatch.dev/pwa-maskable-512x512.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 223,
+        "urls": {
+            "app": "https://thelittlegamefactory.com",
+            "manifest": ""
+        }
+        name: "The Little Game Factory",
+        description: "High quality webGL games for desktop pc and mobile phones",
+        icon: {
+            url: "https://thelittlegamefactory.com/wp-content/themes/supergoodgames/images/icon-mask.svg",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 224,
+        name: "softbear.com",
+        description: "A collection of high-quality, free-to-play, multiplayer, IO games for unblocked HTML5 web browsers. Join any time to play, team, and chat. No software download or installation required.",
+        "urls": {
+            "app": "https://softbear.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://softbear.com/softbear_logo.png",
+            maskable: false,
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 225,
+        name: "Voxmaxa",
+        description: "Voxmaxa is a free for all combat game in a block world. It is free to play online in a web browser with nothing to install.",
+        "urls": {
+            "app": "https://mazean.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://mazean.com/data/512x512.png",
+            maskable: false
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 226,
+        name: "Kiomet",
+        description: "Kiomet is a multiplayer real-time strategy game. It is free to play online in a web browser with no install required. Start with a small country and expand into unclaimed areas. Make strategic alliances and join forces to defeat rivals. Protect the king at all times.",
+        "urls": {
+            "app": "https://kiomet.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://kiomet.com/data/512x512.png",
+            maskable: true
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 227,
+        name: "Krakax",
+        description: "Krakax is a multiplayer archery game. It is free to play online in a web browser with no install required.",
+        "urls": {
+            "app": "https://krakax.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://krakax.com/data/512x512.png",
+            maskable: false,
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 228,
+        name: "mk48.io",
+        description: "Mk48.io is a multiplayer ship combat game. It is free to play online in a web browser with no install required. Start with a small warship and defeat rival players or collect floating barrels to earn upgrades to increasingly larger battleships, submarines, and aircraft carriers. Avoid torpedos and incoming shells. Team and chat with other players.",
+        "urls": {
+            "app": "https://mk48.io",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://mk48.io/data/mask256x256.png",
+            maskable: true
+        },
+        "categories": [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 229,
+        name: "Netquel",
+        description: "Netquel is a multiplayer space war game. It is free to play online in a web browser with nothing to install. Start with a small ship and defeat rival players or mine asteriods to earn upgrades. Team and chat with other players.",
+        "urls": {
+            "app": "https://netquel.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://netquel.com/data/512x512.png",
+            maskable: true
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 230,
+        name: "Tankgank",
+        description: "Tankgank is a multiplayer tank battle game. It is free to play online in a web browser with nothing to install. Earn points by conquering territory. Encircle or outgun rivals to defeat them. Team and chat with other players.",
+        "urls": {
+            "app": "https://tankgank.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://tankgank.com/data/512x512.png",
+            maskable: true,
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 231,
+        name: "Turnfight",
+        description: "Turnfight is a multiplayer air combat game. It is free to play online in a web browser with no installation required. Choose your favorite plane and defeat rivals to earn points.",
+        "urls": {
+            "app": "https://turnfight.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://turnfight.com/data/512x512.png",
+            maskable: false,
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 232,
+        name: "PayFit",
+        "urls": {
+            "app": "https://payfit.com",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://payfit.com/imgs/web-app-manifest-192x192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 233,
+        "urls": {
+            "app": "https://aminnairi.github.io/chmod",
+            "manifest": ""
+        }
+        description: "Calculate chmod permissions using a grahpical Web interface",
+        name: "Chmod",
+        icon: {
+            url: "https://aminnairi.github.io/chmod/icon.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 234,
+        name: "Channel Surfer",
+        description: "",
+        "urls": {
+            "app": "https://channelsurfer.tv",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://channelsurfer.tv/web-app-manifest-192x192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 235,
+        name: "YouBrokeProd",
+        description: "Master production incidents through realistic simulations",
+        "urls": {
+            "app": "https://www.youbrokeprod.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.youbrokeprod.com/icon-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 236,
+        name: "diVine",
+        description: "Watch and share 6-second looping videos on the decentralized Nostr network.",
+        "urls": {
+            "app": "https://divine.video",
+            "manifest": ""
+        }
+        categories: [
+            "entertainment",
+            "video",
+            "social",
+        ],
+        icon: {
+            url: "https://divine.video/app_icon.png",
+            maskable: true
+        },
+        disabled: false,
+    },
+    {
+        "id": 237,
+        name: "LifeDots",
+        description: "Visualize your life timeline with interactive dots",
+        "urls": {
+            "app": "https://lifedots.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://lifedots.app/assets/android-chrome-512x512.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 238,
+        name: "Tuner",
+        "urls": {
+            "app": "https://realtuner.online",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://realtuner.online/favicon/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 239,
+        name: "GitPulse",
+        description: "Transform raw GitHub data into a clean, living developer profile. Showcase your shipping velocity, maintenance focus, and real engineering impact.",
+        "urls": {
+            "app": "https://www.gitpulse.dev",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.gitpulse.dev/assets/gitpulse_icon_bg_black_round.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 240,
+        name: "DigiBouquet.net",
+        "urls": {
+            "app": "https://digibouquet.net",
+            "manifest": ""
+        }
+        description: "",
+        icon: {
+            url: "https://digibouquet.net/images/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 241,
+        name: "Ichinichi",
+        description: "A minimalist daily note app. One note per day.",
+        "urls": {
+            "app": "https://ichinichi.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://ichinichi.app/favicons/android-chrome-512x512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 242,
+        name: "Pixelate Image",
+        description: "Free online image pixelator. Pixelate faces, license plates, or create retro 8-bit art instantly. Private, fast, and works entirely in your browser with no upload required.",
+        "urls": {
+            "app": "https://www.pixelateimage.co",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.pixelateimage.co/logo.png",
+            maskable: false,
+        },
+        categories: [
+            "utilities",
+            "photo"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 243,
+        "urls": {
+            "app": "https://tvexplorer.live",
+            "manifest": ""
+        }
+        description: "Stream 10,000+ free-to-air TV channels from 177 countries in your browser. HLS live streaming, M3U import, search, favorites, multiview, and more.",
+        name: "IPTV Pro",
+        icon: {
+            url: "https://iptvpro.live/projects/iptv-pro/images/hero.jpg",
+            maskable: false,
+        },
+        categories: [
+            "entertainment",
+            "video"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 244,
+        name: "Nitter",
+        description: "",
+        "urls": {
+            "app": "https://xcancel.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://xcancel.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 245,
+        name: "Porcfolio",
+        "urls": {
+            "app": "https://app.porcfolio.com",
+            "manifest": ""
+        }
+        description: "Zero-cost personal finance tracker.",
+        icon: {
+            url: "https://app.porcfolio.com/icons/Icon-maskable-192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 247,
+        name: "AbjadPro",
+        description: "",
+        "urls": {
+            "app": "https://abjadpro.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://abjadpro.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 248,
+        name: "TheDayAfter",
+        description: "Your addiction recovery companion",
+        "urls": {
+            "app": "https://thedayafter.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://thedayafter.app/icon-192.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 249,
+        name: "Polymarket",
+        description: "",
+        icon: {
+            url: "https://polymarket.com/icons/android-chrome-192x192.png",
+            maskable: true
+        },
+        categories: [],
+        "urls": {
+            "app": "https://polymarket.com",
+            "manifest": ""
+        }
+        disabled: false,
+    },
+    {
+        "id": 250,
+        name: "DiscoVox",
+        "urls": {
+            "app": "https://discovox.org",
+            "manifest": ""
+        }
+        description: "Listen to audiobooks and read along to boost your language comprehension with DiscoVox!\nInstall this app to enjoy a seamless experience with offline access.",
+        icon: {
+            url: "https://discovox.org/static/icons/manifest-icon-192.maskable.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 251,
+        name: "VidSnoop",
+        description: "Video Analysis Tool",
+        "urls": {
+            "app": "https://www.vidsnoop.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.vidsnoop.com/maskable-icon-512x512.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 252,
+        "urls": {
+            "app": "https://showcode.app",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "404 logo"
+    },
+    {
+        "id": 253,
+        name: "Star Walk",
+        description: "",
+        "urls": {
+            "app": "https://starwalk.space",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://starwalk.space/icon-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 254,
+        name: "Padel Tactics",
+        description: "",
+        "urls": {
+            "app": "https://www.padelchess.me",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.padelchess.me/icons/192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 255,
+        name: "Basalt",
+        description: "",
+        "urls": {
+            "app": "https://basalt-docs.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://basalt-docs.com/assets/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        categories: [
+            "developer tools",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 256,
+        name: "OPO",
+        description: "",
+        "urls": {
+            "app": "https://opo.fausto.me",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://opo.fausto.me/favicon.ico",
+            maskable: false,
+        },
+        categories: [
+            "social",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 257,
+        name: "deariary",
+        description: "Fully automated diary generation from your connected services",
+        "urls": {
+            "app": "https://app.deariary.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://app.deariary.com/icon-192.png",
+            maskable: true
+        },
+        categories: [
+            "lifestyle",
+            "productivity",
+            "utilities",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 258,
+        name: "ConvertUniverse",
+        description: "Automate document processes with AI workflows and intelligent tools. 100% free, secure, and built for scale.",
+        "urls": {
+            "app": "https://www.convertuniverse.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.convertuniverse.com/apple-icon.png",
+            maskable: true
+        },
+        categories: [
+            "productivity",
+            "utilities",
+            "business"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 259,
+        name: "Twill",
+        description: "Automate bug fixes, features, and maintenance with coding agents. Twill ships PRs autonomously in sandboxed environments, and pings you when it needs your input.",
+        "urls": {
+            "app": "https://twill.ai",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://twill.ai/favicon.svg",
+            maskable: false,
+        },
+        categories: [
+            "developer tools",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 260,
+        name: "Ensemble",
+        description: "A free screenplay editor that automatically formats as you type.",
+        "urls": {
+            "app": "https://ensemblewriter.com",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://ensemblewriter.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        categories: [
+            "productivity",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 261,
+        name: "Say That Sh",
+        description: "The digital billboard where the only algorithm is capitalism. Post your message, or pay to replace the current one.",
+        "urls": {
+            "app": "https://saythat.sh",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://saythat.sh/icon-192x192.png",
+            maskable: true
+        },
+        categories: [
+            "social",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 263,
+        name: "Timerjoy",
+        description: "Free online timers, countdowns, stopwatch, and date calculators. No downloads, no sign-up.",
+        "urls": {
+            "app": "https://timerjoy.com/",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://timerjoy.com/icon.svg",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 264,
+        name: "Chartle",
+        description: "AI-Powered Data Visualization",
+        "urls": {
+            "app": "https://www.chartle.app",
+            "manifest": ""
+        }
+        icon: {
+            url: "https://www.chartle.app/web-app-manifest-192x192.png",
+            maskable: true
+        },
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 265,
+        "urls": {
+            "app": "https://situationroom.space",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "No response when fetching icon."
+    },
+    {
+        "id": 266,
+        name: "MatchGuide",
+        description: "The essential travel guide for fans attending the 2026 World Cup in Canada. Matches, restaurants, transit & local secrets for Vancouver & Toronto.",
+        icon: {
+            url: "https://matchguide.ca/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://matchguide.ca",
+            "manifest": ""
+        }
+        categories: [
+            "sports",
+            "travel",
+            "food"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 267,
+        name: "Zura",
+        description: "Domain portfolio management — DNS, SEO, security, and registrar ops.",
+        icon: {
+            url: "https://zura.chat/icon.svg",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://zura.chat/app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 268,
+        name: "UnWX",
+        description: "This app alerts you when severe weather is expected. The alerts are a reliable and quick forecast based on official sources. Depending on the country, it warns of weather dangers like cyclones, tornadoes, thunderstorms, hail, heavy rain, snow, freeze, slipperiness, heat, heavy wind, fog, flood or marine warnings.",
+        icon: {
+            url: "https://www.unwx.app/pwa/launcher/launcher_192-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.unwx.app/pwa",
+            "manifest": ""
+        }
+        categories: [
+            "weather",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 269,
+        name: "Rain Alarm",
+        description: "This weather app alerts you when rain is approaching. The alerts are a reliable short-term forecast based on near real-time data. This app is more precise and reliable than a traditional forecast. It is very useful for all outdoor activities – including cycling, motorcycling, hiking, gardening, BBQs, picnics, dog walking and DIY.",
+        icon: {
+            url: "https://www.rain-alarm.com/launcher/launcher_192-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.rain-alarm.com",
+            "manifest": ""
+        }
+        categories: [
+            "weather",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 270,
+        name: "Getly",
+        description: "Buy and sell digital products: templates, fonts, code, graphics, and more.",
+        icon: {
+            url: "https://www.getly.store/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.getly.store",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 271,
+        name: "TradeMatrix",
+        description: "Score every stock across 25 indicators, 5 factors, and 3 time horizons.",
+        icon: {
+            url: "https://trade-matrix.com/icons/brand/score-ring-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://trade-matrix.com/dashboard",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 272,
+        name: "AttaQuiz",
+        description: "Have Fun. Get Smarter. Learn any topic while having fun with quizzes.",
+        icon: {
+            url: "https://attaquiz.com/icons/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://attaquiz.com",
+            "manifest": ""
+        }
+        categories: [
+            "education",
+            "games"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 273,
+        name: "Taskadactyl",
+        description: "Gamified task manager for ADHD brains. Turn boring tasks into exciting adventures with your Taskadactyl companion.",
+        icon: {
+            url: "https://taskadactyl.com/icons/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://taskadactyl.com/app",
+            "manifest": ""
+        }
+        categories: [
+            "productivity",
+            "lifestyle",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 274,
+        name: "Mu",
+        description: "Building blocks for apps",
+        icon: {
+            url: "https://mu.xyz/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://mu.xyz",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 275,
+        name: "neobotnet",
+        description: "Web Reconnaissance. Delivered.",
+        icon: {
+            url: "https://www.neobotnet.com/favicons/favicon-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.neobotnet.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 276,
+        name: "podhoc",
+        description: "Learn in motion. Distill any content into pedagogical audio capsules.",
+        icon: {
+            url: "https://podhoc.com/images/apple-touch-icon.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://podhoc.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 277,
+        name: "MangoWave",
+        description: "Browser-based audio-reactive visualizer inspired by Winamp and MilkDrop",
+        icon: {
+            url: "https://play.mangowave.app/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://play.mangowave.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 278,
+        name: "RailRaptor",
+        description: "Offline-capable UK Train Route Planner",
+        icon: {
+            url: "https://railraptor.com/icon-192-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://railraptor.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 279,
+        name: "Playra",
+        description: "The next generation video platform. Watch, share, and subscribe to your favorite creators.",
+        icon: {
+            url: "https://playra-app.vercel.app/icon-maskable-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://playra-app.vercel.app",
+            "manifest": ""
+        }
+        categories: [
+            "entertainment",
+            "social"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 280,
+        name: "Keydar",
+        description: "",
+        icon: {
+            url: "https://keydar.app/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://keydar.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 281,
+        name: "MySite",
+        description: "",
+        icon: {
+            url: "https://www.mediafa.st/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.mediafa.st",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 282,
+        name: "VizTools",
+        description: "",
+        icon: {
+            url: "https://viztools.app/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://viztools.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 283,
+        name: "BetterPrompt",
+        description: "Discover, build, and monetize ready-to-run AI prompts for ChatGPT, Gemini, Grok, and more.",
+        icon: {
+            url: "https://betterprompt.me/web-app-manifest-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://betterprompt.me",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 284,
+        name: "OpenHour",
+        description: "Turn natural language into your daily plan",
+        icon: {
+            url: "https://www.openhour.ai/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.openhour.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 285,
+        name: "Mooduna",
+        description: "Track your mood, practice mindfulness, and invest in your mental wellness.",
+        icon: {
+            url: "https://www.mooduna.app/logo192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.mooduna.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 286,
+        name: "isitdown",
+        description: "Check if any website is down for everyone or just you.",
+        icon: {
+            url: "https://isitdown.page/favicon-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://isitdown.page",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 287,
+        name: "Plany",
+        description: "Simple, Calendar-First Trip Planning",
+        icon: {
+            url: "https://app.plany.ae/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://app.plany.ae",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 288,
+        name: "MoatRadar",
+        description: "",
+        icon: {
+            url: "https://www.moatradar.com/favicon.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.moatradar.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 289,
+        name: "Frenzy",
+        description: "Earn on second-by-second price moves across all markets. Where milliseconds make money.",
+        icon: {
+            url: "https://frenzy.finance/icons/app/icon-512-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://frenzy.finance",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 290,
+        name: "Dusk AI",
+        description: "The AI Companion That Never Forgets",
+        icon: {
+            url: "https://duskai.io/favicon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://duskai.io",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 291,
+        name: "Replika App",
+        description: "",
+        icon: {
+            url: "https://my.replika.com/android-icon-72x72.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://my.replika.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 292,
+        name: "Breo",
+        description: "Your AI companion for restaurant and bar owners",
+        icon: {
+            url: "https://booteek.ai/android-chrome-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://booteek.ai",
+            "manifest": ""
+        }
+        categories: [
+            "business",
+            "productivity",
+            "food"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 293,
+        name: "Spokk",
+        description: "Leading customer feedback software and Google review management platform for service businesses",
+        icon: {
+            url: "https://www.spokk.io/icon.ico",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.spokk.io",
+            "manifest": ""
+        }
+        categories: [
+            "business",
+            "productivity",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 294,
+        name: "DwellRecord",
+        description: "The Digital Custodian for Your Home — track improvements and document assets.",
+        icon: {
+            url: "https://dwellrecord.com/icons/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://dwellrecord.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 295,
+        name: "Seating Hero",
+        description: "",
+        icon: {
+            url: "https://seatinghero.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://seatinghero.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 296,
+        name: "IndexerHub",
+        description: "",
+        icon: {
+            url: "https://app.indexerhub.com/logo/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://app.indexerhub.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 297,
+        name: "mjapi",
+        description: "",
+        icon: {
+            url: "https://app.maginary.ai/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://app.maginary.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 298,
+        name: "Atypica",
+        description: "",
+        icon: {
+            url: "https://atypica.ai/_public/hippyghost-square-dark.jpg",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://atypica.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 299,
+        name: "GetYouTubeText",
+        description: "Convert any YouTube video to text instantly. Free, no sign up.",
+        icon: {
+            url: "https://getyoutubetext.com/icon.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://getyoutubetext.com",
+            "manifest": ""
+        }
+        categories: [
+            "productivity",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 300,
+        name: "Phone Tag",
+        description: "",
+        icon: {
+            url: "https://payphonetag.com/static/favicon.svg",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://payphonetag.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 301,
+        name: "PapersFlow",
+        description: "Research workspace to search papers, manage a library, design workflows, and write collaboratively.",
+        icon: {
+            url: "https://papersflow.ai/icon-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://papersflow.ai",
+            "manifest": ""
+        }
+        categories: [
+            "productivity",
+            "education",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 302,
+        name: "TasklyLife",
+        description: "Manage your tasks and stay focused with built-in Pomodoro timers.",
+        icon: {
+            url: "https://tasklylife.com/pwa-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://tasklylife.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 303,
+        name: "TrafficPopcorn",
+        description: "More FTD's from every traffic source. Powered by DOT.",
+        icon: {
+            url: "https://media.base44.com/images/public/696a5a290704c2405236db52/0c4552fe0_TrafficPopcornIconbyDOT.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://trafficpopcorn.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 304,
+        name: "Rap Steak",
+        description: "Will you become a legend or get cooked in the streets? A hip-hop card battle game.",
+        icon: {
+            url: "https://rapsteak.com/pwa-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://rapsteak.com",
+            "manifest": ""
+        }
+        categories: [
+            "games",
+            "entertainment"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 305,
+        name: "App",
+        description: "",
+        icon: {
+            url: "https://www.flightradar24.com/static/favicons/android-icon-72x72.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.flightradar24.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 306,
+        name: "CAMAudit",
+        description: "Forensic CAM audit platform for commercial tenants. Detect overcharges in CAM reconciliations in under 15 minutes.",
+        icon: {
+            url: "https://www.camaudit.io/icons/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.camaudit.io",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 307,
+        name: "Sundial",
+        description: "",
+        icon: {
+            url: "https://sundial.page/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://sundial.page",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 309,
+        name: "JustCall",
+        description: "Reliable international video calling in your browser.",
+        icon: {
+            url: "https://just-call.app/android-chrome-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://just-call.app",
+            "manifest": ""
+        }
+        categories: [
+            "social"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 310,
+        name: "AstroSeek",
+        description: "",
+        icon: {
+            url: "https://astroseek.org/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://astroseek.org",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 311,
+        name: "WordBattle",
+        description: "A daily 6-letter word guessing game. Compete with teams, challenge AI agents, and climb the leaderboard.",
+        icon: {
+            url: "https://wordbattle.fun/assets/images/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://wordbattle.fun",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 312,
+        name: "VALYRIS — Find What Investors Would Question | Startup Diagnostic Before Kickstarter, YC & More",
+        description: "Private diagnostic workspace. Stress-test your project before crowdfunding, accelerator applications, or investor outreach.",
+        icon: {
+            url: "https://media.base44.com/images/public/69c310c012e0b46791fe3332/2021f4885_VYrounded.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://valyris.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 313,
+        name: "Collectibles X",
+        description: "Buy, sell, and vault collectibles — cards, comics, coins, toys, sneakers, watches & more",
+        icon: {
+            url: "https://thecardshop.store/images/TheCardShopStore-Logo-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://thecardshop.store",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 314,
+        "urls": {
+            "app": "https://anvevoice.app",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "HTTP status 403 when fetching icon."
+    },
+    {
+        "id": 315,
+        name: "Roasted.cv",
+        description: "Get your CV roasted. Get hired.",
+        icon: {
+            url: "https://roasted.cv/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://roasted.cv",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 316,
+        name: "NanoMaker AI",
+        description: "NanoMaker AI includes Nano Banana 2, bringing you the world's top AI models for image, video, music and audio in just one subscription.",
+        icon: {
+            url: "https://nanomaker.im/android-chrome-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://nanomaker.im",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 317,
+        name: "Sing2me",
+        description: "Transform your photos into unique AI-generated songs with personalized lyrics and melodies",
+        icon: {
+            url: "https://www.sing2me.ai/logo1.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.sing2me.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 318,
+        name: "Writemail",
+        description: "",
+        icon: {
+            url: "https://app.writemail.ai/assets/img/favicon/package/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://app.writemail.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 319,
+        name: "ZooClaw",
+        description: "Your proactive agent team for everyday tasks. Not another AI assistant — a personal team of AI specialists.",
+        icon: {
+            url: "https://zooclaw.ai/themes/panda-claw/android-chrome-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://zooclaw.ai",
+            "manifest": ""
+        }
+        categories: [
+            "productivity",
+            "business"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 320,
+        name: "Tailors",
+        description: "Tailor business tool — deadlines, customers, money.",
+        icon: {
+            url: "https://edmundsparrow.github.io/gnoke-tailors/global.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://edmundsparrow.github.io/gnoke-tailors",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 321,
+        name: "Ledger",
+        description: "Offline-first receipt app for small businesses",
+        icon: {
+            url: "https://edmundsparrow.github.io/gnoke-receipts/global.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://edmundsparrow.github.io/gnoke-receipts",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 322,
+        name: "Irrigation",
+        description: "Zone scheduling and irrigation log. Portable. Private. Persistent.",
+        icon: {
+            url: "https://edmundsparrow.github.io/gnoke-irrigation-hmi/global.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://edmundsparrow.github.io/gnoke-irrigation-hmi",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 323,
+        name: "SignalTower",
+        description: "Industrial Andon stack light controller. Portable. Private. Persistent.",
+        icon: {
+            url: "https://edmundsparrow.github.io/gnoke-signaltower/global.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://edmundsparrow.github.io/gnoke-signaltower",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 324,
+        name: "GeoCompass",
+        description: "GPS compass with real-time bearing, distance, and city search. Portable. Private. Persistent.",
+        icon: {
+            url: "https://edmundsparrow.github.io/gnoke-geocompass/global.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://edmundsparrow.github.io/gnoke-geocompass",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 325,
+        name: "Petroleum",
+        description: "Daily fuel sales tracking. Portable, Private, Persistent.",
+        icon: {
+            url: "https://edmundsparrow.github.io/gnoke-petroleum/global.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://edmundsparrow.github.io/gnoke-petroleum",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 326,
+        name: "h173k Wallet",
+        description: "Dedicated PWA wallet for H173K tokens on Solana",
+        icon: {
+            url: "https://h173k-wallet.pages.dev/icons/icon-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://h173k-wallet.pages.dev",
+            "manifest": ""
+        }
+        categories: [
+            "finance"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 327,
+        name: "kirei-filter",
+        description: "キーワードと画像内容を見て、AIが自然な整え方を提案する試作版。",
+        icon: {
+            url: "https://ai-kirei-filter.pages.dev/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://ai-kirei-filter.pages.dev",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 328,
+        name: "THORDEX",
+        description: "Decentralized THORChain Trading Terminal",
+        icon: {
+            url: "https://thordex.eth.limo/icon-maskable-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://thordex.eth.limo",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 329,
+        name: "Chromemory",
+        description: "How precisely do you see colours? Test your memory.",
+        icon: {
+            url: "https://snazzygaz.github.io/chromemory/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://snazzygaz.github.io/chromemory",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 330,
+        name: "ScanSkinAI",
+        description: "Get instant AI-powered skin analysis with advanced machine learning technology. Suitable for all ages.",
+        icon: {
+            url: "https://www.scanskinai.com/icons/icon-192-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.scanskinai.com",
+            "manifest": ""
+        }
+        categories: [
+            "health",
+            "medical",
+            "productivity"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 331,
+        name: "Whacka",
+        description: "Turn an idea into a real app you can use and share, right from your phone.",
+        icon: {
+            url: "https://whacka.app/maskable-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://whacka.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 332,
+        name: "OpenRouter",
+        description: "A router for LLMs and other AI models",
+        icon: {
+            url: "https://openrouter.ai/icon-pwa.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://openrouter.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 333,
+        name: "Sleek",
+        description: "",
+        icon: {
+            url: "https://getsleek.io/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://getsleek.io",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 334,
+        name: "NotebookLM",
+        description: "",
+        icon: {
+            url: "https://notebooklm.google.com/_/static/branding/v5/light_mode/favicon/google-touch-icon.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://notebooklm.google.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 335,
+        name: "Stitch",
+        description: "",
+        icon: {
+            url: "https://www.gstatic.com/labs-code/favicon-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://stitch.withgoogle.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 336,
+        name: "Editor",
+        description: "",
+        icon: {
+            url: "https://editor.uppslag.se/logo512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://editor.uppslag.se",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 337,
+        name: "Fogos PT",
+        description: "Real-time wildfire monitoring for Portugal. Live fire tracking, satellite detections, and fire weather data.",
+        icon: {
+            url: "https://fogosagora.pt/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://fogosagora.pt",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 338,
+        name: "P-Cast",
+        description: "A simple, ad-free podcast player",
+        icon: {
+            url: "https://p-cast.org/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://p-cast.org",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 339,
+        name: "مَدار",
+        description: "تطبيق إدارة المهام والمشاريع",
+        icon: {
+            url: "https://madaaar.netlify.app/pwa-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://madaaar.netlify.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 340,
+        name: "Finance",
+        description: "AI-powered personal finance tracker",
+        icon: {
+            url: "https://talkntrack.divyanshsharma.com/icons/icon.svg",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://talkntrack.divyanshsharma.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 341,
+        name: "MausamNow",
+        description: "Hyperlocal weather intelligence for India. Live radar, IMD forecasts, air quality, and multi-model rain predictions.",
+        icon: {
+            url: "https://mausamnow.com/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://mausamnow.com",
+            "manifest": ""
+        }
+        categories: [
+            "weather",
+            "utilities"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 342,
+        name: "Streaks",
+        description: "Track your daily habits and build lasting streaks",
+        icon: {
+            url: "https://www.trackyourstreak.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.trackyourstreak.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 343,
+        name: "スタブロ",
+        description: "",
+        icon: {
+            url: "https://yamamoto5989.github.io/stackblock/Stack_Block_Icon.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://yamamoto5989.github.io/stackblock/",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 344,
+        name: "Fernand",
+        description: "",
+        icon: {
+            url: "https://app.getfernand.com/images/favicon/icon_maskable_192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://app.getfernand.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 345,
+        name: "EasyFollowUp",
+        description: "Simple CRM for managing leads and follow-ups",
+        icon: {
+            url: "https://easyfollowup.pro/maskable-icon-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://easyfollowup.pro",
+            "manifest": ""
+        }
+        categories: [
+            "business",
+            "productivity"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 346,
+        name: "Nihongo Dōjō",
+        description: "Cours de japonais structurés, quiz kana, vocabulaire et outils interactifs.",
+        icon: {
+            url: "https://nihongo-dojo.fr/images/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://nihongo-dojo.fr",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 347,
+        name: "Roamble",
+        description: "コンフォートゾーンを抜け出して、新しい場所へ。",
+        icon: {
+            url: "https://roamble.app/icons/icon-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://roamble.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 348,
+        name: "ChatWithDr",
+        description: "Access 24/7 online doctors for instant advice and same-day consultations. Get fast, reliable online urgent care with secure telehealth support whenever you need it.",
+        icon: {
+            url: "https://chatwithdr.com/logo192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://chatwithdr.com",
+            "manifest": ""
+        }
+        categories: [
+            "health",
+            "medical",
+            "lifestyle"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 349,
+        name: "VitalStep",
+        description: "AI-powered health assistant for metabolic & chronic wellness training",
+        icon: {
+            url: "https://vitalstep.pro/apple-touch-icon.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://vitalstep.pro",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 350,
+        name: "Pelaris",
+        description: "AI-powered fitness coaching that learns how you train.",
+        icon: {
+            url: "https://coach.pelaris.io/icons/Icon-maskable-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://coach.pelaris.io",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 351,
+        "urls": {
+            "app": "https://verirfp.com",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "No response when fetching icon.",
+    },
+    {
+        "id": 352,
+        name: "CheekyCycle",
+        description: "The trusted marketplace for buying and selling second-hand bikes.",
+        icon: {
+            url: "https://cheekycycle.com/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://cheekycycle.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 353,
+        name: "Portifa",
+        description: "The Portfolio Platform That Gets Artists Hired",
+        icon: {
+            url: "https://portifa.io/favicon.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://portifa.io",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 354,
+        name: "Yesterday's Bread",
+        description: "Yesterday's Bread — a text-based adventure, your story, your choices",
+        icon: {
+            url: "https://aarils.com/app-icon-192-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://aarils.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 355,
+        name: "Betvisors",
+        description: "",
+        icon: {
+            url: "https://app.betvisors.com/icons/icon-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://app.betvisors.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 356,
+        name: "Viaje360",
+        description: "Planifica y vive tu viaje con IA. Itinerarios personalizados, adaptación en tiempo real y momentos mágicos.",
+        icon: {
+            url: "https://viaje360.app/icon-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://viaje360.app",
+            "manifest": ""
+        }
+        categories: [
+            "travel",
+            "lifestyle"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 357,
+        name: "Sudoku",
+        description: "Free online Sudoku solver and generator. Solve any puzzle instantly.",
+        icon: {
+            url: "https://sudokusolverx.com/icon/android-chrome-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://sudokusolverx.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 358,
+        name: "BriskTool",
+        description: "200+ free online tools — works offline. PDFs, images, code, calculators, audio, video.",
+        icon: {
+            url: "https://brisktool.com/icons/icon-maskable-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://brisktool.com",
+            "manifest": ""
+        }
+        categories: [
+            "utilities",
+            "productivity"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 359,
+        name: "ZeroTwo",
+        description: "Consolidate all your AI into one place. Chat with ChatGPT-4, Claude, Gemini & more. Boost productivity with the ultimate AI agent platform.",
+        icon: {
+            url: "https://app.zerotwo.ai/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://app.zerotwo.ai",
+            "manifest": ""
+        }
+        categories: [
+            "productivity",
+            "utilities",
+            "business"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 360,
+        name: "kept",
+        description: "your life, kept.",
+        icon: {
+            url: "https://getkeptapp.com/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://getkeptapp.com/kept.html",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 361,
+        name: "mymind",
+        description: "The extension for your mind",
+        icon: {
+            url: "https://static.accelerator.net/134/0.6.26/icons/pwa_144.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://access.mymind.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 362,
+        name: "OneCamp",
+        description: "Enterprise-grade collaboration platform",
+        icon: {
+            url: "https://onecamp.onemana.dev/icons/icon-circle-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://onecamp.onemana.dev",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 363,
+        name: "Yawmia",
+        description: "Ton quotidien organisé",
+        icon: {
+            url: "https://www.yawmia.app/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.yawmia.app/app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 364,
+        name: "Banxaas",
+        description: "Instantly swap between Mobile Money networks, and with Bitcoin Lightning in Africa.",
+        icon: {
+            url: "https://banxaas.com/banxaas_logo_512x512.webp",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://banxaas.com/swap",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 365,
+        name: "Tidal",
+        description: "Professional trading terminal for Hyperliquid",
+        icon: {
+            url: "https://trytidal.xyz/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://trytidal.xyz",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 366,
+        name: "WheelHouse",
+        description: "Track your wheel strategy options trades with AI-powered insights, live stock prices, and personalized coaching.",
+        icon: {
+            url: "https://wheelhousetrades.app/pwa-maskable-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://wheelhousetrades.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 367,
+        name: "BMI記録",
+        description: "体重とBMIを記録して推移を確認できるアプリです",
+        icon: {
+            url: "https://t0706-dev.github.io/100days-challenge/apps/day11-bmi/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://t0706-dev.github.io/100days-challenge/apps/day11-bmi",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 368,
+        name: "Coffee ViT",
+        description: "Classify Arabica coffee bean quality using Vision Transformer based on Indonesian SNI standard",
+        icon: {
+            url: "https://zaafirrahman.github.io/coffeebean_quality_vit/assets/pwa.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://zaafirrahman.github.io/coffeebean_quality_vit",
+            "manifest": ""
+        }
+        categories: [
+            "education",
+            "productivity",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 369,
+        name: "DOTA",
+        description: "The first MOBA where AI agents and humans fight side by side",
+        icon: {
+            url: "https://www.defenseoftheagents.com/pfp_compressed.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.defenseoftheagents.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 370,
+        name: "Topotron",
+        description: "3D DEM terrain visualizer",
+        icon: {
+            url: "https://topotron-app.netlify.app/icons/icon-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://topotron-app.netlify.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 371,
+        name: "Bragly",
+        description: "Bragly is the ultimate platform for creating stunning stats and insights cards for building modern developer portfolios, resumes, and profiles.",
+        icon: {
+            url: "https://bragly.design/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://bragly.design",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 372,
+        name: "Ecosia",
+        description: "The search engine that plants trees",
+        icon: {
+            url: "https://cdn.ecosia.org/static/icons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.ecosia.org",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 373,
+        name: "Qwant",
+        description: "Qwant est le moteur de recherche qui respecte votre vie privée",
+        icon: {
+            url: "https://www.qwant.com/public/favicon-144.6fdb01169d8537aeadd4f95dce2982e4.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.qwant.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 374,
+        name: "Bamboo Booper",
+        description: "Guide your hungry panda through a bamboo forest in this fun snake-style arcade game! Eat bamboo, level up, unlock panda skins, and beat your high score!",
+        icon: {
+            url: "https://bamboo-booper.vercel.app/icon-192-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://bamboo-booper.vercel.app",
+            "manifest": ""
+        }
+        categories: [
+            "games",
+            "entertainment",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 375,
+        name: "OneLine",
+        description: "A minimalist daily journal app",
+        icon: {
+            url: "https://oneline.dyzink.com/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://oneline.dyzink.com",
+            "manifest": ""
+        }
+        categories: [
+            "productivity",
+            "lifestyle",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 376,
+        name: "Fluxer",
+        description: "Fluxer is a free and open source instant messaging and VoIP platform built for friends, groups, and communities.",
+        icon: {
+            url: "https://fluxerstatic.com/web/android-chrome-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://web.fluxer.app",
+            "manifest": ""
+        }
+        categories: [
+            "social",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 377,
+        name: "Mercari",
+        description: "",
+        icon: {
+            url: "https://www.mercari.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.mercari.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 378,
+        name: "nanoTracker",
+        description: "Rugged handheld utility device with MOD tracker, map manager, and more",
+        icon: {
+            url: "https://federatedindustrial.com/icons/nanoTrackerIcon-512-maskable.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://federatedindustrial.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 379,
+        name: "Allplix",
+        description: "60+ free tools right in your browser: compress images, edit videos, convert files, AI writing & more. 100% private, works offline.",
+        icon: {
+            url: "https://www.allplix.com/icon-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.allplix.com/en",
+            "manifest": ""
+        }
+        categories: [
+            "utilities",
+            "productivity",
+            "photo",
+            "developer"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 380,
+        name: "Pearl",
+        description: "Period & cycle tracker — know your body, feel your best",
+        icon: {
+            url: "https://pearl.franciscocucullu.com/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://pearl.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 381,
+        name: "DaleDele",
+        description: "Practica español DELE B2",
+        icon: {
+            url: "https://daledele.franciscocucullu.com/icons/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://daledele.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 382,
+        name: "SunPath",
+        description: "",
+        icon: {
+            url: "https://sunpath.franciscocucullu.com/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://sunpath.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 383,
+        name: "KurwaCoach",
+        description: "Learn Polish the hard way",
+        icon: {
+            url: "https://kurwacoach.franciscocucullu.com/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://kurwacoach.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 384,
+        name: "Listly",
+        description: "Shared shopping lists for couples and friends",
+        icon: {
+            url: "https://listly.franciscocucullu.com/icons/icon-512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://listly.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 385,
+        name: "MateCata",
+        description: "Aprende las tablas de multiplicar jugando",
+        icon: {
+            url: "https://matecata.franciscocucullu.com/icons/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://matecata.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 386,
+        name: "Doodl",
+        description: "Draw and share doodles with your person",
+        icon: {
+            url: "https://doodl.franciscocucullu.com/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://doodl.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 387,
+        name: "PatternFinder",
+        description: "Track recurring events and spot patterns",
+        icon: {
+            url: "https://patternfinder.franciscocucullu.com/icons/icon.svg",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://patternfinder.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 388,
+        name: "GoldenList",
+        description: "Stay in touch with the people who matter",
+        icon: {
+            url: "https://goldenlist.franciscocucullu.com/icons/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://goldenlist.franciscocucullu.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 389,
+        "urls": {
+            "app": "https://my.simpledms.app",
+            "manifest": ""
+        },
+        "disabled": true,
+        "comment": "HTTP status 404 when fetching icon."
+    },
+    {
+        "id": 390,
+        name: "Berg AR",
+        description: "Augmented Reality mountain identifier — point your phone at a peak to see its name, distance and altitude.",
+        icon: {
+            url: "https://mountain-finder-xhq.caffeine.xyz/icon-192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://mountain-finder-xhq.caffeine.xyz",
+            "manifest": ""
+        }
+        categories: [
+            "navigation",
+            "utilities",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 391,
+        name: "Chipmunkify",
+        description: "",
+        icon: {
+            url: "https://www.chipmunkify.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://www.chipmunkify.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 392,
+        name: "CoffeeGameOnline",
+        description: "",
+        icon: {
+            url: "https://coffeegameonline.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://coffeegameonline.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 393,
+        name: "is.team",
+        description: "AI-native project management for teams, startups, and individuals.",
+        icon: {
+            url: "https://is.team/favicon-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://is.team",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 394,
+        name: "Specsight",
+        description: "Product specs that write themselves",
+        icon: {
+            url: "https://specsight.app/logo.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://specsight.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 395,
+        name: "HN",
+        description: "A fast, minimal mobile Hacker News reader.",
+        icon: {
+            url: "https://hn.brae.workers.dev/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://hn.brae.workers.dev",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 396,
+        name: "Minnow",
+        description: "Make a minimal personal website about what you're up to now",
+        icon: {
+            url: "https://minnow.social/icon.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://minnow.social",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 397,
+        name: "fastsleep.app",
+        description: "Want to fall asleep in 20 minutes? You may check this now.",
+        icon: {
+            url: "https://fastsleep.app/icon512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://fastsleep.app",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 398,
+        name: "AMBR",
+        description: "Discover new music in 60 seconds or less",
+        icon: {
+            url: "https://app.ambr.music/apple-touch-icon.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://app.ambr.music",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 399,
+        name: "2048",
+        description: "Play 2048 — the classic sliding tile puzzle. Compete on leaderboards and challenge friends in real-time multiplayer.",
+        icon: {
+            url: "https://www.the2048league.com/icon-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://www.the2048league.com",
+            "manifest": ""
+        }
+        categories: [
+            "games",
+        ],
+        disabled: false,
+    },
+    {
+        "id": 400,
+        name: "Lovinghate",
+        description: "A social discovery tool for comparing opinions on controversial topics.",
+        icon: {
+            url: "https://lovinghate.com/hotlink-ok/icons/icon-mask.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://lovinghate.com",
+            "manifest": ""
+        }
+        categories: [
+            "social",
+            "lifestyle"
+        ],
+        disabled: false,
+    },
+    {
+        "id": 401,
+        name: "Bal",
+        description: "Solve logic puzzles. Determine who is a knight, who is a knave, and who is guilty.",
+        icon: {
+            url: "https://bal.sciforge.ai/icon-512x512.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://bal.sciforge.ai",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 402,
+        name: "Tallyman",
+        description: "A keyboard-first email workspace on top of Gmail and Outlook.",
+        icon: {
+            url: "https://tallyman.io/icon.svg",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://tallyman.io",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 403,
+        name: "MySite",
+        description: "",
+        icon: {
+            url: "https://whirligig.live/icons/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://whirligig.live",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 404,
+        name: "The Record",
+        description: "Every major world event that happened in your lifetime. A personal timeline of history you lived through.",
+        icon: {
+            url: "https://youdidntnotice.com/icon-192.png",
+            maskable: false,
+        },
+        "urls": {
+            "app": "https://youdidntnotice.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
+    {
+        "id": 405,
+        name: "WatchRoster",
+        description: "Track, organize, and discover your movie collection",
+        icon: {
+            url: "https://watchroster.com/pwa-192x192.png",
+            maskable: true,
+        },
+        "urls": {
+            "app": "https://watchroster.com",
+            "manifest": ""
+        }
+        categories: [],
+        disabled: false,
+    },
 ]
