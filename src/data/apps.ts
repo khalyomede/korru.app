@@ -3982,6 +3982,273 @@ const apps: Array<App> = [
         url: "https://t0706-dev.github.io/100days-challenge/apps/day11-bmi",
         categories: [],
     },
+    {
+        id: 368,
+        name: "Coffee ViT",
+        description: "Classify Arabica coffee bean quality using Vision Transformer based on Indonesian SNI standard",
+        icon: {
+            url: "https://zaafirrahman.github.io/coffeebean_quality_vit/assets/pwa.png",
+            maskable: true,
+        },
+        url: "https://zaafirrahman.github.io/coffeebean_quality_vit",
+        categories: [
+            "education",
+            "productivity",
+        ],
+    },
+    {
+        id: 369,
+        name: "DOTA",
+        description: "The first MOBA where AI agents and humans fight side by side",
+        icon: {
+            url: "https://www.defenseoftheagents.com/pfp_compressed.png",
+            maskable: false,
+        },
+        url: "https://www.defenseoftheagents.com",
+        categories: [],
+    },
+    {
+        id: 370,
+        name: "Topotron",
+        description: "3D DEM terrain visualizer",
+        icon: {
+            url: "https://topotron-app.netlify.app/icons/icon-192x192.png",
+            maskable: false,
+        },
+        url: "https://topotron-app.netlify.app",
+        categories: [],
+    },
+    {
+        id: 371,
+        name: "Bragly",
+        description: "Bragly is the ultimate platform for creating stunning stats and insights cards for building modern developer portfolios, resumes, and profiles.",
+        icon: {
+            url: "https://bragly.design/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://bragly.design",
+        categories: [],
+    },
+    {
+        id: 372,
+        name: "Ecosia",
+        description: "The search engine that plants trees",
+        icon: {
+            url: "https://cdn.ecosia.org/static/icons/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.ecosia.org",
+        categories: [],
+    },
+    {
+        id: 373,
+        name: "Qwant",
+        description: "Qwant est le moteur de recherche qui respecte votre vie privée",
+        icon: {
+            url: "https://www.qwant.com/public/favicon-144.6fdb01169d8537aeadd4f95dce2982e4.png",
+            maskable: false,
+        },
+        url: "https://www.qwant.com",
+        categories: [],
+    },
+    {
+        id: 374,
+        name: "Bamboo Booper",
+        description: "Guide your hungry panda through a bamboo forest in this fun snake-style arcade game! Eat bamboo, level up, unlock panda skins, and beat your high score!",
+        icon: {
+            url: "https://bamboo-booper.vercel.app/icon-192-maskable.png",
+            maskable: true,
+        },
+        url: "https://bamboo-booper.vercel.app",
+        categories: [
+            "games",
+            "entertainment",
+        ],
+    },
+    {
+        id: 375,
+        name: "OneLine",
+        description: "A minimalist daily journal app",
+        icon: {
+            url: "https://oneline.dyzink.com/icon-192.png",
+            maskable: true,
+        },
+        url: "https://oneline.dyzink.com",
+        categories: [
+            "productivity",
+            "lifestyle",
+        ],
+    },
+    {
+        id: 376,
+        name: "Fluxer",
+        description: "Fluxer is a free and open source instant messaging and VoIP platform built for friends, groups, and communities.",
+        icon: {
+            url: "https://fluxerstatic.com/web/android-chrome-192x192.png",
+            maskable: true,
+        },
+        url: "https://web.fluxer.app",
+        categories: [
+            "social",
+        ],
+    },
+    {
+        id: 377,
+        name: "Mercari",
+        description: "",
+        icon: {
+            url: "https://www.mercari.com/android-chrome-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.mercari.com",
+        categories: [],
+    },
+    {
+        id: 378,
+        name: "nanoTracker",
+        description: "Rugged handheld utility device with MOD tracker, map manager, and more",
+        icon: {
+            url: "https://federatedindustrial.com/icons/nanoTrackerIcon-512-maskable.png",
+            maskable: true,
+        },
+        url: "https://federatedindustrial.com",
+        categories: [],
+    },
+    {
+        id: 379,
+        name: "Allplix",
+        description: "60+ free tools right in your browser: compress images, edit videos, convert files, AI writing & more. 100% private, works offline.",
+        icon: {
+            url: "https://www.allplix.com/icon-192x192.png",
+            maskable: true,
+        },
+        url: "https://www.allplix.com/en",
+        categories: ["utilities", "productivity", "photo", "developer"],
+    },
+    {
+        id: 380,
+        name: "Pearl",
+        description: "Period & cycle tracker — know your body, feel your best",
+        icon: {
+            url: "https://pearl.franciscocucullu.com/icon-192.png",
+            maskable: false,
+        },
+        url: "https://pearl.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 381,
+        name: "DaleDele",
+        description: "Practica español DELE B2",
+        icon: {
+            url: "https://daledele.franciscocucullu.com/icons/icon-512.png",
+            maskable: true,
+        },
+        url: "https://daledele.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 382,
+        name: "SunPath",
+        description: "",
+        icon: {
+            url: "https://sunpath.franciscocucullu.com/icon-512.png",
+            maskable: true,
+        },
+        url: "https://sunpath.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 383,
+        name: "KurwaCoach",
+        description: "Learn Polish the hard way",
+        icon: {
+            url: "https://kurwacoach.franciscocucullu.com/icons/icon-192.png",
+            maskable: true,
+        },
+        url: "https://kurwacoach.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 384,
+        name: "Listly",
+        description: "Shared shopping lists for couples and friends",
+        icon: {
+            url: "https://listly.franciscocucullu.com/icons/icon-512.png",
+            maskable: true,
+        },
+        url: "https://listly.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 385,
+        name: "MateCata",
+        description: "Aprende las tablas de multiplicar jugando",
+        icon: {
+            url: "https://matecata.franciscocucullu.com/icons/icon-192.png",
+            maskable: true,
+        },
+        url: "https://matecata.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 386,
+        name: "Doodl",
+        description: "Draw and share doodles with your person",
+        icon: {
+            url: "https://doodl.franciscocucullu.com/icon-192.png",
+            maskable: true,
+        },
+        url: "https://doodl.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 387,
+        name: "PatternFinder",
+        description: "Track recurring events and spot patterns",
+        icon: {
+            url: "https://patternfinder.franciscocucullu.com/icons/icon.svg",
+            maskable: false,
+        },
+        url: "https://patternfinder.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 388,
+        name: "GoldenList",
+        description: "Stay in touch with the people who matter",
+        icon: {
+            url: "https://goldenlist.franciscocucullu.com/icons/icon-192.png",
+            maskable: false,
+        },
+        url: "https://goldenlist.franciscocucullu.com",
+        categories: [],
+    },
+    {
+        id: 389,
+        name: "SimpleDMS",
+        description: "",
+        icon: {
+            url: "https://my.simpledms.app/simpledms-icon-192.svg",
+            maskable: false,
+        },
+        url: "https://my.simpledms.app",
+        categories: [],
+    },
+    {
+        id: 390,
+        name: "Berg AR",
+        description: "Augmented Reality mountain identifier — point your phone at a peak to see its name, distance and altitude.",
+        icon: {
+            url: "https://mountain-finder-xhq.caffeine.xyz/icon-192.png",
+            maskable: true,
+        },
+        url: "https://mountain-finder-xhq.caffeine.xyz",
+        categories: [
+            "navigation",
+            "utilities",
+        ],
+    },
 ];
 
 export default apps;

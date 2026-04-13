@@ -133,6 +133,119 @@ const complements: Array<Partial<App>> = [
             maskable: false,
         }
     },
+    {
+        id: 369,
+        name: "DOTA",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 370,
+        name: "Topotron",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 371,
+        name: "Bragly",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 372,
+        name: "Ecosia",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 373,
+        name: "Qwant",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 377,
+        name: "Mercari",
+        categories: [
+            "shopping",
+        ],
+    },
+    {
+        id: 380,
+        name: "Pearl",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 381,
+        name: "DaleDele",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 382,
+        name: "SunPath",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 383,
+        name: "KurwaCoach",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 384,
+        name: "Listly",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 385,
+        name: "MateCata",
+        categories: [
+            "utilities",
+            "games",
+        ],
+    },
+    {
+        id: 386,
+        name: "Doodl",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 387,
+        name: "PatternFinder",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 388,
+        name: "GoldenList",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 390,
+        name: "Berg AR",
+        categories: [
+            "utilities",
+        ],
+    },
 ];
 
 export default complements;
