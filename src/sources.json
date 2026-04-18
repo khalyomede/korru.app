@@ -5721,5 +5721,32 @@
         },
         "disabled": false,
         "comment": ""
-    }
+    },
+    {
+        "id": 429,
+        "urls": {
+            "app": "https://itlinks.me",
+            "manifest": "https://itlinks.me/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 430,
+        "urls": {
+            "app": "https://kwverdit.com",
+            "manifest": "https://kwverdit.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 431,
+        "urls": {
+            "app": "https://wordfor.xyz",
+            "manifest": "https://wordfor.xyz/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
 ]

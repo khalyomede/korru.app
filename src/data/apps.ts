@@ -5101,6 +5101,42 @@ const apps: Array<App> = [
         categories: ["social", "entertainment", "news"],
         disabled: false,
     },
+    {
+        id: 429,
+        name: "Kutt",
+        description: "Kutt.it is a free and open source URL shortener with custom domains and stats.",
+        icon: {
+            url: "https://itlinks.me/images/icons/icon-192x192.png",
+            maskable: false,
+        },
+        url: "https://itlinks.me",
+        categories: [],
+        disabled: false,
+    },
+    {
+        id: 430,
+        name: "KWVerdit",
+        description: "Enter a keyword, get a clear Go/No-Go verdict with strategy advice in 10 seconds.",
+        icon: {
+            url: "https://kwverdit.com/icon-192.png",
+            maskable: true,
+        },
+        url: "https://kwverdit.com",
+        categories: [],
+        disabled: false,
+    },
+    {
+        id: 431,
+        name: "WordFor",
+        description: "Describe a concept and instantly find the perfect word. Free, private, runs in your browser.",
+        icon: {
+            url: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='96' fill='%234F46E5'/><text x='256' y='370' text-anchor='middle' fill='white' font-family='Georgia,serif' font-size='320' font-weight='bold'>W</text></svg>",
+            maskable: true,
+        },
+        url: "https://wordfor.xyz",
+        categories: ["education", "utilities", "reference"],
+        disabled: false,
+    },
 ];
 
 export default apps;

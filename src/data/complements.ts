@@ -329,7 +329,7 @@ const complements: Array<Partial<App>> = [
         id: 413,
         name: "KURONEKO",
         description: "メルカリ出品・在庫・台帳・分析をひとまとめに管理できる KURONEKO アプリです。"
-    }
+    },
 ];
 
 export default complements;
