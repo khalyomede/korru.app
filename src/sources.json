@@ -5515,4 +5515,211 @@
         categories: [],
         disabled: false,
     },
+    {
+        "id": 406,
+        "urls": {
+            "app": "https://mycards.hdfc.bank.in",
+            "manifest": "https://mycards.hdfc.bank.in/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    }
+    {
+        "id": 407,
+        "urls": {
+            "app": "https://bear-diary.cc",
+            "manifest": "https://bear-diary.cc/manifest-yt66qkdm.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 408,
+        "urls": {
+            "app": "https://quickshopper.vercel.app",
+            "manifest": "https://quickshopper.vercel.app/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 409,
+        "urls": {
+            "app": "https://www.tahleem.com",
+            "manifest": "https://www.tahleem.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 410,
+        "urls": {
+            "app": "https://ballast-sigma.vercel.app",
+            "manifest": "https://ballast-sigma.vercel.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 411,
+        "urls": {
+            "app": "https://bybull.ai",
+            "manifest": "https://bybull.ai/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 412,
+        "urls": {
+            "app": "https://socialmate.studio",
+            "manifest": "https://socialmate.studio/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 413,
+        "urls": {
+            "app": "https://app.kuronekolab.jp",
+            "manifest": "https://app.kuronekolab.jp/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 414,
+        "urls": {
+            "app": "https://cleanlinks.app",
+            "manifest": "https://cleanlinks.app/site.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 415,
+        "urls": {
+            "app": "https://offwave.mzift.com",
+            "manifest": "https://offwave.mzift.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 416,
+        "urls": {
+            "app": "https://distribit.app",
+            "manifest": "https://distribit.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 417,
+        "urls": {
+            "app": "https://grvt.io",
+            "manifest": "https://grvt.io/api/manifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 418,
+        "urls": {
+            "app": "https://lolo.consort.tech",
+            "manifest": "https://lolo.consort.tech/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 419,
+        "urls": {
+            "app": "https://vibecodinglist.com",
+            "manifest": "https://vibecodinglist.com/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 420,
+        "urls": {
+            "app": "https://fm365.space",
+            "manifest": "https://fm365.space/assets/web-manifest-DARAHou9.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 421,
+        "urls": {
+            "app": "https://jsxagi.github.io/panic-study-english",
+            "manifest": "https://jsxagi.github.io/panic-study-english/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 422,
+        "urls": {
+            "app": "https://jsxagi.github.io/toeic-master",
+            "manifest": "https://jsxagi.github.io/toeic-master/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 423,
+        "urls": {
+            "app": "https://jsxagi.github.io/swahili-study",
+            "manifest": "https://jsxagi.github.io/swahili-study/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 424,
+        "urls": {
+            "app": "https://jsxagi.github.io/mandarin-study",
+            "manifest": "https://jsxagi.github.io/mandarin-study/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 425,
+        "urls": {
+            "app": "https://jsxagi.github.io/korean-study",
+            "manifest": "https://jsxagi.github.io/korean-study/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 426,
+        "urls": {
+            "app": "https://shaflex.com",
+            "manifest": "https://shaflex.com/site.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 427,
+        "urls": {
+            "app": "https://vortex-chaser.vercel.app",
+            "manifest": "https://vortex-chaser.vercel.app/manifest.json"
+        },
+        "disabled": false,
+        "comment": ""
+    },
+    {
+        "id": 428,
+        "urls": {
+            "app": "https://xtok.news",
+            "manifest": "https://xtok.news/manifest.webmanifest"
+        },
+        "disabled": false,
+        "comment": ""
+    }
 ]
