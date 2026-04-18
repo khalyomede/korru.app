@@ -34,7 +34,11 @@ export default defineConfig(({ mode }) => {
                             urlPattern: /.*\.(ttf|woff|woff2|otf)$/,
                             method: "GET",
                         }
-                    ]
+                    ],
+                    // Prevent stale/old assets in cache on next load
+                    skipWaiting: true,
+                    clientsClaim: true,
+                    cleanupOutdatedCaches: true,
                 },
                 devOptions: {
                     enabled: true,
