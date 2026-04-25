@@ -31,18 +31,19 @@ const Home: Component = () => {
     };
 
     return (
-        <div class="min-h-dvh bg-stone-100 font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
+        <div class="min-h-dvh bg-background font-sans flex flex-col">
             <Navbar />
-            <main class="flex-grow flex flex-col max-w-lg lg:max-w-md mx-auto">
+            <main class="flex-grow flex flex-col max-w-xl mx-auto w-full px-4">
                 {/* Top half: Slogan + Icons */}
-                <div class="flex-1 flex flex-col justify-center items-center p-4 gap-0">
+                <div class="flex-1 flex flex-col justify-center items-center gap-6">
                     <Slogan firstLine={import.meta.env.VITE_APP_SLOGAN_1} secondLine={import.meta.env.VITE_APP_SLOGAN_2} />
                     <AppIconPreviewList />
                 </div>
 
                 {/* Bottom half: Search bar */}
-                <div class="flex-1 flex flex-col justify-start items-center p-4">
-                    <SearchBar id="search" placeholder="Search anything..." onFocus={onSearchBarFocus} value={store.search} focusOnMount={false} />
+                <div class="flex-1 flex flex-col justify-start items-center pt-8 pb-12">
+                    <SearchBar id="search" placeholder="Search for your favorite apps..." onFocus={onSearchBarFocus} value={store.search} focusOnMount={false} />
+                    <p class="text-muted-foreground text-sm mt-4 tracking-wide">Discover thousands of web apps</p>
                 </div>
             </main>
         </div>

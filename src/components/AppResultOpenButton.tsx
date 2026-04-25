@@ -4,19 +4,22 @@ import { vibrate } from "../utilities";
 
 const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (properties) => {
     return (
-        <a href={properties.url} onclick={() => vibrate(60)} target="_blank" rel="noopener noreferrer" class="
-                px-4 py-2 border border-stone-300 text-stone-500 font-medium text-sm rounded-lg tracking-widest
-                hover:bg-stone-100 hover:border-stone-500 hover:text-stone-900
-                focus:outline-none
-                focus:border-stone-700 focus:text-stone-700 focus:bg-stone-200
-                focus:dark:border-stone-400 focus:dark:text-stone-300 focus:dark:bg-stone-700
-                dark:border-stone-600 dark:text-stone-400
-                dark:hover:bg-stone-700 dark:hover:border-stone-500 dark:hover:text-white
-                transition-all duration-200 ease-in-out
-                whitespace-nowrap
-                select-none"
+        <a 
+            href={properties.url} 
+            onclick={() => vibrate(60)} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground font-semibold text-sm rounded-full
+                hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25
+                focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-background
+                active:scale-95
+                transition-all duration-200 ease-out
+                whitespace-nowrap select-none"
         >
             {properties.text}
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
         </a>
     );
 };

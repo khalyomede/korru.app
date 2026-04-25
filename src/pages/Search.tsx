@@ -201,11 +201,11 @@ const Search: Component = () => {
     };
 
     return (
-        <div class="flex flex-col h-dvh bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 max-w-2xl mx-auto">
-            <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto">
+        <div class="flex flex-col h-dvh bg-background text-foreground max-w-2xl mx-auto">
+            <header class="shrink p-4 md:py-6 fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-lg border-b border-border max-w-2xl mx-auto z-50">
                 <SearchBar
                     id="search"
-                    placeholder="Search anything..."
+                    placeholder="Search for apps..."
                     value={store.search}
                     onInput={event => onSearchBarInput(event)}
                     focusOnMount={true}
@@ -214,27 +214,24 @@ const Search: Component = () => {
                     <For each={store.filters}>
                         {filter => <button classList={{
                             "flex-shrink-0": true,
-                            "dark:text-stone-900": filter.selected,
-                            "dark:text-stone-400": !filter.selected,
-                            "dark:bg-stone-400": filter.selected,
-                            "text-stone-50": filter.selected,
-                            "text-stone-700": !filter.selected,
-                            "bg-stone-600": filter.selected,
-                            "border": true,
-                            "border-stone-500": !filter.selected,
-                            "rounded-lg": true,
                             "px-4": true,
-                            "py-1": true,
-                            "tracking-wider": true,
-                            "focus:outline-none": true,
-                            "focus:border-stone-950": true,
-                            "focus:bg-stone-200": !filter.selected,
-                            "focus:bg-stone-800": filter.selected,
-                            "focus:dark:bg-stone-300": filter.selected,
-                            "focus:dark:bg-stone-700": !filter.selected,
-                            "focus:dark:text-stone-300": !filter.selected,
-                            "focus:dark:border-stone-100": true,
+                            "py-2": true,
+                            "rounded-full": true,
+                            "text-sm": true,
+                            "font-medium": true,
+                            "tracking-wide": true,
+                            "transition-all": true,
+                            "duration-200": true,
                             "select-none": true,
+                            "focus:outline-none": true,
+                            "focus:ring-2": true,
+                            "focus:ring-primary/50": true,
+                            "bg-primary": filter.selected,
+                            "text-primary-foreground": filter.selected,
+                            "shadow-md": filter.selected,
+                            "bg-secondary": !filter.selected,
+                            "text-secondary-foreground": !filter.selected,
+                            "hover:bg-accent": !filter.selected,
                         }} onClick={() => onFilterClick(filter)}>
                             {filter.name}
                         </button>}
@@ -243,13 +240,11 @@ const Search: Component = () => {
             </header>
             <main classList={{
                 "grow": true,
-                "p-4": filteredApps().length > 0,
-                "mt-22": filteredApps().length > 0,
-                "pt-20": filteredApps().length > 0,
+                "px-4": true,
+                "pb-6": true,
+                "mt-36": true,
+                "pt-4": true,
                 "overflow-y-auto": true,
-                "[&::-webkit-scrollbar]:hidden": true,
-                "[-ms-overflow-style:none]": true,
-                "[scrollbar-width:none]": true,
             }}>
                 <AppResultList apps={filteredApps()} />
             </main>

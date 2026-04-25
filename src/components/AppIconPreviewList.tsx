@@ -15,7 +15,7 @@ const AppIconPreviewList: Component = () => {
     ];
 
     return (
-        <div class="flex flex-wrap justify-center gap-2 px-4 py-4">
+        <div class="flex flex-wrap justify-center gap-4 px-4 py-6 max-w-md mx-auto">
             <Index each={apps}>
                 {app => <AppIconPreview src={app().src} alt={app().alt} />}
             </Index>
