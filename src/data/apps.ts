@@ -1314,7 +1314,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
-        featuredOnHomePage: false,
+        featuredOnHomePage: true,
     },
     {
         id: 105,
@@ -3150,7 +3150,7 @@ const apps: Array<App> = [
         categories: [],
         url: "https://polymarket.com",
         disabled: false,
-        featuredOnHomePage: false,
+        featuredOnHomePage: true,
     },
     {
         id: 250,
