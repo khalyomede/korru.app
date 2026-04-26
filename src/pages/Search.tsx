@@ -7,6 +7,7 @@ import SearchBar from '../components/SearchBar';
 import { useSearchParams } from '@solidjs/router';
 import Filter from '../interfaces/Filter';
 import { vibrate } from "../utilities";
+import FilterButton from '../components/FilterButton';
 
 // Main component
 const Search: Component = () => {
@@ -212,32 +213,7 @@ const Search: Component = () => {
                 />
                 <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]" ref={filtersContainer}>
                     <For each={store.filters}>
-                        {filter => <button classList={{
-                            "flex-shrink-0": true,
-                            "dark:text-stone-900": filter.selected,
-                            "dark:text-stone-400": !filter.selected,
-                            "dark:bg-stone-400": filter.selected,
-                            "text-stone-50": filter.selected,
-                            "text-stone-700": !filter.selected,
-                            "bg-stone-600": filter.selected,
-                            "border": true,
-                            "border-stone-500": !filter.selected,
-                            "rounded-lg": true,
-                            "px-4": true,
-                            "py-1": true,
-                            "tracking-wider": true,
-                            "focus:outline-none": true,
-                            "focus:border-stone-950": true,
-                            "focus:bg-stone-200": !filter.selected,
-                            "focus:bg-stone-800": filter.selected,
-                            "focus:dark:bg-stone-300": filter.selected,
-                            "focus:dark:bg-stone-700": !filter.selected,
-                            "focus:dark:text-stone-300": !filter.selected,
-                            "focus:dark:border-stone-100": true,
-                            "select-none": true,
-                        }} onClick={() => onFilterClick(filter)}>
-                            {filter.name}
-                        </button>}
+                        {filter => <FilterButton name={filter.name} selected={filter.selected} onClick={() => onFilterClick(filter)} />}
                     </For>
                 </div>
             </header>
