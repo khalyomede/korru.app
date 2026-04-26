@@ -5328,6 +5328,45 @@ const apps: Array<App> = [
         categories: ["utilities", "productivity", "photo", "developer"],
         disabled: false,
     },
+    {
+        id: 448,
+        name: "Hisorty",
+        description: "A daily puzzle game where you sort historical events into chronological order.",
+        icon: {
+            url: "https://hisorty.app/favicon.ico",
+            maskable: false,
+        },
+        url: "https://hisorty.app",
+        categories: [],
+        disabled: false,
+    },
+    {
+        id: 449,
+        name: "AI Applyd",
+        description: "Applies while you sleep. Rewrites your resume, tailors every cover letter, follows up with recruiters. You wake up to interviews on your calendar, not rejection emails.",
+        icon: {
+            url: "https://aiapplyd.com/icons/icon-192x192.png",
+            maskable: true,
+        },
+        url: "https://aiapplyd.com",
+        categories: [
+            "productivity",
+            "utilities",
+        ],
+        disabled: false,
+    },
+    {
+        id: 450,
+        name: "Ecstatic",
+        description: "Discover sober dance & wellness events near you",
+        icon: {
+            url: "https://ecstatic.events/icons/icon-192.svg",
+            maskable: false,
+        },
+        url: "https://ecstatic.events",
+        categories: [],
+        disabled: false,
+    },
 ];
 
 export default apps;

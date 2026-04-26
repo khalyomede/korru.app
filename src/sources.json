@@ -5893,4 +5893,31 @@
         "disabled": false,
         "reason": ""
     },
+    {
+        "id": 448,
+        "urls": {
+            "app": "https://hisorty.app",
+            "manifest": "https://hisorty.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 449,
+        "urls": {
+            "app": "https://aiapplyd.com",
+            "manifest": "https://aiapplyd.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 450,
+        "urls": {
+            "app": "https://ecstatic.events",
+            "manifest": "https://ecstatic.events/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]
