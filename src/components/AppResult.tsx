@@ -1,12 +1,13 @@
 import { Component, Show } from "solid-js";
 import AppResultProperties from "./properties/AppResultProperties";
 import AppResultOpenButton from "./AppResultOpenButton";
+import AppIconPreview from "./AppIconPreview";
 
 const AppResult: Component<AppResultProperties> = (properties) => {
     return (
         <div class="mb-12">
-            <div>
-                <img src={properties.app.icon.url} alt={properties.app.name} classList={{ "h-16": true, "w-16": true, "rounded-xl": properties.app.icon.maskable, "select-none": true }} loading="lazy" />
+            <div class="flex">
+                <AppIconPreview src={properties.app.icon.url} alt={properties.app.name} maskable={properties.app.icon.maskable} />
             </div>
             <div class="flex gap-6 my-2 items-center">
                 <span class="grow text-xl tracking-wider min-w-0 text-stone-600 dark:text-stone-300 font-bold">

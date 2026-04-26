@@ -5749,4 +5749,148 @@
         "disabled": false,
         "comment": ""
     },
+    {
+        "id": 432,
+        "urls": {
+            "app": "https://pausely.xyz",
+            "manifest": "https://pausely.xyz/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 433,
+        "urls": {
+            "app": "https://v0.app",
+            "manifest": "https://v0.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 434,
+        "urls": {
+            "app": "https://music.gbstudio.dev",
+            "manifest": "https://music.gbstudio.dev/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 435,
+        "urls": {
+            "app": "https://nowhr.xyz/app",
+            "manifest": "https://nowhr.xyz/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 436,
+        "urls": {
+            "app": "https://space4links.com",
+            "manifest": "https://space4links.com/favicon/site-5193bc6ad9dd6efb56c51aebdedf1afb.webmanifest?vsn=d"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 437,
+        "urls": {
+            "app": "https://sqlprotocol.com",
+            "manifest": "https://sqlprotocol.com/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 438,
+        "urls": {
+            "app": "https://www.playdrop.ai",
+            "manifest": "https://www.playdrop.ai/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 439,
+        "urls": {
+            "app": "https://www.aulico.com",
+            "manifest": "https://www.aulico.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 440,
+        "urls": {
+            "app": "https://www.dailyunfold.com/",
+            "manifest": "https://www.dailyunfold.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 441,
+        "urls": {
+            "app": "https://pascar.run",
+            "manifest": "https://pascar.run/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 442,
+        "urls": {
+            "app": "https://sun.mikolajmocek.com",
+            "manifest": "https://sun.mikolajmocek.com/manifest.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 443,
+        "urls": {
+            "app": "https://realsmile.online",
+            "manifest": "https://realsmile.online/site.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 444,
+        "urls": {
+            "app": "https://www.falsoai.com",
+            "manifest": "https://www.falsoai.com/favicon/site.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 445,
+        "urls": {
+            "app": "https://signova.ai",
+            "manifest": "https://signova.ai/site.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 446,
+        "urls": {
+            "app": "https://god.ad",
+            "manifest": "https://god.ad/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 447,
+        "urls": {
+            "app": "https://www.allplix.com",
+            "manifest": "https://www.allplix.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]

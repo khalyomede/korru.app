@@ -4,15 +4,31 @@ import { Component } from 'solid-js';
 interface AppIconPreviewProps {
     src: string;
     alt: string;
+    maskable: boolean;
 }
 
 const AppIconPreview: Component<AppIconPreviewProps> = (props) => {
     return (
-        <div class="flex-shrink-0 mx-2 my-2 rounded-lg overflow-hidden transition-transform hover:scale-105 dark:shadow-md select-none">
+        <div
+            classList={{
+                "border": !props.maskable,
+                "dark:border-stone-700": true,
+                "border-stone-300": true,
+                "flex-shrink-0": true,
+                "mx-1": true,
+                "my-1": true,
+                "rounded-3xl": true,
+                "overflow-hidden": true,
+                "transition-transform": true,
+                "hover:scale-105": true,
+                "select-none": true,
+            }}
+        >
             <img
                 src={props.src.trim()} // Added .trim() to fix whitespace in URLs
                 alt={props.alt}
                 class="w-16 h-16 object-cover"
+                loading="lazy"
             />
         </div>
     );

@@ -17,6 +17,10 @@ const complements: Array<Partial<App>> = [
     {
         id: 5,
         name: "Youtube",
+        icon: {
+            url: "https://www.gstatic.com/youtube/img/web/maskable/logo_192x192.png",
+            maskable: false
+        },
         categories: [
             "entertainment",
             "multimedia",
