@@ -1,6 +1,6 @@
 // src/components/AppIconPreviewList.tsx
 import { Component, Index } from 'solid-js';
-import AppIconPreview from './AppIconPreview';
+import AppIconPreview from './AppIcon';
 
 const AppIconPreviewList: Component = () => {
     /**

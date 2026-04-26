@@ -1,7 +1,7 @@
 import { Component, Show } from "solid-js";
 import AppResultProperties from "./properties/AppResultProperties";
 import AppResultOpenButton from "./AppResultOpenButton";
-import AppIconPreview from "./AppIconPreview";
+import AppIconPreview from "./AppIcon";
 
 const AppResult: Component<AppResultProperties> = (properties) => {
     return (

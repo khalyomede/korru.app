@@ -1,13 +1,8 @@
 // src/components/AppIconPreview.tsx
 import { Component } from 'solid-js';
+import AppIconProperties from './properties/AppIconProperties';
 
-interface AppIconPreviewProps {
-    src: string;
-    alt: string;
-    maskable: boolean;
-}
-
-const AppIconPreview: Component<AppIconPreviewProps> = (props) => {
+const AppIcon: Component<AppIconProperties> = (props) => {
     return (
         <div
             classList={{
@@ -27,11 +22,11 @@ const AppIconPreview: Component<AppIconPreviewProps> = (props) => {
             <img
                 src={props.src.trim()} // Added .trim() to fix whitespace in URLs
                 alt={props.alt}
-                class="w-16 h-16 object-cover"
+                class="w-16 h-16 object-cover bg-stone-50 dark:bg-stone-700"
                 loading="lazy"
             />
         </div>
     );
 };
 
-export default AppIconPreview;
+export default AppIcon;
