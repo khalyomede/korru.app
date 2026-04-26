@@ -6,7 +6,7 @@ const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (propertie
     return (
         <a href={properties.url} onclick={() => vibrate(60)} target="_blank" rel="noopener noreferrer" class="
                 px-4 py-2
-                border border-stone-300 rounded-lg
+                border border-stone-300 rounded-3xl
                 dark:border-stone-600
                 hover:bg-stone-100 hover:border-stone-500 hover:text-stone-900
                 focus:outline-none

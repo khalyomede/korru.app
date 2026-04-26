@@ -13,7 +13,7 @@ const FilterButton: Component<FilterButtonProperties> = (properties) => {
         "bg-stone-600": properties.selected,
         "border": true,
         "border-stone-500": !properties.selected,
-        "rounded-lg": true,
+        "rounded-3xl": true,
         "px-4": true,
         "py-1": true,
         "tracking-wider": true,
