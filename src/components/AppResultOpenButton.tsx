@@ -10,7 +10,8 @@ const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (propertie
                 dark:border-stone-600
                 hover:bg-stone-100 hover:border-stone-500 hover:text-stone-900
                 focus:outline-none
-                bg-stone-400
+                bg-stone-600
+                dark:bg-stone-400
                 text-stone-100 text-sm tracking-widest font-medium
                 dark:text-stone-800
                 focus:dark:text-stone-100
