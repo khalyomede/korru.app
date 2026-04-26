@@ -244,7 +244,8 @@ const Search: Component = () => {
             <main classList={{
                 "grow": true,
                 "p-4": filteredApps().length > 0,
-                "mt-22": filteredApps().length > 0,
+                "mt-14": filteredApps().length > 0,
+                "md:mt-22": filteredApps().length > 0,
                 "pt-20": filteredApps().length > 0,
                 "overflow-y-auto": true,
                 "[&::-webkit-scrollbar]:hidden": true,
