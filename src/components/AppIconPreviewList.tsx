@@ -9,8 +9,15 @@ const AppIconPreviewList: Component = () => {
     const { apps } = store;
     const featuredApps = apps.filter(app => !app.disabled && app.featuredOnHomePage);
 
+    // Calculate columns needed for 2 balanced rows
+    const itemCount = featuredApps.length;
+    const columns = Math.ceil(itemCount / 2);
+
     return (
-        <div class="flex flex-wrap justify-center gap-2 px-4 py-4">
+        <div
+            class="grid justify-center gap-2 px-4 py-4"
+            style={{ "grid-template-columns": `repeat(${columns}, auto)` }}
+        >
             <Index each={featuredApps}>
                 {app => <AppIconPreview src={app().icon.url} alt={app().name} maskable={app().icon.maskable} />}
             </Index>
