@@ -17,6 +17,7 @@ const apps: Array<App> = [
         url: "https://open.spotify.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: true,
     },
     {
         id: 4,
@@ -29,6 +30,7 @@ const apps: Array<App> = [
         description: "Merge the tiles to get 2048!",
         categories: ["games"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 5,
@@ -41,6 +43,7 @@ const apps: Array<App> = [
         description: "",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 6,
@@ -57,6 +60,7 @@ const apps: Array<App> = [
             "social",
         ],
         disabled: false,
+        featuredOnHomePage: true,
     },
     {
         id: 7,
@@ -69,6 +73,7 @@ const apps: Array<App> = [
         description: "Discover and book the best restaurant",
         categories: [],
         disabled: false,
+        featuredOnHomePage: true,
     },
     {
         id: 8,
@@ -81,6 +86,7 @@ const apps: Array<App> = [
         description: "",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 9,
@@ -93,6 +99,7 @@ const apps: Array<App> = [
         url: "https://pinterest.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 10,
@@ -105,6 +112,7 @@ const apps: Array<App> = [
         url: "https://www.starbucks.com",
         categories: [],
         disabled: true, // Not meeting installable criterias
+        featuredOnHomePage: false,
     },
     {
         id: 11,
@@ -117,6 +125,7 @@ const apps: Array<App> = [
         url: "https://www.jumia.ma/",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 12,
@@ -129,6 +138,7 @@ const apps: Array<App> = [
         url: "https://www.olx.in",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 13,
@@ -141,6 +151,7 @@ const apps: Array<App> = [
         url: "https://www.ft.com",
         categories: [],
         disabled: true, // Manifest file does not meet installable criterias.
+        featuredOnHomePage: false,
     },
     {
         id: 14,
@@ -153,6 +164,7 @@ const apps: Array<App> = [
         url: "https://www.infobae.com",
         categories: [],
         disabled: true, // Manifest file does not meet installable criterias.
+        featuredOnHomePage: false,
     },
     {
         id: 15,
@@ -165,6 +177,7 @@ const apps: Array<App> = [
         url: "https://www.nau.ch",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 16,
@@ -177,6 +190,7 @@ const apps: Array<App> = [
         url: "https://medium.com",
         categories: [],
         disabled: true, // Manifest file does not meet installable criterias.
+        featuredOnHomePage: false,
     },
     {
         id: 17,
@@ -189,6 +203,7 @@ const apps: Array<App> = [
         url: "https://weather.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 18,
@@ -201,6 +216,7 @@ const apps: Array<App> = [
         url: "https://www.openrent.co.uk",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 19,
@@ -213,6 +229,7 @@ const apps: Array<App> = [
         url: "https://www.airbnb.fr",
         categories: [],
         disabled: true, // Manifest file does not meet installable criterias.
+        featuredOnHomePage: false,
     },
     {
         id: 20,
@@ -225,6 +242,7 @@ const apps: Array<App> = [
         url: "https://www.carigami.fr",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 22,
@@ -237,6 +255,7 @@ const apps: Array<App> = [
         url: "https://www.instagram.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 23,
@@ -249,6 +268,7 @@ const apps: Array<App> = [
         url: "https://www.treebo.com",
         categories: [],
         disabled: true, // Manifest file does not meet installable criterias.
+        featuredOnHomePage: false,
     },
     {
         id: 25,
@@ -261,6 +281,7 @@ const apps: Array<App> = [
         url: "https://www.soundslice.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 26,
@@ -277,6 +298,7 @@ const apps: Array<App> = [
             "news",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 27,
@@ -289,6 +311,7 @@ const apps: Array<App> = [
         url: "https://9gag.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 28,
@@ -301,6 +324,7 @@ const apps: Array<App> = [
         url: "https://www.lotto.de",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 29,
@@ -313,6 +337,7 @@ const apps: Array<App> = [
         url: "https://tinder.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 30,
@@ -325,6 +350,7 @@ const apps: Array<App> = [
         url: "https://www.datememe.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 31,
@@ -341,6 +367,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 32,
@@ -355,6 +382,7 @@ const apps: Array<App> = [
             "news",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 33,
@@ -367,6 +395,7 @@ const apps: Array<App> = [
         url: "https://www.flipkart.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 34,
@@ -379,6 +408,7 @@ const apps: Array<App> = [
         url: "https://guitar-tuner.appspot.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 35,
@@ -391,6 +421,7 @@ const apps: Array<App> = [
         url: "https://housing.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 36,
@@ -403,6 +434,7 @@ const apps: Array<App> = [
         url: "https://andreasbovens.github.io/inbox-attack",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 37,
@@ -415,6 +447,7 @@ const apps: Array<App> = [
         url: "https://www.konga.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 38,
@@ -427,6 +460,7 @@ const apps: Array<App> = [
         url: "https://paperplanes.world",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 39,
@@ -439,6 +473,7 @@ const apps: Array<App> = [
         url: "https://pokedex.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 40,
@@ -451,6 +486,7 @@ const apps: Array<App> = [
         url: "https://2048-opera-pwa.surge.sh",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 41,
@@ -463,6 +499,7 @@ const apps: Array<App> = [
         url: "https://qrcodescan.in",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 42,
@@ -475,6 +512,7 @@ const apps: Array<App> = [
         url: "https://smaller-pictures.appspot.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 43,
@@ -487,6 +525,7 @@ const apps: Array<App> = [
         url: "https://snapdrop.net",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 44,
@@ -499,6 +538,7 @@ const apps: Array<App> = [
         url: "https://jakearchibald.github.io/svgomg",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 45,
@@ -511,6 +551,7 @@ const apps: Array<App> = [
         url: "https://www.selio.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 46,
@@ -526,6 +567,7 @@ const apps: Array<App> = [
             "social",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 47,
@@ -538,6 +580,7 @@ const apps: Array<App> = [
         url: "https://resilientwebdesign.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 48,
@@ -550,6 +593,7 @@ const apps: Array<App> = [
         url: "https://www.englishaccentsmap.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 49,
@@ -562,6 +606,7 @@ const apps: Array<App> = [
         url: "https://sii.im/playground/notes",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 50,
@@ -574,6 +619,7 @@ const apps: Array<App> = [
         url: "https://freepacman.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 51,
@@ -586,6 +632,7 @@ const apps: Array<App> = [
         url: "https://happyhopper.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 52,
@@ -598,6 +645,7 @@ const apps: Array<App> = [
         url: "https://freeflappybird.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 53,
@@ -610,6 +658,7 @@ const apps: Array<App> = [
         url: "https://freewordle.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 54,
@@ -622,6 +671,7 @@ const apps: Array<App> = [
         url: "https://freemahjong.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 55,
@@ -634,6 +684,7 @@ const apps: Array<App> = [
         url: "https://freesolitaire.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 56,
@@ -646,6 +697,7 @@ const apps: Array<App> = [
         url: "https://freesimon.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 57,
@@ -658,6 +710,7 @@ const apps: Array<App> = [
         url: "https://poki.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 58,
@@ -672,6 +725,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 59,
@@ -684,6 +738,7 @@ const apps: Array<App> = [
         url: "https://geogee.me",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 60,
@@ -696,6 +751,7 @@ const apps: Array<App> = [
         url: "https://excalidraw.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 61,
@@ -708,6 +764,7 @@ const apps: Array<App> = [
         url: "https://jdsports.id",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 62,
@@ -720,6 +777,7 @@ const apps: Array<App> = [
         url: "https://www.rakuten.tv",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 63,
@@ -732,6 +790,7 @@ const apps: Array<App> = [
         url: "https://www.zdf.de",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 64,
@@ -746,6 +805,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 65,
@@ -758,6 +818,7 @@ const apps: Array<App> = [
         url: "https://www.kitchenaid.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 66,
@@ -770,6 +831,7 @@ const apps: Array<App> = [
         url: "https://in.bookmyshow.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 67,
@@ -782,6 +844,7 @@ const apps: Array<App> = [
         url: "https://www.onthemarket.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 68,
@@ -794,6 +857,7 @@ const apps: Array<App> = [
         url: "https://www.ride-app.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 69,
@@ -806,6 +870,7 @@ const apps: Array<App> = [
         url: "https://alarmdj.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 70,
@@ -819,6 +884,7 @@ const apps: Array<App> = [
         url: "https://anonynote.org",
         categories: [],
         disabled: true, // 404 logo
+        featuredOnHomePage: false,
     },
     {
         id: 71,
@@ -831,6 +897,7 @@ const apps: Array<App> = [
         url: "https://avain.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 72,
@@ -847,6 +914,7 @@ const apps: Array<App> = [
             "kids",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 73,
@@ -859,6 +927,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 74,
@@ -871,6 +940,7 @@ const apps: Array<App> = [
         description: "A smple calculator app for your daily use.",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 75,
@@ -883,6 +953,7 @@ const apps: Array<App> = [
         url: "https://carecards.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 76,
@@ -898,6 +969,7 @@ const apps: Array<App> = [
             "food",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 77,
@@ -910,6 +982,7 @@ const apps: Array<App> = [
         url: "https://chitchatter.im",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 78,
@@ -922,6 +995,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 79,
@@ -934,6 +1008,7 @@ const apps: Array<App> = [
         description: "Free online tool for creating and editing CSS gradients.",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 80,
@@ -946,6 +1021,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 81,
@@ -959,6 +1035,7 @@ const apps: Array<App> = [
         url: "https://naramsim.github.io/Colosseum",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 82,
@@ -972,6 +1049,7 @@ const apps: Array<App> = [
         description: "Unabhängiges Tech-Magazin. News und Tests zu Smartphones, Tablets, PC-Hardware, Software und IT. Große technikaffine Community hilft im Forum.",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 83,
@@ -984,6 +1062,7 @@ const apps: Array<App> = [
         url: "https://crazydice.netlify.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 84,
@@ -999,6 +1078,7 @@ const apps: Array<App> = [
             "food",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 85,
@@ -1011,6 +1091,7 @@ const apps: Array<App> = [
         url: "https://jsonformatter.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 86,
@@ -1025,6 +1106,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 87,
@@ -1037,6 +1119,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: true, // Logo failed
+        featuredOnHomePage: false,
     },
     {
         id: 88,
@@ -1049,6 +1132,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: true,
     },
     {
         id: 89,
@@ -1061,6 +1145,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 90,
@@ -1073,6 +1158,7 @@ const apps: Array<App> = [
         description: "",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 91,
@@ -1085,6 +1171,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 92,
@@ -1097,6 +1184,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 93,
@@ -1109,6 +1197,7 @@ const apps: Array<App> = [
         url: "https://www.deviantart.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 94,
@@ -1121,6 +1210,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 95,
@@ -1133,6 +1223,7 @@ const apps: Array<App> = [
         url: "https://mastodon.social",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 98,
@@ -1145,6 +1236,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: true,
     },
     {
         id: 99,
@@ -1157,6 +1249,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 100,
@@ -1169,6 +1262,7 @@ const apps: Array<App> = [
         url: "https://truthsocial.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 101,
@@ -1181,6 +1275,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 102,
@@ -1193,6 +1288,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 103,
@@ -1205,6 +1301,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 104,
@@ -1217,6 +1314,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 105,
@@ -1229,6 +1327,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 106,
@@ -1241,6 +1340,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 107,
@@ -1253,6 +1353,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 108,
@@ -1265,6 +1366,7 @@ const apps: Array<App> = [
         url: "https://calendar.google.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 111,
@@ -1277,6 +1379,7 @@ const apps: Array<App> = [
         url: "https://www.duolingo.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 112,
@@ -1289,6 +1392,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 114,
@@ -1301,6 +1405,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 115,
@@ -1313,6 +1418,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 118,
@@ -1325,6 +1431,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 119,
@@ -1337,6 +1444,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 121,
@@ -1349,6 +1457,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 123,
@@ -1361,6 +1470,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 124,
@@ -1373,6 +1483,7 @@ const apps: Array<App> = [
         url: "https://www.ally.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 125,
@@ -1385,6 +1496,7 @@ const apps: Array<App> = [
         url: "https://www.creditkarma.com/",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 126,
@@ -1397,6 +1509,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 127,
@@ -1409,6 +1522,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 128,
@@ -1425,6 +1539,7 @@ const apps: Array<App> = [
             "security",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 129,
@@ -1437,6 +1552,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 130,
@@ -1449,6 +1565,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 131,
@@ -1461,6 +1578,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 132,
@@ -1473,6 +1591,7 @@ const apps: Array<App> = [
         url: "https://developer.mozilla.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 133,
@@ -1485,6 +1604,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 134,
@@ -1497,6 +1617,7 @@ const apps: Array<App> = [
         description: "",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 135,
@@ -1509,6 +1630,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 136,
@@ -1521,6 +1643,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 137,
@@ -1533,6 +1656,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 138,
@@ -1545,6 +1669,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 139,
@@ -1557,6 +1682,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 140,
@@ -1573,6 +1699,7 @@ const apps: Array<App> = [
             "entertainment",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 141,
@@ -1585,6 +1712,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 142,
@@ -1597,6 +1725,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 143,
@@ -1609,6 +1738,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 144,
@@ -1621,6 +1751,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 145,
@@ -1633,6 +1764,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 147,
@@ -1645,6 +1777,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: true,
     },
     {
         id: 148,
@@ -1657,6 +1790,7 @@ const apps: Array<App> = [
         url: "https://www.seamless.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 149,
@@ -1669,6 +1803,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 150,
@@ -1681,6 +1816,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 151,
@@ -1693,6 +1829,7 @@ const apps: Array<App> = [
         url: "https://m.shein.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 152,
@@ -1705,6 +1842,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 153,
@@ -1717,6 +1855,7 @@ const apps: Array<App> = [
         description: "Here’s everything you can do and find on the Swiggy app:\n- Restaurant and Delivery Partners trained in hygiene protocols\n- Find top restaurants in your city\n- Late-night delivery\n-  30+ cuisines, Biryani, Pizza, Dosa, Burgers, Coffee, and more\n- Collections like Veg Only, Healthy Food, and more",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 154,
@@ -1729,6 +1868,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 155,
@@ -1741,6 +1881,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 156,
@@ -1756,6 +1897,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 157,
@@ -1768,6 +1910,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 158,
@@ -1780,6 +1923,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 159,
@@ -1795,6 +1939,7 @@ const apps: Array<App> = [
             "lifestyle",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 160,
@@ -1807,6 +1952,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 161,
@@ -1821,6 +1967,7 @@ const apps: Array<App> = [
             "social",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 162,
@@ -1833,6 +1980,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 163,
@@ -1845,6 +1993,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 165,
@@ -1857,6 +2006,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 167,
@@ -1869,6 +2019,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 168,
@@ -1881,6 +2032,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: true, // 404 logo
+        featuredOnHomePage: false,
     },
     {
         id: 169,
@@ -1896,6 +2048,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 170,
@@ -1908,6 +2061,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 171,
@@ -1920,6 +2074,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 172,
@@ -1932,6 +2087,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 173,
@@ -1949,6 +2105,7 @@ const apps: Array<App> = [
             "books",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 174,
@@ -1961,6 +2118,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 175,
@@ -1973,6 +2131,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 176,
@@ -1985,6 +2144,7 @@ const apps: Array<App> = [
         url: "https://app.moneytracker.cc",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 177,
@@ -1997,6 +2157,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 178,
@@ -2009,6 +2170,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 179,
@@ -2025,6 +2187,7 @@ const apps: Array<App> = [
             "business",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 180,
@@ -2039,6 +2202,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 181,
@@ -2051,6 +2215,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 182,
@@ -2063,6 +2228,7 @@ const apps: Array<App> = [
         url: "https://pixelcraft.web.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 183,
@@ -2077,6 +2243,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 184,
@@ -2089,6 +2256,7 @@ const apps: Array<App> = [
         url: "https://pwa-nes.vercel.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 185,
@@ -2104,6 +2272,7 @@ const apps: Array<App> = [
             "magazines",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 186,
@@ -2116,6 +2285,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 187,
@@ -2133,6 +2303,7 @@ const apps: Array<App> = [
             "news",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 188,
@@ -2145,6 +2316,7 @@ const apps: Array<App> = [
         url: "https://currency-converter.vercel.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 189,
@@ -2157,6 +2329,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 190,
@@ -2169,6 +2342,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 191,
@@ -2184,6 +2358,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 192,
@@ -2196,6 +2371,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 193,
@@ -2209,6 +2385,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 194,
@@ -2221,6 +2398,7 @@ const apps: Array<App> = [
         url: "https://www.mtgstocks.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 195,
@@ -2233,6 +2411,7 @@ const apps: Array<App> = [
         url: "https://towergame.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 196,
@@ -2245,6 +2424,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 197,
@@ -2257,6 +2437,7 @@ const apps: Array<App> = [
         url: "https://littlealchemy2.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 198,
@@ -2269,6 +2450,7 @@ const apps: Array<App> = [
         url: "https://bsehovac.github.io/the-cube",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 199,
@@ -2281,6 +2463,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 200,
@@ -2293,6 +2476,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 201,
@@ -2305,6 +2489,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 202,
@@ -2321,6 +2506,7 @@ const apps: Array<App> = [
             "business",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 203,
@@ -2333,6 +2519,7 @@ const apps: Array<App> = [
         url: "https://loxalize.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 204,
@@ -2345,6 +2532,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 205,
@@ -2357,6 +2545,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 206,
@@ -2373,6 +2562,7 @@ const apps: Array<App> = [
             "lifestyle",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 207,
@@ -2385,6 +2575,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 208,
@@ -2397,6 +2588,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 209,
@@ -2409,6 +2601,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 210,
@@ -2421,6 +2614,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 211,
@@ -2436,6 +2630,7 @@ const apps: Array<App> = [
             "entertainment",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 212,
@@ -2448,6 +2643,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 213,
@@ -2460,6 +2656,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 214,
@@ -2476,6 +2673,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 215,
@@ -2488,6 +2686,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 216,
@@ -2503,6 +2702,7 @@ const apps: Array<App> = [
             "entertainment",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 217,
@@ -2515,6 +2715,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 218,
@@ -2527,6 +2728,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 219,
@@ -2542,6 +2744,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 220,
@@ -2557,6 +2760,7 @@ const apps: Array<App> = [
             "lifestyle",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 221,
@@ -2572,6 +2776,7 @@ const apps: Array<App> = [
             "productivity",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 222,
@@ -2584,6 +2789,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 223,
@@ -2596,6 +2802,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 224,
@@ -2610,6 +2817,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 225,
@@ -2624,6 +2832,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 226,
@@ -2638,6 +2847,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 227,
@@ -2652,6 +2862,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 228,
@@ -2666,6 +2877,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 229,
@@ -2680,6 +2892,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 230,
@@ -2694,6 +2907,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 231,
@@ -2708,6 +2922,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 232,
@@ -2720,6 +2935,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 233,
@@ -2732,6 +2948,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 234,
@@ -2744,6 +2961,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 235,
@@ -2756,6 +2974,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 236,
@@ -2772,6 +2991,7 @@ const apps: Array<App> = [
             maskable: true
         },
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 237,
@@ -2784,6 +3004,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 238,
@@ -2796,6 +3017,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 239,
@@ -2808,6 +3030,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 240,
@@ -2820,6 +3043,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 241,
@@ -2832,6 +3056,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 242,
@@ -2847,6 +3072,7 @@ const apps: Array<App> = [
             "photo"
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 243,
@@ -2859,6 +3085,7 @@ const apps: Array<App> = [
         },
         categories: ["entertainment", "video"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 244,
@@ -2871,6 +3098,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 245,
@@ -2883,6 +3111,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 247,
@@ -2895,6 +3124,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 248,
@@ -2907,6 +3137,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 249,
@@ -2919,6 +3150,7 @@ const apps: Array<App> = [
         categories: [],
         url: "https://polymarket.com",
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 250,
@@ -2931,6 +3163,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 251,
@@ -2943,6 +3176,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 252,
@@ -2955,6 +3189,7 @@ const apps: Array<App> = [
         url: "https://showcode.app",
         categories: [],
         disabled: true, // 404 logo
+        featuredOnHomePage: false,
     },
     {
         id: 253,
@@ -2967,6 +3202,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 254,
@@ -2979,6 +3215,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 255,
@@ -2993,6 +3230,7 @@ const apps: Array<App> = [
             "developer tools",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 256,
@@ -3007,6 +3245,7 @@ const apps: Array<App> = [
             "social",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 257,
@@ -3023,6 +3262,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 258,
@@ -3039,6 +3279,7 @@ const apps: Array<App> = [
             "business"
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 259,
@@ -3053,6 +3294,7 @@ const apps: Array<App> = [
             "developer tools",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 260,
@@ -3067,6 +3309,7 @@ const apps: Array<App> = [
             "productivity",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 261,
@@ -3081,6 +3324,7 @@ const apps: Array<App> = [
             "social",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 263,
@@ -3093,6 +3337,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 264,
@@ -3105,6 +3350,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 265,
@@ -3117,6 +3363,7 @@ const apps: Array<App> = [
         },
         categories: [],
         disabled: true, // Logo no response
+        featuredOnHomePage: false,
     },
     {
         id: 266,
@@ -3129,6 +3376,7 @@ const apps: Array<App> = [
         url: "https://matchguide.ca",
         categories: ["sports", "travel", "food"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 267,
@@ -3141,6 +3389,7 @@ const apps: Array<App> = [
         url: "https://zura.chat/app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 268,
@@ -3153,6 +3402,7 @@ const apps: Array<App> = [
         url: "https://www.unwx.app/pwa",
         categories: ["weather", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 269,
@@ -3165,6 +3415,7 @@ const apps: Array<App> = [
         url: "https://www.rain-alarm.com",
         categories: ["weather", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 270,
@@ -3177,6 +3428,7 @@ const apps: Array<App> = [
         url: "https://www.getly.store",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 271,
@@ -3189,6 +3441,7 @@ const apps: Array<App> = [
         url: "https://trade-matrix.com/dashboard",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 272,
@@ -3201,6 +3454,7 @@ const apps: Array<App> = [
         url: "https://attaquiz.com",
         categories: ["education", "games"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 273,
@@ -3213,6 +3467,7 @@ const apps: Array<App> = [
         url: "https://taskadactyl.com/app",
         categories: ["productivity", "lifestyle", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 274,
@@ -3225,6 +3480,7 @@ const apps: Array<App> = [
         url: "https://mu.xyz",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 275,
@@ -3237,6 +3493,7 @@ const apps: Array<App> = [
         url: "https://www.neobotnet.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 276,
@@ -3249,6 +3506,7 @@ const apps: Array<App> = [
         url: "https://podhoc.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 277,
@@ -3261,6 +3519,7 @@ const apps: Array<App> = [
         url: "https://play.mangowave.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 278,
@@ -3273,6 +3532,7 @@ const apps: Array<App> = [
         url: "https://railraptor.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 279,
@@ -3285,6 +3545,7 @@ const apps: Array<App> = [
         url: "https://playra-app.vercel.app",
         categories: ["entertainment", "social"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 280,
@@ -3297,6 +3558,7 @@ const apps: Array<App> = [
         url: "https://keydar.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 281,
@@ -3309,6 +3571,7 @@ const apps: Array<App> = [
         url: "https://www.mediafa.st",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 282,
@@ -3321,6 +3584,7 @@ const apps: Array<App> = [
         url: "https://viztools.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 283,
@@ -3333,6 +3597,7 @@ const apps: Array<App> = [
         url: "https://betterprompt.me",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 284,
@@ -3345,6 +3610,7 @@ const apps: Array<App> = [
         url: "https://www.openhour.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 285,
@@ -3357,6 +3623,7 @@ const apps: Array<App> = [
         url: "https://www.mooduna.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 286,
@@ -3369,6 +3636,7 @@ const apps: Array<App> = [
         url: "https://isitdown.page",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 287,
@@ -3381,6 +3649,7 @@ const apps: Array<App> = [
         url: "https://app.plany.ae",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 288,
@@ -3393,6 +3662,7 @@ const apps: Array<App> = [
         url: "https://www.moatradar.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 289,
@@ -3405,6 +3675,7 @@ const apps: Array<App> = [
         url: "https://frenzy.finance",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 290,
@@ -3417,6 +3688,7 @@ const apps: Array<App> = [
         url: "https://duskai.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 291,
@@ -3429,6 +3701,7 @@ const apps: Array<App> = [
         url: "https://my.replika.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 292,
@@ -3441,6 +3714,7 @@ const apps: Array<App> = [
         url: "https://booteek.ai",
         categories: ["business", "productivity", "food"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 293,
@@ -3453,6 +3727,7 @@ const apps: Array<App> = [
         url: "https://www.spokk.io",
         categories: ["business", "productivity", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 294,
@@ -3465,6 +3740,7 @@ const apps: Array<App> = [
         url: "https://dwellrecord.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 295,
@@ -3477,6 +3753,7 @@ const apps: Array<App> = [
         url: "https://seatinghero.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 296,
@@ -3489,6 +3766,7 @@ const apps: Array<App> = [
         url: "https://app.indexerhub.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 297,
@@ -3501,6 +3779,7 @@ const apps: Array<App> = [
         url: "https://app.maginary.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 298,
@@ -3513,6 +3792,7 @@ const apps: Array<App> = [
         url: "https://atypica.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 299,
@@ -3525,6 +3805,7 @@ const apps: Array<App> = [
         url: "https://getyoutubetext.com",
         categories: ["productivity", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 300,
@@ -3537,6 +3818,7 @@ const apps: Array<App> = [
         url: "https://payphonetag.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 301,
@@ -3549,6 +3831,7 @@ const apps: Array<App> = [
         url: "https://papersflow.ai",
         categories: ["productivity", "education", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 302,
@@ -3561,6 +3844,7 @@ const apps: Array<App> = [
         url: "https://tasklylife.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 303,
@@ -3573,6 +3857,7 @@ const apps: Array<App> = [
         url: "https://trafficpopcorn.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 304,
@@ -3585,6 +3870,7 @@ const apps: Array<App> = [
         url: "https://rapsteak.com",
         categories: ["games", "entertainment"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 305,
@@ -3597,6 +3883,7 @@ const apps: Array<App> = [
         url: "https://www.flightradar24.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 306,
@@ -3609,6 +3896,7 @@ const apps: Array<App> = [
         url: "https://www.camaudit.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 307,
@@ -3621,6 +3909,7 @@ const apps: Array<App> = [
         url: "https://sundial.page",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 309,
@@ -3633,6 +3922,7 @@ const apps: Array<App> = [
         url: "https://just-call.app",
         categories: ["social"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 310,
@@ -3645,6 +3935,7 @@ const apps: Array<App> = [
         url: "https://astroseek.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 311,
@@ -3657,6 +3948,7 @@ const apps: Array<App> = [
         url: "https://wordbattle.fun",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 312,
@@ -3669,6 +3961,7 @@ const apps: Array<App> = [
         url: "https://valyris.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 313,
@@ -3681,6 +3974,7 @@ const apps: Array<App> = [
         url: "https://thecardshop.store",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 314,
@@ -3693,6 +3987,7 @@ const apps: Array<App> = [
         url: "https://anvevoice.app",
         categories: ["business", "productivity"],
         disabled: true, // 403 logo
+        featuredOnHomePage: false,
     },
     {
         id: 315,
@@ -3705,6 +4000,7 @@ const apps: Array<App> = [
         url: "https://roasted.cv",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 316,
@@ -3717,6 +4013,7 @@ const apps: Array<App> = [
         url: "https://nanomaker.im",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 317,
@@ -3729,6 +4026,7 @@ const apps: Array<App> = [
         url: "https://www.sing2me.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 318,
@@ -3741,6 +4039,7 @@ const apps: Array<App> = [
         url: "https://app.writemail.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 319,
@@ -3753,6 +4052,7 @@ const apps: Array<App> = [
         url: "https://zooclaw.ai",
         categories: ["productivity", "business"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 320,
@@ -3765,6 +4065,7 @@ const apps: Array<App> = [
         url: "https://edmundsparrow.github.io/gnoke-tailors",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 321,
@@ -3777,6 +4078,7 @@ const apps: Array<App> = [
         url: "https://edmundsparrow.github.io/gnoke-receipts",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 322,
@@ -3789,6 +4091,7 @@ const apps: Array<App> = [
         url: "https://edmundsparrow.github.io/gnoke-irrigation-hmi",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 323,
@@ -3801,6 +4104,7 @@ const apps: Array<App> = [
         url: "https://edmundsparrow.github.io/gnoke-signaltower",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 324,
@@ -3813,6 +4117,7 @@ const apps: Array<App> = [
         url: "https://edmundsparrow.github.io/gnoke-geocompass",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 325,
@@ -3825,6 +4130,7 @@ const apps: Array<App> = [
         url: "https://edmundsparrow.github.io/gnoke-petroleum",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 326,
@@ -3837,6 +4143,7 @@ const apps: Array<App> = [
         url: "https://h173k-wallet.pages.dev",
         categories: ["finance"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 327,
@@ -3849,6 +4156,7 @@ const apps: Array<App> = [
         url: "https://ai-kirei-filter.pages.dev",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 328,
@@ -3861,6 +4169,7 @@ const apps: Array<App> = [
         url: "https://thordex.eth.limo",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 329,
@@ -3873,6 +4182,7 @@ const apps: Array<App> = [
         url: "https://snazzygaz.github.io/chromemory",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 330,
@@ -3885,6 +4195,7 @@ const apps: Array<App> = [
         url: "https://www.scanskinai.com",
         categories: ["health", "medical", "productivity"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 331,
@@ -3897,6 +4208,7 @@ const apps: Array<App> = [
         url: "https://whacka.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 332,
@@ -3909,6 +4221,7 @@ const apps: Array<App> = [
         url: "https://openrouter.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 333,
@@ -3921,6 +4234,7 @@ const apps: Array<App> = [
         url: "https://getsleek.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 334,
@@ -3933,6 +4247,7 @@ const apps: Array<App> = [
         url: "https://notebooklm.google.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 335,
@@ -3945,6 +4260,7 @@ const apps: Array<App> = [
         url: "https://stitch.withgoogle.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 336,
@@ -3957,6 +4273,7 @@ const apps: Array<App> = [
         url: "https://editor.uppslag.se",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 337,
@@ -3969,6 +4286,7 @@ const apps: Array<App> = [
         url: "https://fogosagora.pt",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 338,
@@ -3981,6 +4299,7 @@ const apps: Array<App> = [
         url: "https://p-cast.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 339,
@@ -3993,6 +4312,7 @@ const apps: Array<App> = [
         url: "https://madaaar.netlify.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 340,
@@ -4005,6 +4325,7 @@ const apps: Array<App> = [
         url: "https://talkntrack.divyanshsharma.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 341,
@@ -4017,6 +4338,7 @@ const apps: Array<App> = [
         url: "https://mausamnow.com",
         categories: ["weather", "utilities"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 342,
@@ -4029,6 +4351,7 @@ const apps: Array<App> = [
         url: "https://www.trackyourstreak.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 343,
@@ -4041,6 +4364,7 @@ const apps: Array<App> = [
         url: "https://yamamoto5989.github.io/stackblock/",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 344,
@@ -4053,6 +4377,7 @@ const apps: Array<App> = [
         url: "https://app.getfernand.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 345,
@@ -4065,6 +4390,7 @@ const apps: Array<App> = [
         url: "https://easyfollowup.pro",
         categories: ["business", "productivity"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 346,
@@ -4077,6 +4403,7 @@ const apps: Array<App> = [
         url: "https://nihongo-dojo.fr",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 347,
@@ -4089,6 +4416,7 @@ const apps: Array<App> = [
         url: "https://roamble.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 348,
@@ -4101,6 +4429,7 @@ const apps: Array<App> = [
         url: "https://chatwithdr.com",
         categories: ["health", "medical", "lifestyle"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 349,
@@ -4113,6 +4442,7 @@ const apps: Array<App> = [
         url: "https://vitalstep.pro",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 350,
@@ -4125,6 +4455,7 @@ const apps: Array<App> = [
         url: "https://coach.pelaris.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 351,
@@ -4137,6 +4468,7 @@ const apps: Array<App> = [
         url: "https://verirfp.com",
         categories: ["business", "productivity", "security"],
         disabled: true, // Logo no response
+        featuredOnHomePage: false,
     },
     {
         id: 352,
@@ -4149,6 +4481,7 @@ const apps: Array<App> = [
         url: "https://cheekycycle.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 353,
@@ -4161,6 +4494,7 @@ const apps: Array<App> = [
         url: "https://portifa.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 354,
@@ -4173,6 +4507,7 @@ const apps: Array<App> = [
         url: "https://aarils.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 355,
@@ -4185,6 +4520,7 @@ const apps: Array<App> = [
         url: "https://app.betvisors.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 356,
@@ -4197,6 +4533,7 @@ const apps: Array<App> = [
         url: "https://viaje360.app",
         categories: ["travel", "lifestyle"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 357,
@@ -4209,6 +4546,7 @@ const apps: Array<App> = [
         url: "https://sudokusolverx.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 358,
@@ -4221,6 +4559,7 @@ const apps: Array<App> = [
         url: "https://brisktool.com",
         categories: ["utilities", "productivity"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 359,
@@ -4233,6 +4572,7 @@ const apps: Array<App> = [
         url: "https://app.zerotwo.ai",
         categories: ["productivity", "utilities", "business"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 360,
@@ -4245,6 +4585,7 @@ const apps: Array<App> = [
         url: "https://getkeptapp.com/kept.html",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 361,
@@ -4257,6 +4598,7 @@ const apps: Array<App> = [
         url: "https://access.mymind.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 362,
@@ -4269,6 +4611,7 @@ const apps: Array<App> = [
         url: "https://onecamp.onemana.dev",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 363,
@@ -4281,6 +4624,7 @@ const apps: Array<App> = [
         url: "https://www.yawmia.app/app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 364,
@@ -4293,6 +4637,7 @@ const apps: Array<App> = [
         url: "https://banxaas.com/swap",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 365,
@@ -4305,6 +4650,7 @@ const apps: Array<App> = [
         url: "https://trytidal.xyz",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 366,
@@ -4317,6 +4663,7 @@ const apps: Array<App> = [
         url: "https://wheelhousetrades.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 367,
@@ -4329,6 +4676,7 @@ const apps: Array<App> = [
         url: "https://t0706-dev.github.io/100days-challenge/apps/day11-bmi",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 368,
@@ -4344,6 +4692,7 @@ const apps: Array<App> = [
             "productivity",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 369,
@@ -4356,6 +4705,7 @@ const apps: Array<App> = [
         url: "https://www.defenseoftheagents.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 370,
@@ -4368,6 +4718,7 @@ const apps: Array<App> = [
         url: "https://topotron-app.netlify.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 371,
@@ -4380,6 +4731,7 @@ const apps: Array<App> = [
         url: "https://bragly.design",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 372,
@@ -4392,6 +4744,7 @@ const apps: Array<App> = [
         url: "https://www.ecosia.org",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 373,
@@ -4404,6 +4757,7 @@ const apps: Array<App> = [
         url: "https://www.qwant.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 374,
@@ -4419,6 +4773,7 @@ const apps: Array<App> = [
             "entertainment",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 375,
@@ -4434,6 +4789,7 @@ const apps: Array<App> = [
             "lifestyle",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 376,
@@ -4448,6 +4804,7 @@ const apps: Array<App> = [
             "social",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 377,
@@ -4460,6 +4817,7 @@ const apps: Array<App> = [
         url: "https://www.mercari.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 378,
@@ -4472,6 +4830,7 @@ const apps: Array<App> = [
         url: "https://federatedindustrial.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 379,
@@ -4484,6 +4843,7 @@ const apps: Array<App> = [
         url: "https://www.allplix.com/en",
         categories: ["utilities", "productivity", "photo", "developer"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 380,
@@ -4496,6 +4856,7 @@ const apps: Array<App> = [
         url: "https://pearl.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 381,
@@ -4508,6 +4869,7 @@ const apps: Array<App> = [
         url: "https://daledele.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 382,
@@ -4520,6 +4882,7 @@ const apps: Array<App> = [
         url: "https://sunpath.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 383,
@@ -4532,6 +4895,7 @@ const apps: Array<App> = [
         url: "https://kurwacoach.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 384,
@@ -4544,6 +4908,7 @@ const apps: Array<App> = [
         url: "https://listly.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 385,
@@ -4556,6 +4921,7 @@ const apps: Array<App> = [
         url: "https://matecata.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 386,
@@ -4568,6 +4934,7 @@ const apps: Array<App> = [
         url: "https://doodl.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 387,
@@ -4580,6 +4947,7 @@ const apps: Array<App> = [
         url: "https://patternfinder.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 388,
@@ -4592,6 +4960,7 @@ const apps: Array<App> = [
         url: "https://goldenlist.franciscocucullu.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 389,
@@ -4604,6 +4973,7 @@ const apps: Array<App> = [
         url: "https://my.simpledms.app",
         categories: [],
         disabled: true, // 404 logo
+        featuredOnHomePage: false,
     },
     {
         id: 390,
@@ -4619,6 +4989,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 391,
@@ -4631,6 +5002,7 @@ const apps: Array<App> = [
         url: "https://www.chipmunkify.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 392,
@@ -4643,6 +5015,7 @@ const apps: Array<App> = [
         url: "https://coffeegameonline.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 393,
@@ -4655,6 +5028,7 @@ const apps: Array<App> = [
         url: "https://is.team",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 394,
@@ -4667,6 +5041,7 @@ const apps: Array<App> = [
         url: "https://specsight.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 395,
@@ -4679,6 +5054,7 @@ const apps: Array<App> = [
         url: "https://hn.brae.workers.dev",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 396,
@@ -4691,6 +5067,7 @@ const apps: Array<App> = [
         url: "https://minnow.social",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 397,
@@ -4703,6 +5080,7 @@ const apps: Array<App> = [
         url: "https://fastsleep.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 398,
@@ -4715,6 +5093,7 @@ const apps: Array<App> = [
         url: "https://app.ambr.music",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 399,
@@ -4729,6 +5108,7 @@ const apps: Array<App> = [
             "games",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 400,
@@ -4741,6 +5121,7 @@ const apps: Array<App> = [
         url: "https://lovinghate.com",
         categories: ["social", "lifestyle"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 401,
@@ -4753,6 +5134,7 @@ const apps: Array<App> = [
         url: "https://bal.sciforge.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 402,
@@ -4765,6 +5147,7 @@ const apps: Array<App> = [
         url: "https://tallyman.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 403,
@@ -4777,6 +5160,7 @@ const apps: Array<App> = [
         url: "https://whirligig.live",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 404,
@@ -4789,6 +5173,7 @@ const apps: Array<App> = [
         url: "https://youdidntnotice.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 405,
@@ -4801,6 +5186,7 @@ const apps: Array<App> = [
         url: "https://watchroster.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 406,
@@ -4813,6 +5199,7 @@ const apps: Array<App> = [
         url: "https://mycards.hdfc.bank.in",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 407,
@@ -4825,6 +5212,7 @@ const apps: Array<App> = [
         url: "https://bear-diary.cc",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 408,
@@ -4840,6 +5228,7 @@ const apps: Array<App> = [
             "productivity",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 409,
@@ -4852,6 +5241,7 @@ const apps: Array<App> = [
         url: "https://www.tahleem.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 410,
@@ -4864,6 +5254,7 @@ const apps: Array<App> = [
         url: "https://ballast-sigma.vercel.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 411,
@@ -4878,6 +5269,7 @@ const apps: Array<App> = [
             "finance",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 412,
@@ -4894,6 +5286,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 413,
@@ -4906,6 +5299,7 @@ const apps: Array<App> = [
         url: "https://app.kuronekolab.jp",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 414,
@@ -4921,6 +5315,7 @@ const apps: Array<App> = [
             "productivity",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 415,
@@ -4938,6 +5333,7 @@ const apps: Array<App> = [
             "lifestyle",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 416,
@@ -4950,6 +5346,7 @@ const apps: Array<App> = [
         url: "https://distribit.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 417,
@@ -4962,6 +5359,7 @@ const apps: Array<App> = [
         url: "https://grvt.io",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 418,
@@ -4977,6 +5375,7 @@ const apps: Array<App> = [
             "lifestyle",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 419,
@@ -4992,6 +5391,7 @@ const apps: Array<App> = [
             "developer",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 420,
@@ -5004,6 +5404,7 @@ const apps: Array<App> = [
         url: "https://fm365.space",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 421,
@@ -5016,6 +5417,7 @@ const apps: Array<App> = [
         url: "https://jsxagi.github.io/panic-study-english",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 422,
@@ -5028,6 +5430,7 @@ const apps: Array<App> = [
         url: "https://jsxagi.github.io/toeic-master",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 423,
@@ -5040,6 +5443,7 @@ const apps: Array<App> = [
         url: "https://jsxagi.github.io/swahili-study",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 424,
@@ -5052,6 +5456,7 @@ const apps: Array<App> = [
         url: "https://jsxagi.github.io/mandarin-study",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 425,
@@ -5064,6 +5469,7 @@ const apps: Array<App> = [
         url: "https://jsxagi.github.io/korean-study",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 426,
@@ -5076,6 +5482,7 @@ const apps: Array<App> = [
         url: "https://shaflex.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 427,
@@ -5088,6 +5495,7 @@ const apps: Array<App> = [
         url: "https://vortex-chaser.vercel.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 428,
@@ -5100,6 +5508,7 @@ const apps: Array<App> = [
         url: "https://xtok.news",
         categories: ["social", "entertainment", "news"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 429,
@@ -5112,6 +5521,7 @@ const apps: Array<App> = [
         url: "https://itlinks.me",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 430,
@@ -5124,6 +5534,7 @@ const apps: Array<App> = [
         url: "https://kwverdit.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 431,
@@ -5136,6 +5547,7 @@ const apps: Array<App> = [
         url: "https://wordfor.xyz",
         categories: ["education", "utilities", "reference"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 432,
@@ -5148,6 +5560,7 @@ const apps: Array<App> = [
         url: "https://pausely.xyz",
         categories: ["health", "lifestyle", "productivity"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 433,
@@ -5160,6 +5573,7 @@ const apps: Array<App> = [
         url: "https://v0.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 434,
@@ -5172,6 +5586,7 @@ const apps: Array<App> = [
         url: "https://music.gbstudio.dev",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 435,
@@ -5184,6 +5599,7 @@ const apps: Array<App> = [
         url: "https://nowhr.xyz/app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 436,
@@ -5196,6 +5612,7 @@ const apps: Array<App> = [
         url: "https://space4links.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 437,
@@ -5208,6 +5625,7 @@ const apps: Array<App> = [
         url: "https://sqlprotocol.com",
         categories: ["education", "games"],
         disabled: false,
+        featuredOnHomePage: false,
     }, {
         id: 438,
         name: "PlayDrop",
@@ -5219,6 +5637,7 @@ const apps: Array<App> = [
         url: "https://www.playdrop.ai",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 439,
@@ -5231,6 +5650,7 @@ const apps: Array<App> = [
         url: "https://www.aulico.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 440,
@@ -5243,6 +5663,7 @@ const apps: Array<App> = [
         url: "https://www.dailyunfold.com",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 441,
@@ -5255,6 +5676,7 @@ const apps: Array<App> = [
         url: "https://pascar.run",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 442,
@@ -5267,6 +5689,7 @@ const apps: Array<App> = [
         url: "https://sun.mikolajmocek.com",
         categories: [],
         disabled: true,
+        featuredOnHomePage: false,
     },
     {
         id: 443,
@@ -5279,6 +5702,7 @@ const apps: Array<App> = [
         url: "https://realsmile.online",
         categories: ["health", "lifestyle", "utilities"],
         disabled: true,
+        featuredOnHomePage: false,
     },
     {
         id: 444,
@@ -5291,6 +5715,7 @@ const apps: Array<App> = [
         url: "https://www.falsoai.com",
         categories: [],
         disabled: true,
+        featuredOnHomePage: false,
     },
     {
         id: 445,
@@ -5303,6 +5728,7 @@ const apps: Array<App> = [
         url: "https://signova.ai",
         categories: [],
         disabled: true,
+        featuredOnHomePage: false,
     },
     {
         id: 446,
@@ -5315,6 +5741,7 @@ const apps: Array<App> = [
         url: "https://god.ad",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 447,
@@ -5327,6 +5754,7 @@ const apps: Array<App> = [
         url: "https://www.allplix.com",
         categories: ["utilities", "productivity", "photo", "developer"],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 448,
@@ -5339,6 +5767,7 @@ const apps: Array<App> = [
         url: "https://hisorty.app",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 449,
@@ -5354,6 +5783,7 @@ const apps: Array<App> = [
             "utilities",
         ],
         disabled: false,
+        featuredOnHomePage: false,
     },
     {
         id: 450,
@@ -5366,6 +5796,7 @@ const apps: Array<App> = [
         url: "https://ecstatic.events",
         categories: [],
         disabled: false,
+        featuredOnHomePage: false,
     },
 ];
 

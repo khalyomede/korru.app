@@ -15,6 +15,7 @@ interface App {
      */
     categories: Array<Category>;
     disabled: boolean;
+    featuredOnHomePage: boolean;
 };
 
 export default App;
