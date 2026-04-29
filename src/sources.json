@@ -5920,4 +5920,103 @@
         "disabled": false,
         "reason": ""
     },
+    {
+        "id": 451,
+        "urls": {
+            "app": "https://sekai-arcadia.web.app",
+            "manifest": "https://sekai-arcadia.web.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 452,
+        "urls": {
+            "app": "https://shrunk.vercel.app",
+            "manifest": "https://shrunk.vercel.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 453,
+        "urls": {
+            "app": "https://www.orisacalendar.online",
+            "manifest": "https://www.orisacalendar.online/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 454,
+        "urls": {
+            "app": "https://boltz.exchange",
+            "manifest": "https://boltz.exchange/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 455,
+        "urls": {
+            "app": "https://agent.xona-agent.com",
+            "manifest": "https://agent.xona-agent.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 456,
+        "urls": {
+            "app": "https://eli.voxos.ai",
+            "manifest": "https://eli.voxos.ai/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 457,
+        "urls": {
+            "app": "https://plate.to",
+            "manifest": "https://plate.to/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 458,
+        "urls": {
+            "app": "https://crabpdf.com",
+            "manifest": "https://crabpdf.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 459,
+        "urls": {
+            "app": "https://playtiao.com",
+            "manifest": "https://playtiao.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 460,
+        "urls": {
+            "app": "https://www.crazygames.com",
+            "manifest": "https://www.crazygames.com/manifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 461,
+        "urls": {
+            "app": "https://jogga-3203482767.us-west1.run.app",
+            "manifest": "https://jogga-3203482767.us-west1.run.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]
