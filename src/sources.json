@@ -6019,4 +6019,130 @@
         "disabled": false,
         "reason": ""
     },
+    {
+        "id": 462,
+        "urls": {
+            "app": "https://onlinenotepad.net/notepad",
+            "manifest": "https://onlinenotepad.net/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 463,
+        "urls": {
+            "app": "https://www.thegoodpart.life",
+            "manifest": "https://www.thegoodpart.life/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 464,
+        "urls": {
+            "app": "https://radarito.com",
+            "manifest": "https://radarito.com/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 465,
+        "urls": {
+            "app": "https://perelo.eu",
+            "manifest": "https://perelo.eu/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 466,
+        "urls": {
+            "app": "https://rembr.care",
+            "manifest": "https://rembr.care/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 467,
+        "urls": {
+            "app": "https://www.yitch.net",
+            "manifest": "https://www.yitch.net/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 468,
+        "urls": {
+            "app": "https://truthseekers.fun",
+            "manifest": "https://truthseekers.fun/assets/manifest-BIk7v8NW.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 469,
+        "urls": {
+            "app": "https://truthseekers.fun",
+            "manifest": "https://truthseekers.fun/assets/manifest-BIk7v8NW.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 470,
+        "urls": {
+            "app": "https://beats.bitwrap.io",
+            "manifest": "https://beats.bitwrap.io/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 471,
+        "urls": {
+            "app": "https://simdrive.xyz",
+            "manifest": "https://simdrive.xyz/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 472,
+        "urls": {
+            "app": "https://ap-quiz.com",
+            "manifest": "https://ap-quiz.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 473,
+        "urls": {
+            "app": "https://www.nichess.org",
+            "manifest": "https://www.nichess.org/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 474,
+        "urls": {
+            "app": "https://www.timekeep.cc",
+            "manifest": "https://www.timekeep.cc/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 475,
+        "urls": {
+            "app": "https://www.supertags.app",
+            "manifest": "https://www.supertags.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]
