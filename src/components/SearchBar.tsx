@@ -24,7 +24,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
                 value={properties.value}
                 placeholder={properties.placeholder}
                 class="w-full px-6 py-3 rounded-3xl border border-stone-300 tracking-wider
-                    focus:outline-none focus:dark:border-stone-300 focus:dark:bg-stone-700
+                    focus:outline-none focus:dark:border-stone-300
                     focus:border-stone-700
                     text-stone-900 placeholder-stone-400 place
                     dark:bg-stone-900 dark:border-stone-600 dark:text-stone-300 dark:placeholder-stone-500
