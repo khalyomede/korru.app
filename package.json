@@ -8,7 +8,8 @@
         "dev": "vite --host",
         "build": "vite build",
         "serve": "vite preview",
-        "parse": "node src/scripts/parser.ts"
+        "parse": "node src/scripts/parser.ts",
+        "scan": "node src/scripts/scanner.ts"
     },
     "license": "MIT",
     "devDependencies": {
@@ -19,10 +20,13 @@
         "@types/node": "25.3.5",
         "@types/serialize-javascript": "5.0.4",
         "autoprefixer": "10.4.27",
+        "date-fns": "4.1.0",
         "fuse.js": "7.1.0",
+        "node-html-parser": "7.1.0",
         "postcss": "8.5.8",
         "postcss-cli": "11.0.1",
         "serialize-javascript": "7.0.5",
+        "sleep-promise": "9.1.0",
         "solid-devtools": "0.34.5",
         "tailwindcss": "4.2.1",
         "typescript": "5.9.3",
