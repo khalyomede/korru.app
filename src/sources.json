@@ -6145,4 +6145,175 @@
         "disabled": false,
         "reason": ""
     },
+    {
+        "id": 476,
+        "urls": {
+            "app": "https://www.lumara-space.app",
+            "manifest": "https://www.lumara-space.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 477,
+        "urls": {
+            "app": "https://www.lumara-space.app",
+            "manifest": "https://www.lumara-space.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 478,
+        "urls": {
+            "app": "https://www.disneyplus.com",
+            "manifest": "https://www.disneyplus.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 479,
+        "urls": {
+            "app": "https://www.espn.co.uk",
+            "manifest": "https://www.espn.co.uk/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 480,
+        "urls": {
+            "app": "https://web.telegram.org",
+            "manifest": "https://web.telegram.org/k/site_apple.webmanifest?v=jw3mK7G9Aq"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 481,
+        "urls": {
+            "app": "https://www.pakwheels.com",
+            "manifest": "https://www.pakwheels.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 482,
+        "urls": {
+            "app": "https://www.farmhand.life",
+            "manifest": "https://www.farmhand.life/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 483,
+        "urls": {
+            "app": "https://wikihoops.com",
+            "manifest": "https://wikihoops.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 484,
+        "urls": {
+            "app": "https://coda.io",
+            "manifest": "https://coda.io/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 485,
+        "urls": {
+            "app": "https://checkvist.com",
+            "manifest": "https://checkvist.com/site.manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 486,
+        "urls": {
+            "app": "https://pixlr.com",
+            "manifest": "https://pixlr.com/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 487,
+        "urls": {
+            "app": "https://m.vk.com",
+            "manifest": "https://m.vk.com/manifest.webmanifest?ver=228"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 488,
+        "urls": {
+            "app": "https://wormhole.app",
+            "manifest": "https://wormhole.app/site.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 489,
+        "urls": {
+            "app": "https://veganify.app",
+            "manifest": "https://veganify.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 490,
+        "urls": {
+            "app": "https://plant.id",
+            "manifest": "https://plant.id/static/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 491,
+        "urls": {
+            "app": "https://splittypie.com",
+            "manifest": "https://splittypie.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 492,
+        "urls": {
+            "app": "https://archivist.anasdew.com",
+            "manifest": "https://archivist.anasdew.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 493,
+        "urls": {
+            "app": "https://beta.orionmessenger.io",
+            "manifest": "https://beta.orionmessenger.io/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 494,
+        "urls": {
+            "app": "https://letterboxd.com",
+            "manifest": "https://letterboxd.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]

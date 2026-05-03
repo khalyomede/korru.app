@@ -341,6 +341,28 @@ const complements: Array<Partial<App>> = [
             "finance",
         ],
     },
+    {
+        id: 477,
+        name: "Amazon Luna",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 482,
+        name: "Farmhand",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 485,
+        name: "Checkvist",
+        categories: [
+            "utilities",
+            "productivity",
+        ],
+    },
 ];
 
 export default complements;
