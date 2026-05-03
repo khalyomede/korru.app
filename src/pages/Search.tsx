@@ -92,12 +92,9 @@ const Search: Component = () => {
     const filteredApps = () => {
         const { search, apps } = store;
         const currentFilter = getCurrentFilter();
+        const appList: Array<App> = apps.filter(app => !app.disabled);
 
         if (fuse === null) {
-            const appList: Array<App> = apps
-                .filter(app => !app.disabled)
-                .map((app) => ({ ...app }));
-
             /**
              * @todo Include URL as searchable terms with 2nd degree importance (above description).
              */
@@ -116,7 +113,7 @@ const Search: Component = () => {
             });
         }
 
-        const filteredApps = currentFilter.categories.length === 0 ? apps : apps.filter(app => {
+        const filteredApps = currentFilter.categories.length === 0 ? appList : appList.filter(app => {
             return app.categories.filter(category => currentFilter.categories.includes(category)).length > 0;
         });
 
