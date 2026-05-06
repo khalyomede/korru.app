@@ -4222,5 +4222,77 @@
             "manifest": "https://www.uniqlo.com/fr/fr/manifest.json"
         },
         "disabled": false
+    },
+    {
+        "id": 548,
+        "urls": {
+            "app": "https://dgbwallet.app",
+            "manifest": "https://dgbwallet.app/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 549,
+        "urls": {
+            "app": "https://www.hintly.co",
+            "manifest": "https://www.hintly.co/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 550,
+        "urls": {
+            "app": "https://app.1min.ai",
+            "manifest": "https://app.1min.ai/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 551,
+        "urls": {
+            "app": "https://app.kizzy.io",
+            "manifest": "https://app.kizzy.io/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 552,
+        "urls": {
+            "app": "https://microwinsapp.com",
+            "manifest": "https://microwinsapp.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 553,
+        "urls": {
+            "app": "https://fo76-legendary-tracker.netlify.app",
+            "manifest": "https://fo76-legendary-tracker.netlify.app/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 554,
+        "urls": {
+            "app": "https://turtlekiosk.github.io/slider",
+            "manifest": "https://fo76-legendary-tracker.netlify.app/slider/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 555,
+        "urls": {
+            "app": "https://turing-code.pages.dev",
+            "manifest": "https://turing-code.pages.dev/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 556,
+        "urls": {
+            "app": "https://weeruwolof.web.app",
+            "manifest": "https://weeruwolof.web.app/manifest.json"
+        },
+        "disabled": false
     }
 ]
