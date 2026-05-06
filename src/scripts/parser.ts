@@ -1,5 +1,5 @@
 import { object, string, array } from "zod";
-import sources from "../sources.json" with { type: "json" };
+import sources from "../../sources-found.json" with { type: "json" };
 import { writeFile } from "fs/promises";
 import { join } from "path";
 import type App from "../interfaces/App";
@@ -116,12 +116,16 @@ let code = [
 ];
 
 for (const source of sources) {
-    const logPrefix = `[${index} / ${sources.length}][${source.url}]`;
+    if ("disabled" in source && source.disabled === true) {
+        continue;
+    }
+
+    const logPrefix = `[${index} / ${sources.length}][${source.urls.app}]`;
     let response: Response | null = null;
     let body = "";
 
     // Checks if url is unique
-    if (sources.filter(record => record.url === source.url).length !== 1) {
+    if (sources.filter(record => record.urls.app === source.urls.app).length !== 1) {
         console.error(`${logPrefix} duplicate URL`);
 
         index++;
@@ -138,7 +142,7 @@ for (const source of sources) {
         continue;
     }
 
-    if (!source.manifestUrl) {
+    if (!source.urls.manifest) {
         console.error(`${logPrefix} No manifest URL specified`);
 
         index++;
@@ -149,9 +153,9 @@ for (const source of sources) {
     let manifestResponse: Response | null = null;
 
     try {
-        manifestResponse = await fetchAsChrome(source.manifestUrl);
+        manifestResponse = await fetchAsChrome(source.urls.manifest);
     } catch (error) {
-        console.error(`${logPrefix} could not fetch manifest at ${source.manifestUrl}`);
+        console.error(`${logPrefix} could not fetch manifest at ${source.urls.manifest}`);
         console.error(error);
 
         index++;
@@ -164,7 +168,7 @@ for (const source of sources) {
     try {
         manifestData = await manifestResponse.json();
     } catch (error) {
-        console.error(`${logPrefix} error while parsing ${source.manifestUrl} JSON content`);
+        console.error(`${logPrefix} error while parsing ${source.urls.manifest} JSON content`);
         console.error(error);
 
         index++;
@@ -177,7 +181,7 @@ for (const source of sources) {
     try {
         parsedManifest = Manifest.parse(manifestData);
     } catch (error) {
-        console.error(`${logPrefix} error while validating ${source.manifestUrl} JSON content`);
+        console.error(`${logPrefix} error while validating ${source.urls.manifest} JSON content`);
         console.error(error);
 
         index++;
@@ -245,12 +249,14 @@ for (const source of sources) {
         id: source.id,
         name: parsedManifest.short_name || parsedManifest.name,
         description: parsedManifest.description || "",
-        url: source.url,
+        url: source.urls.app,
         icon: {
-            url: new URL(icon?.src || "", source.url).toString(),
+            url: new URL(icon?.src || "", source.urls.app).toString(),
             maskable: icon?.purpose?.split(" ").includes("maskable") || false,
         },
         categories: (parsedManifest.categories ?? []) as Array<Category>,
+        disabled: false,
+        featuredOnHomePage: false,
     };
 
     const appCode = serialize(app, {
@@ -277,4 +283,4 @@ code.push(...[
     '',
 ]);
 
-await writeFile(join(import.meta.dirname, "../data/apps.ts"), code.join("\n"));
+await writeFile(join(import.meta.dirname, "../data/apps-found.ts"), code.join("\n"));
