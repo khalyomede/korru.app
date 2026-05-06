@@ -6316,4 +6316,238 @@
         "disabled": false,
         "reason": ""
     },
+    {
+        "id": 495,
+        "urls": {
+            "app": "https://pareho.fun",
+            "manifest": "https://pareho.fun/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 496,
+        "urls": {
+            "app": "https://jumpninja.fun",
+            "manifest": "https://jumpninja.fun/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 497,
+        "urls": {
+            "app": "https://vitadevotionis.com",
+            "manifest": "https://vitadevotionis.com/manifest.json?v=2"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 498,
+        "urls": {
+            "app": "https://seenintl.org",
+            "manifest": "https://seenintl.org/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 499,
+        "urls": {
+            "app": "https://zkroll.naamahdaemon.eu/",
+            "manifest": "https://zkroll.naamahdaemon.eu/manifest.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 500,
+        "urls": {
+            "app": "https://scout.thirstyai.live",
+            "manifest": "https://scout.thirstyai.live/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 501,
+        "urls": {
+            "app": "https://www.chogi.xyz",
+            "manifest": "https://www.chogi.xyz/manifest.json"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 502,
+        "urls": {
+            "app": "https://useaura.it",
+            "manifest": "https://useaura.it/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 503,
+        "urls": {
+            "app": "https://pulse.subscrypts.com",
+            "manifest": "https://pulse.subscrypts.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 504,
+        "urls": {
+            "app": "https://ai-kirei-filter-air.pages.dev",
+            "manifest": "https://ai-kirei-filter-air.pages.dev/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 505,
+        "urls": {
+            "app": "https://gorillapool.io",
+            "manifest": "https://gorillapool.io/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 506,
+        "urls": {
+            "app": "https://420.foundation",
+            "manifest": "https://420.foundation/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 507,
+        "urls": {
+            "app": "https://xrpresso.io",
+            "manifest": "https://xrpresso.io/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 508,
+        "urls": {
+            "app": "https://hamp.ai",
+            "manifest": "https://hamp.ai/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 509,
+        "urls": {
+            "app": "https://rollercoin.com",
+            "manifest": "https://rollercoin.com/manifest.json"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 510,
+        "urls": {
+            "app": "https://study-heatmap-beta.vercel.app",
+            "manifest": "https://study-heatmap-beta.vercel.app/manifest.json"
+        },
+        "disabled": true,
+        "reason": "Forbidden response during logo display."
+    },
+    {
+        "id": 511,
+        "urls": {
+            "app": "https://gardezen.fr",
+            "manifest": "https://gardezen.fr/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 512,
+        "urls": {
+            "app": "https://ai-no-hitorigoto.pages.dev",
+            "manifest": "https://ai-no-hitorigoto.pages.dev/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 513,
+        "urls": {
+            "app": "https://www.roostr.run",
+            "manifest": "https://www.roostr.run/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 514,
+        "urls": {
+            "app": "https://fandwagon.com",
+            "manifest": "https://fandwagon.com/app.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 515,
+        "urls": {
+            "app": "https://www.workgambit.com",
+            "manifest": "https://www.workgambit.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 516,
+        "urls": {
+            "app": "https://trakly.pro",
+            "manifest": "https://trakly.pro/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 517,
+        "urls": {
+            "app": "https://vancode.ai",
+            "manifest": "https://vancode.ai/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 518,
+        "urls": {
+            "app": "https://wallet.atto.cash",
+            "manifest": "https://wallet.atto.cash/manifest.webmanifest"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 519,
+        "urls": {
+            "app": "https://reflecthub.github.io",
+            "manifest": "https://reflecthub.github.io/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 520,
+        "urls": {
+            "app": "https://geyser.fund",
+            "manifest": "https://geyser.fund/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    }
 ]
