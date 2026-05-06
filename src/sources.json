@@ -2496,18 +2496,12 @@
     },
     {
         "id": 210,
-        name: "BLOCK MATCH",
-        description: "",
         "urls": {
             "app": "https://block-match-game.vercel.app",
-            "manifest": ""
-        }
-        icon: {
-            url: "https://block-match-game.vercel.app/favicon.png",
-            maskable: false,
+            "manifest": "https://block-match-game.vercel.app/manifest.json"
         },
-        categories: [],
-        disabled: false,
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
     },
     {
         "id": 211,
@@ -3569,21 +3563,12 @@
     },
     {
         "id": 279,
-        name: "Playra",
-        description: "The next generation video platform. Watch, share, and subscribe to your favorite creators.",
-        icon: {
-            url: "https://playra-app.vercel.app/icon-maskable-512x512.png",
-            maskable: true,
-        },
         "urls": {
             "app": "https://playra-app.vercel.app",
-            "manifest": ""
-        }
-        categories: [
-            "entertainment",
-            "social"
-        ],
-        disabled: false,
+            "manifest": "https://playra-app.vercel.app/manifest.json"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
     },
     {
         "id": 280,
@@ -4311,18 +4296,12 @@
     },
     {
         "id": 328,
-        name: "THORDEX",
-        description: "Decentralized THORChain Trading Terminal",
-        icon: {
-            url: "https://thordex.eth.limo/icon-maskable-192.png",
-            maskable: true,
-        },
         "urls": {
             "app": "https://thordex.eth.limo",
-            "manifest": ""
-        }
-        categories: [],
-        disabled: false,
+            "manifest": "https://thordex.eth.limo/manifest.json"
+        },
+        "disabled": true,
+        "reason": "Forbidden response during logo display."
     },
     {
         "id": 329,
@@ -5539,8 +5518,8 @@
             "app": "https://quickshopper.vercel.app",
             "manifest": "https://quickshopper.vercel.app/manifest.json"
         },
-        "disabled": false,
-        "comment": ""
+        "disabled": true,
+        "reason": "Forbidden response during logo display."
     },
     {
         "id": 409,
@@ -5557,8 +5536,8 @@
             "app": "https://ballast-sigma.vercel.app",
             "manifest": "https://ballast-sigma.vercel.app/manifest.webmanifest"
         },
-        "disabled": false,
-        "comment": ""
+        "disabled": true,
+        "reason": "Forbidden response during logo display."
     },
     {
         "id": 411,
@@ -5710,8 +5689,8 @@
             "app": "https://vortex-chaser.vercel.app",
             "manifest": "https://vortex-chaser.vercel.app/manifest.json"
         },
-        "disabled": false,
-        "comment": ""
+        "disabled": true,
+        "reason": "Forbidden response during logo display."
     },
     {
         "id": 428,

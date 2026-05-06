@@ -2613,7 +2613,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true, // Blocked response (not same origin) during logo display.
         featuredOnHomePage: false,
     },
     {
@@ -3544,7 +3544,7 @@ const apps: Array<App> = [
         },
         url: "https://playra-app.vercel.app",
         categories: ["entertainment", "social"],
-        disabled: false,
+        disabled: true, // Blocked response (not same origin) during logo display.
         featuredOnHomePage: false,
     },
     {
@@ -4168,7 +4168,7 @@ const apps: Array<App> = [
         },
         url: "https://thordex.eth.limo",
         categories: [],
-        disabled: false,
+        disabled: true, // Forbidden response during logo display.
         featuredOnHomePage: false,
     },
     {
@@ -5227,7 +5227,7 @@ const apps: Array<App> = [
             "business",
             "productivity",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5253,7 +5253,7 @@ const apps: Array<App> = [
         },
         url: "https://ballast-sigma.vercel.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5494,7 +5494,7 @@ const apps: Array<App> = [
         },
         url: "https://vortex-chaser.vercel.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
