@@ -79,6 +79,8 @@ const AppIcon: Component<AppIconProperties> = (props) => {
                 "transition-transform": true,
                 "hover:scale-105": true,
                 "select-none": true,
+                "min-w-16": true,
+                "min-h-16": true,
             }}
         >
             <img
