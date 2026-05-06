@@ -6528,5 +6528,226 @@
         },
         "disabled": false,
         "reason": ""
-    }
+    },
+    {
+        "id": 521,
+        "urls": {
+            "app": "https://vizz.fm/",
+            "manifest": "https://vizz.fm/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 522,
+        "urls": {
+            "app": "https://www.shadowbrokers.app/start",
+            "manifest": "https://www.shadowbrokers.app/manifest.json"
+        }
+    },
+    {
+        "id": 523,
+        "urls": {
+            "app": "https://www.regularmonk.com/hello",
+            "manifest": "https://www.regularmonk.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 524,
+        "urls": {
+            "app": "https://toposonico.com/",
+            "manifest": "https://toposonico.com/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 525,
+        "urls": {
+            "app": "https://hncast.com/",
+            "manifest": "https://hncast.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 526,
+        "urls": {
+            "app": "https://gridfinitylayouttool.com/",
+            "manifest": "https://gridfinitylayouttool.com/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 527,
+        "urls": {
+            "app": "https://projecthq.pro",
+            "manifest": "https://projecthq.pro/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 528,
+        "urls": {
+            "app": "https://btcwid.com",
+            "manifest": "https://btcwid.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 529,
+        "urls": {
+            "app": "https://keewebx.app/app?demo=1",
+            "manifest": "https://keewebx.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 530,
+        "urls": {
+            "app": "https://onerequest.app/",
+            "manifest": "https://onerequest.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 531,
+        "urls": {
+            "app": "https://explodinghamsters.com",
+            "manifest": "https://explodinghamsters.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 532,
+        "urls": {
+            "app": "https://ppantry.app/",
+            "manifest": "https://ppantry.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 533,
+        "urls": {
+            "app": "https://toqui.app/?ref=betalist",
+            "manifest": "https://toqui.app/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 534,
+        "urls": {
+            "app": "https://stilldeck.com/?ref=betalist",
+            "manifest": "https://stilldeck.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 535,
+        "urls": {
+            "app": "https://www.pantr.co/?ref=betalist",
+            "manifest": "https://www.pantr.co/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 536,
+        "urls": {
+            "app": "https://emailho.me/?ref=betalist",
+            "manifest": "https://emailho.me/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 537,
+        "urls": {
+            "app": "https://photopoodle.com/?ref=betalist",
+            "manifest": "https://photopoodle.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 538,
+        "urls": {
+            "app": "https://thesitebook.co.uk/?ref=betalist",
+            "manifest": "https://thesitebook.co.uk/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 539,
+        "urls": {
+            "app": "https://payanchor.app/?ref=betalist",
+            "manifest": "https://payanchor.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 540,
+        "urls": {
+            "app": "https://www.getclera.com/?ref=betalist",
+            "manifest": "https://www.getclera.com/manifest.json"
+        },
+        "disabled": true,
+        "reason": "Blocked response (not same origin) during logo display."
+    },
+    {
+        "id": 541,
+        "urls": {
+            "app": "https://koru.now/login?ref=betalist",
+            "manifest": "https://koru.now/manifest.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 542,
+        "urls": {
+            "app": "https://www.winkscope.com/?ref=betalist",
+            "manifest": "https://www.winkscope.com/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 543,
+        "urls": {
+            "app": "https://convertful.app/?ref=betalist",
+            "manifest": "https://convertful.app/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 544,
+        "urls": {
+            "app": "https://penvox.ai/?ref=betalist",
+            "manifest": "https://penvox.ai/manifest.json?v=3"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 545,
+        "urls": {
+            "app": "https://onlinenotepad.net/?ref=betalist",
+            "manifest": "https://onlinenotepad.net/site.webmanifest"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]
