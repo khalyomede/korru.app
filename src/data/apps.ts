@@ -1287,7 +1287,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1300,7 +1300,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1313,8 +1313,8 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
-        featuredOnHomePage: true,
+        disabled: true,
+        featuredOnHomePage: false,
     },
     {
         id: 105,
@@ -1326,7 +1326,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1339,7 +1339,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1352,7 +1352,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1365,7 +1365,7 @@ const apps: Array<App> = [
         },
         url: "https://calendar.google.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1391,7 +1391,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1404,7 +1404,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1443,7 +1443,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1456,7 +1456,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1508,7 +1508,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1521,7 +1521,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1616,7 +1616,7 @@ const apps: Array<App> = [
         },
         description: "",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -2934,7 +2934,7 @@ const apps: Array<App> = [
             maskable: true
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -2960,7 +2960,7 @@ const apps: Array<App> = [
             maskable: true
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3016,7 +3016,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3042,7 +3042,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3071,7 +3071,7 @@ const apps: Array<App> = [
             "utilities",
             "photo"
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3084,7 +3084,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: ["entertainment", "video"],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3097,7 +3097,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3123,7 +3123,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3229,7 +3229,7 @@ const apps: Array<App> = [
         categories: [
             "developer tools",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3244,7 +3244,7 @@ const apps: Array<App> = [
         categories: [
             "social",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3349,7 +3349,7 @@ const apps: Array<App> = [
             maskable: true
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3518,7 +3518,7 @@ const apps: Array<App> = [
         },
         url: "https://play.mangowave.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3557,7 +3557,7 @@ const apps: Array<App> = [
         },
         url: "https://keydar.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3570,7 +3570,7 @@ const apps: Array<App> = [
         },
         url: "https://www.mediafa.st",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3583,7 +3583,7 @@ const apps: Array<App> = [
         },
         url: "https://viztools.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3609,7 +3609,7 @@ const apps: Array<App> = [
         },
         url: "https://www.openhour.ai",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3661,7 +3661,7 @@ const apps: Array<App> = [
         },
         url: "https://www.moatradar.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3778,7 +3778,7 @@ const apps: Array<App> = [
         },
         url: "https://app.maginary.ai",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3791,7 +3791,7 @@ const apps: Array<App> = [
         },
         url: "https://atypica.ai",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3882,7 +3882,7 @@ const apps: Array<App> = [
         },
         url: "https://www.flightradar24.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3908,7 +3908,7 @@ const apps: Array<App> = [
         },
         url: "https://sundial.page",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3921,7 +3921,7 @@ const apps: Array<App> = [
         },
         url: "https://just-call.app",
         categories: ["social"],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3934,7 +3934,7 @@ const apps: Array<App> = [
         },
         url: "https://astroseek.org",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3973,7 +3973,7 @@ const apps: Array<App> = [
         },
         url: "https://thecardshop.store",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4012,7 +4012,7 @@ const apps: Array<App> = [
         },
         url: "https://nanomaker.im",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4038,7 +4038,7 @@ const apps: Array<App> = [
         },
         url: "https://app.writemail.ai",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4233,7 +4233,7 @@ const apps: Array<App> = [
         },
         url: "https://getsleek.io",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4350,7 +4350,7 @@ const apps: Array<App> = [
         },
         url: "https://www.trackyourstreak.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4402,7 +4402,7 @@ const apps: Array<App> = [
         },
         url: "https://nihongo-dojo.fr",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4415,7 +4415,7 @@ const apps: Array<App> = [
         },
         url: "https://roamble.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4756,7 +4756,7 @@ const apps: Array<App> = [
         },
         url: "https://www.qwant.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -6778,7 +6778,7 @@ const apps: Array<App> = [
             "news",
             "entertainment",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {

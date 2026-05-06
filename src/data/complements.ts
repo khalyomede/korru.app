@@ -74,6 +74,48 @@ const complements: Array<Partial<App>> = [
         },
     },
     {
+        id: 180,
+        name: "Othello",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 184,
+        name: "PWA NES",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 189,
+        url: "https://soodoku.com",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 195,
+        name: "Tower Game",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 196,
+        name: "Hextris",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 197,
+        name: "Alchemy 2",
+        categories: [
+            "games",
+        ],
+    },
+    {
         id: 198,
         name: "The Cube",
         icon: {
@@ -82,6 +124,27 @@ const complements: Array<Partial<App>> = [
         },
         categories: [
             "games",
+        ],
+    },
+    {
+        id: 199,
+        name: "Bubble Pairs",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 200,
+        name: "SNAKISMS",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 201,
+        name: "Code Insiders",
+        categories: [
+            "developer tools",
         ],
     },
     {
@@ -104,6 +167,63 @@ const complements: Array<Partial<App>> = [
         "categories": [
             "news",
             "entertainment",
+            "social",
+        ],
+    },
+    {
+        id: 207,
+        name: "PWA Inbox",
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
+        id: 208,
+        name: "Lichess",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 218,
+        name: "AP News",
+        categories: [
+            "news",
+        ],
+    },
+    {
+        id: 222,
+        name: "Tailwatch",
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
+        id: 223,
+        url: "https://thelittlegamefactory.com",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 254,
+        name: "Padel Tactics",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 272,
+        name: "AttaQuiz",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 275,
+        name: "neobotnet",
+        categories: [
+            "developer tools",
         ],
     },
     {
@@ -119,12 +239,49 @@ const complements: Array<Partial<App>> = [
         }
     },
     {
+        id: 296,
+        name: "IndexerHub",
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
         id: 305,
         name: "FlightRadar24",
     },
     {
+        id: 311,
+        name: "WordBattle",
+        categories: [
+            "games",
+        ],
+    },
+    {
         id: 312,
         name: "VALYRIS"
+    },
+    {
+        id: 313,
+        name: "Collectibles X",
+        categories: [
+            "shopping",
+        ],
+    },
+    {
+        id: 314,
+        name: "AnveVoice",
+        categories: [
+            "business",
+            "productivity",
+            "developer tools",
+        ],
+    },
+    {
+        id: 317,
+        name: "Sing2me",
+        categories: [
+            "music",
+        ],
     },
     {
         id: 329,
@@ -134,8 +291,25 @@ const complements: Array<Partial<App>> = [
         ],
     },
     {
+        id: 332,
+        name: "OpenRouter",
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
+        id: 340,
+        name: "Finance",
+        categories: [
+            "finance",
+        ],
+    },
+    {
         id: 343,
         name: "StackBlock",
+        categories: [
+            "games",
+        ],
     },
     {
         id: 345,
@@ -143,6 +317,62 @@ const complements: Array<Partial<App>> = [
             url: "https://easyfollowup.pro/favicon.ico?favicon.4962300e.ico",
             maskable: false,
         }
+    },
+    {
+        id: 352,
+        name: "CheekyCycle",
+        categories: [
+            "shopping",
+        ],
+    },
+    {
+        id: 354,
+        name: "Yesterday's Bread",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 357,
+        name: "Sudoku",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 369,
+        name: "DOTA",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 364,
+        name: "Banxaas",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 365,
+        name: "Tidal",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 366,
+        name: "WheelHouse",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 367,
+        name: "BMI記録",
+        categories: [
+            "health",
+        ],
     },
     {
         id: 369,
@@ -290,7 +520,7 @@ const complements: Array<Partial<App>> = [
         id: 395,
         name: "HN",
         categories: [
-            "utilities",
+            "news",
         ],
     },
     {
@@ -304,7 +534,7 @@ const complements: Array<Partial<App>> = [
         id: 397,
         name: "fastsleep.app",
         categories: [
-            "utilities",
+            "health",
         ],
     },
     {
