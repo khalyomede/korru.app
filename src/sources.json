@@ -2899,7 +2899,7 @@
         "id": 382,
         "urls": {
             "app": "https://sunpath.franciscocucullu.com",
-            "manifest": ""
+            "manifest": "https://sunpath.franciscocucullu.com/manifest.webmanifest"
         },
         "disabled": false
     },
