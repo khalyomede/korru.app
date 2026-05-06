@@ -7062,6 +7062,32 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 546,
+        name: "UNIQLO",
+        description: "",
+        icon: {
+            url: "https://www.uniqlo.com/us/en/navigation/static/icon-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.uniqlo.com/us/en",
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 547,
+        name: "UNIQLO",
+        description: "",
+        icon: {
+            url: "https://www.uniqlo.com/fr/fr/navigation/static/icon-192x192.png",
+            maskable: false,
+        },
+        url: "https://www.uniqlo.com/fr/fr",
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

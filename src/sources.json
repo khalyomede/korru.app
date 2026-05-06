@@ -6750,4 +6750,22 @@
         "disabled": false,
         "reason": ""
     },
+    {
+        "id": 546,
+        "urls": {
+            "app": "https://www.uniqlo.com/us/en",
+            "manifest": "https://www.uniqlo.com/us/en/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
+    {
+        "id": 547,
+        "urls": {
+            "app": "https://www.uniqlo.com/fr/fr",
+            "manifest": "https://www.uniqlo.com/fr/fr/manifest.json"
+        },
+        "disabled": false,
+        "reason": ""
+    },
 ]

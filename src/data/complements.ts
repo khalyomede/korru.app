@@ -45,6 +45,13 @@ const complements: Array<Partial<App>> = [
         ],
     },
     {
+        id: 151,
+        name: "SHEIN",
+        categories: [
+            "shopping",
+        ],
+    },
+    {
         id: 165,
         name: "Microsoft Bing Webmaster Tools",
         icon: {
@@ -361,6 +368,20 @@ const complements: Array<Partial<App>> = [
         categories: [
             "utilities",
             "productivity",
+        ],
+    },
+    {
+        id: 546,
+        name: "UNIQLO USA",
+        categories: [
+            "shopping",
+        ],
+    },
+    {
+        id: 547,
+        name: "UNIQLO France",
+        categories: [
+            "shopping",
         ],
     },
 ];
