@@ -91,6 +91,17 @@ const defaultFilters: Array<Filter> = [
         ],
         default: false,
     },
+    {
+        id: 9,
+        name: "developer",
+        selected: false,
+        categories: [
+            "developer",
+            "developer tools",
+            "development",
+        ],
+        default: false,
+    },
 ];
 
 const filters: Array<Filter> = defaultFilters
