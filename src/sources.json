@@ -4302,5 +4302,165 @@
             "manifest": "https://tripboard.life/manifest.json?v=1.15.0"
         },
         "disabled": false
+    },
+    {
+        "id": 558,
+        "urls": {
+            "app": "https://app.chimerawallet.com",
+            "manifest": "https://app.chimerawallet.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 559,
+        "urls": {
+            "app": "https://terminal.algola.ai",
+            "manifest": "https://terminal.algola.ai/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 560,
+        "urls": {
+            "app": "https://arena.social",
+            "manifest": "https://arena.social/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 561,
+        "urls": {
+            "app": "https://mykanji.app",
+            "manifest": "https://mykanji.app/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 562,
+        "urls": {
+            "app": "https://serial.tube",
+            "manifest": "https://serial.tube/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 563,
+        "urls": {
+            "app": "https://timer.bryanhogan.com",
+            "manifest": "https://timer.bryanhogan.com/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 564,
+        "urls": {
+            "app": "https://autosmoke.dev",
+            "manifest": "https://autosmoke.dev/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 565,
+        "urls": {
+            "app": "https://neet2seat.com",
+            "manifest": "https://neet2seat.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 566,
+        "urls": {
+            "app": "https://calckit.yaro-labs.com",
+            "manifest": "https://calckit.yaro-labs.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 567,
+        "urls": {
+            "app": "https://panelq.com",
+            "manifest": "https://panelq.com/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 568,
+        "urls": {
+            "app": "https://theplace.inc",
+            "manifest": "https://theplace.inc/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 569,
+        "urls": {
+            "app": "https://waiverkit.io",
+            "manifest": "https://waiverkit.io/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 570,
+        "urls": {
+            "app": "https://globalreachhub.com",
+            "manifest": "https://globalreachhub.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 571,
+        "urls": {
+            "app": "https://kit.club",
+            "manifest": "https://kit.club/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 572,
+        "urls": {
+            "app": "https://cuukbuuk.com",
+            "manifest": "https://cuukbuuk.com/en/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 573,
+        "urls": {
+            "app": "https://karaads.com",
+            "manifest": "https://karaads.com/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 574,
+        "urls": {
+            "app": "https://birthdayinvitation.ai",
+            "manifest": "https://birthdayinvitation.ai/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 575,
+        "urls": {
+            "app": "https://uplume.app",
+            "manifest": "https://uplume.app/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 576,
+        "urls": {
+            "app": "https://www.musicwave.ai",
+            "manifest": "https://www.musicwave.ai/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 577,
+        "urls": {
+            "app": "https://zerentry.com",
+            "manifest": "https://zerentry.com/site.webmanifest"
+        },
+        "disabled": false
     }
 ]

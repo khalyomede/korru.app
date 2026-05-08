@@ -45,6 +45,13 @@ const complements: Array<Partial<App>> = [
         ],
     },
     {
+        id: 78,
+        name: "regex101",
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
         id: 151,
         name: "SHEIN",
         categories: [
@@ -628,6 +635,36 @@ const complements: Array<Partial<App>> = [
         name: "Slider",
         categories: [
             "games",
+        ],
+    },
+    {
+        id: 558,
+        name: "Chimera Wallet",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 559,
+        name: "Algola",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 560,
+        name: "The Arena",
+        categories: [
+            "social",
+            "news",
+            "finance",
+        ],
+    },
+    {
+        id: 566,
+        name: "calckit",
+        categories: [
+            "utilities",
         ],
     },
 ];
