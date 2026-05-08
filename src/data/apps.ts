@@ -7205,6 +7205,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 557,
+        name: "TripBoard",
+        description: "Privacy-first travel planner. Local-only data storage, LINE sharing, expense tracking.",
+        icon: {
+            url: "https://tripboard.life/favicon/web-app-manifest-192x192.png",
+            maskable: true,
+        },
+        url: "https://tripboard.life",
+        categories: ["travel", "lifestyle", "utilities"],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
