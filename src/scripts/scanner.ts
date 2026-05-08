@@ -27,9 +27,11 @@ const blackListedDomains = [
     "gist.github.com",
     "www.npmjs.com",
     "chromewebstore.google.com",
+    "twitter.com",
+    "x.com",
 ];
 
-const MAX_LAST_PAGE = 10;
+const MAX_LAST_PAGE = 3;
 
 const log = (message: string): void => {
     const date = format(new Date(), "yyyy-MM-dd HH:mm:ss.SSS");
