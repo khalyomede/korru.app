@@ -4462,5 +4462,13 @@
             "manifest": "https://zerentry.com/site.webmanifest"
         },
         "disabled": false
+    },
+    {
+        "id": 578,
+        "urls": {
+            "app": "https://ses-quick.vercel.app/",
+            "manifest": "https://ses-quick.vercel.app/manifest.json"
+        },
+        "disabled": false
     }
 ]

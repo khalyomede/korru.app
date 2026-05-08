@@ -7478,6 +7478,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 578,
+        name: "SES-Quick",
+        description: "SESエンジニア向け勤怠管理アプリ",
+        icon: {
+            url: "https://ses-quick.vercel.app/icons/icon-192.png",
+            maskable: true,
+        },
+        url: "https://ses-quick.vercel.app",
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
