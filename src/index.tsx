@@ -8,6 +8,7 @@ import Search from './pages/Search';
 import { init as initSentry, withSentryErrorBoundary } from "@sentry/solid";
 import { ErrorBoundary } from 'solid-js';
 import { solidRouterBrowserTracingIntegration, withSentryRouterRouting } from "@sentry/solid/solidrouter";
+import Detail from './pages/App/Detail';
 
 const SentryErrorBoundary = withSentryErrorBoundary(ErrorBoundary);
 const SentryRouter = withSentryRouterRouting(Router);
@@ -38,6 +39,7 @@ render(
         <SentryErrorBoundary fallback={error => ""}>
             <SentryRouter>
                 <Route path="/search" component={Search} />
+                <Route path="/app/:app" component={Detail} />
                 <Route path="*" component={Home} />
             </SentryRouter>
         </SentryErrorBoundary>

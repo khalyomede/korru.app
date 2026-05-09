@@ -65,6 +65,8 @@ const AppIcon: Component<AppIconProperties> = (props) => {
         );
     };
 
+    const id = props.alt === "Spotify" ? "application-icon" : "";
+
     return (
         <div
             classList={{
@@ -74,13 +76,14 @@ const AppIcon: Component<AppIconProperties> = (props) => {
                 "flex-shrink-0": true,
                 "mx-1": true,
                 "my-1": true,
-                "rounded-3xl": true,
+                "rounded-2xl": true,
                 "overflow-hidden": true,
                 "transition-transform": true,
                 "hover:scale-105": true,
                 "select-none": true,
                 "min-w-16": true,
                 "min-h-16": true,
+                "inline-block": true,
             }}
         >
             <img

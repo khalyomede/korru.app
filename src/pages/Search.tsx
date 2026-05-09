@@ -8,6 +8,7 @@ import { useSearchParams } from '@solidjs/router';
 import Filter from '../interfaces/Filter';
 import { vibrate } from "../utilities";
 import FilterButton from '../components/FilterButton';
+import Layout from '../layouts/Layout';
 
 // Main component
 const Search: Component = () => {
@@ -198,37 +199,35 @@ const Search: Component = () => {
         });
     };
 
-    return (
-        <div class="flex flex-col h-dvh bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 max-w-2xl mx-auto">
-            <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto">
-                <SearchBar
-                    id="search"
-                    placeholder="Search anything..."
-                    value={store.search}
-                    onInput={event => onSearchBarInput(event)}
-                    focusOnMount={true}
-                />
-                <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]" ref={filtersContainer}>
-                    <For each={store.filters}>
-                        {filter => <FilterButton name={filter.name} selected={filter.selected} onClick={() => onFilterClick(filter)} />}
-                    </For>
-                </div>
-            </header>
-            <main classList={{
-                "grow": true,
-                "p-4": filteredApps().length > 0,
-                "mt-14": filteredApps().length > 0,
-                "md:mt-22": filteredApps().length > 0,
-                "pt-20": filteredApps().length > 0,
-                "overflow-y-auto": true,
-                "[&::-webkit-scrollbar]:hidden": true,
-                "[-ms-overflow-style:none]": true,
-                "[scrollbar-width:none]": true,
-            }}>
-                <AppResultList apps={filteredApps()} />
-            </main>
-        </div>
-    );
+    return <Layout>
+        <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto">
+            <SearchBar
+                id="search"
+                placeholder="Search anything..."
+                value={store.search}
+                onInput={event => onSearchBarInput(event)}
+                focusOnMount={true}
+            />
+            <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]" ref={filtersContainer}>
+                <For each={store.filters}>
+                    {filter => <FilterButton name={filter.name} selected={filter.selected} onClick={() => onFilterClick(filter)} />}
+                </For>
+            </div>
+        </header>
+        <main classList={{
+            "grow": true,
+            "p-4": filteredApps().length > 0,
+            "mt-14": filteredApps().length > 0,
+            "md:mt-22": filteredApps().length > 0,
+            "pt-20": filteredApps().length > 0,
+            "overflow-y-auto": true,
+            "[&::-webkit-scrollbar]:hidden": true,
+            "[-ms-overflow-style:none]": true,
+            "[scrollbar-width:none]": true,
+        }}>
+            <AppResultList apps={filteredApps()} />
+        </main>
+    </Layout>;
 };
 
 export default Search;

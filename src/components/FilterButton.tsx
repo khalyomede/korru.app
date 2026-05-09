@@ -13,7 +13,7 @@ const FilterButton: Component<FilterButtonProperties> = (properties) => {
         "bg-stone-600": properties.selected,
         "border": true,
         "border-stone-500": !properties.selected,
-        "rounded-3xl": true,
+        "rounded-xl": true,
         "px-4": true,
         "py-1": true,
         "tracking-wider": true,
@@ -27,6 +27,8 @@ const FilterButton: Component<FilterButtonProperties> = (properties) => {
         "focus:dark:border-stone-100": true,
         "select-none": true,
         "hover:cursor-pointer": true,
+        "hover:bg-stone-200": true,
+        "dark:hover:bg-stone-700": true,
     }} onClick={properties.onClick}>
         {properties.name}
     </button>;

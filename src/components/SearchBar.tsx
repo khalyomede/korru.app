@@ -23,7 +23,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
                 autocomplete="off"
                 value={properties.value}
                 placeholder={properties.placeholder}
-                class="w-full px-6 py-3 rounded-3xl border border-stone-300 tracking-wider
+                class="w-full px-6 py-3 rounded-2xl border border-stone-300 tracking-wider
                     focus:outline-none focus:dark:border-stone-300
                     focus:border-stone-700
                     text-stone-900 placeholder-stone-400 place

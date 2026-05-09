@@ -2,11 +2,16 @@ import { Component, Show } from "solid-js";
 import AppResultProperties from "./properties/AppResultProperties";
 import AppResultOpenButton from "./AppResultOpenButton";
 import AppIcon from "./AppIcon";
+import { A } from "@solidjs/router";
+import slug from "slug";
 
 const AppResult: Component<AppResultProperties> = (properties) => {
+    const slugifiedAppName = slug(properties.app.name);
+    const appUrl = `/app/${slugifiedAppName}-${properties.app.id}`;
+
     return (
         <div class="mb-6 md:mb-12">
-            <div class="flex gap-4 md:gap-6 my-2 items-center">
+            <A href={appUrl} class="flex gap-4 md:gap-6 my-2 items-center">
                 <AppIcon src={properties.app.icon.url} alt={properties.app.name} maskable={properties.app.icon.maskable} />
                 <span class="grow text-xl tracking-wider min-w-0 text-stone-600 dark:text-stone-300 font-bold">
                     <div class="flex items-center gap-2">
@@ -21,7 +26,7 @@ const AppResult: Component<AppResultProperties> = (properties) => {
                 <span class="shrink">
                     <AppResultOpenButton text="Open" url={properties.app.url} />
                 </span>
-            </div>
+            </A>
         </div>
     );
 };
