@@ -26,6 +26,7 @@ const FilterButton: Component<FilterButtonProperties> = (properties) => {
         "focus:dark:text-stone-300": !properties.selected,
         "focus:dark:border-stone-100": true,
         "select-none": true,
+        "hover:cursor-pointer": true,
     }} onClick={properties.onClick}>
         {properties.name}
     </button>;
