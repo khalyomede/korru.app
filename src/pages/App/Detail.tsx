@@ -1,5 +1,5 @@
 import { Component, For, Index, onMount, Show } from "solid-js";
-import { A, useNavigate, useParams } from "@solidjs/router";
+import { A, useLocation, useNavigate, useParams } from "@solidjs/router";
 import useStore from "../../hooks/useStore";
 import App from "../../interfaces/App";
 import Layout from "../../layouts/Layout";
@@ -8,6 +8,7 @@ import FilterButton from "../../components/FilterButton";
 import FilterLink from "../../interfaces/FilterLink";
 import SectionTitle from "../../components/SectionTitle";
 import { vibrate } from "../../utilities";
+import BackButton from "../../components/BackButton";
 
 const Detail: Component = () => {
     const { app } = useParams();
@@ -15,9 +16,6 @@ const Detail: Component = () => {
     const { apps } = store;
     const navigate = useNavigate();
     const { filters } = store;
-    // 1 for the base browser navigation
-    // +1 for the SolidJS router navigation (on first page browsed)
-    const hasNavigatedBefore = window.history.length > 2;
 
     const getAppFromRouteParameter = (parameter: string | undefined): App | null => {
         if (parameter === undefined) {
@@ -45,6 +43,10 @@ const Detail: Component = () => {
 
     onMount(() => {
         if (foundApp === null) {
+            const { pathname } = useLocation();
+
+            window.sessionStorage.setItem("previousPage", pathname);
+
             navigate("/app/not-found", {
                 replace: true,
             });
@@ -53,6 +55,8 @@ const Detail: Component = () => {
         }
 
         if (foundApp.disabled) {
+            window.sessionStorage.setItem("previousAppName", foundApp.name);
+
             navigate("/app/removed", {
                 replace: true,
             });
@@ -113,17 +117,7 @@ const Detail: Component = () => {
 
     return <Layout>
         <div class="p-4 md:py-8">
-            <button onClick={() => hasNavigatedBefore ? navigate(-1) : navigate("/search")} class="border border-stone-500 rounded-xl px-4 py-1 inline-block text-stone-600 dark:text-stone-200 font-bold flex items-center hover:cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-stone-800 focus:bg-stone-300 dark:focus:border-stone-300 dark:focus:bg-stone-900 outline-none">
-                <span class="mr-2">←</span>
-                <span>
-                    <Show when={hasNavigatedBefore}>
-                        back
-                    </Show>
-                    <Show when={!hasNavigatedBefore}>
-                        browse
-                    </Show>
-                </span>
-            </button>
+            <BackButton />
             <div class="mt-10 flex items-top gap-4">
                 <div>
                     <AppIcon src={foundApp.icon.url ?? ""} alt={foundApp.name ?? ""} maskable={foundApp.icon.maskable ?? false} />
