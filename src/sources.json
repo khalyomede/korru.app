@@ -4470,5 +4470,61 @@
             "manifest": "https://ses-quick.vercel.app/manifest.json"
         },
         "disabled": false
+    },
+    {
+        "id": 579,
+        "urls": {
+            "app": "https://wallet.zeralabs.org",
+            "manifest": "https://wallet.zeralabs.org/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 580,
+        "urls": {
+            "app": "https://voxpery.com",
+            "manifest": "https://voxpery.com/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 581,
+        "urls": {
+            "app": "https://docs.fileverse.io",
+            "manifest": "https://docs.fileverse.io/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 582,
+        "urls": {
+            "app": "https://app.organizeveiculos.com.br",
+            "manifest": "https://app.organizeveiculos.com.br/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 583,
+        "urls": {
+            "app": "https://app.grey.co",
+            "manifest": "https://app.grey.co/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 584,
+        "urls": {
+            "app": "https://simplemarket.app",
+            "manifest": "https://simplemarket.app/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 585,
+        "urls": {
+            "app": "https://venice.ai",
+            "manifest": "https://venice.ai/manifest.json"
+        },
+        "disabled": false
     }
 ]
