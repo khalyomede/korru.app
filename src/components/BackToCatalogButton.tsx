@@ -1,8 +1,9 @@
 import { A } from "@solidjs/router";
 import { Component } from "solid-js";
+import { vibrate } from "../utilities";
 
 const BackToCatalogButton: Component = () => {
-    return <A href="/search" class="
+    return <A href="/search" onClick={() => vibrate(36)} class="
         select-none tracking-wide rounded-xl px-5 py-2 font-bold outline-none
         text-stone-600 dark:text-stone-200
         border border-stone-500
