@@ -9,6 +9,7 @@ import Filter from '../interfaces/Filter';
 import { vibrate } from "../utilities";
 import FilterButton from '../components/FilterButton';
 import Layout from '../layouts/Layout';
+import useScrollRestoration from '../hooks/useScrollRestoration';
 
 // Main component
 const Search: Component = () => {
@@ -144,6 +145,7 @@ const Search: Component = () => {
         });
 
         setStore("search", term);
+        resetScrollReference();
     };
 
     const sortFilters = (filters: Array<Filter>): Array<Filter> => filters.sort((firstFilter, secondFilter) => {
@@ -197,7 +199,11 @@ const Search: Component = () => {
         setSearchQueries({
             filter: !currentFilter.default ? currentFilter.name : null,
         });
+
+        resetScrollReference();
     };
+
+    const [scrollReference, resetScrollReference] = useScrollRestoration();
 
     return <Layout>
         <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto">
@@ -214,17 +220,20 @@ const Search: Component = () => {
                 </For>
             </div>
         </header>
-        <main classList={{
-            "grow": true,
-            "p-4": filteredApps().length > 0,
-            "mt-14": filteredApps().length > 0,
-            "md:mt-22": filteredApps().length > 0,
-            "pt-20": filteredApps().length > 0,
-            "overflow-y-auto": true,
-            "[&::-webkit-scrollbar]:hidden": true,
-            "[-ms-overflow-style:none]": true,
-            "[scrollbar-width:none]": true,
-        }}>
+        <main
+            ref={scrollReference}
+            classList={{
+                "grow": true,
+                "p-4": filteredApps().length > 0,
+                "mt-14": filteredApps().length > 0,
+                "md:mt-22": filteredApps().length > 0,
+                "pt-20": filteredApps().length > 0,
+                "overflow-y-auto": true,
+                "[&::-webkit-scrollbar]:hidden": true,
+                "[-ms-overflow-style:none]": true,
+                "[scrollbar-width:none]": true,
+            }}
+        >
             <AppResultList apps={filteredApps()} />
         </main>
     </Layout>;
