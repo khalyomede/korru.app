@@ -4526,5 +4526,75 @@
             "manifest": "https://venice.ai/manifest.json"
         },
         "disabled": false
+    },
+    {
+        "id": 586,
+        "urls": {
+            "app": "https://jetmeaway.co.uk",
+            "manifest": "https://jetmeaway.co.uk/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 587,
+        "urls": {
+            "app": "https://vizz.fm",
+            "manifest": "https://vizz.fm/manifest.json"
+        }
+    },
+    {
+        "id": 588,
+        "urls": {
+            "app": "https://openpostern.com",
+            "manifest": "https://openpostern.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 589,
+        "urls": {
+            "app": "https://www.writehybrid.com",
+            "manifest": "https://www.writehybrid.com/manifest.json"
+        }
+    },
+    {
+        "id": 590,
+        "urls": {
+            "app": "https://www.movaguide.com",
+            "manifest": "https://www.movaguide.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 591,
+        "urls": {
+            "app": "https://www.famfeel.com",
+            "manifest": "https://www.famfeel.com/manifest.json"
+        }
+    },
+    {
+        "id": 592,
+        "urls": {
+            "app": "https://crimebrasil.com.br",
+            "manifest": "https://crimebrasil.com.br/site.webmanifest"
+        }
+    },
+    {
+        "id": 593,
+        "urls": {
+            "app": "https://www.augurine.com",
+            "manifest": "https://www.augurine.com/manifest.json"
+        }
+    },
+    {
+        "id": 594,
+        "urls": {
+            "app": "https://echon-voice.com",
+            "manifest": "https://echon-voice.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 595,
+        "urls": {
+            "app": "https://runmae.ai/",
+            "manifest": "https://runmae.ai/manifest.json"
+        }
     }
 ]
