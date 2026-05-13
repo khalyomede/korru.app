@@ -7725,6 +7725,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 596,
+        name: "Fureezu",
+        description: "Learn Japanese phrases with spaced repetition. Master everyday expressions, travel phrases, and more.",
+        icon: {
+            url: "https://fureezu.com/android-chrome-192x192.png",
+            maskable: true,
+        },
+        url: "https://fureezu.com",
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

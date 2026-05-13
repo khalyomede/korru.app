@@ -4596,5 +4596,12 @@
             "app": "https://runmae.ai/",
             "manifest": "https://runmae.ai/manifest.json"
         }
+    },
+    {
+        "id": 596,
+        "urls": {
+            "app": "https://fureezu.com",
+            "manifest": "https://fureezu.com/manifest.webmanifest"
+        }
     }
 ]
