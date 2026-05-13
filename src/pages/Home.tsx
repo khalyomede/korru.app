@@ -5,7 +5,7 @@ import Slogan from '../components/Slogan';
 import AppIconPreviewList from '../components/AppIconPreviewList';
 import SearchBar from '../components/SearchBar';
 import useStore from '../hooks/useStore';
-import { useNavigate } from '@solidjs/router';
+import { useLocation, useNavigate } from '@solidjs/router';
 
 const Home: Component = () => {
     onMount(() => {
@@ -19,14 +19,23 @@ const Home: Component = () => {
     const [store, _] = useStore();
     const navigate = useNavigate();
     const prefersReducedMotions = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const { pathname } = useLocation();
 
     const onSearchBarFocus = () => {
         if (document.startViewTransition && !prefersReducedMotions()) {
             document.startViewTransition(() => {
-                navigate("/search");
+                navigate("/search", {
+                    state: {
+                        "previousPage": pathname,
+                    },
+                });
             });
         } else {
-            navigate("/search");
+            navigate("/search", {
+                state: {
+                    "previousPage": pathname,
+                },
+            });
         }
     };
 
@@ -42,7 +51,7 @@ const Home: Component = () => {
 
                 {/* Bottom half: Search bar */}
                 <div class="flex-1 flex flex-col justify-start items-center p-4">
-                    <SearchBar id="search" placeholder="Search anything..." onFocus={onSearchBarFocus} value={store.search} focusOnMount={false} />
+                    <SearchBar id="search" placeholder="Search anything..." onFocus={onSearchBarFocus} value={store.search} />
                 </div>
             </main>
         </div>

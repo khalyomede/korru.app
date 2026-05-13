@@ -212,7 +212,6 @@ const Search: Component = () => {
                 placeholder="Search anything..."
                 value={store.search}
                 onInput={event => onSearchBarInput(event)}
-                focusOnMount={true}
             />
             <div class="mt-4 flex flex-nowrap gap-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]" ref={filtersContainer}>
                 <For each={store.filters}>

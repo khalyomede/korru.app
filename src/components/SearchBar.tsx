@@ -1,12 +1,17 @@
 // src/components/LandingSearchBar.tsx
 import { Component, onMount } from 'solid-js';
 import SearchBarProperties from './properties/SearchBarProperties';
+import { useLocation } from '@solidjs/router';
+import LocationState from '../interfaces/LocationState';
 
 const SearchBar: Component<SearchBarProperties> = (properties) => {
     let element: HTMLInputElement | undefined;
 
     onMount(() => {
-        if (properties.focusOnMount) {
+        const { state } = useLocation<LocationState>();
+        const previousPage = state?.previousPage ?? "";
+
+        if (previousPage === "/") {
             element?.focus();
         }
     });
