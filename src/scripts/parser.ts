@@ -66,7 +66,7 @@ const fetchAsChrome = (url: string | URL): Promise<Response> =>
     fetch(url, {
         headers: {
             // 1. The most important header
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'User-Agent': "KorruBot/0.1.0 (+https://korru.app)",
 
             // 2. Standard acceptance headers
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
