@@ -667,6 +667,13 @@ const complements: Array<Partial<App>> = [
             "utilities",
         ],
     },
+    {
+        id: 597,
+        name: "justETF",
+        categories: [
+            "finance",
+        ],
+    },
 ];
 
 export default complements;

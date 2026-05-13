@@ -7738,6 +7738,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 597,
+        name: "justETF",
+        description: "",
+        icon: {
+            url: "https://www.justetf.com/android-chrome-192x192.png?v2",
+            maskable: false,
+        },
+        url: "https://www.justetf.com",
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

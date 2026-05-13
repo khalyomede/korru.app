@@ -4603,5 +4603,12 @@
             "app": "https://fureezu.com",
             "manifest": "https://fureezu.com/manifest.webmanifest"
         }
+    },
+    {
+        "id": 597,
+        "urls": {
+            "app": "https://www.justetf.com",
+            "manifest": "https://www.justetf.com/manifest.json"
+        }
     }
 ]
