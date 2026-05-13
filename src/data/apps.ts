@@ -3440,7 +3440,7 @@ const apps: Array<App> = [
         },
         url: "https://trade-matrix.com/dashboard",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5520,7 +5520,7 @@ const apps: Array<App> = [
         },
         url: "https://itlinks.me",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {

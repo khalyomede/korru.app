@@ -2021,7 +2021,7 @@
             "app": "https://trade-matrix.com/dashboard",
             "manifest": "https://trade-matrix.com/manifest.json"
         },
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 272,
@@ -3277,7 +3277,7 @@
             "app": "https://itlinks.me",
             "manifest": "https://itlinks.me/manifest.webmanifest"
         },
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 430,
