@@ -4,7 +4,7 @@ import { vibrate } from "../utilities";
 
 const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (properties) => {
     return (
-        <a href={properties.url} onclick={() => vibrate(36)} target="_blank" rel="noopener noreferrer" class="
+        <a href={properties.url} onclick={() => vibrate(24)} target="_blank" rel="noopener noreferrer" class="
                 px-4 py-2
                 border border-stone-300 rounded-xl
                 dark:border-stone-600

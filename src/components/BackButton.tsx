@@ -9,7 +9,7 @@ const BackButton: Component = () => {
     const hasNavigatedBefore = window.history.length > 2;
 
     const vibrateThenNavigateBackOrToSearch = (): void => {
-        vibrate(36);
+        vibrate(24);
 
         hasNavigatedBefore ? navigate(-1) : navigate("/search")
     };

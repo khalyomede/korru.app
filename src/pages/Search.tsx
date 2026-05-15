@@ -178,7 +178,7 @@ const Search: Component = () => {
     });
 
     const onFilterClick = (filter: Filter): void => {
-        vibrate(36);
+        vibrate(24);
 
         const updatedFilters = sortFilters(
             store.filters
