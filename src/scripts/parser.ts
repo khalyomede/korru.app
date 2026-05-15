@@ -1,5 +1,5 @@
 import { object, string, array } from "zod";
-import sources from "../../sources-found.json" with { type: "json" };
+import sources from "../sources-found.json" with { type: "json" };
 import { writeFile } from "fs/promises";
 import { join } from "path";
 import type App from "../interfaces/App";
