@@ -4636,7 +4636,7 @@ const apps: Array<App> = [
         },
         url: "https://banxaas.com/swap",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5753,7 +5753,7 @@ const apps: Array<App> = [
         },
         url: "https://www.allplix.com",
         categories: ["utilities", "productivity", "photo", "developer"],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {

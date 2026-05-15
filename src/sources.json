@@ -2757,7 +2757,7 @@
             "app": "https://banxaas.com/swap",
             "manifest": "https://banxaas.com/manifest.json"
         },
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 365,
@@ -3421,7 +3421,7 @@
             "app": "https://www.allplix.com",
             "manifest": "https://www.allplix.com/manifest.json"
         },
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 448,
