@@ -81,6 +81,20 @@ const Search: Component = () => {
 
         if (!currentFilter.default) {
             queries.filter = currentFilter.name;
+
+            /**
+             * @todo Make a function
+             */
+            const { filters } = store;
+
+            if (currentFilter.name.trim().length > 0) {
+                setStore("filters", sortFilters(
+                    filters.map(baseFilter => ({
+                        ...baseFilter,
+                        selected: baseFilter.name === currentFilter.name
+                    })))
+                );
+            }
         }
 
         setSearchQueries(queries);
