@@ -9,7 +9,7 @@ type ResetScroll = () => void;
 
 const readPositions = (): ScrollPositions => {
     try {
-        return JSON.parse(sessionStorage.getItem(STORAGE_KEY) ?? "{}");
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}");
     } catch {
         return {};
     }
@@ -18,13 +18,13 @@ const readPositions = (): ScrollPositions => {
 const writePosition = (key: string, top: number): void => {
     const positions = readPositions();
     positions[key] = top;
-    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
 };
 
 const deletePosition = (key: string): void => {
     const positions = readPositions();
     delete positions[key];
-    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
 };
 
 /**
