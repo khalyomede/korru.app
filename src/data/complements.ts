@@ -674,6 +674,52 @@ const complements: Array<Partial<App>> = [
             "finance",
         ],
     },
+    {
+        id: 601,
+        name: "Supercexy",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 603,
+        name: "ポケかぶ",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 604,
+        name: "FileShare",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 605,
+        name: "WebIconKit",
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 606,
+        name: "CyberGenesis",
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 607,
+        name: "牛牛",
+        icon: {
+            url: "https://kyamajp.github.io/NiuNiu/icons/icon-192x192.png",
+            maskable: false,
+        },
+        categories: [
+            "games",
+        ],
+    },
 ];
 
 export default complements;
