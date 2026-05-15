@@ -60,25 +60,24 @@ const useScrollRestoration = <T extends HTMLElement>(): [RefCallback<T>, ResetSc
         return () => el.removeEventListener("scroll", onScroll);
     };
 
-    useBeforeLeave(() => {
-        if (element !== undefined) {
-            writePosition(urlKey(), element.scrollTop);
-        }
-    });
 
     onMount(() => {
         if (element === undefined) return;
 
         const detachScrollListener = attachScrollListener(element);
 
-        const saved = readPositions()[urlKey()];
-        if (saved !== undefined) {
-            requestAnimationFrame(() => {
-                if (element !== undefined) {
-                    element.scrollTop = saved;
-                }
-            });
-        }
+        // To fix an issue when Search page sets "/search?filter=games", but this hook still sees "/search" because of a timing issue.
+        queueMicrotask(() => {
+            const saved = readPositions()[urlKey()];
+
+            if (saved !== undefined) {
+                requestAnimationFrame(() => {
+                    if (element !== undefined) {
+                        element.scrollTop = saved;
+                    }
+                });
+            }
+        });
 
         onCleanup(detachScrollListener);
     });
