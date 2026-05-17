@@ -4711,5 +4711,13 @@
             "manifest": "https://quantumsheild.co/manifest.webmanifest"
         },
         "disabled": false
+    },
+    {
+        "id": 611,
+        "urls": {
+            "app": "https://apex-racing-v1.vercel.app",
+            "manifest": "https://apex-racing-v1.vercel.app/manifest.webmanifest"
+        },
+        "disabled": false
     }
 ]

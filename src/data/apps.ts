@@ -7923,6 +7923,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 611,
+        name: "APEX",
+        description: "Set a lap, climb the leaderboard, and challenge the next driver to beat your time in APEX.",
+        icon: {
+            url: "https://apex-racing-v1.vercel.app/pwa-192x192.png",
+            maskable: false,
+        },
+        url: "https://apex-racing-v1.vercel.app",
+        categories: ["games", "entertainment"],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
