@@ -720,6 +720,21 @@ const complements: Array<Partial<App>> = [
             "games",
         ],
     },
+    {
+        id: 608,
+        name: "CBS Wallet",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 609,
+        name: "Ging-OS",
+        icon: {
+            url: "https://www.destinoextinto.com/ging-OS/assets/LOGO.png",
+            maskable: false,
+        },
+    },
 ];
 
 export default complements;

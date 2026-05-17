@@ -3829,7 +3829,7 @@
             "app": "https://seenintl.org",
             "manifest": "https://seenintl.org/manifest.json"
         },
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 499,
@@ -4610,5 +4610,106 @@
             "app": "https://www.justetf.com",
             "manifest": "https://www.justetf.com/manifest.json"
         }
+    },
+    {
+        "id": 598,
+        "urls": {
+            "app": "https://buildhop.io",
+            "manifest": "https://buildhop.io/manifest.json"
+        }
+    },
+    {
+        "id": 599,
+        "urls": {
+            "app": "https://my-garden.fly.dev",
+            "manifest": "https://my-garden.fly.dev/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 599,
+        "urls": {
+            "app": "https://my-garden.fly.dev",
+            "manifest": "https://my-garden.fly.dev/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 600,
+        "urls": {
+            "app": "https://fluxo-theta.vercel.app",
+            "manifest": "https://fluxo-theta.vercel.app/manifest.json"
+        }
+    },
+    {
+        "id": 601,
+        "urls": {
+            "app": "https://supercexy.com",
+            "manifest": "https://supercexy.com/manifest.json"
+        }
+    },
+    {
+        "id": 602,
+        "urls": {
+            "app": "https://castmyvote.io",
+            "manifest": "https://castmyvote.io/manifest.json"
+        }
+    },
+    {
+        "id": 603,
+        "urls": {
+            "app": "https://pokeca-app.pages.dev",
+            "manifest": "https://pokeca-app.pages.dev/manifest.json"
+        }
+    },
+    {
+        "id": 604,
+        "urls": {
+            "app": "https://eiiwebtools.com/file-transfer",
+            "manifest": "https://eiiwebtools.com/manifest.json?v=2"
+        }
+    },
+    {
+        "id": 605,
+        "urls": {
+            "app": "https://webiconkit.com",
+            "manifest": "https://webiconkit.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 606,
+        "urls": {
+            "app": "https://cyberland-zmu.caffeine.xyz",
+            "manifest": "https://cyberland-zmu.caffeine.xyz/manifest.json"
+        }
+    },
+    {
+        "id": 607,
+        "urls": {
+            "app": "https://kyamajp.github.io/NiuNiu",
+            "manifest": "https://kyamajp.github.io/NiuNiu/manifest.json"
+        }
+    },
+    {
+        "id": 608,
+        "urls": {
+            "app": "https://wallet.cbs-coin.com",
+            "manifest": "https://wallet.cbs-coin.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 609,
+        "urls": {
+            "app": "https://www.destinoextinto.com/ging-OS",
+            "manifest": "https://www.destinoextinto.com/ging-OS/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 610,
+        "urls": {
+            "app": "https://quantumsheild.co",
+            "manifest": "https://quantumsheild.co/manifest.webmanifest"
+        },
+        "disabled": false
     }
 ]
