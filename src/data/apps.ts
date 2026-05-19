@@ -7936,6 +7936,110 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 612,
+        name: "Kowane",
+        description: "Record, import, and inspect voice audio locally in the browser.",
+        url: "https://kowane.takatsuki.cc",
+        icon: {
+            url: "https://kowane.takatsuki.cc/icons/maskable-512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 613,
+        name: "TextToSpeech",
+        description: "Text to speech in Spanish, Italian, Portuguese, French and German — works offline",
+        url: "https://muracciolei.github.io/texttospeech",
+        icon: {
+            url: "https://muracciolei.github.io/texttospeech/icons/icon-512.png",
+            maskable: true,
+        },
+        categories: [
+            "education",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 614,
+        name: "Euphoria",
+        description: "",
+        url: "https://euphoria.finance",
+        icon: {
+            url: "https://euphoria.finance/icon512_rounded.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 615,
+        name: "Alpha Command",
+        description: "Institutional TradFi/Crypto dashboard + Risk & Recon anti-fraud engine.",
+        url: "https://gacs.app",
+        icon: {
+            url: "https://gacs.app/apple-touch-icon.png",
+            maskable: false,
+        },
+        categories: [
+            "finance",
+            "security",
+            "productivity",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 616,
+        name: "tickk",
+        description: "Voice-first brain dump → auto-organized into tasks & notes. Free, open-source, local storage.",
+        url: "https://tickk.app",
+        icon: {
+            url: "https://tickk.app/android-chrome-512x512.png",
+            maskable: true,
+        },
+        categories: [
+            "productivity",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 617,
+        name: "Evernode",
+        description: "Interactive lessons, minigames, and a live network map for the decentralized web.",
+        url: "https://www.evernodeuniverse.xyz",
+        icon: {
+            url: "https://www.evernodeuniverse.xyz/logo.png",
+            maskable: true,
+        },
+        categories: [
+            "education",
+            "games",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 618,
+        name: "Polypad",
+        description: "",
+        url: "https://polypad.amplify.com",
+        icon: {
+            url: "https://polypad.amplify.com/favicons/favicon-512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

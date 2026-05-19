@@ -735,6 +735,20 @@ const complements: Array<Partial<App>> = [
             maskable: false,
         },
     },
+    {
+        id: 614,
+        name: "Euphoria",
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 618,
+        name: "Polypad",
+        categories: [
+            "utilities",
+        ],
+    },
 ];
 
 export default complements;
