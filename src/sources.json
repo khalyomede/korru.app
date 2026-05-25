@@ -4719,5 +4719,477 @@
             "manifest": "https://apex-racing-v1.vercel.app/manifest.webmanifest"
         },
         "disabled": false
+    },
+    {
+        "id": 612,
+        "urls": {
+            "app": "https://kowane.takatsuki.cc",
+            "manifest": "https://kowane.takatsuki.cc/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 613,
+        "urls": {
+            "app": "https://muracciolei.github.io/texttospeech",
+            "manifest": "https://muracciolei.github.io/texttospeech/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 614,
+        "urls": {
+            "app": "https://euphoria.finance",
+            "manifest": "https://euphoria.finance/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 615,
+        "urls": {
+            "app": "https://gacs.app",
+            "manifest": "https://gacs.app/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 616,
+        "urls": {
+            "app": "https://tickk.app",
+            "manifest": "https://tickk.app/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 617,
+        "urls": {
+            "app": "https://www.evernodeuniverse.xyz",
+            "manifest": "https://www.evernodeuniverse.xyz/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 618,
+        "urls": {
+            "app": "https://polypad.amplify.com",
+            "manifest": "https://polypad.amplify.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 619,
+        "urls": {
+            "app": "https://polypad.amplify.com",
+            "manifest": "https://polypad.amplify.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 620,
+        "urls": {
+            "app": "https://habio.pages.dev/app",
+            "manifest": "https://habio.pages.dev/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 621,
+        "urls": {
+            "app": "https://www.geckoterminal.com",
+            "manifest": "https://www.geckoterminal.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 622,
+        "urls": {
+            "app": "https://app.zirodelta.com",
+            "manifest": "https://app.zirodelta.com/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 623,
+        "urls": {
+            "app": "https://saral.democratiseresearch.in",
+            "manifest": "https://saral.democratiseresearch.in/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 624,
+        "urls": {
+            "app": "https://app.onchain.cc",
+            "manifest": "https://app.onchain.cc/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 625,
+        "urls": {
+            "app": "https://aifreeforever.com",
+            "manifest": "https://aifreeforever.com/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 626,
+        "urls": {
+            "app": "https://www.notemd.fun",
+            "manifest": "https://www.notemd.fun/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 627,
+        "urls": {
+            "app": "https://www.minekart.app",
+            "manifest": "https://www.minekart.app/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 628,
+        "urls": {
+            "app": "https://trionda.vercel.app",
+            "manifest": "https://trionda.vercel.app/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 629,
+        "urls": {
+            "app": "https://prode.io",
+            "manifest": "https://prode.io/site.en.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 630,
+        "urls": {
+            "app": "https://satranctakip.com",
+            "manifest": "https://satranctakip.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 631,
+        "urls": {
+            "app": "https://neighborslobby.com",
+            "manifest": "https://neighborslobby.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 632,
+        "urls": {
+            "app": "https://nanopay.live",
+            "manifest": "https://nanopay.live/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 633,
+        "urls": {
+            "app": "https://ano.ww8.io",
+            "manifest": "https://ano.ww8.io/site.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 634,
+        "urls": {
+            "app": "https://spfc-hoje.vercel.app",
+            "manifest": "https://spfc-hoje.vercel.app/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 635,
+        "urls": {
+            "app": "https://www.okthoughts.com",
+            "manifest": "https://www.okthoughts.com/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 636,
+        "urls": {
+            "app": "https://dukkanpage.vercel.app",
+            "manifest": "https://dukkanpage.vercel.app/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 637,
+        "urls": {
+            "app": "https://bitrequest.github.io",
+            "manifest": "https://bitrequest.github.io/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 638,
+        "urls": {
+            "app": "https://app.hypernova.xyz",
+            "manifest": "https://app.hypernova.xyz/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 639,
+        "urls": {
+            "app": "https://chart.kiyotaka.ai",
+            "manifest": "https://chart.kiyotaka.ai/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 640,
+        "urls": {
+            "app": "https://usekasten.app",
+            "manifest": "https://usekasten.app/manifest.webmanifest"
+        },
+        "disabled": false
+    },
+    {
+        "id": 641,
+        "urls": {
+            "app": "https://app.hyperliquid.xyz",
+            "manifest": "https://app.hyperliquid.xyz/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 642,
+        "urls": {
+            "app": "https://scrapbox.io",
+            "manifest": "https://scrapbox.io/manifest.json"
+        },
+        "disabled": false
+    },
+    {
+        "id": 643,
+        "urls": {
+            "app": "https://audiomass.co",
+            "manifest": "https://audiomass.co/manifest.json"
+        }
+    },
+    {
+        "id": 644,
+        "urls": {
+            "app": "https://fed.run",
+            "manifest": "https://fed.run/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 645,
+        "urls": {
+            "app": "https://costhawk.ai",
+            "manifest": "https://costhawk.ai/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 646,
+        "urls": {
+            "app": "https://www.scrolllaunch.com",
+            "manifest": "https://www.scrolllaunch.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 647,
+        "urls": {
+            "app": "https://7coderwords.kenamick.com",
+            "manifest": "https://7coderwords.kenamick.com./manifest.json"
+        }
+    },
+    {
+        "id": 648,
+        "urls": {
+            "app": "https://semicolony.dev",
+            "manifest": "https://semicolony.dev/site.webmanifest"
+        }
+    },
+    {
+        "id": 649,
+        "urls": {
+            "app": "https://flow2.co",
+            "manifest": "https://flow2.co/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 650,
+        "urls": {
+            "app": "https://auto.fun",
+            "manifest": "https://auto.fun/manifest.json"
+        }
+    },
+    {
+        "id": 651,
+        "urls": {
+            "app": "https://soundtestx.com",
+            "manifest": "https://soundtestx.com/manifest.json?v=1779381136"
+        }
+    },
+    {
+        "id": 652,
+        "urls": {
+            "app": "https://omitten.com",
+            "manifest": "https://omitten.com/manifest.json"
+        }
+    },
+    {
+        "id": 653,
+        "urls": {
+            "app": "https://safe.pimenov.cc",
+            "manifest": "https://safe.pimenov.cc/site.webmanifest"
+        }
+    },
+    {
+        "id": 654,
+        "urls": {
+            "app": "https://www.lacuna.fm",
+            "manifest": "https://www.lacuna.fm/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 655,
+        "urls": {
+            "app": "https://mesim.io",
+            "manifest": "https://mesim.io/manifest.json"
+        }
+    },
+    {
+        "id": 656,
+        "urls": {
+            "app": "https://lntrn.app",
+            "manifest": "https://lntrn.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 657,
+        "urls": {
+            "app": "https://voooai.com",
+            "manifest": "https://voooai.com/manifest.json"
+        }
+    },
+    {
+        "id": 658,
+        "urls": {
+            "app": "https://app.fridgeai.eu",
+            "manifest": "https://app.fridgeai.eu/manifest.json"
+        }
+    },
+    {
+        "id": 659,
+        "urls": {
+            "app": "https://cinderreels.com",
+            "manifest": "https://cinderreels.com/manifest.json"
+        }
+    },
+    {
+        "id": 660,
+        "urls": {
+            "app": "https://buildnix.com",
+            "manifest": "https://buildnix.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 661,
+        "urls": {
+            "app": "https://colorseasonai.com",
+            "manifest": "https://colorseasonai.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 662,
+        "urls": {
+            "app": "https://www.3dimli.com",
+            "manifest": "https://www.3dimli.com/manifest.json"
+        }
+    },
+    {
+        "id": 663,
+        "urls": {
+            "app": "https://sitealive.io",
+            "manifest": "https://sitealive.io/manifest.json"
+        }
+    },
+    {
+        "id": 664,
+        "urls": {
+            "app": "https://lorepanic.com",
+            "manifest": "https://lorepanic.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 665,
+        "urls": {
+            "app": "https://www.sippyspaces.com",
+            "manifest": "https://www.sippyspaces.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 666,
+        "urls": {
+            "app": "https://www.hypro.app",
+            "manifest": "https://www.hypro.app/manifest.json"
+        }
+    },
+    {
+        "id": 667,
+        "urls": {
+            "app": "https://megaconvert.io",
+            "manifest": "https://megaconvert.io/manifest.json"
+        }
+    },
+    {
+        "id": 668,
+        "urls": {
+            "app": "https://synexiscore.com",
+            "manifest": "https://synexiscore.com/manifest.json"
+        }
+    },
+    {
+        "id": 669,
+        "urls": {
+            "app": "https://sendphoto.io",
+            "manifest": "https://sendphoto.io/favicon/site.webmanifest"
+        }
+    },
+    {
+        "id": 670,
+        "urls": {
+            "app": "https://cocoroam.com",
+            "manifest": "https://cocoroam.com/manifest.json"
+        }
+    },
+    {
+        "id": 671,
+        "urls": {
+            "app": "https://ecfotos.com",
+            "manifest": "https://ecfotos.com/manifest.json"
+        }
+    },
+    {
+        "id": 672,
+        "urls": {
+            "app": "https://doqly.co",
+            "manifest": "https://doqly.co/manifest.json"
+        }
+    },
+    {
+        "id": 673,
+        "urls": {
+            "app": "https://www.movaguide.com",
+            "manifest": "https://www.movaguide.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 674,
+        "urls": {
+            "app": "https://zappr.fr",
+            "manifest": "https://zappr.fr/manifest.webmanifest"
+        }
     }
 ]

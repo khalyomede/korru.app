@@ -749,6 +749,84 @@ const complements: Array<Partial<App>> = [
             "utilities",
         ],
     },
+    {
+        id: 621,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 622,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 624,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 625,
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 637,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 638,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 639,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 641,
+        categories: [
+            "finance",
+        ],
+    },
+    {
+        id: 652,
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 643,
+        categories: [
+            "music",
+        ],
+    },
+    {
+        id: 647,
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 648,
+        categories: [
+            "developer tools",
+        ],
+    },
+    {
+        id: 659,
+        categories: [
+            "social",
+        ],
+    },
 ];
 
 export default complements;
