@@ -5226,5 +5226,89 @@
             "app": "https://tower.sambrd.xyz",
             "manifest": "https://tower.sambrd.xyz/manifest.webmanifest"
         }
+    },
+    {
+        "id": 680,
+        "urls": {
+            "app": "https://selfpublishstudio.com",
+            "manifest": "https://selfpublishstudio.com/manifest.json"
+        }
+    },
+    {
+        "id": 681,
+        "urls": {
+            "app": "https://fliptip.ai",
+            "manifest": "https://fliptip.ai/manifest.json"
+        }
+    },
+    {
+        "id": 682,
+        "urls": {
+            "app": "https://www.businessclasssignal.com",
+            "manifest": "https://www.businessclasssignal.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 683,
+        "urls": {
+            "app": "https://same-page.app",
+            "manifest": "https://same-page.app/manifest.json"
+        }
+    },
+    {
+        "id": 684,
+        "urls": {
+            "app": "https://tonesmatch.com",
+            "manifest": "https://tonesmatch.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 685,
+        "urls": {
+            "app": "https://ourvu.app",
+            "manifest": "https://ourvu.app/manifest.json"
+        }
+    },
+    {
+        "id": 686,
+        "urls": {
+            "app": "https://www.gridmenu.ai",
+            "manifest": "https://www.gridmenu.ai/manifest.json"
+        }
+    },
+    {
+        "id": 687,
+        "urls": {
+            "app": "https://generatorbarcode.com",
+            "manifest": "https://generatorbarcode.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 688,
+        "urls": {
+            "app": "https://expiredauctions.com",
+            "manifest": "https://expiredauctions.com/site.webmanifest?v=2.1.2"
+        }
+    },
+    {
+        "id": 689,
+        "urls": {
+            "app": "https://kinsy.io",
+            "manifest": "https://kinsy.io/manifest.json?v=6"
+        }
+    },
+    {
+        "id": 690,
+        "urls": {
+            "app": "https://www.invizcrypt.com",
+            "manifest": "https://www.invizcrypt.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 691,
+        "urls": {
+            "app": "https://covingtondispatch.app",
+            "manifest": "https://covingtondispatch.app/manifest.webmanifest"
+        }
     }
 ]
