@@ -2,6 +2,7 @@ import { parse } from "node-html-parser";
 import { format } from "date-fns";
 import sleep from "sleep-promise";
 import { writeFileSync } from "fs";
+import { notify } from "node-notifier";
 
 type WebsiteType =
     | "hacker_news"
@@ -334,5 +335,11 @@ for (const website of websites) {
 }
 
 writeFileSync("sources-found.json", JSON.stringify(sources, undefined, 4));
+
+notify({
+    title: "PWA scan completed",
+    message: `${sources.length} apps found.`,
+    wait: false,
+});
 
 export { };
