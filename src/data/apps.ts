@@ -8777,6 +8777,80 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 675,
+        name: "versys.ai",
+        description: "Compare stocks side by side with 30+ metrics. Free forever.",
+        url: "https://www.versys.ai",
+        icon: {
+            url: "https://www.versys.ai/icon-512.png",
+            maskable: true,
+        },
+        categories: [
+            "finance",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 676,
+        name: "星景絞り",
+        description: "長秒一枚撮り星景写真用の絞り値計算ツール",
+        url: "https://pasha2199.github.io/shindan/cyobyo.html",
+        icon: {
+            url: "https://pasha2199.github.io/shindan/icon-512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 677,
+        name: "Adpicto",
+        description: "AI-powered SNS post creation. From content ideas to image generation, all automated. Supports Instagram, X, Facebook, LinkedIn and more.",
+        url: "https://www.adpicto.com",
+        icon: {
+            url: "https://www.adpicto.com/logo.png",
+            maskable: false,
+        },
+        categories: [
+            "business",
+            "productivity",
+            "social",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 678,
+        name: "Weather Pro",
+        description: "Hyper-local weather conditions and dynamic climate reports.",
+        url: "https://weatherappro.toolsnestt.com",
+        icon: {
+            url: "https://pub-ea19a6cc29984fa087c982e0067da884.r2.dev/wetherapppro-toolsnestt.com.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 679,
+        name: "Territory",
+        description: "A canvas tower defense prototype where towers and walls reshape every enemy path.",
+        url: "https://tower.sambrd.xyz",
+        icon: {
+            url: "https://tower.sambrd.xyz/pwa-maskable-512.png",
+            maskable: true,
+        },
+        categories: [
+            "games",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
