@@ -5191,5 +5191,40 @@
             "app": "https://zappr.fr",
             "manifest": "https://zappr.fr/manifest.webmanifest"
         }
+    },
+    {
+        "id": 675,
+        "urls": {
+            "app": "https://www.versys.ai",
+            "manifest": "https://www.versys.ai/manifest.json"
+        }
+    },
+    {
+        "id": 676,
+        "urls": {
+            "app": "https://pasha2199.github.io/shindan/cyobyo.html",
+            "manifest": "https://pasha2199.github.io/shindan/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 677,
+        "urls": {
+            "app": "https://www.adpicto.com",
+            "manifest": "https://www.adpicto.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 678,
+        "urls": {
+            "app": "https://weatherappro.toolsnestt.com",
+            "manifest": "https://weatherappro.toolsnestt.com/manifest.json"
+        }
+    },
+    {
+        "id": 679,
+        "urls": {
+            "app": "https://tower.sambrd.xyz",
+            "manifest": "https://tower.sambrd.xyz/manifest.webmanifest"
+        }
     }
 ]
