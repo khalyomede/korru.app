@@ -103,7 +103,7 @@ const Detail: Component = () => {
      * Because "multimedia" is not among the filters of the search page.
      */
     const appFilters: Array<FilterLink> = foundApp.categories
-        .filter(appFilter => filters.filter(filter => filter.name === appFilter).length > 0)
+        .filter(appFilter => filters.filter(filter => filter.categories.includes(appFilter)).length > 0)
         .map(category => ({
             name: category,
             url: "/search?" + new URLSearchParams([["filter", category]]),
