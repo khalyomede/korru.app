@@ -5310,5 +5310,54 @@
             "app": "https://covingtondispatch.app",
             "manifest": "https://covingtondispatch.app/manifest.webmanifest"
         }
+    },
+    {
+        "id": 692,
+        "urls": {
+            "app": "https://app.azali.xyz",
+            "manifest": "https://app.azali.xyz/manifest.json"
+        }
+    },
+    {
+        "id": 693,
+        "urls": {
+            "app": "https://kcenter.fr",
+            "manifest": "https://kcenter.fr/manifest.json"
+        }
+    },
+    {
+        "id": 694,
+        "urls": {
+            "app": "https://mrf.up.railway.app",
+            "manifest": "https://mrf.up.railway.app/site.webmanifest"
+        }
+    },
+    {
+        "id": 695,
+        "urls": {
+            "app": "https://www.disneyplus.com",
+            "manifest": "https://www.disneyplus.com/manifest.json"
+        }
+    },
+    {
+        "id": 696,
+        "urls": {
+            "app": "https://hodlings.app",
+            "manifest": "https://hodlings.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 697,
+        "urls": {
+            "app": "https://convrtr.pages.dev",
+            "manifest": "https://convrtr.pages.dev/assets/pwa/manifest.json"
+        }
+    },
+    {
+        "id": 698,
+        "urls": {
+            "app": "https://lites.app",
+            "manifest": "https://lites.app/site.webmanifest"
+        }
     }
 ]

@@ -9023,6 +9023,106 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 692,
+        name: "Azali",
+        description: "Prediction markets built on Hyperliquid",
+        url: "https://app.azali.xyz",
+        icon: {
+            url: "https://app.azali.xyz/icon-512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 693,
+        name: "KCenter",
+        description: "La référence KCORP.",
+        url: "https://kcenter.fr",
+        icon: {
+            url: "https://kcenter.fr/assets/logo-512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 694,
+        name: "MRF",
+        description: "",
+        url: "https://mrf.up.railway.app",
+        icon: {
+            url: "https://mrf.up.railway.app/android-chrome-512x512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 695,
+        name: "Disney+",
+        description: "",
+        url: "https://www.disneyplus.com",
+        icon: {
+            url: "https://static-assets.bamgrid.com/product/disneyplus/favicons/msftpwa-512x512-aurora.b544236c6734eb78083b1f4f31d6f873.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 696,
+        name: "HODLings",
+        description: "HODLings: Private Portfolio Tracker",
+        url: "https://hodlings.app",
+        icon: {
+            url: "https://hodlings.app/maskable/maskable_icon_x1024.png",
+            maskable: true,
+        },
+        categories: [
+            "finance",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 697,
+        name: "convrtr",
+        description: "Local-first file conversion and compression completely on-device.",
+        url: "https://convrtr.pages.dev",
+        icon: {
+            url: "https://convrtr.pages.dev/assets/pwa/logo-512.png",
+            maskable: true,
+        },
+        categories: [
+            "utilities",
+            "productivity",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 698,
+        name: "Lites",
+        description: "Voice-first AI brainstorming assistant. Speak a request, get 10 ideas, send the chosen one to ChatGPT, Claude, Perplexity, Gemini, Grok, or any site you configure.",
+        url: "https://lites.app",
+        icon: {
+            url: "https://lites.app/icon-512.png",
+            maskable: true,
+        },
+        categories: [
+            "productivity",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
