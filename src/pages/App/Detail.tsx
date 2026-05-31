@@ -158,7 +158,7 @@ const Detail: Component = () => {
                     <div class="flex items-center gap-2">
                         <Index each={appFilters}>
                             {filter => <A href={filter().url} tabIndex={-1}>
-                                <FilterButton name={filter().name} selected={false} />
+                                <FilterButton onClick={() => vibrate(24)} name={filter().name} selected={false} />
                             </A>}
                         </Index>
                     </div>
