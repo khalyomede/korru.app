@@ -192,7 +192,7 @@ const Search: Component = () => {
     });
 
     const onFilterClick = (filter: Filter): void => {
-        vibrate(24);
+        vibrate(12);
 
         const updatedFilters = sortFilters(
             store.filters
