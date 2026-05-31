@@ -1,4 +1,4 @@
-import { Component, For, onMount } from 'solid-js';
+import { Component, For, onMount, createMemo } from 'solid-js';
 import useStore from '../hooks/useStore';
 import AppResultList from '../components/AppResultList';
 import App from '../interfaces/App';
@@ -105,10 +105,13 @@ const Search: Component = () => {
         persistsStoreInSearchQueries();
     });
 
-    const filteredApps = () => {
-        const { search, apps } = store;
-        const currentFilter = getCurrentFilter();
+    const filteredApps = createMemo(() => {
+        const { apps, filters, search } = store;
         const appList: Array<App> = apps.filter(app => !app.disabled);
+        /**
+         * @todo Cannot use getCurrentFilter() as createMemo seems to analyse the store dependencies.
+         */
+        const currentFilter = filters.find(filter => filter.selected) ?? filters[0];
 
         if (fuse === null) {
             /**
@@ -139,7 +142,7 @@ const Search: Component = () => {
             : filteredApps.filter((app) => matchedAppsIds.includes(app.id));
 
         return searchedApps;
-    };
+    });
 
     const getCurrentFilter = (): Filter => {
         const { filters } = store;
@@ -217,6 +220,8 @@ const Search: Component = () => {
         resetScrollReference();
     };
 
+    const hasApps = createMemo(() => filteredApps().length > 0);
+
     const [scrollReference, resetScrollReference] = useScrollRestoration();
 
     return <Layout>
@@ -237,10 +242,10 @@ const Search: Component = () => {
             ref={scrollReference}
             classList={{
                 "grow": true,
-                "p-4": filteredApps().length > 0,
-                "mt-14": filteredApps().length > 0,
-                "md:mt-22": filteredApps().length > 0,
-                "pt-20": filteredApps().length > 0,
+                "p-4": hasApps(),
+                "mt-14": hasApps(),
+                "md:mt-22": hasApps(),
+                "pt-20": hasApps(),
                 "overflow-y-auto": true,
                 "[&::-webkit-scrollbar]:hidden": true,
                 "[-ms-overflow-style:none]": true,
