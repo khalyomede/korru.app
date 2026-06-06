@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme inline {
+    --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+    --radius-control: 1rem;
+}
+
 @view-transition {
     navigation: auto;
 }

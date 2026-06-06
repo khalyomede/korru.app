@@ -1,6 +1,7 @@
 import { useNavigate } from "@solidjs/router";
 import { Component, Show } from "solid-js";
 import { vibrate } from "../utilities";
+import { ArrowLeft } from "lucide-solid";
 
 const BackButton: Component = () => {
     const navigate = useNavigate();
@@ -14,8 +15,8 @@ const BackButton: Component = () => {
         hasNavigatedBefore ? navigate(-1) : navigate("/search")
     };
 
-    return <button onClick={vibrateThenNavigateBackOrToSearch} class="border border-stone-500 rounded-xl px-4 py-1 inline-block text-stone-600 dark:text-stone-200 font-bold flex items-center hover:cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-stone-800 focus:bg-stone-300 dark:focus:border-stone-300 dark:focus:bg-stone-900 outline-none">
-        <span class="mr-2">←</span>
+    return <button onClick={vibrateThenNavigateBackOrToSearch} class="inline-flex items-center gap-1.5 rounded-control border border-stone-300 dark:border-stone-600 px-4 py-1.5 text-sm font-medium tracking-wider text-stone-600 dark:text-stone-300 hover:cursor-pointer select-none hover:bg-stone-200 hover:border-stone-400 dark:hover:bg-stone-800 dark:hover:border-stone-500 focus:border-stone-500 dark:focus:border-stone-400 outline-none transition-colors duration-200">
+        <ArrowLeft size={16} class="shrink-0" />
         <span>
             <Show when={hasNavigatedBefore}>
                 back

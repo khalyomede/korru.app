@@ -1,36 +1,53 @@
 import { Component } from "solid-js";
 import FilterButtonProperties from "./properties/FilterButtonProperties";
+import { getFilterIcon } from "./filterIcons";
 
 const FilterButton: Component<FilterButtonProperties> = (properties) => {
+    const Icon = getFilterIcon(properties.name);
+
     return <button classList={{
-        "flex-shrink-0": true,
-        "dark:text-stone-900": properties.selected,
-        "dark:text-stone-400": !properties.selected,
-        "dark:bg-stone-400": properties.selected,
-        "text-stone-50": properties.selected,
-        "text-stone-700": !properties.selected,
+        "inline-flex": true,
+        "items-center": true,
+        "gap-1.5": true,
+        "shrink-0": true,
         "text-sm": true,
-        "bg-stone-600": properties.selected,
-        "border": true,
-        "border-stone-500": !properties.selected,
-        "rounded-xl": true,
-        "px-4": true,
-        "py-1": true,
+        "font-medium": true,
         "tracking-wider": true,
-        "focus:outline-none": true,
-        "focus:border-stone-950": true,
-        "focus:bg-stone-200": !properties.selected,
-        "focus:bg-stone-800": properties.selected,
-        "focus:dark:bg-stone-300": properties.selected,
-        "focus:dark:bg-stone-700": !properties.selected,
-        "focus:dark:text-stone-300": !properties.selected,
-        "focus:dark:border-stone-100": true,
+        "rounded-control": true,
+        "px-4": true,
+        "py-1.5": true,
+        "border": true,
+        "transition-colors": true,
+        "duration-200": true,
         "select-none": true,
         "hover:cursor-pointer": true,
-        "hover:bg-stone-200": true,
-        "dark:hover:bg-stone-700": true,
+        "outline-none": true,
+        // Selected (solid)
+        "bg-stone-700": properties.selected,
+        "border-stone-700": properties.selected,
+        "text-stone-50": properties.selected,
+        "dark:bg-stone-300": properties.selected,
+        "dark:border-stone-300": properties.selected,
+        "dark:text-stone-900": properties.selected,
+        "hover:bg-stone-800": properties.selected,
+        "dark:hover:bg-stone-100": properties.selected,
+        "focus:ring-2": properties.selected,
+        "focus:ring-stone-400": properties.selected,
+        // Unselected (outline)
+        "bg-transparent": !properties.selected,
+        "border-stone-300": !properties.selected,
+        "text-stone-600": !properties.selected,
+        "dark:border-stone-600": !properties.selected,
+        "dark:text-stone-300": !properties.selected,
+        "hover:bg-stone-200": !properties.selected,
+        "hover:border-stone-400": !properties.selected,
+        "dark:hover:bg-stone-800": !properties.selected,
+        "dark:hover:border-stone-500": !properties.selected,
+        "focus:border-stone-500": !properties.selected,
+        "dark:focus:border-stone-400": !properties.selected,
     }} onClick={properties.onClick}>
-        {properties.name}
+        <Icon size={16} class="shrink-0" />
+        <span>{properties.name}</span>
     </button>;
 };
 

@@ -9,6 +9,7 @@ import FilterLink from "../../interfaces/FilterLink";
 import SectionTitle from "../../components/SectionTitle";
 import { vibrate } from "../../utilities";
 import BackButton from "../../components/BackButton";
+import { ExternalLink, Share2 } from "lucide-solid";
 
 const Detail: Component = () => {
     const { app } = useParams();
@@ -135,9 +136,15 @@ const Detail: Component = () => {
                 </div>
             </div>
             <div class="flex items-center gap-4 mt-5">
-                <a href={foundApp.url} onclick={() => vibrate(12)} target="_blank" rel="noopener noreferrer" class="tracking-wider font-bold hover:cursor-pointer border border-stone-500 rounded-2xl px-6 py-2 text-center text-stone-600 dark:text-stone-200 grow text-lg hover:bg-stone-300 dark:hover:bg-stone-800 light:focus:bg-stone-400 light:focus:text-stone-100 dark:focus:border-stone-300 select-none outline-none">Open</a>
+                <a href={foundApp.url} onclick={() => vibrate(12)} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 tracking-wider font-medium hover:cursor-pointer rounded-control px-6 py-2.5 text-center grow text-lg select-none outline-none transition-colors duration-200 border border-stone-700 bg-stone-700 text-stone-50 dark:border-stone-300 dark:bg-stone-300 dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-100 focus:ring-2 focus:ring-stone-400">
+                    <span>Open</span>
+                    <ExternalLink size={20} class="shrink-0" />
+                </a>
                 <Show when={appCanBeShared}>
-                    <button onClick={shareApp} class="tracking-wider font-bold hover:cursor-pointer border border-stone-500 rounded-2xl px-6 py-2 text-center text-stone-700 dark:text-stone-200 shrink bg-stone-300 dark:bg-stone-700 hover:bg-stone-400 dark:hover:bg-stone-500 focus:bg-stone-600 focus:text-stone-300 dark:focus:bg-stone-400 dark:focus:text-stone-700 select-none outline-none">Share...</button>
+                    <button onClick={shareApp} class="inline-flex items-center justify-center gap-2 tracking-wider font-medium hover:cursor-pointer rounded-control px-6 py-2.5 text-center text-lg shrink-0 select-none outline-none transition-colors duration-200 border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-300 hover:bg-stone-200 hover:border-stone-400 dark:hover:bg-stone-800 dark:hover:border-stone-500 focus:border-stone-500 dark:focus:border-stone-400">
+                        <Share2 size={20} class="shrink-0" />
+                        <span>Share</span>
+                    </button>
                 </Show>
             </div>
             <div class="hidden">
