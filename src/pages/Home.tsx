@@ -1,6 +1,5 @@
 // src/App.tsx
 import { Component, onMount } from 'solid-js';
-import Navbar from '../components/Navbar';
 import Slogan from '../components/Slogan';
 import AppIconPreviewList from '../components/AppIconPreviewList';
 import SearchBar from '../components/SearchBar';
@@ -41,7 +40,6 @@ const Home: Component = () => {
 
     return (
         <div class="min-h-dvh bg-stone-100 font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
-            <Navbar />
             <main class="flex-grow flex flex-col max-w-lg lg:max-w-md mx-auto">
                 {/* Top half: Brand + Slogan + Icons */}
                 <div class="flex-1 flex flex-col justify-center items-center p-4 gap-0">

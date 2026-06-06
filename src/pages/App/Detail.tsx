@@ -9,6 +9,7 @@ import FilterLink from "../../interfaces/FilterLink";
 import SectionTitle from "../../components/SectionTitle";
 import { vibrate } from "../../utilities";
 import BackButton from "../../components/BackButton";
+import Navbar from "../../components/Navbar";
 import { ExternalLink, Share2 } from "lucide-solid";
 
 const Detail: Component = () => {
@@ -119,7 +120,9 @@ const Detail: Component = () => {
     });
 
     return <Layout>
-        <div class="p-4 md:py-8">
+        <Navbar />
+        <div class="grow overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            <div class="p-4 md:py-8">
             <BackButton />
             <div class="mt-10 flex items-top gap-4">
                 <div>
@@ -172,6 +175,7 @@ const Detail: Component = () => {
                 </div>
             </Show>
         </div >
+        </div>
     </Layout >;
 };
 
