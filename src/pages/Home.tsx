@@ -43,8 +43,14 @@ const Home: Component = () => {
         <div class="min-h-dvh bg-stone-100 font-sans flex flex-col bg-stone-100 dark:bg-stone-900">
             <Navbar />
             <main class="flex-grow flex flex-col max-w-lg lg:max-w-md mx-auto">
-                {/* Top half: Slogan + Icons */}
+                {/* Top half: Brand + Slogan + Icons */}
                 <div class="flex-1 flex flex-col justify-center items-center p-4 gap-0">
+                    <div class="flex items-center gap-3 select-none">
+                        <img src="/logo/korru-logo-192.png" class="h-12 w-12" alt="" loading="eager" />
+                        <span class="text-3xl font-bold uppercase tracking-wider text-stone-700 dark:text-stone-200">
+                            {import.meta.env.VITE_APP_NAME}
+                        </span>
+                    </div>
                     <Slogan firstLine={import.meta.env.VITE_APP_SLOGAN_1} secondLine={import.meta.env.VITE_APP_SLOGAN_2} />
                     <AppIconPreviewList />
                 </div>
