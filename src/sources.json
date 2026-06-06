@@ -5359,5 +5359,103 @@
             "app": "https://lites.app",
             "manifest": "https://lites.app/site.webmanifest"
         }
+    },
+    {
+        "id": 699,
+        "urls": {
+            "app": "https://cryexc.josedonato.com/app",
+            "manifest": "https://cryexc.josedonato.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 700,
+        "urls": {
+            "app": "https://www.tab.team/app",
+            "manifest": "https://www.tab.team/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 701,
+        "urls": {
+            "app": "https://coincommunities.org",
+            "manifest": "https://coincommunities.org/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 702,
+        "urls": {
+            "app": "https://paperpunch.app",
+            "manifest": "https://paperpunch.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 703,
+        "urls": {
+            "app": "https://wealthr.co.uk",
+            "manifest": "https://wealthr.co.uk/manifest.json"
+        }
+    },
+    {
+        "id": 704,
+        "urls": {
+            "app": "https://gossip.massa.network",
+            "manifest": "https://gossip.massa.network/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 705,
+        "urls": {
+            "app": "https://gitaby.bipinsharma.com",
+            "manifest": "https://gitaby.bipinsharma.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 706,
+        "urls": {
+            "app": "https://app.earnfi.fun",
+            "manifest": "https://app.earnfi.fun/api/growl/v1/public-asset/pwa-manifest"
+        }
+    },
+    {
+        "id": 707,
+        "urls": {
+            "app": "https://app.spritz.chat",
+            "manifest": "https://app.spritz.chat/manifest.json"
+        }
+    },
+    {
+        "id": 708,
+        "urls": {
+            "app": "https://openbalti.com",
+            "manifest": "https://openbalti.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 709,
+        "urls": {
+            "app": "https://www.lettuce.email",
+            "manifest": "https://www.lettuce.email/lettuce-email.webmanifest"
+        }
+    },
+    {
+        "id": 710,
+        "urls": {
+            "app": "https://helilogpro.com",
+            "manifest": "https://helilogpro.com/manifest.json?v=3"
+        }
+    },
+    {
+        "id": 711,
+        "urls": {
+            "app": "https://baseusdp.com",
+            "manifest": "https://baseusdp.com/manifest.json"
+        }
+    },
+    {
+        "id": 712,
+        "urls": {
+            "app": "https://isupmap.com",
+            "manifest": "https://isupmap.com/images/logo/icon/manifest.json"
+        }
     }
 ]
