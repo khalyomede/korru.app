@@ -142,7 +142,9 @@ const Detail: Component = () => {
                     <div class="text-md truncate text-stone-500 tracking-wider" style={`view-transition-name: app-description-${foundApp.id}`}>{foundApp.description}</div>
                     <Show when={firstFilter !== null}>
                         <div class="mt-2">
-                            <FilterButton onClick={() => vibrate(12)} name={firstFilter?.name ?? ""} selected={false} />
+                            <A href={firstFilter?.url ?? "javascript:;"} tabIndex={-1}>
+                                <FilterButton onClick={() => vibrate(12)} name={firstFilter?.name ?? ""} selected={false} />
+                            </A>
                         </div>
                     </Show>
                 </div>
