@@ -1,9 +1,13 @@
-import { Component } from "solid-js";
+import { Component, Match, Switch } from "solid-js";
 import FilterButtonProperties from "./properties/FilterButtonProperties";
+import { Gamepad2, Wallet, Newspaper, Users, Music, ShoppingBag, Wrench, Code } from 'lucide-solid';
 
 const FilterButton: Component<FilterButtonProperties> = (properties) => {
     return <button classList={{
         "flex-shrink-0": true,
+        "flex": true,
+        "gap-2": true,
+        "items-center": true,
         "dark:text-stone-900": properties.selected,
         "dark:text-stone-400": !properties.selected,
         "dark:bg-stone-400": properties.selected,
@@ -30,6 +34,32 @@ const FilterButton: Component<FilterButtonProperties> = (properties) => {
         "hover:bg-stone-200": true,
         "dark:hover:bg-stone-700": true,
     }} onClick={properties.onClick}>
+        <Switch>
+            <Match when={properties.name === "game"}>
+                <Gamepad2 size="20px" />
+            </Match>
+            <Match when={properties.name === "finance"}>
+                <Wallet size="18" />
+            </Match>
+            <Match when={properties.name === "news"}>
+                <Newspaper size="16" />
+            </Match>
+            <Match when={properties.name === "social"}>
+                <Users size="16" />
+            </Match>
+            <Match when={properties.name === "music"}>
+                <Music size="18" />
+            </Match>
+            <Match when={properties.name === "shopping"}>
+                <ShoppingBag size="18" />
+            </Match>
+            <Match when={properties.name === "tools"}>
+                <Wrench size="18" />
+            </Match>
+            <Match when={properties.name === "developer"}>
+                <Code size="20" />
+            </Match>
+        </Switch>
         {properties.name}
     </button>;
 };
