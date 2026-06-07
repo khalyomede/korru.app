@@ -102,12 +102,25 @@ const Detail: Component = () => {
      * For example, if an app have "game" and "multimedia" filters, only "game" will be displayed.
      * Because "multimedia" is not among the filters of the search page.
      */
-    const appFilters: Array<FilterLink> = foundApp.categories
+    let appFilters: Array<FilterLink> = foundApp.categories
         .filter(appFilter => filters.filter(filter => filter.categories.includes(appFilter)).length > 0)
-        .map(category => ({
-            name: category,
-            url: "/search?" + new URLSearchParams([["filter", category]]),
-        }));
+        .map(category => {
+            const foundFilter = filters.find(filter => filter.categories.includes(category));
+
+            if (foundFilter === undefined) {
+                return null;
+            }
+
+            return {
+                name: foundFilter.name,
+                url: "/search?" + new URLSearchParams([["filter", foundFilter.name]]),
+            };
+        })
+        .filter(filter => filter !== null);
+
+    // Deduplicate filters. Duplicate filters can happen for example when "news" and "magazines" are rendered as "news"
+    // since "news" Korru's filter includes both "magazines" and "news" Web Manifest categories.
+    appFilters = [...new Map(appFilters.map(appFilter => [appFilter.name, appFilter])).values()];
 
     const firstFilter = appFilters.length < 1 ? null : appFilters[0];
 
