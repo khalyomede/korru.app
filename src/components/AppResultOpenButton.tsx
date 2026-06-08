@@ -1,6 +1,7 @@
 import { Component } from "solid-js";
 import AppResultOpenButtonProperties from "./properties/AppResultOpenButtonProperties";
 import { vibrate } from "../utilities";
+import { ExternalLink } from "lucide-solid";
 
 const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (properties) => {
     return (
@@ -20,9 +21,11 @@ const AppResultOpenButton: Component<AppResultOpenButtonProperties> = (propertie
                 dark:hover:bg-stone-700 dark:hover:border-stone-500 dark:hover:text-white
                 transition-all duration-200 ease-in-out
                 whitespace-nowrap
-                select-none"
+                select-none
+                flex items-center gap-2"
         >
             {properties.text}
+            <ExternalLink size="16px" />
         </a>
     );
 };

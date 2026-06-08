@@ -9,6 +9,7 @@ import FilterLink from "../../interfaces/FilterLink";
 import SectionTitle from "../../components/SectionTitle";
 import { vibrate } from "../../utilities";
 import BackButton from "../../components/BackButton";
+import { ExternalLink, Share2 } from "lucide-solid";
 
 const Detail: Component = () => {
     const { app } = useParams();
@@ -150,9 +151,28 @@ const Detail: Component = () => {
                 </div>
             </div>
             <div class="flex items-center gap-4 mt-5">
-                <a href={foundApp.url} onclick={() => vibrate(12)} target="_blank" rel="noopener noreferrer" class="tracking-wider font-bold hover:cursor-pointer border border-stone-500 rounded-2xl px-6 py-2 text-center text-stone-600 dark:text-stone-200 grow text-lg hover:bg-stone-300 dark:hover:bg-stone-800 light:focus:bg-stone-400 light:focus:text-stone-100 dark:focus:border-stone-300 select-none outline-none">Open</a>
+                <a href={foundApp.url} onclick={() => vibrate(12)} target="_blank" rel="noopener noreferrer"
+                    class="
+                        tracking-wider font-bold hover:cursor-pointer
+                        border border-stone-500 rounded-2xl
+                        px-6 py-2 text-center
+                        text-stone-600 dark:text-stone-200 grow text-lg
+                        hover:bg-stone-300 dark:hover:bg-stone-800
+                        light:focus:bg-stone-400 light:focus:text-stone-100 dark:focus:border-stone-300 select-none outline-none
+                        flex items-center gap-2 justify-center
+                        "
+                >
+                    Open
+                    <ExternalLink size="16px" />
+                </a>
                 <Show when={appCanBeShared}>
-                    <button onClick={shareApp} class="tracking-wider font-bold hover:cursor-pointer border border-stone-500 rounded-2xl px-6 py-2 text-center text-stone-700 dark:text-stone-200 shrink bg-stone-300 dark:bg-stone-700 hover:bg-stone-400 dark:hover:bg-stone-500 focus:bg-stone-600 focus:text-stone-300 dark:focus:bg-stone-400 dark:focus:text-stone-700 select-none outline-none">Share...</button>
+                    <button onClick={shareApp} class="
+                        tracking-wider font-bold hover:cursor-pointer border border-stone-500 rounded-2xl px-6 py-2 text-center text-stone-700 dark:text-stone-200 shrink bg-stone-300 dark:bg-stone-700 hover:bg-stone-400 dark:hover:bg-stone-500 focus:bg-stone-600 focus:text-stone-300 dark:focus:bg-stone-400 dark:focus:text-stone-700 select-none outline-none
+                        flex items-center justify-center gap-2
+                    ">
+                        Share
+                        <Share2 size="14px" />
+                    </button>
                 </Show>
             </div>
             <div class="hidden">
