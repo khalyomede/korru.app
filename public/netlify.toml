@@ -1,0 +1,5 @@
+[[redirects]]
+# Prevent 404 when direct access to "/search" (for example) on production URL
+from = "/*"
+to = "/index.html"
+status = 200
