@@ -9338,6 +9338,32 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 713,
+        name: "VedaTrace",
+        description: "",
+        url: "https://vedatrace.dev",
+        icon: {
+            url: "https://vedatrace.dev/maskable-icon-512x512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 714,
+        name: "OurPOS",
+        description: "",
+        url: "https://pos.247technologies.org",
+        icon: {
+            url: "https://pos.247technologies.org/maskable-icon-512x512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

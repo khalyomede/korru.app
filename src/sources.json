@@ -5457,5 +5457,19 @@
             "app": "https://isupmap.com",
             "manifest": "https://isupmap.com/images/logo/icon/manifest.json"
         }
+    },
+    {
+        "id": 713,
+        "urls": {
+            "app": "https://vedatrace.dev",
+            "manifest": "https://vedatrace.dev/manifest.json"
+        }
+    },
+    {
+        "id": 714,
+        "urls": {
+            "app": "https://pos.247technologies.org",
+            "manifest": "https://pos.247technologies.org/manifest.json"
+        }
     }
 ]
