@@ -18,7 +18,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
         }
     });
 
-    const onClick = () => {
+    const onSearchIconClick = () => {
         input?.focus();
     }
 
@@ -27,7 +27,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
             <Search
                 size="21px"
                 class="ml-4 text-stone-400 absolute cursor-pointer"
-                onClick={onClick}
+                onClick={onSearchIconClick}
             />
             <input
                 ref={input}
