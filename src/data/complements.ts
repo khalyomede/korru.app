@@ -881,6 +881,16 @@ const complements: Array<Partial<App>> = [
             "utilities",
         ],
     },
+    {
+        id: 715,
+        icon: {
+            url: "/app-icon/poker-eight-silk.png",
+            maskable: true,
+        },
+        categories: [
+            "games",
+        ],
+    },
 ];
 
 export default complements;

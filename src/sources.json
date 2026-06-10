@@ -5471,5 +5471,26 @@
             "app": "https://pos.247technologies.org",
             "manifest": "https://pos.247technologies.org/manifest.json"
         }
+    },
+    {
+        "id": 715,
+        "urls": {
+            "app": "https://poker-eight-silk.vercel.app",
+            "manifest": "https://poker-eight-silk.vercel.app/manifest.json"
+        }
+    },
+    {
+        "id": 716,
+        "urls": {
+            "app": "https://entranthub.com",
+            "manifest": "https://entranthub.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 717,
+        "urls": {
+            "app": "https://baringoservicefinder.netlify.app",
+            "manifest": "https://baringoservicefinder.netlify.app/manifest.json"
+        }
     }
 ]

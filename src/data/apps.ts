@@ -9364,6 +9364,49 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 715,
+        name: "Poker",
+        description: "Single-file No-Limit Texas Hold'em vs AI with a live GTO coach",
+        url: "https://poker-eight-silk.vercel.app",
+        icon: {
+            url: "https://poker-eight-silk.vercel.app/",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 716,
+        name: "EntrantHub",
+        description: "Your hub for tech events",
+        url: "https://entranthub.com",
+        icon: {
+            url: "https://entranthub.com/android-chrome-512x512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 717,
+        name: "Baringo Finder",
+        description: "Find nearest schools, hospitals, markets and water points in Baringo Central Sub-County",
+        url: "https://baringoservicefinder.netlify.app",
+        icon: {
+            url: "https://baringoservicefinder.netlify.app/icon-512.png",
+            maskable: true,
+        },
+        categories: [
+            "utilities",
+            "navigation",
+            "education",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
