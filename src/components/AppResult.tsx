@@ -29,8 +29,8 @@ const AppResult: Component<AppResultProperties> = (properties) => {
             <div class="grow flex gap-4 items-center hover:cursor-pointer min-w-0" onClick={onClickApp}>
                 <AppIcon src={properties.app.icon.url} alt={properties.app.name} maskable={properties.app.icon.maskable} />
                 <span class="grow text-xl tracking-wider min-w-0 text-stone-600 dark:text-stone-300 font-bold">
-                    <div class="flex items-center gap-2">
-                        <span>{properties.app.name}</span>
+                    <div class="flex items-center gap-2 truncate">
+                        <span class="">{properties.app.name}</span>
                     </div>
                     <Show when={properties.app.description.trim().length > 0}>
                         <div class="text-xs text-stone-500 dark:text-stone-400 mt-1 truncate">
