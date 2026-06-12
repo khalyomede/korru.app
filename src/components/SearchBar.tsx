@@ -6,7 +6,6 @@ import LocationState from '../interfaces/LocationState';
 import { Search } from 'lucide-solid';
 
 const SearchBar: Component<SearchBarProperties> = (properties) => {
-    let element: HTMLInputElement | undefined;
     let input: HTMLInputElement | undefined;
 
     onMount(() => {
@@ -14,7 +13,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
         const previousPage = state?.previousPage ?? "";
 
         if (previousPage === "/") {
-            element?.focus();
+            input?.focus();
         }
     });
 
@@ -23,7 +22,7 @@ const SearchBar: Component<SearchBarProperties> = (properties) => {
     }
 
     return (
-        <div class="w-full flex items-center gap-2 relative" ref={element} id={properties.id}>
+        <div class="w-full flex items-center gap-2 relative" id={properties.id}>
             <Search
                 size="21px"
                 class="ml-4 text-stone-400 absolute cursor-pointer"
