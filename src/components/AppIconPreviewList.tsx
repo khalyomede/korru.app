@@ -1,6 +1,6 @@
 // src/components/AppIconPreviewList.tsx
 import { Component, Index } from 'solid-js';
-import AppIconPreview from './AppIcon';
+import AppIcon from './AppIcon';
 import useStore from '../hooks/useStore';
 
 const AppIconPreviewList: Component = () => {
@@ -11,7 +11,7 @@ const AppIconPreviewList: Component = () => {
     return (
         <div class="flex flex-wrap justify-center gap-2 px-4 py-4">
             <Index each={featuredApps}>
-                {app => <AppIconPreview src={app().icon.url} alt={app().name} maskable={app().icon.maskable} />}
+                {app => <AppIcon src={app().icon.url} alt={app().name} maskable={app().icon.maskable} />}
             </Index>
         </div>
     );
