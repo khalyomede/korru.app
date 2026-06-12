@@ -884,7 +884,7 @@ const complements: Array<Partial<App>> = [
     {
         id: 715,
         icon: {
-            url: "/app-icon/poker-eight-silk.png",
+            url: "/app-icon/poker-eight-silk.webp",
             maskable: true,
         },
         categories: [
