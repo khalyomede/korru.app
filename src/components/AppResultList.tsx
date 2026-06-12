@@ -1,7 +1,6 @@
 import { Component, For, Show } from "solid-js";
 import AppResultListProperties from "./properties/AppResultListProperties";
 import AppResult from "./AppResult";
-import InfiniteScroll from "./InfiniteScroll";
 
 const AppResultList: Component<AppResultListProperties> = (properties) => {
     return (
@@ -12,14 +11,9 @@ const AppResultList: Component<AppResultListProperties> = (properties) => {
                 </div>
             </Show>
             <Show when={properties.apps.length > 0}>
-                <InfiniteScroll
-                    items={properties.apps}
-                    batchSize={40}
-                >
-                    {app => (
-                        <AppResult app={app} />
-                    )}
-                </InfiniteScroll>
+                <For each={properties.apps}>
+                    {(app, index) => <AppResult app={app} />}
+                </For>
             </Show>
         </>
     );

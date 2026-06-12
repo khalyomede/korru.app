@@ -7,9 +7,3 @@
 #search {
     view-transition-name: search-bar;
 }
-
-/* Prevents rendering AppResult outside visible viewport */
-.app-card {
-    content-visibility: auto;
-    contain-intrinsic-size: 80px;
-}
