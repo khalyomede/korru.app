@@ -2,7 +2,7 @@ import { parse } from "node-html-parser";
 import { format } from "date-fns";
 import sleep from "sleep-promise";
 import { writeFileSync } from "fs";
-import { notify } from "node-notifier";
+import notify from "node-notifier";
 
 type WebsiteType =
     | "hacker_news"
@@ -32,7 +32,7 @@ const blackListedDomains = [
     "x.com",
 ];
 
-const MAX_LAST_PAGE = 3;
+const MAX_LAST_PAGE = 7;
 
 const log = (message: string): void => {
     const date = format(new Date(), "yyyy-MM-dd HH:mm:ss.SSS");
@@ -336,7 +336,7 @@ for (const website of websites) {
 
 writeFileSync("sources-found.json", JSON.stringify(sources, undefined, 4));
 
-notify({
+notify.notify({
     title: "PWA scan completed",
     message: `${sources.length} apps found.`,
     wait: false,
