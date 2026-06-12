@@ -9407,6 +9407,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 718,
+        name: "Nyxly",
+        description: "Join Nyxly to connect, share, and experience authentic communities.",
+        url: "https://nyxly.io",
+        icon: {
+            url: "https://nyxly.io/nyxly-logo.png.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

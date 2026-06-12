@@ -5492,5 +5492,12 @@
             "app": "https://baringoservicefinder.netlify.app",
             "manifest": "https://baringoservicefinder.netlify.app/manifest.json"
         }
+    },
+    {
+        "id": 718,
+        "urls": {
+            "app": "https://nyxly.io",
+            "manifest": "https://nyxly.io/manifest.webmanifest"
+        }
     }
 ]
