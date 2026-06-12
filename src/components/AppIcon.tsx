@@ -94,6 +94,7 @@ const AppIcon: Component<AppIconProperties> = (props) => {
                 alt={props.alt}
                 class="w-16 h-16 object-cover bg-stone-50 dark:bg-stone-700"
                 loading="lazy"
+                decoding="async"
                 onError={() => setBroken(true)}
             />
         </div>
