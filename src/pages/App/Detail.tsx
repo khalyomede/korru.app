@@ -17,6 +17,7 @@ const Detail: Component = () => {
     const { apps } = store;
     const navigate = useNavigate();
     const { filters } = store;
+    const prefersReducedMotions = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const getAppFromRouteParameter = (parameter: string | undefined): App | null => {
         if (parameter === undefined) {
@@ -131,21 +132,36 @@ const Detail: Component = () => {
         url: foundApp.url,
     });
 
+    const onFilterClick = (url?: string) => {
+        if (url === undefined) {
+            return;
+        }
+
+        /** @todo factorize */
+        if (document.startViewTransition && !prefersReducedMotions()) {
+            document.startViewTransition(() => {
+                navigate(url);
+            });
+        } else {
+            navigate(url);
+        }
+
+        vibrate(12);
+    }
+
     return <Layout>
         <div class="p-4 md:py-8">
             <BackButton />
             <div class="mt-10 flex items-top gap-4">
                 <div>
-                    <AppIcon src={foundApp.icon.url ?? ""} alt={foundApp.name ?? ""} maskable={foundApp.icon.maskable ?? false} />
+                    <AppIcon src={foundApp.icon.url ?? ""} alt={foundApp.name ?? ""} maskable={foundApp.icon.maskable ?? false} id={`app-icon-${foundApp.id}`} />
                 </div>
                 <div class="w-full min-w-0">
-                    <div class="text-2xl tracking-wider font-bold truncate text-stone-700 dark:text-stone-300" style={`view-transition-name: app-name-${foundApp.id}`}>{foundApp.name}</div>
-                    <div class="text-md truncate text-stone-500 tracking-wider" style={`view-transition-name: app-description-${foundApp.id}`}>{foundApp.description}</div>
+                    <div class="text-2xl tracking-wider font-bold truncate text-stone-700 dark:text-stone-300">{foundApp.name}</div>
+                    <div class="text-md truncate text-stone-500 tracking-wider">{foundApp.description}</div>
                     <Show when={firstFilter !== null}>
                         <div class="mt-2">
-                            <A href={firstFilter?.url ?? "javascript:;"} tabIndex={-1}>
-                                <FilterButton onClick={() => vibrate(12)} name={firstFilter?.name ?? ""} selected={false} />
-                            </A>
+                            <FilterButton onClick={() => onFilterClick(firstFilter?.url)} name={firstFilter?.name ?? ""} selected={false} />
                         </div>
                     </Show>
                 </div>
@@ -192,9 +208,7 @@ const Detail: Component = () => {
                     <div class="mb-2"></div>
                     <div class="flex items-center gap-2">
                         <Index each={appFilters}>
-                            {filter => <A href={filter().url} tabIndex={-1}>
-                                <FilterButton onClick={() => vibrate(12)} name={filter().name} selected={false} />
-                            </A>}
+                            {filter => <FilterButton onClick={() => onFilterClick(filter().url)} name={filter().name} selected={false} />}
                         </Index>
                     </div>
                 </div>

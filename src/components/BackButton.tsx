@@ -8,11 +8,23 @@ const BackButton: Component = () => {
     // 1 for the base browser navigation
     // +1 for the SolidJS router navigation (on first page browsed)
     const hasNavigatedBefore = window.history.length > 2;
+    const prefersReducedMotions = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const navigateBackOrToSearch = () => {
+        hasNavigatedBefore ? navigate(-1) : navigate("/search");
+    };
 
     const vibrateThenNavigateBackOrToSearch = (): void => {
         vibrate(12);
 
-        hasNavigatedBefore ? navigate(-1) : navigate("/search")
+        if ((typeof document.startViewTransition === "function") && !prefersReducedMotions()) {
+            document.startViewTransition(() => {
+                console.log("view transition");
+                navigateBackOrToSearch();
+            });
+        } else {
+            navigateBackOrToSearch();
+        }
     };
 
     return <button onClick={vibrateThenNavigateBackOrToSearch} class="
