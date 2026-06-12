@@ -47,6 +47,7 @@ const AppIcon: Component<AppIconProperties> = (props) => {
             setBroken(false);
         }
     };
+
     /**
      * @see https://stackoverflow.com/a/7557433/3753055
      */
@@ -84,6 +85,7 @@ const AppIcon: Component<AppIconProperties> = (props) => {
                 "min-w-16": true,
                 "min-h-16": true,
                 "inline-block": true,
+                "z-0": true,
             }}
         >
             <img

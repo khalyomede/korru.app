@@ -225,7 +225,7 @@ const Search: Component = () => {
     const [scrollReference, resetScrollReference] = useScrollRestoration();
 
     return <Layout>
-        <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto">
+        <header class="shrink p-4 md:py-8 fixed top-0 left-0 right-0 dark:bg-stone-900 bg-stone-100 max-w-2xl mx-auto z-1">
             <SearchBar
                 id="search"
                 placeholder="Search anything..."
