@@ -5576,5 +5576,12 @@
             "app": "https://snapvee.com/en",
             "manifest": "https://snapvee.com/manifest.json"
         }
+    },
+    {
+        "id": 730,
+        "urls": {
+            "app": "https://finances.nairi.training",
+            "manifest": "https://finances.nairi.training/manifest.json"
+        }
     }
 ]

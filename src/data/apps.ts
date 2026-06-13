@@ -9572,6 +9572,19 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 730,
+        name: "Finances",
+        description: "Outils financiers pour vous aider dans vos décisions d'investissement",
+        url: "https://finances.nairi.training",
+        icon: {
+            url: "https://finances.nairi.training/icon.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
