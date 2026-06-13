@@ -1,3 +1,6 @@
+/**
+ * @todo Skip if name empty.
+ */
 import { object, string, array } from "zod";
 import sources from "../sources-found.json" with { type: "json" };
 import { writeFile } from "fs/promises";
