@@ -5499,5 +5499,82 @@
             "app": "https://nyxly.io",
             "manifest": "https://nyxly.io/manifest.webmanifest"
         }
+    },
+    {
+        "id": 719,
+        "urls": {
+            "app": "https://dr.miromind.ai",
+            "manifest": "https://dr.miromind.ai/manifest.json"
+        }
+    },
+    {
+        "id": 720,
+        "urls": {
+            "app": "https://realjobcheck.com/",
+            "manifest": "https://realjobcheck.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 721,
+        "urls": {
+            "app": "https://photovoid.com/en/",
+            "manifest": "https://photovoid.com/en/manifest.webmanifest"
+        }
+    }
+    {
+        "id": 722,
+        "urls": {
+            "app": "https://badwolf.run",
+            "manifest": "https://badwolf.run/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 723,
+        "urls": {
+            "app": "https://imaginprompt.com",
+            "manifest": "https://imaginprompt.com/manifest.json"
+        }
+    },
+    {
+        "id": 724,
+        "urls": {
+            "app": "https://echowrite.co.uk",
+            "manifest": "https://echowrite.co.uk/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 725,
+        "urls": {
+            "app": "https://skiddee.com",
+            "manifest": "https://skiddee.com/manifest.json"
+        }
+    },
+    {
+        "id": 726,
+        "urls": {
+            "app": "https://calfeed.ai",
+            "manifest": "https://calfeed.ai/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 727,
+        "urls": {
+            "app": "https://www.prezumi.com",
+            "manifest": "https://www.prezumi.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 728,
+        "urls": {
+            "app": "https://polyprojects.pro",
+            "manifest": "https://polyprojects.pro/manifest.json"
+        }
+    },
+    {
+        "id": 729,
+        "urls": {
+            "app": "https://snapvee.com/en",
+            "manifest": "https://snapvee.com/manifest.json"
+        }
     }
 ]
