@@ -5583,5 +5583,40 @@
             "app": "https://finances.nairi.training",
             "manifest": "https://finances.nairi.training/manifest.json"
         }
+    },
+    {
+        "id": 731,
+        "urls": {
+            "app": "https://www.hup.social",
+            "manifest": "https://www.hup.social/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 732,
+        "urls": {
+            "app": "https://app.gumvue.studio",
+            "manifest": "https://app.gumvue.studio/manifest.json"
+        }
+    },
+    {
+        "id": 733,
+        "urls": {
+            "app": "https://kids.gabee.app",
+            "manifest": "https://kids.gabee.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 734,
+        "urls": {
+            "app": "https://blumsons-game-vault.replit.app",
+            "manifest": "https://blumsons-game-vault.replit.app/manifest.json"
+        }
+    },
+    {
+        "id": 735,
+        "urls": {
+            "app": "https://gpta6.com",
+            "manifest": "https://gpta6.com/manifest.webmanifest"
+        }
     }
 ]

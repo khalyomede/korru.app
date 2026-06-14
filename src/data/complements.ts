@@ -903,6 +903,28 @@ const complements: Array<Partial<App>> = [
             "finance",
         ],
     },
+    {
+        id: 731,
+        icon: {
+            url: "https://www.hup.social/apple-touch-icon.png",
+            maskable: false,
+        },
+        categories: [
+            "social",
+        ],
+    },
+    {
+        id: 732,
+        categories: [
+            "entertainment",
+        ]
+    },
+    {
+        id: 735,
+        categories: [
+            "games",
+        ],
+    },
 ];
 
 export default complements;

@@ -9585,6 +9585,74 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 731,
+        name: "Hup",
+        description: "Fully onchain social network",
+        url: "https://www.hup.social",
+        icon: {
+            url: "https://www.hup.social/icon-512x512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 732,
+        name: "Gumvue TV",
+        description: "Experience award-winning short films, series, and creations built by independent AI filmmakers worldwide.",
+        url: "https://app.gumvue.studio",
+        icon: {
+            url: "https://app.gumvue.studio/logo512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 733,
+        name: "Gabee",
+        description: "Gabee — a bilingual learning bee for kids.",
+        url: "https://kids.gabee.app",
+        icon: {
+            url: "https://kids.gabee.app/favicon-512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 734,
+        name: "Game Vault",
+        description: "Curated casual & hyper-casual games — play instantly, no account needed",
+        url: "https://blumsons-game-vault.replit.app",
+        icon: {
+            url: "https://blumsons-game-vault.replit.app/icon-512.png",
+            maskable: true,
+        },
+        categories: [
+            "games",
+            "entertainment",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 735,
+        name: "GPTA6",
+        description: "Open-world multiplayer mayhem in Slop City, FL.",
+        url: "https://gpta6.com",
+        icon: {
+            url: "https://gpta6.com/assets/ui/icon-512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;
