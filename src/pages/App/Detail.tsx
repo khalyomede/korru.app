@@ -124,8 +124,6 @@ const Detail: Component = () => {
     // since "news" Korru's filter includes both "magazines" and "news" Web Manifest categories.
     appFilters = [...new Map(appFilters.map(appFilter => [appFilter.name, appFilter])).values()];
 
-    const firstFilter = appFilters.length < 1 ? null : appFilters[0];
-
     const appCanBeShared = "canShare" in navigator && "share" in navigator && navigator.canShare({
         title: foundApp.name,
         text: foundApp.description,
@@ -159,11 +157,6 @@ const Detail: Component = () => {
                 <div class="w-full min-w-0">
                     <div class="text-2xl tracking-wider font-bold truncate text-stone-700 dark:text-stone-300">{foundApp.name}</div>
                     <div class="text-md truncate text-stone-500 tracking-wider">{foundApp.description}</div>
-                    <Show when={firstFilter !== null}>
-                        <div class="mt-2">
-                            <FilterButton onClick={() => onFilterClick(firstFilter?.url)} name={firstFilter?.name ?? ""} selected={false} />
-                        </div>
-                    </Show>
                 </div>
             </div>
             <div class="flex items-center gap-4 mt-5">
