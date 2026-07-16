@@ -9920,6 +9920,108 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 754,
+        name: "Groceries",
+        description: "A grocery list manager",
+        url: "https://groceries.nairi.training",
+        icon: {
+            url: "https://groceries.nairi.training/icons/icon-512x512.png",
+            maskable: true,
+        },
+        categories: [
+            "lifestyle",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 755,
+        name: "On This Day",
+        description: "",
+        url: "https://www.onthisday.com",
+        icon: {
+            url: "https://www.onthisday.com/icon-512x512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 756,
+        name: "JackCast",
+        description: "A playful, installable weather app with current conditions, hourly forecasts, weekly outlooks, air quality, and dynamic Jack Russell artwork.",
+        url: "https://weather.codingnoodles.com",
+        icon: {
+            url: "https://weather.codingnoodles.com/logo.png",
+            maskable: false,
+        },
+        categories: [
+            "weather",
+            "lifestyle",
+            "utilities",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 757,
+        name: "Bone Tide",
+        description: "A WebGPU survival adventure powered by TypeGPU.",
+        url: "https://reczkok.github.io/typegpu-adventure",
+        icon: {
+            url: "https://reczkok.github.io/icon-512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 758,
+        name: "Kleeps",
+        description: "Sync text and links between your devices instantly.",
+        url: "https://justkleep.vercel.app",
+        icon: {
+            url: "https://justkleep.vercel.app/logo.svg",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 759,
+        name: "GeoLibre",
+        description: "A free and open-source, lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data, running in the browser, on the desktop, on mobile, and inside Jupyter notebooks while keeping your data local and private.",
+        url: "https://web.geolibre.app",
+        icon: {
+            url: "https://web.geolibre.app/maskable-icon-512x512.png",
+            maskable: true,
+        },
+        categories: [
+            "productivity",
+            "utilities",
+            "education",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 760,
+        name: "Subtrack",
+        description: "Track all your subscriptions & SaaS in one place. See what you're paying, what's renewing, and what to cancel.",
+        url: "https://getsubtrack.xyz",
+        icon: {
+            url: "https://getsubtrack.xyz/maskable-512x512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

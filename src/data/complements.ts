@@ -937,6 +937,28 @@ const complements: Array<Partial<App>> = [
             "finance",
         ],
     },
+    {
+        id: 757,
+        icon: {
+            url: "https://reczkok.github.io/typegpu-adventure/icon-512.png",
+            maskable: false,
+        },
+        categories: [
+            "games",
+        ],
+    },
+    {
+        id: 758,
+        categories: [
+            "utilities",
+        ],
+    },
+    {
+        id: 760,
+        categories: [
+            "utilities",
+        ],
+    },
 ];
 
 export default complements;

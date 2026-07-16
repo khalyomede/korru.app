@@ -5618,5 +5618,180 @@
             "app": "https://gpta6.com",
             "manifest": "https://gpta6.com/manifest.webmanifest"
         }
+    },
+    {
+        "id": 736,
+        "urls": {
+            "app": "https://castleclash.io",
+            "manifest": "https://castleclash.io/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 737,
+        "urls": {
+            "app": "https://pedalscape.com",
+            "manifest": "https://pedalscape.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 738,
+        "urls": {
+            "app": "https://tidalfishing.fun",
+            "manifest": "https://tidalfishing.fun/manifest.json"
+        }
+    },
+    {
+        "id": 739,
+        "urls": {
+            "app": "https://bloxwap.com",
+            "manifest": "https://bloxwap.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 740,
+        "urls": {
+            "app": "https://dikav.fr",
+            "manifest": "https://dikav.fr/manifest.json"
+        }
+    },
+    {
+        "id": 741,
+        "urls": {
+            "app": "https://speedtest.powlisher.com",
+            "manifest": "https://speedtest.powlisher.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 742,
+        "urls": {
+            "app": "https://its-all-right.org",
+            "manifest": "https://its-all-right.org/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 743,
+        "urls": {
+            "app": "https://biblefootsteps.com",
+            "manifest": "https://biblefootsteps.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 744,
+        "urls": {
+            "app": "https://footstepsdevotional.com",
+            "manifest": "https://footstepsdevotional.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 745,
+        "urls": {
+            "app": "https://todo.devkantkumar.com",
+            "manifest": "https://todo.devkantkumar.com/manifest.json"
+        }
+    },
+    {
+        "id": 746,
+        "urls": {
+            "app": "https://www.livepoly.site",
+            "manifest": "https://www.livepoly.site/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 747,
+        "urls": {
+            "app": "https://neatkitapp.com",
+            "manifest": "https://neatkitapp.com/manifest.json"
+        }
+    },
+    {
+        "id": 748,
+        "urls": {
+            "app": "https://www.minekart.app",
+            "manifest": "https://www.minekart.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 749,
+        "urls": {
+            "app": "https://kashilo.com",
+            "manifest": "https://kashilo.com/manifest.json"
+        }
+    },
+    {
+        "id": 750,
+        "urls": {
+            "app": "https://openzcash.org",
+            "manifest": "https://openzcash.org/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 751,
+        "urls": {
+            "app": "https://www.nothingleft.app",
+            "manifest": "https://www.nothingleft.app/manifest.json"
+        }
+    },
+    {
+        "id": 752,
+        "urls": {
+            "app": "https://wallet.txdex.live",
+            "manifest": "https://wallet.txdex.live/site.webmanifest"
+        }
+    },
+    {
+        "id": 753,
+        "urls": {
+            "app": "https://tabby-flame.vercel.app/",
+            "manifest": "https://tabby-flame.vercel.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 754,
+        "urls": {
+            "app": "https://groceries.nairi.training",
+            "manifest": "https://groceries.nairi.training/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 755,
+        "urls": {
+            "app": "https://www.onthisday.com",
+            "manifest": "https://www.onthisday.com/manifest.json"
+        }
+    },
+    {
+        "id": 756,
+        "urls": {
+            "app": "https://weather.codingnoodles.com",
+            "manifest": "https://weather.codingnoodles.com/manifest.json"
+        }
+    },
+    {
+        "id": 757,
+        "urls": {
+            "app": "https://reczkok.github.io/typegpu-adventure",
+            "manifest": "https://reczkok.github.io/typegpu-adventure/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 758,
+        "urls": {
+            "app": "https://justkleep.vercel.app",
+            "manifest": "https://justkleep.vercel.app/manifest.json"
+        }
+    },
+    {
+        "id": 759,
+        "urls": {
+            "app": "https://web.geolibre.app",
+            "manifest": "https://web.geolibre.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 760,
+        "urls": {
+            "app": "https://getsubtrack.xyz",
+            "manifest": "https://getsubtrack.xyz/manifest.webmanifest"
+        }
     }
 ]
