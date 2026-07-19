@@ -5793,5 +5793,215 @@
             "app": "https://getsubtrack.xyz",
             "manifest": "https://getsubtrack.xyz/manifest.webmanifest"
         }
+    },
+    {
+        "id": 761,
+        "urls": {
+            "app": "https://essentialmediaplayer.com/",
+            "manifest": "https://essentialmediaplayer.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 762,
+        "urls": {
+            "app": "https://www.future-you.co/",
+            "manifest": "https://www.future-you.co/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 763,
+        "urls": {
+            "app": "https://fueldaddy.com.au/",
+            "manifest": "https://fueldaddy.com.au/wp-content/uploads/fueldaddy/app/images/site.webmanifest"
+        }
+    },
+    {
+        "id": 764,
+        "urls": {
+            "app": "https://toolzio.tools/",
+            "manifest": "https://toolzio.tools/?toolzio_manifest=1"
+        }
+    },
+    {
+        "id": 765,
+        "urls": {
+            "app": "https://narro.info/",
+            "manifest": "https://narro.info/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 766,
+        "urls": {
+            "app": "https://daily-tube.com/",
+            "manifest": "https://daily-tube.com/manifest.json"
+        }
+    },
+    {
+        "id": 767,
+        "urls": {
+            "app": "https://voiceme.life/",
+            "manifest": "https://voiceme.life/site.webmanifest"
+        }
+    },
+    {
+        "id": 768,
+        "urls": {
+            "app": "https://www.drizzlelemons.com/",
+            "manifest": "https://www.drizzlelemons.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 769,
+        "urls": {
+            "app": "https://iconscove.com/",
+            "manifest": "https://iconscove.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 770,
+        "urls": {
+            "app": "https://www.remit-scout.com/",
+            "manifest": "https://www.remit-scout.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 771,
+        "urls": {
+            "app": "https://sayscroll.com/",
+            "manifest": "https://sayscroll.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 772,
+        "urls": {
+            "app": "https://banksopentoday.com/",
+            "manifest": "https://banksopentoday.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 773,
+        "urls": {
+            "app": "https://www.seedance-21.app/seedance-2-1",
+            "manifest": "https://www.seedance-21.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 774,
+        "urls": {
+            "app": "https://spotchase.app/",
+            "manifest": "https://spotchase.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 775,
+        "urls": {
+            "app": "https://viewsnapstories.com",
+            "manifest": "https://viewsnapstories.com/manifest.json"
+        }
+    },
+    {
+        "id": 776,
+        "urls": {
+            "app": "https://www.modou.io/",
+            "manifest": "https://www.modou.io/site.webmanifest"
+        }
+    },
+    {
+        "id": 777,
+        "urls": {
+            "app": "https://bricksdeal.com/nl-en",
+            "manifest": "https://bricksdeal.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 778,
+        "urls": {
+            "app": "https://www.aihair.life/",
+            "manifest": "https://www.aihair.life/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 779,
+        "urls": {
+            "app": "https://describeimage.io/",
+            "manifest": "https://describeimage.io/manifest.json"
+        }
+    },
+    {
+        "id": 780,
+        "urls": {
+            "app": "https://badwolf.run/",
+            "manifest": "https://badwolf.run/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 781,
+        "urls": {
+            "app": "https://imaginprompt.com/",
+            "manifest": "https://imaginprompt.com/manifest.json"
+        }
+    },
+    {
+        "id": 782,
+        "urls": {
+            "app": "https://resonancewithinyou.com/",
+            "manifest": "https://resonancewithinyou.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 783,
+        "urls": {
+            "app": "https://skiddee.com/",
+            "manifest": "https://skiddee.com/manifest.json"
+        }
+    },
+    {
+        "id": 784,
+        "urls": {
+            "app": "https://www.whatnotsell.com/",
+            "manifest": "https://www.whatnotsell.com/manifest.json"
+        }
+    },
+    {
+        "id": 785,
+        "urls": {
+            "app": "https://trynibble.app/",
+            "manifest": "https://trynibble.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 786,
+        "urls": {
+            "app": "https://hospitalitylens.com/",
+            "manifest": "https://hospitalitylens.com/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 787,
+        "urls": {
+            "app": "https://www.prezumi.com/",
+            "manifest": "https://www.prezumi.com/site.webmanifest"
+        }
+    },
+    {
+        "id": 788,
+        "urls": {
+            "app": "https://globedirect.io/",
+            "manifest": "https://globedirect.io/site.webmanifest"
+        }
+    },
+    {
+        "id": 789,
+        "urls": {
+            "app": "https://chainclarity.io/",
+            "manifest": "https://chainclarity.io/site.webmanifest"
+        }
+    },
+    {
+        "id": 790,
+        "urls": {
+            "app": "https://nanou.studio/en/",
+            "manifest": "https://nanou.studio/manifest.webmanifest"
+        }
     }
 ]
