@@ -10445,6 +10445,48 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 791,
+        name: "Maczo",
+        description: "Maczo Premium Crypto Casino & Slots Platform",
+        url: "https://maczo.co",
+        icon: {
+            url: "https://maczo.co/api/pwa/icon?domain=maczo.co&slot=maskable-512&v=1778432961",
+            maskable: true,
+        },
+        categories: [
+            "entertainment",
+            "games",
+        ],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 792,
+        name: "cobalt",
+        description: "",
+        url: "https://cobalt.tools",
+        icon: {
+            url: "https://cobalt.tools/icons/maskable/512.png",
+            maskable: true,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 793,
+        name: "Alli",
+        description: "A low-pressure medication and wellness tracker for people with chronic conditions.",
+        url: "https://youralli.lovable.app",
+        icon: {
+            url: "https://youralli.lovable.app/icon-512.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

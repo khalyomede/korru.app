@@ -6003,5 +6003,26 @@
             "app": "https://nanou.studio/en/",
             "manifest": "https://nanou.studio/manifest.webmanifest"
         }
+    },
+    {
+        "id": 791,
+        "urls": {
+            "app": "https://maczo.co",
+            "manifest": "https://maczo.co/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 792,
+        "urls": {
+            "app": "https://cobalt.tools",
+            "manifest": "https://cobalt.tools/manifest.json"
+        }
+    },
+    {
+        "id": 793,
+        "urls": {
+            "app": "https://youralli.lovable.app",
+            "manifest": "https://youralli.lovable.app/manifest.json"
+        }
     }
 ]
