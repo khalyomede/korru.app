@@ -446,7 +446,7 @@ const apps: Array<App> = [
         },
         url: "https://www.konga.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -511,7 +511,7 @@ const apps: Array<App> = [
         },
         url: "https://smaller-pictures.appspot.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1157,7 +1157,7 @@ const apps: Array<App> = [
         },
         description: "",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -1681,7 +1681,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -2073,7 +2073,7 @@ const apps: Array<App> = [
             maskable: true
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -2505,7 +2505,7 @@ const apps: Array<App> = [
             "productivity",
             "business",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -2973,7 +2973,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -3479,7 +3479,7 @@ const apps: Array<App> = [
         },
         url: "https://mu.xyz",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -4337,7 +4337,7 @@ const apps: Array<App> = [
         },
         url: "https://mausamnow.com",
         categories: ["weather", "utilities"],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5038,7 +5038,7 @@ const apps: Array<App> = [
         },
         url: "https://hn.brae.workers.dev",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5131,7 +5131,7 @@ const apps: Array<App> = [
         },
         url: "https://tallyman.io",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5170,7 +5170,7 @@ const apps: Array<App> = [
         },
         url: "https://watchroster.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5621,7 +5621,7 @@ const apps: Array<App> = [
         },
         url: "https://www.playdrop.ai",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5845,7 +5845,7 @@ const apps: Array<App> = [
         },
         url: "https://eli.voxos.ai",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -5912,7 +5912,7 @@ const apps: Array<App> = [
         },
         url: "https://jogga-3203482767.us-west1.run.app",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -6484,7 +6484,7 @@ const apps: Array<App> = [
         },
         url: "https://420.foundation",
         categories: ["education", "health", "lifestyle"],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -7135,7 +7135,7 @@ const apps: Array<App> = [
         },
         url: "https://turtlekiosk.github.io/slider",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -7239,7 +7239,7 @@ const apps: Array<App> = [
         },
         url: "https://serial.tube",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -7278,7 +7278,7 @@ const apps: Array<App> = [
         },
         url: "https://neet2seat.com",
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8035,7 +8035,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8092,22 +8092,6 @@ const apps: Array<App> = [
         categories: [
             "productivity",
             "utilities",
-        ],
-        disabled: false,
-        featuredOnHomePage: false,
-    },
-    {
-        id: 627,
-        name: "MineKart",
-        description: "Endless generative mine rail runner — leaderboards, prizes, collectible coins. Powered by ApeChain.",
-        url: "https://www.minekart.app",
-        icon: {
-            url: "https://www.minekart.app/minekart-icon-maskable-512.webp",
-            maskable: true,
-        },
-        categories: [
-            "games",
-            "entertainment",
         ],
         disabled: false,
         featuredOnHomePage: false,
@@ -8239,7 +8223,7 @@ const apps: Array<App> = [
             "business",
             "productivity",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8388,7 +8372,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8573,7 +8557,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8748,7 +8732,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8848,7 +8832,7 @@ const apps: Array<App> = [
         categories: [
             "games",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -8969,7 +8953,7 @@ const apps: Array<App> = [
             maskable: false,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -9133,7 +9117,7 @@ const apps: Array<App> = [
             maskable: true,
         },
         categories: [],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -9166,7 +9150,7 @@ const apps: Array<App> = [
             "news",
             "utilities",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -9197,7 +9181,7 @@ const apps: Array<App> = [
             "business",
             "utilities",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -9229,7 +9213,7 @@ const apps: Array<App> = [
             "lifestyle",
             "books",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {
@@ -9933,7 +9917,7 @@ const apps: Array<App> = [
             "lifestyle",
             "utilities",
         ],
-        disabled: false,
+        disabled: true,
         featuredOnHomePage: false,
     },
     {

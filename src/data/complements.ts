@@ -631,13 +631,6 @@ const complements: Array<Partial<App>> = [
         ],
     },
     {
-        id: 555,
-        name: "Slider",
-        categories: [
-            "games",
-        ],
-    },
-    {
         id: 558,
         name: "Chimera Wallet",
         categories: [
