@@ -5743,13 +5743,13 @@ const apps: Array<App> = [
     },
     {
         id: 449,
-        name: "AI Applyd",
+        name: "GetMattered",
         description: "Applies while you sleep. Rewrites your resume, tailors every cover letter, follows up with recruiters. You wake up to interviews on your calendar, not rejection emails.",
         icon: {
-            url: "https://aiapplyd.com/icons/icon-192x192.png",
+            url: "https://getmattered.com/icons/icon-192x192.png",
             maskable: true,
         },
-        url: "https://aiapplyd.com",
+        url: "https://getmattered.com",
         categories: [
             "productivity",
             "utilities",
