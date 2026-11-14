@@ -10471,6 +10471,32 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 794,
+        name: "Expense",
+        description: "Personal expense tracking with receipts and mileage.",
+        url: "https://expense.labnotes.org/expenses",
+        icon: {
+            url: "https://expense.labnotes.org//logo-icon-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
+    {
+        id: 795,
+        name: "Epical",
+        description: "Epical holds one person's appointments, medications, conditions, treatments, allergies, immunizations, lab results and measurements together.",
+        url: "https://epical.labnotes.org/home",
+        icon: {
+            url: "https://epical.labnotes.org//icon-192.png",
+            maskable: false,
+        },
+        categories: [],
+        disabled: false,
+        featuredOnHomePage: false,
+    },
 ];
 
 export default apps;

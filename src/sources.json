@@ -6024,5 +6024,19 @@
             "app": "https://youralli.lovable.app",
             "manifest": "https://youralli.lovable.app/manifest.json"
         }
+    },
+    {
+        "id": 794,
+        "urls": {
+            "app": "https://expense.labnotes.org",
+            "manifest": "https://expense.labnotes.org/manifest.json"
+        }
+    },
+    {
+        "id": 795,
+        "urls": {
+            "app": "https://epical.labnotes.org",
+            "manifest": "https://epical.labnotes.org/manifest.webmanifest"
+        }
     }
 ]
