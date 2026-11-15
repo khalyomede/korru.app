@@ -1,6 +1,6 @@
 import { Component, Match, Switch } from "solid-js";
 import FilterButtonProperties from "./properties/FilterButtonProperties";
-import { Gamepad2, Wallet, Newspaper, Users, Music, ShoppingBag, Wrench, Code, Heart } from 'lucide-solid';
+import { Gamepad2, Wallet, Newspaper, Users, Music, ShoppingBag, Wrench, Code, Heart, CloudSun } from 'lucide-solid';
 
 const FilterButton: Component<FilterButtonProperties> = (properties) => {
     return <button classList={{
@@ -55,6 +55,9 @@ const FilterButton: Component<FilterButtonProperties> = (properties) => {
             </Match>
             <Match when={properties.name === "health"}>
                 <Heart size="20" />
+            </Match>
+            <Match when={properties.name === "weather"}>
+                <CloudSun size="20" />
             </Match>
             <Match when={properties.name === "tools"}>
                 <Wrench size="18" />

@@ -93,6 +93,15 @@ const defaultFilters: Array<Filter> = [
     },
     {
         id: 9,
+        name: "weather",
+        selected: false,
+        categories: [
+            "weather",
+        ],
+        default: false,
+    },
+    {
+        id: 10,
         name: "tools",
         selected: false,
         categories: [
@@ -101,7 +110,7 @@ const defaultFilters: Array<Filter> = [
         default: false,
     },
     {
-        id: 10,
+        id: 11,
         name: "developer",
         selected: false,
         categories: [
