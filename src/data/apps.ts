@@ -10497,6 +10497,39 @@ const apps: Array<App> = [
         disabled: false,
         featuredOnHomePage: false,
     },
+    {
+        id: 796,
+        name: "Rejn",
+        description: "Hyperlocal weather from every source, blended by Rejn-1. Rain warnings before you leave.",
+        url: "https://www.rejn.app",
+        "categories": [
+            "weather",
+            "utilities",
+            "lifestyle"
+        ],
+        icon: {
+            url: "https://www.rejn.app/icon-maskable-512.png",
+            maskable: true,
+        },
+        featuredOnHomePage: false,
+        disabled: false,
+    },
+    {
+        id: 797,
+        name: "/dev/null",
+        description: "A social network for developers. Sign in with GitHub, commit plain text to a shared log.",
+        url: "https://dev-null.sh",
+        "categories": [
+            "social",
+            "developer tools",
+        ],
+        icon: {
+            url: "https://dev-null.sh/icon-maskable-512.png",
+            maskable: true,
+        },
+        featuredOnHomePage: false,
+        disabled: false,
+    },
 ];
 
 export default apps;

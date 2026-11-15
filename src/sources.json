@@ -6038,5 +6038,19 @@
             "app": "https://epical.labnotes.org",
             "manifest": "https://epical.labnotes.org/manifest.webmanifest"
         }
+    },
+    {
+        "id": 796,
+        "urls": {
+            "app": "https://www.rejn.app",
+            "manifest": "https://www.rejn.app/manifest.webmanifest"
+        }
+    },
+    {
+        "id": 797,
+        "urls": {
+            "app": "https://dev-null.sh",
+            "manifest": "https://dev-null.sh/site.webmanifest"
+        }
     }
 ]
